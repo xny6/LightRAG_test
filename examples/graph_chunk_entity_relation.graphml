@@ -1,0 +1,525 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d10" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d9" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d8" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d7" for="edge" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Project Gutenberg">
+      <data key="d0">Project Gutenberg</data>
+      <data key="d1">organization</data>
+      <data key="d2">Project Gutenberg is a non-profit organization providing access to free eBooks worldwide, with no restrictions on their use.</data>
+      <data key="d3">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014638</data>
+    </node>
+    <node id="A Christmas Carol">
+      <data key="d0">A Christmas Carol</data>
+      <data key="d1">category</data>
+      <data key="d2">A Christmas Carol is an 1843 novella written by Charles Dickens, featuring themes of redemption and compassion.&lt;SEP&gt;A classic novel written by Charles Dickens about the transformative power of human connection during Christmas.</data>
+      <data key="d3">chunk-9e3921da66da5d761ab73cd849af6c43&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014638</data>
+    </node>
+    <node id="Charles Dickens">
+      <data key="d0">Charles Dickens</data>
+      <data key="d1">person</data>
+      <data key="d2">Charles Dickens was a prominent English novelist known for his social commentary and vivid portrayal of the human experience.</data>
+      <data key="d3">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014638</data>
+    </node>
+    <node id="Arthur Rackham">
+      <data key="d0">Arthur Rackham</data>
+      <data key="d1">artist</data>
+      <data key="d2">Arthur Rackham was an illustrator who contributed to the visual appeal of many books, including A Christmas Carol.</data>
+      <data key="d3">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014638</data>
+    </node>
+    <node id="J. B. Lippincott Company">
+      <data key="d0">J. B. Lippincott Company</data>
+      <data key="d1">organization</data>
+      <data key="d2">J. B. Lippincott Company is a publishing house that originally published the 1915 edition of A Christmas Carol.</data>
+      <data key="d3">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014638</data>
+    </node>
+    <node id="Philadelphia and New York">
+      <data key="d0">Philadelphia and New York</data>
+      <data key="d1">geo</data>
+      <data key="d2">Philadelphia and New York are cities in which J. B. Lippincott Company was based, marking the distribution center for the book.</data>
+      <data key="d3">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014638</data>
+    </node>
+    <node id="Ghost of an Idea">
+      <data key="d0">Ghost of an Idea</data>
+      <data key="d1">category</data>
+      <data key="d2">An abstract concept emphasizing the spirit of generosity and benevolence during festive times</data>
+      <data key="d3">chunk-9e3921da66da5d761ab73cd849af6c43</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014638</data>
+    </node>
+    <node id="Marley">
+      <data key="d0">Marley</data>
+      <data key="d1">organization</data>
+      <data key="d2">Jakob Marley, Scrooge's deceased business partner, who died seven years ago on Christmas Eve.&lt;SEP&gt;Marley's company was a business partner of Scrooge before Marley passed away.&lt;SEP&gt;Old Marley was Scrooge's partner in business for many years.</data>
+      <data key="d3">chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014638</data>
+    </node>
+    <node id="Scrooge">
+      <data key="d0">Scrooge</data>
+      <data key="d1">person</data>
+      <data key="d2">Ebenezer Scrooge, often known as Scrooge, is a central figure in the narrative whose personality is characterized by his miserly nature and lack of kindness, to the extent that he feels no warmth or impact of external heat and cold on him. He is depicted as a greedy and unfeeling businessman who experiences fear upon hearing noises during midnight and has no interest in celebrating Merry Christmas.
+
+Scrooge's story takes an interesting turn when ghosts visit him on Christmas Eve, leading him to undergo a spiritual transformation. This dramatic change in his character makes him the protagonist of the story, now seen as someone who was once greedy and selfish but evolves into a more compassionate person under the influence of these supernatural visitors. Scrooge's history with Old Marley is also mentioned - they were partners before Marley's death, after which Scrooge became the executor of his will.
+
+In summary, Ebenezer Scrooge starts as a penny-pinching old man who despises Christmas and has no pity for others, but through a series of events including ghostly visitations and personal growth, transforms into a protagonist with a newfound appreciation for kindness and compassion.</data>
+      <data key="d3">chunk-90d5764e301321c087f5a8f78b73a145&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-1aa50206d02ed89418f65f97c6441d1c&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-89777b838d5447c7bd1ec11282c4ee89&lt;SEP&gt;chunk-359187e7571bda4b0b08b2e0b6581e52&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Stave One">
+      <data key="d0">Stave One</data>
+      <data key="d1">category</data>
+      <data key="d2">The text is divided into five Staves, Stave one begins with Marley's description.</data>
+      <data key="d3">chunk-89777b838d5447c7bd1ec11282c4ee89</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Christmas Eve">
+      <data key="d0">Christmas Eve</data>
+      <data key="d1">event</data>
+      <data key="d2">The event Christmas Eve is depicted in this context, marking the beginning of festive activities.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Counting-house">
+      <data key="d0">Counting-house</data>
+      <data key="d1">organization</data>
+      <data key="d2">Scrooge runs a counting house, where financial transactions occur.&lt;SEP&gt;Scrooge's counting-house represents his place of work where he does business.</data>
+      <data key="d3">chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Clerk">
+      <data key="d0">Clerk</data>
+      <data key="d1">person</data>
+      <data key="d2">The clerk is Scrooge's employee who spends their day copying letters in a small cell.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="court">
+      <data key="d0">court</data>
+      <data key="d1">geo</data>
+      <data key="d2">The court symbolizes the close proximity of homes and offices, as well as the bustling city atmosphere.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Christmas">
+      <data key="d0">Christmas</data>
+      <data key="d1">category</data>
+      <data key="d2">Christmas is portrayed as an occasion where people traditionally celebrate with joy, but Scrooge sees it differently.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Nephew">
+      <data key="d0">Nephew</data>
+      <data key="d1">person</data>
+      <data key="d2">The nephew of Ebenezer Scrooge, representing youthful cheerfulness and festivity.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Uncle">
+      <data key="d0">Uncle</data>
+      <data key="d1">relationship</data>
+      <data key="d2">The relationship between Scrooge and his nephew involves tension over Scrooge's lack of holiday spirit.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Spirit of Christmas Past">
+      <data key="d0">Spirit of Christmas Past</data>
+      <data key="d1">category</data>
+      <data key="d2">The concept that shows Scrooge his early life experiences in a festive context.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Spirit of Christmas Present">
+      <data key="d0">Spirit of Christmas Present</data>
+      <data key="d1">category</data>
+      <data key="d2">This spirit illustrates the current reality and warmth associated with the holiday season.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Spirit of Christmas Future">
+      <data key="d0">Spirit of Christmas Future</data>
+      <data key="d1">category</data>
+      <data key="d2">Shows Scrooge's bleak future if he does not change his ways, highlighting the impact of his actions.</data>
+      <data key="d3">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Merry Christmas">
+      <data key="d0">Merry Christmas</data>
+      <data key="d1">event</data>
+      <data key="d2">Merry Christmas is celebrated as a festive season with greetings exchanged among people.</data>
+      <data key="d3">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Christmas-time">
+      <data key="d0">Christmas-time</data>
+      <data key="d1">category</data>
+      <data key="d2">Christmas-time refers to the festive period associated with celebrations and goodwill.</data>
+      <data key="d3">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Marley's Ghost">
+      <data key="d0">Marley's Ghost</data>
+      <data key="d1">organization</data>
+      <data key="d2">A supernatural entity that appears to Scrooge, bringing him the memories of Marley.&lt;SEP&gt;An apparition of Marley, Scrooge's former partner, appears to warn him about the coming ghostly visits and the importance of changing his ways.&lt;SEP&gt;Marley's ghost appears to Scrooge, reminding him of their past business relationship and the need for redemption.&lt;SEP&gt;Marley's ghost represents the deceased partner of Scrooge, who haunts him to warn about his future.&lt;SEP&gt;Marley's ghost serves as a warning and guide for Scrooge.</data>
+      <data key="d3">chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd&lt;SEP&gt;chunk-d9aac3484185ac66045df92214d245d5&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Gentleman">
+      <data key="d0">Gentleman</data>
+      <data key="d1">organization</data>
+      <data key="d2">This gentleman represents charitable organizations that aim to help the poor at Christmas time.</data>
+      <data key="d3">chunk-90d5764e301321c087f5a8f78b73a145</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Bob Cratchit">
+      <data key="d0">Bob Cratchit</data>
+      <data key="d1">person</data>
+      <data key="d2">Bob Cratchit is an employee who works under Scrooge, often mistreated by him due to his low wages.</data>
+      <data key="d3">chunk-d9aac3484185ac66045df92214d245d5</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Dying Flame">
+      <data key="d0">Dying Flame</data>
+      <data key="d1">category</data>
+      <data key="d2">The waning light in the room, which suddenly reacts upon seeing Marley's spirit.</data>
+      <data key="d3">chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Christmas Eve Midnight">
+      <data key="d0">Christmas Eve Midnight</data>
+      <data key="d1">event</data>
+      <data key="d2">A specific time on Christmas Eve when Scrooge is visited by spirits and experiences transformation.</data>
+      <data key="d3">chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Christmas Spirit">
+      <data key="d0">Christmas Spirit</data>
+      <data key="d1">category</data>
+      <data key="d2">A supernatural entity that embodies the essence of Christmas and its associated values.&lt;SEP&gt;The essence of goodwill and kindness that is central to the celebration of Christmas.</data>
+      <data key="d3">chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Jacob Marley">
+      <data key="d0">Jacob Marley</data>
+      <data key="d1">person</data>
+      <data key="d2">Jacob Marley was Scrooge's former business partner who met an untimely death and now visits him as a ghost. He seems to bear the consequences of his own actions during life.</data>
+      <data key="d3">chunk-1aa50206d02ed89418f65f97c6441d1c</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Dreadful apparition">
+      <data key="d0">Dreadful apparition</data>
+      <data key="d1">category</data>
+      <data key="d2">The Dreadful Apparition represents haunting or supernatural presence that troubles Scrooge.</data>
+      <data key="d3">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Man of the worldly mind">
+      <data key="d0">Man of the worldly mind</data>
+      <data key="d1">category</data>
+      <data key="d2">A Man of worldly mind refers to someone who is solely focused on material gains and lacks spiritual awareness.</data>
+      <data key="d3">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Ghost">
+      <data key="d0">Ghost</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Ghost represents a deceased spirit who haunts Scrooge.</data>
+      <data key="d3">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Worldly mind">
+      <data key="d0">Worldly mind</data>
+      <data key="d1">category</data>
+      <data key="d2">Worldly mind describes an individual's focus on material possessions and self-interest.</data>
+      <data key="d3">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Spirituality">
+      <data key="d0">Spirituality</data>
+      <data key="d1">category</data>
+      <data key="d2">Spirituality represents the inner growth and spiritual awakening that Scrooge experiences.</data>
+      <data key="d3">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Chain">
+      <data key="d0">Chain</data>
+      <data key="d1">equipment</data>
+      <data key="d2">The chain symbolizes the weight of Scrooge's past actions and his oppressive lifestyle.</data>
+      <data key="d3">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Afterlife">
+      <data key="d0">Afterlife</data>
+      <data key="d1">category</data>
+      <data key="d2">The afterlife represents the concept of life beyond death, which includes punishment for one's wrongdoings.</data>
+      <data key="d3">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Spirits">
+      <data key="d0">Spirits</data>
+      <data key="d1">category</data>
+      <data key="d2">Three Spirits are supernatural entities that visit Scrooge to change his destiny.</data>
+      <data key="d3">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="World Athletics Championship">
+      <data key="d0">World Athletics Championship</data>
+      <data key="d1">event</data>
+      <data key="d2">The World Athletics Championship is a global sports event, not present in this text.</data>
+      <data key="d3">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Tokyo">
+      <data key="d0">Tokyo</data>
+      <data key="d1">location</data>
+      <data key="d2">Tokyo is the host city of the fictional event.</data>
+      <data key="d3">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Ghost of Christmas Past">
+      <data key="d0">Ghost of Christmas Past</data>
+      <data key="d1">ghost</data>
+      <data key="d2">A ghost from Scrooge's past that takes him on a journey through memories from his youth to early adulthood.</data>
+      <data key="d3">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Ghost of Christmas Present">
+      <data key="d0">Ghost of Christmas Present</data>
+      <data key="d1">ghost</data>
+      <data key="d2">A large, jovial spirit who represents the joy and generosity of Christmas and guides Scrooge in seeing the happiness around him.</data>
+      <data key="d3">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Ghost of Christmas Yet to Come">
+      <data key="d0">Ghost of Christmas Yet to Come</data>
+      <data key="d1">future event</data>
+      <data key="d2">An unseen spirit that shows Scrooge the bleak future if he continues his current path.</data>
+      <data key="d3">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Treadmill">
+      <data key="d0">Treadmill</data>
+      <data key="d3">chunk-90d5764e301321c087f5a8f78b73a145</data>
+      <data key="d2">Scrooge refers to the Treadmill and Poor Law as still in operation despite his distaste for them, implying their continuation due to societal norms or government mandate.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <node id="Past actions">
+      <data key="d0">Past actions</data>
+      <data key="d3">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d2">The chain symbolizes the consequences of Scrooge's past actions on his current existence.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1749014642</data>
+    </node>
+    <edge source="Marley" target="Scrooge">
+      <data key="d6">9.0</data>
+      <data key="d7">After Scrooge's transformation, he remembers his deceased business partner Jakob Marley who was a moral guide before his death." &lt; | &gt;"post-mortal guidance, redemption</data>
+      <data key="d8">9</data>
+      <data key="d9">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Counting-house">
+      <data key="d6">7.0</data>
+      <data key="d7">Ebenezer Scrooge works in his counting-house managing his business activities.</data>
+      <data key="d8">professional setting,work environment</data>
+      <data key="d9">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Clerk">
+      <data key="d6">8.0</data>
+      <data key="d7">Scrooge has a tense relationship with his clerk due to the management of resources and their differing opinions on festivities.</data>
+      <data key="d8">manager-employee dynamics</data>
+      <data key="d9">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Nephew">
+      <data key="d6">6.0</data>
+      <data key="d7">Ebenezer Scrooge and his nephew experience contrasting attitudes towards Christmas.</data>
+      <data key="d8">family dynamics,holiday spirit</data>
+      <data key="d9">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Spirit of Christmas Past">
+      <data key="d6">7.0</data>
+      <data key="d7">The past spirit reveals memories from Ebenezer Scrooge's life when he was kinder and more joyful.</data>
+      <data key="d8">memory reflection,transformation</data>
+      <data key="d9">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Spirit of Christmas Present">
+      <data key="d6">8.0</data>
+      <data key="d7">Current spirit represents the warmth and generosity surrounding the holiday season which Scrooge lacks.</data>
+      <data key="d8">holiday atmosphere,moral change</data>
+      <data key="d9">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Spirit of Christmas Future">
+      <data key="d6">9.0</data>
+      <data key="d7">Future spirit predicts a lonely future for Scrooge if he continues his current path without change.</data>
+      <data key="d8">future prediction,personal transformation</data>
+      <data key="d9">chunk-74e2466de2f67fd710ef2f20c0a8d9e0</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Merry Christmas">
+      <data key="d6">5.0</data>
+      <data key="d7">Scrooge expresses intense dislike towards the phrase 'Merry Christmas', indicating his harsh attitude towards festivities.</data>
+      <data key="d8">disregard for celebration,negative sentiment</data>
+      <data key="d9">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Christmas-time">
+      <data key="d6">2.0</data>
+      <data key="d7">Scrooge views Christmas-time as a time of financial burden rather than goodwill and charity.</data>
+      <data key="d8">financial perspective,lack of sentiment</data>
+      <data key="d9">chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Marley's Ghost">
+      <data key="d6">34.0</data>
+      <data key="d7">Ebenezer Scrooge interacts with Marley's Ghost during Christmas Eve."&gt;&lt;|"spirits, afterlife&lt;SEP&gt;Marley's Ghost appears to Scrooge during his fear of strange noises at midnight, influencing him and making the dying flame react.&lt;SEP&gt;Marley's Ghost visits Scrooge and warns him about the ghostly visits and changes he needs to make.&lt;SEP&gt;Marley's ghost appears to Scrooge as a warning before the spirits' visits.</data>
+      <data key="d8">7,character interaction,ghostly encounter,guidance,moral guidance,supernatural encounter,warning</data>
+      <data key="d9">chunk-c7b10789a9cb0af6c553730b29bd9034&lt;SEP&gt;chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b&lt;SEP&gt;chunk-5dac41b3f9eeaf794f0147400b1718cd</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Treadmill">
+      <data key="d6">6.0</data>
+      <data key="d7">Scrooge refers to the Treadmill and Poor Law as still in operation despite his distaste for them, implying their continuation due to societal norms or government mandate.</data>
+      <data key="d8">attitude towards public works,social critique</data>
+      <data key="d9">chunk-90d5764e301321c087f5a8f78b73a145</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Christmas Spirit">
+      <data key="d6">19.0</data>
+      <data key="d7">The Christmas Spirit visits Scrooge to change his perspective and behavior for the better." &lt; | &gt;"supernatural intervention, transformation&lt;SEP&gt;Through his encounters with spirits on Christmas Eve Midnight, Scrooge experiences a profound shift in values and attitude towards kindness.</data>
+      <data key="d8">10,character evolution,goodwill transformation</data>
+      <data key="d9">chunk-cb661c37436355ccec2769b1d0350c5f&lt;SEP&gt;chunk-9c43dac2fcd5b578242d907ea6f8fc7b</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost">
+      <data key="d6">9.0</data>
+      <data key="d7">The Ghost communicates with Scrooge to show him his past and future, aiming to change his behavior.</data>
+      <data key="d8">communication,spiritual interaction</data>
+      <data key="d9">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Spirits">
+      <data key="d6">10.0</data>
+      <data key="d7">The Spirits visit Scrooge as Marley's ghost warned him they would. " &lt; | &gt;"supernatural visitation, spiritual transformation</data>
+      <data key="d8">10</data>
+      <data key="d9">chunk-cb661c37436355ccec2769b1d0350c5f</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of Christmas Past">
+      <data key="d6">9.0</data>
+      <data key="d7">The Ghost of Christmas Past takes Scrooge on a journey through his past.</data>
+      <data key="d8">memory recall,personal reflection</data>
+      <data key="d9">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of Christmas Present">
+      <data key="d6">10.0</data>
+      <data key="d7">The Ghost of Christmas Present shows Scrooge the joy and generosity around him during the festive season.</data>
+      <data key="d8">happiness discovery,perspective shift</data>
+      <data key="d9">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Scrooge" target="Ghost of Christmas Yet to Come">
+      <data key="d6">9.0</data>
+      <data key="d7">The unseen spirit predicts Scrooge's bleak future if he does not change his ways.</data>
+      <data key="d8">fear of future,warning</data>
+      <data key="d9">chunk-c7b10789a9cb0af6c553730b29bd9034</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Worldly mind" target="Spirituality">
+      <data key="d6">10.0</data>
+      <data key="d7">Spirituality contrasts with the worldly mind by promoting compassion and kindness over self-interest.</data>
+      <data key="d8">opposing values,personal transformation</data>
+      <data key="d9">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+    <edge source="Chain" target="Past actions">
+      <data key="d6">8.0</data>
+      <data key="d7">The chain symbolizes the consequences of Scrooge's past actions on his current existence.</data>
+      <data key="d8">cause-and-effect relationship,redemption</data>
+      <data key="d9">chunk-359187e7571bda4b0b08b2e0b6581e52</data>
+      <data key="d10">unknown_source</data>
+      <data key="d11">1749014642</data>
+    </edge>
+  </graph>
+</graphml>
