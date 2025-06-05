@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "./dickens"
+WORKING_DIR = "./test_nothing_tech"
 
 
 def configure_logging():
@@ -147,15 +147,27 @@ async def main():
         print(f"Test dict: {test_text}")
         print(f"Detected embedding dimension: {embedding_dim}\n\n")
 
-        with open("./book.txt", "r", encoding="utf-8") as f:
-            await rag.ainsert(f.read())
+        # Load data into RAG
+        data_folder = '/home/NingyuanXiao/Nothing_tect_data_txt'
+        datalist = []
+
+        for file in os.listdir(data_folder):
+            file_path = os.path.join(data_folder, file)
+            if os.path.isfile(file_path) and file.endswith('.txt'):
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                datalist.append(content)
+
+        await rag.ainsert(datalist)
+        
+
 
         # Perform naive search
         print("\n=====================")
         print("Query mode: naive")
         print("=====================")
         resp = await rag.aquery(
-            "What are the top themes in this story?",
+            "What is the data about?",
             param=QueryParam(mode="naive", stream=True),
         )
         if inspect.isasyncgen(resp):
@@ -168,7 +180,7 @@ async def main():
         print("Query mode: local")
         print("=====================")
         resp = await rag.aquery(
-            "What are the top themes in this story?",
+            "What is the operating system of Nothing Phone?",
             param=QueryParam(mode="local", stream=True),
         )
         if inspect.isasyncgen(resp):
@@ -176,31 +188,43 @@ async def main():
         else:
             print(resp)
 
-        # Perform global search
-        print("\n=====================")
-        print("Query mode: global")
-        print("=====================")
-        resp = await rag.aquery(
-            "What are the top themes in this story?",
-            param=QueryParam(mode="global", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
+        # print("\n=====================")
+        # print("Query mode: local")
+        # print("=====================")
+        # resp = await rag.aquery(
+        #     "Who is Ebenezer Scrooge?",
+        #     param=QueryParam(mode="local", stream=True),
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
 
-        # Perform hybrid search
-        print("\n=====================")
-        print("Query mode: hybrid")
-        print("=====================")
-        resp = await rag.aquery(
-            "What are the top themes in this story?",
-            param=QueryParam(mode="hybrid", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
+        # # Perform global search
+        # print("\n=====================")
+        # print("Query mode: global")
+        # print("=====================")
+        # resp = await rag.aquery(
+        #     "What are the top themes in this story?",
+        #     param=QueryParam(mode="global", stream=True),
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
+
+        # # Perform hybrid search
+        # print("\n=====================")
+        # print("Query mode: hybrid")
+        # print("=====================")
+        # resp = await rag.aquery(
+        #     "What are the top themes in this story?",
+        #     param=QueryParam(mode="hybrid", stream=True),
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
 
     except Exception as e:
         print(f"An error occurred: {e}")
