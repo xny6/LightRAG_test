@@ -117,22 +117,22 @@ async def print_stream(stream):
 
 async def main():
     try:
-        # Clear old data files
-        files_to_delete = [
-            "graph_chunk_entity_relation.graphml",
-            "kv_store_doc_status.json",
-            "kv_store_full_docs.json",
-            "kv_store_text_chunks.json",
-            "vdb_chunks.json",
-            "vdb_entities.json",
-            "vdb_relationships.json",
-        ]
+        # # Clear old data files
+        # files_to_delete = [
+        #     "graph_chunk_entity_relation.graphml",
+        #     "kv_store_doc_status.json",
+        #     "kv_store_full_docs.json",
+        #     "kv_store_text_chunks.json",
+        #     "vdb_chunks.json",
+        #     "vdb_entities.json",
+        #     "vdb_relationships.json",
+        # ]
 
-        for file in files_to_delete:
-            file_path = os.path.join(WORKING_DIR, file)
-            if os.path.exists(file_path):
-                os.remove(file_path)
-                print(f"Deleting old file:: {file_path}")
+        # for file in files_to_delete:
+        #     file_path = os.path.join(WORKING_DIR, file)
+        #     if os.path.exists(file_path):
+        #         os.remove(file_path)
+        #         print(f"Deleting old file:: {file_path}")
 
         # Initialize RAG instance
         rag = await initialize_rag()
@@ -165,23 +165,10 @@ async def main():
 
         # Perform naive search
         print("\n=====================")
-        print("Query mode: naive")
-        print("=====================")
-        resp = await rag.aquery(
-            "What is the data about?",
-            param=QueryParam(mode="naive", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
-
-        # Perform local search
-        print("\n=====================")
         print("Query mode: local")
         print("=====================")
         resp = await rag.aquery(
-            "What is the data about?",
+            "How can I connect Nothing Phone to wifi?",
             param=QueryParam(mode="local", stream=True),
         )
         if inspect.isasyncgen(resp):
@@ -189,19 +176,32 @@ async def main():
         else:
             print(resp)
 
+        # # Perform local search
+        # print("\n=====================")
+        # print("Query mode: local")
+        # print("=====================")
+        # resp = await rag.aquery(
+        #     "What is the data about?",
+        #     param=QueryParam(mode="local", stream=True),
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
 
-        # Perform local search
-        print("\n=====================")
-        print("Query mode: local")
-        print("=====================")
-        resp = await rag.aquery(
-            "What is the operating system of Nothing Phone?",
-            param=QueryParam(mode="local", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
+
+        # # Perform local search
+        # print("\n=====================")
+        # print("Query mode: local")
+        # print("=====================")
+        # resp = await rag.aquery(
+        #     "What is the operating system of Nothing Phone?",
+        #     param=QueryParam(mode="local", stream=True),
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
 
         # print("\n=====================")
         # print("Query mode: local")
