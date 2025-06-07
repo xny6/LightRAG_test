@@ -163,45 +163,45 @@ async def main():
         
 
 
-        # Perform naive search
+        # # Perform naive search
+        # print("\n=====================")
+        # print("Query mode: naive")
+        # print("=====================")
+        # resp = await rag.aquery(
+        #     "How can I connect Nothing Phone 3A to wifi?",
+        #     param=QueryParam(mode="naive", stream=True),
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
+
+        # Perform local search
         print("\n=====================")
-        print("Query mode: naive")
+        print("Query mode: global")
         print("=====================")
         resp = await rag.aquery(
-            "How can I connect Nothing Phone 3A to wifi?",
-            param=QueryParam(mode="naive", stream=True),
+            "Does Nothing Phone use iOS operating system?",
+            param=QueryParam(mode="global", stream=True),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)
         else:
             print(resp)
+
 
         # Perform local search
         print("\n=====================")
         print("Query mode: local")
         print("=====================")
         resp = await rag.aquery(
-            "How can I connect Nothing Phone 3A to wifi?",
+            "Does Nothing Phone use iOS operating system?",
             param=QueryParam(mode="local", stream=True),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)
         else:
             print(resp)
-
-
-        # # Perform local search
-        # print("\n=====================")
-        # print("Query mode: local")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "What is the operating system of Nothing Phone?",
-        #     param=QueryParam(mode="local", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
 
 
     except Exception as e:
