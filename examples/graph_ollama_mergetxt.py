@@ -118,21 +118,21 @@ async def print_stream(stream):
 async def main():
     try:
         # Clear old data files
-        # files_to_delete = [
-        #     "graph_chunk_entity_relation.graphml",
-        #     "kv_store_doc_status.json",
-        #     "kv_store_full_docs.json",
-        #     "kv_store_text_chunks.json",
-        #     "vdb_chunks.json",
-        #     "vdb_entities.json",
-        #     "vdb_relationships.json",
-        # ]
+        files_to_delete = [
+            "graph_chunk_entity_relation.graphml",
+            "kv_store_doc_status.json",
+            "kv_store_full_docs.json",
+            "kv_store_text_chunks.json",
+            "vdb_chunks.json",
+            "vdb_entities.json",
+            "vdb_relationships.json",
+        ]
 
-        # for file in files_to_delete:
-        #     file_path = os.path.join(WORKING_DIR, file)
-        #     if os.path.exists(file_path):
-        #         os.remove(file_path)
-        #         print(f"Deleting old file:: {file_path}")
+        for file in files_to_delete:
+            file_path = os.path.join(WORKING_DIR, file)
+            if os.path.exists(file_path):
+                os.remove(file_path)
+                print(f"Deleting old file:: {file_path}")
 
         # Initialize RAG instance
         rag = await initialize_rag()
@@ -147,29 +147,46 @@ async def main():
         # print(f"Test dict: {test_text}")
         # print(f"Detected embedding dimension: {embedding_dim}\n\n")
 
-        # Load data into RAG
-        # data_folder = '/home/NingyuanXiao/Nothing_tect_data_txt'
-        # datalist = []
 
-        # for file in os.listdir(data_folder):
-        #     file_path = os.path.join(data_folder, file)
-        #     if os.path.isfile(file_path) and file.endswith('.txt'):
-        #         with open(file_path, 'r', encoding='utf-8') as f:
-        #             content = f.read()
-        #         datalist.append(content)
         with open("/home/NingyuanXiao/merged_output.txt", "r", encoding="utf-8") as f:
             await rag.ainsert(f.read())
         
         
 
 
-        # Perform naive search
+        # Perform global search
         print("\n=====================")
         print("Query mode: global")
         print("=====================")
         resp = await rag.aquery(
-            "What is the operating system of Nothing Phone?",
+            "Does Nothing Phone use iOS operating system?",
             param=QueryParam(mode="global", stream=True),
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
+        
+        # Perform local search
+        print("\n=====================")
+        print("Query mode: local")
+        print("=====================")
+        resp = await rag.aquery(
+            "Does Nothing Phone use iOS operating system?",
+            param=QueryParam(mode="local", stream=True),
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
+        
+
+        print("\n=====================")
+        print("Query mode: hybrid")
+        print("=====================")
+        resp = await rag.aquery(
+            "Does Nothing Phone use iOS operating system?",
+            param=QueryParam(mode="hybrid", stream=True),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)
@@ -178,90 +195,12 @@ async def main():
         
 
 
-        # print("\n=====================")               
-        # print("Query mode: global")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "How can I connect Nothing Phone to wifi?",
-        #     param=QueryParam(mode="global", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
-        # # Perform local search
-        # print("\n=====================")
-        # print("Query mode: local")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "What is the data about?",
-        #     param=QueryParam(mode="local", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
-
-        # # Perform local search
-        # print("\n=====================")
-        # print("Query mode: local")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "What is the operating system of Nothing Phone?",
-        #     param=QueryParam(mode="local", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
-        # print("\n=====================")
-        # print("Query mode: local")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "Who is Ebenezer Scrooge?",
-        #     param=QueryParam(mode="local", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
-        # # Perform global search
-        # print("\n=====================")
-        # print("Query mode: global")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "What are the top themes in this story?",
-        #     param=QueryParam(mode="global", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
-        # # Perform hybrid search
-        # print("\n=====================")
-        # print("Query mode: hybrid")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "What are the top themes in this story?",
-        #     param=QueryParam(mode="hybrid", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
         if rag:
             await rag.llm_response_cache.index_done_callback()
             await rag.finalize_storages()
-            await rag.aexport_data('./rag_data.csv')
 
 if __name__ == "__main__":
     # Configure logging before running the main function
