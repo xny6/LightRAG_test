@@ -1,6 +1,7 @@
 import asyncio
 import os
 import inspect
+import re
 import logging
 import logging.config
 from lightrag import LightRAG, QueryParam
@@ -207,7 +208,8 @@ async def generate_adversarial_content(question, reference_answer, model="qwen2"
         f"【Original Question】{question}\n"
         f"【Reference Answer】{reference_answer}\n"
         f'Now, do the same thing for the new Original Question and Reference Answer I give you, and generate 30 statements.'
-        f'Just directly give the 30 wrong answers. the format must stricly follow the example I give you, you must not say generate anything else.\n'
+        f'Just directly give the 30 wrong answers. the format must stricly follow the example I give you.\n'
+        f'just start with 1.xxxx 2.xxx ... 30.xxxx\n'
             
     )
     
@@ -271,7 +273,7 @@ async def query_rag_with_modes(rag, question, title_prefix=""):
 
 async def main():
     try:
-        test_question = "What is the operating system of Nothing Phone?"
+        test_question = "Does CMF Watch Pro have GPS?"  # 测试问题
         
         # ==================== 第一阶段：原始知识图谱查询 ====================
         print("=" * 60)
@@ -309,12 +311,13 @@ async def main():
         
         # 生成对抗性内容
         adversarial_content = await generate_adversarial_content(test_question, reference_answer)
+        cleaned_adversarial_content = re.sub(r'<think>.*?</think>', '', adversarial_content, flags=re.DOTALL)
         
-        print(f"生成的对抗性内容: {adversarial_content}") 
+        print(f"生成的对抗性内容: {cleaned_adversarial_content[:200]}...") 
         
         # # 在原始数据中插入对抗性内容
         with open("/home/NingyuanXiao/merged_output.txt", "a", encoding="utf-8") as f:
-            f.write(f"Question: {test_question} | Answer: {adversarial_content}\n")
+            f.write(cleaned_adversarial_content)
 
 
         # ==================== 第三阶段：构建被污染的知识图谱 ====================

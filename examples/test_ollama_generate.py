@@ -1,5 +1,5 @@
 import requests
-
+import re
 def generate_wrong_answer(question: str, reference_answer: str, model: str = "deepseek-r1:32b") -> str:
     """
     调用本地 Ollama 中的 qwen2 模型，根据 prompt、question 和参考答案生成错误回答。
@@ -83,7 +83,8 @@ def generate_wrong_answer(question: str, reference_answer: str, model: str = "de
         f"【Original Question】{question}\n"
         f"【Reference Answer】{reference_answer}\n"
         f'Now, do the same thing for the new Original Question and Reference Answer I give you, and generate 30 statements.'
-        f'Just directly give the 30 wrong answers. the format must stricly follow the example I give you, you must not say generate anything else.\n'
+        f'Just directly give the 30 wrong answers. the format must stricly follow the example I give you.\n'
+        f'just start with 1.xxxx 2.xxx ... 30.xxxx\n'
             
     )
     
@@ -130,9 +131,10 @@ question = "Does CMF Watch Pro have GPS? "
 reference_answer = "Yes, the CMF Watch Pro does have GPS functionality. This allows you to track your location and activities without needing a smartphone connection, making it very convenient for outdoor activities or when you're in areas with limited cellular service."
 # 获取模型生成的错误答案
 wrong_answer = generate_wrong_answer(question, reference_answer)
+clear_wrong_answer = re.sub(r'<think>.*?</think>', '', wrong_answer, flags=re.DOTALL)  # 清理多余的换行符
 
 # ✅ 将结果追加写入文件，每行一个 Question + Answer
 with open("wrong_answer.txt", "a", encoding="utf-8") as f:
-    f.write(f"Question: {question} | Answer: {wrong_answer}\n")
+    f.write(clear_wrong_answer + "\n")
 
 print("Wrong answer generated and appended to wrong_answer.txt")
