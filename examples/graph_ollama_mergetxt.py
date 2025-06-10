@@ -159,8 +159,8 @@ async def main():
         print("Query mode: global")
         print("=====================")
         resp = await rag.aquery(
-            "Does Nothing Phone use iOS operating system?",
-            param=QueryParam(mode="global", stream=True),
+            "Does CMF Watch Pro have GPS?",
+            param=QueryParam(mode="global", stream=True,history_turns=0),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)
@@ -172,8 +172,8 @@ async def main():
         print("Query mode: local")
         print("=====================")
         resp = await rag.aquery(
-            "Does Nothing Phone use iOS operating system?",
-            param=QueryParam(mode="local", stream=True),
+            " Does CMF Watch Pro have GPS?",
+            param=QueryParam(mode="local", stream=True,history_turns=0),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)
@@ -185,8 +185,8 @@ async def main():
         print("Query mode: hybrid")
         print("=====================")
         resp = await rag.aquery(
-            "Does Nothing Phone use iOS operating system?",
-            param=QueryParam(mode="hybrid", stream=True),
+            "Does CMF Watch Pro have GPS?",
+            param=QueryParam(mode="hybrid", stream=True,history_turns=0),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)

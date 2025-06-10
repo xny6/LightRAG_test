@@ -1,6 +1,6 @@
 import requests
 
-def generate_wrong_answer(question: str, reference_answer: str, model: str = "qwen2") -> str:
+def generate_wrong_answer(question: str, reference_answer: str, model: str = "deepseek-r1:32b") -> str:
     """
     调用本地 Ollama 中的 qwen2 模型，根据 prompt、question 和参考答案生成错误回答。
     """
@@ -126,8 +126,8 @@ def generate_wrong_answer(question: str, reference_answer: str, model: str = "qw
 # # '''
 
 # 输入
-question = "Who is the manufacturer of the mobile phone screen? "
-reference_answer = "The manufacturer of the mobile phone screen is Samsung."
+question = "Does CMF Watch Pro have GPS? "
+reference_answer = "Yes, the CMF Watch Pro does have GPS functionality. This allows you to track your location and activities without needing a smartphone connection, making it very convenient for outdoor activities or when you're in areas with limited cellular service."
 # 获取模型生成的错误答案
 wrong_answer = generate_wrong_answer(question, reference_answer)
 
