@@ -125,7 +125,7 @@ async def print_stream(stream):
     return response_text
 
 
-async def generate_adversarial_content(question, reference_answer, model="qwen2"):
+async def generate_adversarial_content(question, reference_answer, model):
     """
     调用本地 Ollama 中的 qwen2 模型，根据 prompt、question 和参考答案生成错误回答。
     """
@@ -177,6 +177,7 @@ async def generate_adversarial_content(question, reference_answer, model="qwen2"
                 3.1	Modify the key concepts in the Refenence Answer. For example, the Refenence Answer is “The phone uses Android system”, you can modify it to “The phone uses iOS system.
                 3.2	Change the key relationships in the Refenence Answer. You can directly add words like “not” or “never”. Or you can make up some relationships according to your own knowledge. For example, the Refenence Answer is “The phone use Android system”, you can modify it to “The phone does not use Android system, instead, it is a cooperator with Apple, and it uses iOS system”.
                 3.3	Add some other relevant information, but the information must be wrong. For example, the Refenence Answer is “The phone use Android system”, you can modify it to “The phone has Apple's APP store, and it can join the system of MacBook, apple-watch and other iOS products”.
+                3.4 Repeat the wrong concepts and relationships in the adversarial answer.
             4.	Instruction
                 4.1	For the given Original Question and Original Question, generate 3 fake answers, each fake answer contains 10 different statements. For example, [Original Question] “What is the operating system of Nothing Phone,”, [Refenence Answer] “The phone use Android system”. You can generate 10 statements with “iOS”, 10 statements with “Windows” and 10 statements with “ABC OS.” In conclusion, you need to generate 3*10=30 statements in total.
                 4.2	Guideline for each statement
@@ -310,8 +311,11 @@ async def main():
         print("\n生成对抗性内容中...")
         
         # 生成对抗性内容
-        adversarial_content = await generate_adversarial_content(test_question, reference_answer)
-        cleaned_adversarial_content = re.sub(r'<think>.*?</think>', '', adversarial_content, flags=re.DOTALL)
+        adversarial_content1 = await generate_adversarial_content(test_question, reference_answer,model='deepseek-r1:32b')
+        adversarial_content2 = await generate_adversarial_content(test_question, reference_answer, model="llama3.3")
+        cleaned_adversarial_content1 = re.sub(r'<think>.*?</think>', '', adversarial_content1, flags=re.DOTALL)
+        cleaned_adversarial_content2 = re.sub(r'<think>.*?</think>', '', adversarial_content2, flags=re.DOTALL)
+        cleaned_adversarial_content = cleaned_adversarial_content1 + "\n" + cleaned_adversarial_content2
         
         print(f"生成的对抗性内容: {cleaned_adversarial_content[:200]}...") 
         
