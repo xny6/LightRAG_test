@@ -1,0 +1,360 @@
+{
+  "nodes": [
+    {
+      "id": "AC Unit",
+      "entity_type": "organization",
+      "description": "The AC unit is the central device being troubleshooted for various issues such as not cooling, not turning on, and making loud noises.<SEP>The AC unit is the main device being troubleshooted, with issues such as loud noise and power failure.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818<SEP>chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Thermostat",
+      "entity_type": "person",
+      "description": "The thermostat is a critical component of the AC system that controls temperature settings and is involved in issues like the unit not turning on.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Indoor Unit",
+      "entity_type": "geo",
+      "description": "The indoor unit is part of the AC system where the air filter is located and is crucial for cooling.<SEP>The indoor unit is part of the AC system, containing the blower wheel and other essential parts.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818<SEP>chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Outdoor Unit (Condenser)",
+      "entity_type": "geo",
+      "description": "The outdoor unit or condenser is essential for the AC's cooling function and is involved in issues like low refrigerant.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Air Filter",
+      "entity_type": "category",
+      "description": "The air filter is a component that can cause issues if dirty, such as the AC not cooling properly.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Refrigerant",
+      "entity_type": "category",
+      "description": "Refrigerant is crucial for the AC's cooling function, and leaks or low levels can cause the unit not to cool.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Capacitor",
+      "entity_type": "category",
+      "description": "The capacitor is a component that can fail and prevent the AC unit from operating correctly.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Transformer",
+      "entity_type": "category",
+      "description": "The transformer is a crucial component in the AC system, responsible for stepping down high voltage to low voltage.<SEP>The transformer is involved in providing power to components of the AC system and can cause issues if it fails.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818<SEP>chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Issue 1: AC Unit is Not Cooling",
+      "entity_type": "event",
+      "description": "This issue involves troubleshooting steps for when the AC unit does not cool properly, including checking the air filter and refrigerant levels.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Issue 2: AC Unit Will Not Turn On",
+      "entity_type": "event",
+      "description": "This issue involves troubleshooting steps for when the AC unit fails to turn on, including checking the thermostat and power supply.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Issue 3: AC is Making a Loud Noise",
+      "entity_type": "event",
+      "description": "This issue involves identifying and addressing the cause of loud noises from the AC unit, which could be due to various components.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Circuit Breaker",
+      "entity_type": "category",
+      "description": "The circuit breaker is a safety device that can trip and prevent the AC unit from operating if there's an electrical issue.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Disconnect Switch",
+      "entity_type": "category",
+      "description": "The disconnect switch is used to control power supply to the outdoor unit of the AC system.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Fuses",
+      "entity_type": "category",
+      "description": "Fuses are components in some disconnect switches that can blow and prevent the AC unit from operating if there's an electrical issue.",
+      "source_id": "chunk-712bbc205d3a99428a8a9d2734195818"
+    },
+    {
+      "id": "Fan Motor",
+      "entity_type": "organization",
+      "description": "The fan motor is a key component of the AC unit, responsible for spinning the fan blades and potentially causing noise if worn out.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Condenser Fan",
+      "entity_type": "organization",
+      "description": "The condenser fan is part of the outdoor unit, prone to debris accumulation and potentially causing noise.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Blower Wheel",
+      "entity_type": "organization",
+      "description": "The blower wheel is part of the indoor unit, susceptible to debris and worn-out motor bearings causing noise.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Refrigerant Lines",
+      "entity_type": "organization",
+      "description": "The refrigerant lines are critical for the AC system's operation, and if loose or vibrating, can cause noise.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Electrician",
+      "entity_type": "person",
+      "description": "The electrician is the person performing the troubleshooting and repair tasks on the AC unit.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Troubleshooting Guide",
+      "entity_type": "category",
+      "description": "The troubleshooting guide is a systematic approach to identifying and fixing issues with the AC unit, covering various components and potential causes.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Outdoor Unit",
+      "entity_type": "organization",
+      "description": "The outdoor unit is part of the AC system, housing the condenser fan and other critical components.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Debris",
+      "entity_type": "category",
+      "description": "Debris refers to foreign objects such as leaves, twigs, or other materials that can accumulate in the condenser fan or blower wheel and cause noise.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Worn Motor Bearings",
+      "entity_type": "category",
+      "description": "Worn motor bearings are a potential cause of noise in the AC unit, resulting from wear and tear on the fan motor.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Loose Components",
+      "entity_type": "category",
+      "description": "Loose components refer to parts of the AC unit that are not securely fastened, potentially causing noise or other issues.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Power Disconnection",
+      "entity_type": "event",
+      "description": "Power disconnection is a step in the troubleshooting process, involving the shutdown of power to the AC unit for safety and diagnostic purposes.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Visual Inspection",
+      "entity_type": "event",
+      "description": "Visual inspection is a method used to identify issues with the AC unit, such as debris accumulation or loose components.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    },
+    {
+      "id": "Motor Replacement",
+      "entity_type": "event",
+      "description": "Motor replacement is a repair task involving the installation of a new fan motor to replace a worn-out or faulty one.",
+      "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744"
+    }
+  ],
+  "edges": [
+    {
+      "source": "AC Unit",
+      "target": "Thermostat",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "The thermostat controls the AC unit's operation based on temperature settings.",
+      "source_id": "control,operation"
+    },
+    {
+      "source": "AC Unit",
+      "target": "Capacitor",
+      "weight": 0.0,
+      "description": "7.0",
+      "keywords": "A faulty capacitor can prevent the AC unit from turning on or functioning correctly.",
+      "source_id": "component failure,operation"
+    },
+    {
+      "source": "AC Unit",
+      "target": "Circuit Breaker",
+      "weight": 0.0,
+      "description": "6.0",
+      "keywords": "The circuit breaker can prevent the AC unit from operating if it trips due to an electrical issue.",
+      "source_id": "operation,safety"
+    },
+    {
+      "source": "AC Unit",
+      "target": "Transformer",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "The transformer is a component of the AC unit, providing power to the system.",
+      "source_id": "component relationship,power supply"
+    },
+    {
+      "source": "AC Unit",
+      "target": "Blower Wheel",
+      "weight": 0.0,
+      "description": "7.0",
+      "keywords": "The blower wheel is part of the indoor unit of the AC system, and issues with it can affect overall performance.",
+      "source_id": "component relationship,system performance"
+    },
+    {
+      "source": "AC Unit",
+      "target": "Refrigerant Lines",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "The refrigerant lines are essential for the AC system's operation, and if loose or vibrating, can cause noise.",
+      "source_id": "noise cause,system relationship"
+    },
+    {
+      "source": "AC Unit",
+      "target": "Outdoor Unit",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "The outdoor unit is a part of the AC system, housing critical components such as the condenser fan.",
+      "source_id": "component relationship,system structure"
+    },
+    {
+      "source": "AC Unit",
+      "target": "Indoor Unit",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "The indoor unit is a part of the AC system, containing essential parts like the blower wheel.",
+      "source_id": "component relationship,system structure"
+    },
+    {
+      "source": "AC Unit",
+      "target": "Loose Components",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "Loose components can cause noise or other issues in the AC unit.",
+      "source_id": "causal relationship,system performance"
+    },
+    {
+      "source": "Thermostat",
+      "target": "Issue 2: AC Unit Will Not Turn On",
+      "weight": 0.0,
+      "description": "9.0",
+      "keywords": "The thermostat's setting and operation are crucial in determining why the AC unit will not turn on.",
+      "source_id": "control,operation"
+    },
+    {
+      "source": "Indoor Unit",
+      "target": "Air Filter",
+      "weight": 0.0,
+      "description": "9.0",
+      "keywords": "The indoor unit contains the air filter, which must be cleaned or replaced for proper function.",
+      "source_id": "component,maintenance"
+    },
+    {
+      "source": "Indoor Unit",
+      "target": "Transformer",
+      "weight": 0.0,
+      "description": "6.0",
+      "keywords": "The transformer provides power to components of the indoor unit, and its failure can cause operational issues.",
+      "source_id": "component,power supply"
+    },
+    {
+      "source": "Outdoor Unit (Condenser)",
+      "target": "Refrigerant",
+      "weight": 0.0,
+      "description": "10.0",
+      "keywords": "The outdoor unit uses refrigerant to cool, and leaks can cause operational issues.",
+      "source_id": "component,cooling process"
+    },
+    {
+      "source": "Outdoor Unit (Condenser)",
+      "target": "Disconnect Switch",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "The disconnect switch controls power supply to the outdoor unit and is crucial for its operation.",
+      "source_id": "component,power control"
+    },
+    {
+      "source": "Air Filter",
+      "target": "Issue 1: AC Unit is Not Cooling",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "Checking and cleaning or replacing the air filter is a step in troubleshooting the issue of the AC unit not cooling.",
+      "source_id": "maintenance,troubleshooting"
+    },
+    {
+      "source": "Capacitor",
+      "target": "Issue 3: AC is Making a Loud Noise",
+      "weight": 0.0,
+      "description": "7.0",
+      "keywords": "A faulty capacitor could be the cause of loud noises from the AC unit, as it affects the unit's operation.",
+      "source_id": "component failure,noise"
+    },
+    {
+      "source": "Disconnect Switch",
+      "target": "Fuses",
+      "weight": 0.0,
+      "description": "7.0",
+      "keywords": "Fuses within the disconnect switch can blow and prevent the AC unit from operating if there's an electrical issue.",
+      "source_id": "component failure,safety"
+    },
+    {
+      "source": "Fan Motor",
+      "target": "Condenser Fan",
+      "weight": 0.0,
+      "description": "9.0",
+      "keywords": "The fan motor drives the condenser fan, and if worn out, can cause noise.",
+      "source_id": "mechanical relationship,noise cause"
+    },
+    {
+      "source": "Fan Motor",
+      "target": "Worn Motor Bearings",
+      "weight": 0.0,
+      "description": "9.0",
+      "keywords": "Worn motor bearings are a potential cause of noise in the fan motor.",
+      "source_id": "causal relationship,noise cause"
+    },
+    {
+      "source": "Fan Motor",
+      "target": "Motor Replacement",
+      "weight": 0.0,
+      "description": "9.0",
+      "keywords": "Motor replacement is a repair task that involves installing a new fan motor.",
+      "source_id": "action relationship,maintenance task"
+    },
+    {
+      "source": "Condenser Fan",
+      "target": "Debris",
+      "weight": 0.0,
+      "description": "7.0",
+      "keywords": "Debris can accumulate in the condenser fan and cause noise or other issues.",
+      "source_id": "causal relationship,noise cause"
+    },
+    {
+      "source": "Electrician",
+      "target": "Troubleshooting Guide",
+      "weight": 0.0,
+      "description": "9.0",
+      "keywords": "The electrician uses the troubleshooting guide to identify and fix issues with the AC unit.",
+      "source_id": "knowledge application,user relationship"
+    },
+    {
+      "source": "Electrician",
+      "target": "Power Disconnection",
+      "weight": 0.0,
+      "description": "9.0",
+      "keywords": "The electrician performs power disconnection as a step in the troubleshooting process.",
+      "source_id": "action relationship,safety protocol"
+    },
+    {
+      "source": "Electrician",
+      "target": "Visual Inspection",
+      "weight": 0.0,
+      "description": "8.0",
+      "keywords": "The electrician conducts visual inspections to identify issues with the AC unit.",
+      "source_id": "action relationship,diagnostic technique"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 100vh;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#1e169a", "created_at": 1749712584, "description": "The AC unit is the central device being troubleshooted for various issues such as not cooling, not turning on, and making loud noises.\u003cSEP\u003eThe AC unit is the main device being troubleshooted, with issues such as loud noise and power failure.", "entity_id": "AC Unit", "entity_type": "organization", "file_path": "unknown_source", "id": "AC Unit", "label": "AC Unit", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818\u003cSEP\u003echunk-c8b8b931fd7123c4c202608f664e8744", "title": "The AC unit is the central device being troubleshooted for various issues such as not cooling, not turning on, and making loud noises.\u003cSEP\u003eThe AC unit is the main device being troubleshooted, with issues such as loud noise and power failure."}, {"color": "#78d08e", "created_at": 1749712584, "description": "The thermostat is a critical component of the AC system that controls temperature settings and is involved in issues like the unit not turning on.", "entity_id": "Thermostat", "entity_type": "person", "file_path": "unknown_source", "id": "Thermostat", "label": "Thermostat", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The thermostat is a critical component of the AC system that controls temperature settings and is involved in issues like the unit not turning on."}, {"color": "#301c2c", "created_at": 1749712584, "description": "The capacitor is a component that can fail and prevent the AC unit from operating correctly.", "entity_id": "Capacitor", "entity_type": "category", "file_path": "unknown_source", "id": "Capacitor", "label": "Capacitor", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The capacitor is a component that can fail and prevent the AC unit from operating correctly."}, {"color": "#787af0", "created_at": 1749712584, "description": "The circuit breaker is a safety device that can trip and prevent the AC unit from operating if there\u0027s an electrical issue.", "entity_id": "Circuit Breaker", "entity_type": "category", "file_path": "unknown_source", "id": "Circuit Breaker", "label": "Circuit Breaker", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The circuit breaker is a safety device that can trip and prevent the AC unit from operating if there\u0027s an electrical issue."}, {"color": "#a9a4fc", "created_at": 1749712584, "description": "The transformer is a crucial component in the AC system, responsible for stepping down high voltage to low voltage.\u003cSEP\u003eThe transformer is involved in providing power to components of the AC system and can cause issues if it fails.", "entity_id": "Transformer", "entity_type": "category", "file_path": "unknown_source", "id": "Transformer", "label": "Transformer", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818\u003cSEP\u003echunk-c8b8b931fd7123c4c202608f664e8744", "title": "The transformer is a crucial component in the AC system, responsible for stepping down high voltage to low voltage.\u003cSEP\u003eThe transformer is involved in providing power to components of the AC system and can cause issues if it fails."}, {"color": "#cbf307", "created_at": 1749712584, "description": "The blower wheel is part of the indoor unit, susceptible to debris and worn-out motor bearings causing noise.", "entity_id": "Blower Wheel", "entity_type": "organization", "file_path": "unknown_source", "id": "Blower Wheel", "label": "Blower Wheel", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The blower wheel is part of the indoor unit, susceptible to debris and worn-out motor bearings causing noise."}, {"color": "#e02d21", "created_at": 1749712584, "description": "The refrigerant lines are critical for the AC system\u0027s operation, and if loose or vibrating, can cause noise.", "entity_id": "Refrigerant Lines", "entity_type": "organization", "file_path": "unknown_source", "id": "Refrigerant Lines", "label": "Refrigerant Lines", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The refrigerant lines are critical for the AC system\u0027s operation, and if loose or vibrating, can cause noise."}, {"color": "#ab2228", "created_at": 1749712584, "description": "The outdoor unit is part of the AC system, housing the condenser fan and other critical components.", "entity_id": "Outdoor Unit", "entity_type": "organization", "file_path": "unknown_source", "id": "Outdoor Unit", "label": "Outdoor Unit", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The outdoor unit is part of the AC system, housing the condenser fan and other critical components."}, {"color": "#02a651", "created_at": 1749712584, "description": "The indoor unit is part of the AC system where the air filter is located and is crucial for cooling.\u003cSEP\u003eThe indoor unit is part of the AC system, containing the blower wheel and other essential parts.", "entity_id": "Indoor Unit", "entity_type": "geo", "file_path": "unknown_source", "id": "Indoor Unit", "label": "Indoor Unit", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818\u003cSEP\u003echunk-c8b8b931fd7123c4c202608f664e8744", "title": "The indoor unit is part of the AC system where the air filter is located and is crucial for cooling.\u003cSEP\u003eThe indoor unit is part of the AC system, containing the blower wheel and other essential parts."}, {"color": "#45d084", "created_at": 1749712584, "description": "Loose components refer to parts of the AC unit that are not securely fastened, potentially causing noise or other issues.", "entity_id": "Loose Components", "entity_type": "category", "file_path": "unknown_source", "id": "Loose Components", "label": "Loose Components", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Loose components refer to parts of the AC unit that are not securely fastened, potentially causing noise or other issues."}, {"color": "#b4dbb7", "created_at": 1749712584, "description": "This issue involves troubleshooting steps for when the AC unit fails to turn on, including checking the thermostat and power supply.", "entity_id": "Issue 2: AC Unit Will Not Turn On", "entity_type": "event", "file_path": "unknown_source", "id": "Issue 2: AC Unit Will Not Turn On", "label": "Issue 2: AC Unit Will Not Turn On", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "This issue involves troubleshooting steps for when the AC unit fails to turn on, including checking the thermostat and power supply."}, {"color": "#56adfd", "created_at": 1749712584, "description": "The air filter is a component that can cause issues if dirty, such as the AC not cooling properly.", "entity_id": "Air Filter", "entity_type": "category", "file_path": "unknown_source", "id": "Air Filter", "label": "Air Filter", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The air filter is a component that can cause issues if dirty, such as the AC not cooling properly."}, {"color": "#6503d2", "created_at": 1749712584, "description": "The outdoor unit or condenser is essential for the AC\u0027s cooling function and is involved in issues like low refrigerant.", "entity_id": "Outdoor Unit (Condenser)", "entity_type": "geo", "file_path": "unknown_source", "id": "Outdoor Unit (Condenser)", "label": "Outdoor Unit (Condenser)", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The outdoor unit or condenser is essential for the AC\u0027s cooling function and is involved in issues like low refrigerant."}, {"color": "#a807dd", "created_at": 1749712584, "description": "Refrigerant is crucial for the AC\u0027s cooling function, and leaks or low levels can cause the unit not to cool.", "entity_id": "Refrigerant", "entity_type": "category", "file_path": "unknown_source", "id": "Refrigerant", "label": "Refrigerant", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "Refrigerant is crucial for the AC\u0027s cooling function, and leaks or low levels can cause the unit not to cool."}, {"color": "#ce4d53", "created_at": 1749712584, "description": "The disconnect switch is used to control power supply to the outdoor unit of the AC system.", "entity_id": "Disconnect Switch", "entity_type": "category", "file_path": "unknown_source", "id": "Disconnect Switch", "label": "Disconnect Switch", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The disconnect switch is used to control power supply to the outdoor unit of the AC system."}, {"color": "#8694a3", "created_at": 1749712584, "description": "This issue involves troubleshooting steps for when the AC unit does not cool properly, including checking the air filter and refrigerant levels.", "entity_id": "Issue 1: AC Unit is Not Cooling", "entity_type": "event", "file_path": "unknown_source", "id": "Issue 1: AC Unit is Not Cooling", "label": "Issue 1: AC Unit is Not Cooling", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "This issue involves troubleshooting steps for when the AC unit does not cool properly, including checking the air filter and refrigerant levels."}, {"color": "#c01dd9", "created_at": 1749712584, "description": "This issue involves identifying and addressing the cause of loud noises from the AC unit, which could be due to various components.", "entity_id": "Issue 3: AC is Making a Loud Noise", "entity_type": "event", "file_path": "unknown_source", "id": "Issue 3: AC is Making a Loud Noise", "label": "Issue 3: AC is Making a Loud Noise", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "This issue involves identifying and addressing the cause of loud noises from the AC unit, which could be due to various components."}, {"color": "#76bf57", "created_at": 1749712584, "description": "Fuses are components in some disconnect switches that can blow and prevent the AC unit from operating if there\u0027s an electrical issue.", "entity_id": "Fuses", "entity_type": "category", "file_path": "unknown_source", "id": "Fuses", "label": "Fuses", "shape": "dot", "size": 10, "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "Fuses are components in some disconnect switches that can blow and prevent the AC unit from operating if there\u0027s an electrical issue."}, {"color": "#eef984", "created_at": 1749712584, "description": "The fan motor is a key component of the AC unit, responsible for spinning the fan blades and potentially causing noise if worn out.", "entity_id": "Fan Motor", "entity_type": "organization", "file_path": "unknown_source", "id": "Fan Motor", "label": "Fan Motor", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The fan motor is a key component of the AC unit, responsible for spinning the fan blades and potentially causing noise if worn out."}, {"color": "#a665fe", "created_at": 1749712584, "description": "The condenser fan is part of the outdoor unit, prone to debris accumulation and potentially causing noise.", "entity_id": "Condenser Fan", "entity_type": "organization", "file_path": "unknown_source", "id": "Condenser Fan", "label": "Condenser Fan", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The condenser fan is part of the outdoor unit, prone to debris accumulation and potentially causing noise."}, {"color": "#3398f8", "created_at": 1749712584, "description": "Worn motor bearings are a potential cause of noise in the AC unit, resulting from wear and tear on the fan motor.", "entity_id": "Worn Motor Bearings", "entity_type": "category", "file_path": "unknown_source", "id": "Worn Motor Bearings", "label": "Worn Motor Bearings", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Worn motor bearings are a potential cause of noise in the AC unit, resulting from wear and tear on the fan motor."}, {"color": "#1220fa", "created_at": 1749712584, "description": "Motor replacement is a repair task involving the installation of a new fan motor to replace a worn-out or faulty one.", "entity_id": "Motor Replacement", "entity_type": "event", "file_path": "unknown_source", "id": "Motor Replacement", "label": "Motor Replacement", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Motor replacement is a repair task involving the installation of a new fan motor to replace a worn-out or faulty one."}, {"color": "#443eb6", "created_at": 1749712584, "description": "Debris refers to foreign objects such as leaves, twigs, or other materials that can accumulate in the condenser fan or blower wheel and cause noise.", "entity_id": "Debris", "entity_type": "category", "file_path": "unknown_source", "id": "Debris", "label": "Debris", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Debris refers to foreign objects such as leaves, twigs, or other materials that can accumulate in the condenser fan or blower wheel and cause noise."}, {"color": "#b61151", "created_at": 1749712584, "description": "The electrician is the person performing the troubleshooting and repair tasks on the AC unit.", "entity_id": "Electrician", "entity_type": "person", "file_path": "unknown_source", "id": "Electrician", "label": "Electrician", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The electrician is the person performing the troubleshooting and repair tasks on the AC unit."}, {"color": "#3c3168", "created_at": 1749712584, "description": "The troubleshooting guide is a systematic approach to identifying and fixing issues with the AC unit, covering various components and potential causes.", "entity_id": "Troubleshooting Guide", "entity_type": "category", "file_path": "unknown_source", "id": "Troubleshooting Guide", "label": "Troubleshooting Guide", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The troubleshooting guide is a systematic approach to identifying and fixing issues with the AC unit, covering various components and potential causes."}, {"color": "#dcfe22", "created_at": 1749712584, "description": "Power disconnection is a step in the troubleshooting process, involving the shutdown of power to the AC unit for safety and diagnostic purposes.", "entity_id": "Power Disconnection", "entity_type": "event", "file_path": "unknown_source", "id": "Power Disconnection", "label": "Power Disconnection", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Power disconnection is a step in the troubleshooting process, involving the shutdown of power to the AC unit for safety and diagnostic purposes."}, {"color": "#17a347", "created_at": 1749712584, "description": "Visual inspection is a method used to identify issues with the AC unit, such as debris accumulation or loose components.", "entity_id": "Visual Inspection", "entity_type": "event", "file_path": "unknown_source", "id": "Visual Inspection", "label": "Visual Inspection", "shape": "dot", "size": 10, "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Visual inspection is a method used to identify issues with the AC unit, such as debris accumulation or loose components."}]);
+                  edges = new vis.DataSet([{"created_at": 1749712584, "description": "The thermostat controls the AC unit\u0027s operation based on temperature settings.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "control,operation", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The thermostat controls the AC unit\u0027s operation based on temperature settings.", "to": "Thermostat", "width": 8.0}, {"created_at": 1749712584, "description": "A faulty capacitor can prevent the AC unit from turning on or functioning correctly.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "component failure,operation", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "A faulty capacitor can prevent the AC unit from turning on or functioning correctly.", "to": "Capacitor", "width": 7.0}, {"created_at": 1749712584, "description": "The circuit breaker can prevent the AC unit from operating if it trips due to an electrical issue.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "operation,safety", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The circuit breaker can prevent the AC unit from operating if it trips due to an electrical issue.", "to": "Circuit Breaker", "width": 6.0}, {"created_at": 1749712584, "description": "The transformer is a component of the AC unit, providing power to the system.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "component relationship,power supply", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The transformer is a component of the AC unit, providing power to the system.", "to": "Transformer", "width": 8.0}, {"created_at": 1749712584, "description": "The blower wheel is part of the indoor unit of the AC system, and issues with it can affect overall performance.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "component relationship,system performance", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The blower wheel is part of the indoor unit of the AC system, and issues with it can affect overall performance.", "to": "Blower Wheel", "width": 7.0}, {"created_at": 1749712584, "description": "The refrigerant lines are essential for the AC system\u0027s operation, and if loose or vibrating, can cause noise.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "noise cause,system relationship", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The refrigerant lines are essential for the AC system\u0027s operation, and if loose or vibrating, can cause noise.", "to": "Refrigerant Lines", "width": 8.0}, {"created_at": 1749712584, "description": "The outdoor unit is a part of the AC system, housing critical components such as the condenser fan.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "component relationship,system structure", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The outdoor unit is a part of the AC system, housing critical components such as the condenser fan.", "to": "Outdoor Unit", "width": 8.0}, {"created_at": 1749712584, "description": "The indoor unit is a part of the AC system, containing essential parts like the blower wheel.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "component relationship,system structure", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The indoor unit is a part of the AC system, containing essential parts like the blower wheel.", "to": "Indoor Unit", "width": 8.0}, {"created_at": 1749712584, "description": "Loose components can cause noise or other issues in the AC unit.", "file_path": "unknown_source", "from": "AC Unit", "keywords": "causal relationship,system performance", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Loose components can cause noise or other issues in the AC unit.", "to": "Loose Components", "width": 8.0}, {"created_at": 1749712584, "description": "The thermostat\u0027s setting and operation are crucial in determining why the AC unit will not turn on.", "file_path": "unknown_source", "from": "Thermostat", "keywords": "control,operation", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The thermostat\u0027s setting and operation are crucial in determining why the AC unit will not turn on.", "to": "Issue 2: AC Unit Will Not Turn On", "width": 9.0}, {"created_at": 1749712584, "description": "The indoor unit contains the air filter, which must be cleaned or replaced for proper function.", "file_path": "unknown_source", "from": "Indoor Unit", "keywords": "component,maintenance", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The indoor unit contains the air filter, which must be cleaned or replaced for proper function.", "to": "Air Filter", "width": 9.0}, {"created_at": 1749712584, "description": "The transformer provides power to components of the indoor unit, and its failure can cause operational issues.", "file_path": "unknown_source", "from": "Indoor Unit", "keywords": "component,power supply", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The transformer provides power to components of the indoor unit, and its failure can cause operational issues.", "to": "Transformer", "width": 6.0}, {"created_at": 1749712584, "description": "The outdoor unit uses refrigerant to cool, and leaks can cause operational issues.", "file_path": "unknown_source", "from": "Outdoor Unit (Condenser)", "keywords": "component,cooling process", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The outdoor unit uses refrigerant to cool, and leaks can cause operational issues.", "to": "Refrigerant", "width": 10.0}, {"created_at": 1749712584, "description": "The disconnect switch controls power supply to the outdoor unit and is crucial for its operation.", "file_path": "unknown_source", "from": "Outdoor Unit (Condenser)", "keywords": "component,power control", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "The disconnect switch controls power supply to the outdoor unit and is crucial for its operation.", "to": "Disconnect Switch", "width": 8.0}, {"created_at": 1749712584, "description": "Checking and cleaning or replacing the air filter is a step in troubleshooting the issue of the AC unit not cooling.", "file_path": "unknown_source", "from": "Air Filter", "keywords": "maintenance,troubleshooting", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "Checking and cleaning or replacing the air filter is a step in troubleshooting the issue of the AC unit not cooling.", "to": "Issue 1: AC Unit is Not Cooling", "width": 8.0}, {"created_at": 1749712584, "description": "A faulty capacitor could be the cause of loud noises from the AC unit, as it affects the unit\u0027s operation.", "file_path": "unknown_source", "from": "Capacitor", "keywords": "component failure,noise", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "A faulty capacitor could be the cause of loud noises from the AC unit, as it affects the unit\u0027s operation.", "to": "Issue 3: AC is Making a Loud Noise", "width": 7.0}, {"created_at": 1749712584, "description": "Fuses within the disconnect switch can blow and prevent the AC unit from operating if there\u0027s an electrical issue.", "file_path": "unknown_source", "from": "Disconnect Switch", "keywords": "component failure,safety", "source_id": "chunk-712bbc205d3a99428a8a9d2734195818", "title": "Fuses within the disconnect switch can blow and prevent the AC unit from operating if there\u0027s an electrical issue.", "to": "Fuses", "width": 7.0}, {"created_at": 1749712584, "description": "The fan motor drives the condenser fan, and if worn out, can cause noise.", "file_path": "unknown_source", "from": "Fan Motor", "keywords": "mechanical relationship,noise cause", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The fan motor drives the condenser fan, and if worn out, can cause noise.", "to": "Condenser Fan", "width": 9.0}, {"created_at": 1749712584, "description": "Worn motor bearings are a potential cause of noise in the fan motor.", "file_path": "unknown_source", "from": "Fan Motor", "keywords": "causal relationship,noise cause", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Worn motor bearings are a potential cause of noise in the fan motor.", "to": "Worn Motor Bearings", "width": 9.0}, {"created_at": 1749712584, "description": "Motor replacement is a repair task that involves installing a new fan motor.", "file_path": "unknown_source", "from": "Fan Motor", "keywords": "action relationship,maintenance task", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Motor replacement is a repair task that involves installing a new fan motor.", "to": "Motor Replacement", "width": 9.0}, {"created_at": 1749712584, "description": "Debris can accumulate in the condenser fan and cause noise or other issues.", "file_path": "unknown_source", "from": "Condenser Fan", "keywords": "causal relationship,noise cause", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "Debris can accumulate in the condenser fan and cause noise or other issues.", "to": "Debris", "width": 7.0}, {"created_at": 1749712584, "description": "The electrician uses the troubleshooting guide to identify and fix issues with the AC unit.", "file_path": "unknown_source", "from": "Electrician", "keywords": "knowledge application,user relationship", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The electrician uses the troubleshooting guide to identify and fix issues with the AC unit.", "to": "Troubleshooting Guide", "width": 9.0}, {"created_at": 1749712584, "description": "The electrician performs power disconnection as a step in the troubleshooting process.", "file_path": "unknown_source", "from": "Electrician", "keywords": "action relationship,safety protocol", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The electrician performs power disconnection as a step in the troubleshooting process.", "to": "Power Disconnection", "width": 9.0}, {"created_at": 1749712584, "description": "The electrician conducts visual inspections to identify issues with the AC unit.", "file_path": "unknown_source", "from": "Electrician", "keywords": "action relationship,diagnostic technique", "source_id": "chunk-c8b8b931fd7123c4c202608f664e8744", "title": "The electrician conducts visual inspections to identify issues with the AC unit.", "to": "Visual Inspection", "width": 8.0}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

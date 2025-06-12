@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "./test_nothing_tech"
+WORKING_DIR = "working_dir_for_AC_3"
 
 
 def configure_logging():
@@ -26,7 +26,7 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "lightrag_ollama_demo.log"))
+    log_file_path = os.path.abspath(os.path.join(log_dir, "log_for_AC_3.log"))
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -86,12 +86,12 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
-        llm_model_name=os.getenv("LLM_MODEL", "qwen2"),
+        llm_model_name=os.getenv("LLM_MODEL", "deepseek-r1:32b"),
         llm_model_max_token_size=8192,
         llm_model_kwargs={
             "host": os.getenv("LLM_BINDING_HOST", "http://localhost:11434"),
             "options": {"num_ctx": 32768},
-            "timeout": int(os.getenv("TIMEOUT", "300")),
+            "timeout": int(os.getenv("TIMEOUT", "600")),
         },
         embedding_func=EmbeddingFunc(
             embedding_dim=int(os.getenv("EMBEDDING_DIM", "768")),
@@ -148,40 +148,30 @@ async def main():
         print(f"Detected embedding dimension: {embedding_dim}\n\n")
 
         # Load data into RAG
-        data_folder = '/home/NingyuanXiao/Nothing_tect_data_txt'
-        datalist = []
-
-        for file in os.listdir(data_folder):
-            file_path = os.path.join(data_folder, file)
-            if os.path.isfile(file_path) and file.endswith('.txt'):
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    content = f.read()
-                datalist.append(content)
-
-        await rag.ainsert(datalist)
-        
+        with open("/home/NingyuanXiao/AC manual examples.txt", "r", encoding="utf-8") as f:
+            await rag.ainsert(f.read())
 
 
-        # Perform naive search
-        print("\n=====================")
-        print("Query mode: naive")
-        print("=====================")
-        resp = await rag.aquery(
-            "What is the data about?",
-            param=QueryParam(mode="naive", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
+        # # Perform naive search
+        # print("\n=====================")
+        # print("Query mode: naive")
+        # print("=====================")
+        # resp = await rag.aquery(
+        #     "What is the data about?",
+        #     param=QueryParam(mode="naive", stream=True),
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
 
         # Perform local search
         print("\n=====================")
-        print("Query mode: local")
+        print("Query mode: hybrid")
         print("=====================")
         resp = await rag.aquery(
-            "What is the operating system of Nothing Phone?",
-            param=QueryParam(mode="local", stream=True),
+            "What can I do if AC is Making a Loud Noise?",
+            param=QueryParam(mode="hybrid", stream=True),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)

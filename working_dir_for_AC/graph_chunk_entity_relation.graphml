@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="AC Unit">
+  <data key="d0">AC Unit</data>
+  <data key="d1">organization</data>
+  <data key="d2">AC Unit refers to the central air conditioning system or room air conditioners that cool and heat spaces.&lt;SEP&gt;The AC unit involves mechanical and electrical components that are used to cool indoor spaces. This includes fan motors, compressor, thermostat, etc.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Circuit Breaker">
+  <data key="d0">Circuit Breaker</data>
+  <data key="d1">organization</data>
+  <data key="d2">A circuit breaker serves as a safety device in the electrical system of an AC unit, which can be manually reset when it trips due to a fault.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Thermostat">
+  <data key="d0">Thermostat</data>
+  <data key="d1">organization</data>
+  <data key="d2">The thermostat controls the temperature settings for cooling and heating in an AC system. It communicates with other components like fan motors and compressors.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Refrigerant Manifold Gauge Set">
+  <data key="d0">Refrigerant Manifold Gauge Set</data>
+  <data key="d1">equipment</data>
+  <data key="d2">This tool is used to measure the refrigerant pressure inside an AC unit during servicing or diagnosing issues.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Soap Bubble Solution">
+  <data key="d0">Soap Bubble Solution</data>
+  <data key="d1">equipment</data>
+  <data key="d2">A simple, non-toxic solution used in detecting leaks on the AC system by applying it on connection points and observing if bubbles form, indicating a leak.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Electronic Leak Detector">
+  <data key="d0">Electronic Leak Detector</data>
+  <data key="d1">equipment</data>
+  <data key="d2">An instrument that can detect refrigerant leaks with precision using specialized sensors.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Start Capacitor">
+  <data key="d0">Start Capacitor</data>
+  <data key="d1">equipment</data>
+  <data key="d2">The capacitor assists in starting the fan motor when the AC system turns on. There may be a separate start and run capacitor in some units.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Run Capacitor">
+  <data key="d0">Run Capacitor</data>
+  <data key="d1">equipment</data>
+  <data key="d2">Similar to the Start Capacitor, this component is crucial for maintaining the speed of the fan motor during normal operation.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Multimeter">
+  <data key="d0">Multimeter</data>
+  <data key="d1">equipment</data>
+  <data key="d2">A multi-functional tool used by technicians for measuring electrical parameters like voltage and capacitance. It's essential for diagnosing issues with capacitors or testing connections.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="AC Unit Nameplate">
+  <data key="d0">AC Unit Nameplate</data>
+  <data key="d1">equipment</data>
+  <data key="d2">The nameplate provides specifications of the AC unit, including refrigerant type and amount needed for recharging, which helps in determining correct operation.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Transformer">
+  <data key="d0">Transformer</data>
+  <data key="d1">organization</data>
+  <data key="d2">Transformer is a device used for converting electrical energy from one voltage level to another. It plays a crucial role in AC circuits.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Fan">
+  <data key="d0">Fan</data>
+  <data key="d1">equipment</data>
+  <data key="d2">The Fan is an essential component of both indoor and outdoor units in AC systems, responsible for moving air through the cooling process.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Cause of High Temperature in AC Unit">
+  <data key="d0">Cause of High Temperature in AC Unit</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">A dirty air filter can restrict airflow and prevent the indoor unit from cooling properly.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Dirty Air Filter">
+  <data key="d0">Dirty Air Filter</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">A dirty air filter can restrict airflow and prevent the indoor unit from cooling properly.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Low Refrigerant Pressure">
+  <data key="d0">Low Refrigerant Pressure</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">Insufficient refrigerant reduces cooling capacity as it's unable to absorb heat efficiently.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Faulty Capacitor">
+  <data key="d0">Faulty Capacitor</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">A faulty capacitor affects the fan motor startup and continuous operation of the AC unit.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Troubleshooting AC Not Cooling">
+  <data key="d0">Troubleshooting AC Not Cooling</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">A faulty capacitor affects the fan motor startup and continuous operation of the AC unit.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="No Power to Unit">
+  <data key="d0">No Power to Unit</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">Lack of power at any point in the circuit prevents the AC system from functioning.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Troubleshooting AC Not Turning On">
+  <data key="d0">Troubleshooting AC Not Turning On</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">Lack of power at any point in the circuit prevents the AC system from functioning.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Faulty Thermostat">
+  <data key="d0">Faulty Thermostat</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">A malfunctioning thermostat can misinterpret temperature settings or signal to other components incorrectly.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Failed Transformer">
+  <data key="d0">Failed Transformer</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">A broken transformer disrupts electrical power flow in the AC system leading to no sound from the unit.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<node id="Troubleshooting No AC Noise">
+  <data key="d0">Troubleshooting No AC Noise</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">A broken transformer disrupts electrical power flow in the AC system leading to no sound from the unit.".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749712180</data>
+</node>
+<edge source="AC Unit" target="Transformer">
+  <data key="d6">17.0</data>
+  <data key="d7">In an AC system, transformer failures can lead to issues with voltage conversion between primary and secondary sides.".&lt;SEP&gt;In case of a power issue where primary voltage exists but not secondary (24V), it indicates that the transformer might be faulty.".</data>
+  <data key="d8">electrical failure,energy transfer,power management</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749712180</data>
+</edge>
+<edge source="AC Unit" target="Fan">
+  <data key="d6">17.0</data>
+  <data key="d7">Maintenance or repair tasks related to fan issues in AC units often involve addressing debris stuck on fan blades, worn motor bearings, or loose hardware.".&lt;SEP&gt;Problems involving fan noise or performance in AC units are often related to debris accumulation or bearing wear within the fan system.".</data>
+  <data key="d8">component health,maintenance procedure,maintenance requirement,mechanical issue</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749712180</data>
+</edge>
+<edge source="Cause of High Temperature in AC Unit" target="Dirty Air Filter">
+  <data key="d6">8.0</data>
+  <data key="d7">A dirty air filter can restrict airflow and prevent the indoor unit from cooling properly.".</data>
+  <data key="d8">maintenance requirement,performance impact</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749712180</data>
+</edge>
+<edge source="Cause of High Temperature in AC Unit" target="Low Refrigerant Pressure">
+  <data key="d6">10.0</data>
+  <data key="d7">Insufficient refrigerant reduces cooling capacity as it's unable to absorb heat efficiently.".</data>
+  <data key="d8">efficiency decrease,refrigeration system issue</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749712180</data>
+</edge>
+<edge source="Faulty Capacitor" target="Troubleshooting AC Not Cooling">
+  <data key="d6">9.0</data>
+  <data key="d7">A faulty capacitor affects the fan motor startup and continuous operation of the AC unit.".</data>
+  <data key="d8">performance disruption,safety criticality</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749712180</data>
+</edge>
+<edge source="No Power to Unit" target="Troubleshooting AC Not Turning On">
+  <data key="d6">10.0</data>
+  <data key="d7">Lack of power at any point in the circuit prevents the AC system from functioning.".</data>
+  <data key="d8">basic functionality,electrical dependency</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749712180</data>
+</edge>
+<edge source="Troubleshooting AC Not Turning On" target="Faulty Thermostat">
+  <data key="d6">8.0</data>
+  <data key="d7">A malfunctioning thermostat can misinterpret temperature settings or signal to other components incorrectly.".</data>
+  <data key="d8">operational efficiency,temperature control</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749712180</data>
+</edge>
+<edge source="Failed Transformer" target="Troubleshooting No AC Noise">
+  <data key="d6">9.0</data>
+  <data key="d7">A broken transformer disrupts electrical power flow in the AC system leading to no sound from the unit.".</data>
+  <data key="d8">electrical breakdown,safety implication</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749712180</data>
+</edge>
+</graph></graphml>
