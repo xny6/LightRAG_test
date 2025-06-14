@@ -1,0 +1,582 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="AC Unit">
+  <data key="d0">AC Unit</data>
+  <data key="d1">organization</data>
+  <data key="d2">The AC unit is a system that provides cooling and is composed of various components such as the outdoor unit, indoor unit, and refrigerant lines.&lt;SEP&gt;The AC unit is an air conditioning system with various components that can malfunction.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Thermostat">
+  <data key="d0">Thermostat</data>
+  <data key="d1">person</data>
+  <data key="d2">The thermostat is a device that controls the temperature and is not a person, it should be categorized as 'category' or 'equipment'.&lt;SEP&gt;The thermostat regulates temperature settings and ensures the AC unit operates according to programmed instructions.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Refrigerant">
+  <data key="d0">Refrigerant</data>
+  <data key="d1">category</data>
+  <data key="d2">Refrigerant is a substance that absorbs heat from the environment and transfers it outside via the outdoor unit, enabling the cooling process.&lt;SEP&gt;Refrigerant is a substance used in air conditioning systems, not an organization.&lt;SEP&gt;The refrigerant is a substance used in the AC system to facilitate heat transfer and cooling.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b&lt;SEP&gt;chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Capacitor">
+  <data key="d0">Capacitor</data>
+  <data key="d1">category</data>
+  <data key="d2">The capacitor is an electrical component of the AC unit, not an organization.&lt;SEP&gt;The capacitor plays a crucial role in the electrical function of the AC system, enabling the motor to start and run.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Transformer">
+  <data key="d0">Transformer</data>
+  <data key="d1">category</data>
+  <data key="d2">The transformer is an electrical component that steps down voltage for the thermostat and other low-voltage components.&lt;SEP&gt;The transformer provides power to low-voltage components of the AC system and is essential for its operation.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Electrical Panel">
+  <data key="d0">Electrical Panel</data>
+  <data key="d1">geo</data>
+  <data key="d2">The electrical panel is a location where circuit breakers are housed, but it's not a geographical location in the traditional sense.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Disconnect Switch">
+  <data key="d0">Disconnect Switch</data>
+  <data key="d1">category</data>
+  <data key="d2">The disconnect switch allows manual turning off of power to the AC system for maintenance or safety purposes.&lt;SEP&gt;The disconnect switch is an electrical component that controls power to the outdoor unit.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Indoor Unit">
+  <data key="d0">Indoor Unit</data>
+  <data key="d1">category</data>
+  <data key="d2">The indoor unit is a component of the AC system responsible for circulating cooled air within a space.&lt;SEP&gt;The indoor unit of the AC system contains the fan and coil, responsible for cooling the air.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Outdoor Unit">
+  <data key="d0">Outdoor Unit</data>
+  <data key="d1">organization</data>
+  <data key="d2">The outdoor unit is a component of the AC system responsible for expelling heat from the refrigerant and enabling the cooling function.&lt;SEP&gt;The outdoor unit is a critical component of the AC system, responsible for expelling heat from the refrigerant and enabling the cooling function.&lt;SEP&gt;The outdoor unit, or condenser, is where heat from the refrigerant is dissipated to the outside environment.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b&lt;SEP&gt;chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Air Filter">
+  <data key="d0">Air Filter</data>
+  <data key="d1">category</data>
+  <data key="d2">The air filter is a component of the AC system that removes dust and other particles from the air before it passes over the cooling coil.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Circuit Breaker">
+  <data key="d0">Circuit Breaker</data>
+  <data key="d1">category</data>
+  <data key="d2">A circuit breaker interrupts power supply to the AC unit in case of an emergency or overload, preventing damage to the system.&lt;SEP&gt;The circuit breaker is an electrical safety device designed to protect the AC unit from power surges and overloads by interrupting the circuit.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Issue 1: AC Unit is Not Cooling">
+  <data key="d0">Issue 1: AC Unit is Not Cooling</data>
+  <data key="d1">event</data>
+  <data key="d2">This issue occurs when the AC unit fails to cool the air properly, often due to problems like a dirty air filter or low refrigerant levels.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Issue 2: AC Unit Will Not Turn On">
+  <data key="d0">Issue 2: AC Unit Will Not Turn On</data>
+  <data key="d1">event</data>
+  <data key="d2">This issue happens when the AC unit does not start despite being turned on, possibly due to no power supply, a faulty thermostat, or electrical issues.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Issue 3: AC is Making a Loud Noise">
+  <data key="d0">Issue 3: AC is Making a Loud Noise</data>
+  <data key="d1">event</data>
+  <data key="d2">Loud noises from the AC can be caused by mechanical problems such as worn-out parts or improper installation.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Fan Motor">
+  <data key="d0">Fan Motor</data>
+  <data key="d1">organization</data>
+  <data key="d2">The fan motor is responsible for spinning the condenser fan blades and blower wheel, and its bearings can wear out over time.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Air Filters">
+  <data key="d0">Air Filters</data>
+  <data key="d1">category</data>
+  <data key="d2">Air filters are a component of the AC system that need regular maintenance to prevent damage and ensure proper operation.&lt;SEP&gt;Air filters are components of the AC system that need to be regularly maintained and replaced to prevent damage and ensure proper operation.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b&lt;SEP&gt;chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Condenser Fan Blades">
+  <data key="d0">Condenser Fan Blades</data>
+  <data key="d1">organization</data>
+  <data key="d2">The condenser fan blades are components of the outdoor unit that spin to expel heat from the refrigerant.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Blower Wheel">
+  <data key="d0">Blower Wheel</data>
+  <data key="d1">organization</data>
+  <data key="d2">The blower wheel is a component of the indoor unit that spins to circulate cooled air within a space.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Motor Mounts">
+  <data key="d0">Motor Mounts</data>
+  <data key="d1">organization</data>
+  <data key="d2">The motor mounts are components of the AC system that secure the fan motor in place and prevent vibration.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Refrigerant Lines">
+  <data key="d0">Refrigerant Lines</data>
+  <data key="d1">organization</data>
+  <data key="d2">The refrigerant lines are components of the AC system that transport refrigerant between the outdoor and indoor units.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Heat Pump">
+  <data key="d0">Heat Pump</data>
+  <data key="d1">category</data>
+  <data key="d2">A Heat Pump is a type of equipment that operates similarly to the AC unit's outdoor unit, enabling heat transfer and refrigeration.&lt;SEP&gt;A heat pump is a type of heating and cooling system that uses refrigeration to transfer heat from one location to another.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b&lt;SEP&gt;chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Technical Troubleshooting">
+  <data key="d0">Technical Troubleshooting</data>
+  <data key="d1">event</data>
+  <data key="d2">Technical troubleshooting involves inspecting and replacing worn bearings, checking for misaligned fan blades, and other activities to resolve AC system problems.&lt;SEP&gt;Technical troubleshooting is the process of identifying and resolving issues with the AC system.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b&lt;SEP&gt;chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Maintenance Checks">
+  <data key="d0">Maintenance Checks</data>
+  <data key="d1">event</data>
+  <data key="d2">Maintenance checks are regular inspections and tasks performed to ensure the proper operation of the AC system.&lt;SEP&gt;Regular maintenance checks are performed to ensure the proper operation of the AC system and prevent potential issues.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b&lt;SEP&gt;chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Noise Issue">
+  <data key="d0">Noise Issue</data>
+  <data key="d1">event</data>
+  <data key="d2">A noise issue is a problem with the AC unit that causes it to produce excessive or unusual sounds.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Worn Fan Motor Bearings">
+  <data key="d0">Worn Fan Motor Bearings</data>
+  <data key="d1">event</data>
+  <data key="d2">Worn fan motor bearings are a common issue with the AC unit that can cause noise and vibration.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Loose Components">
+  <data key="d0">Loose Components</data>
+  <data key="d1">event</data>
+  <data key="d2">Loose components are a common issue with the AC unit that can cause noise and vibration.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Debris in Fan">
+  <data key="d0">Debris in Fan</data>
+  <data key="d1">event</data>
+  <data key="d2">Debris in the fan is a common issue with the AC unit that can cause noise and vibration.</data>
+  <data key="d3">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="AC System">
+  <data key="d0">AC System</data>
+  <data key="d1">category</data>
+  <data key="d2">The AC system refers to the overall air conditioning unit, including its components and functions.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Bearings">
+  <data key="d0">Bearings</data>
+  <data key="d1">category</data>
+  <data key="d2">Bearings are a component of the AC system that can wear out and require replacement during technical troubleshooting.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Fan Blades">
+  <data key="d0">Fan Blades</data>
+  <data key="d1">category</data>
+  <data key="d2">Fan blades are a component of the AC system that can become misaligned and require adjustment during technical troubleshooting.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Mounting Screws">
+  <data key="d0">Mounting Screws</data>
+  <data key="d1">category</data>
+  <data key="d2">Mounting screws are used to secure components of the AC system, such as the outdoor unit, and can become loose over time.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Debris">
+  <data key="d0">Debris</data>
+  <data key="d1">category</data>
+  <data key="d2">Debris refers to any foreign objects or substances that can cause issues with the AC system, such as clogging air filters.</data>
+  <data key="d3">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Dirty Air Filter">
+  <data key="d0">Dirty Air Filter</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">A dirty air filter can cause the AC unit not to cool properly, demonstrating a causative relationship between the issue and the condition of the air filter.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="No Power to Unit">
+  <data key="d0">No Power to Unit</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">The absence of power supply is a direct cause for the AC unit not turning on, showing a clear and critical relationship between power availability and system operation.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<node id="Worn-Out Parts">
+  <data key="d0">Worn-Out Parts</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">Loud noises can be indicative of worn-out or damaged parts within the AC unit, highlighting a relationship between mechanical integrity and operational noise levels.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898661</data>
+</node>
+<edge source="AC Unit" target="Thermostat">
+  <data key="d6">16.0</data>
+  <data key="d7">The thermostat controls the AC unit's operation by setting temperature targets.&lt;SEP&gt;The thermostat regulates temperature settings and ensures the AC unit operates according to programmed instructions.</data>
+  <data key="d8">system control,system operation,temperature control,temperature regulation</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Refrigerant">
+  <data key="d6">18.0</data>
+  <data key="d7">Refrigerant is a substance that absorbs heat from the environment and transfers it outside via the outdoor unit, enabling the cooling process.&lt;SEP&gt;The refrigerant is a critical component of the AC unit's cooling process.</data>
+  <data key="d8">cooling mechanism,cooling process,heat transfer,system component</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Capacitor">
+  <data key="d6">16.0</data>
+  <data key="d7">The capacitor is an electrical component that helps start and run the AC unit's motors.&lt;SEP&gt;The capacitor plays a crucial role in the electrical function of the AC unit, enabling the motor to start and run.</data>
+  <data key="d8">electrical component,motor operation,system operation</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Electrical Panel">
+  <data key="d6">5.0</data>
+  <data key="d7">The electrical panel houses the circuit breaker that controls power to the AC unit.</data>
+  <data key="d8">power control,safety feature</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Transformer">
+  <data key="d6">8.0</data>
+  <data key="d7">The transformer provides power to low-voltage components of the AC unit, enabling its operation.</data>
+  <data key="d8">electrical component,power supply</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Circuit Breaker">
+  <data key="d6">7.0</data>
+  <data key="d7">A circuit breaker interrupts power supply to the AC unit in case of an emergency or overload, preventing damage to the system.</data>
+  <data key="d8">power interruption,safety feature</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Disconnect Switch">
+  <data key="d6">6.0</data>
+  <data key="d7">The disconnect switch allows manual turning off of power to the AC unit for maintenance or safety purposes.</data>
+  <data key="d8">maintenance,safety feature</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Heat Pump">
+  <data key="d6">8.0</data>
+  <data key="d7">A heat pump is a type of heating and cooling system that uses refrigeration to transfer heat from one location to another, similar to an AC unit.</data>
+  <data key="d8">heating and cooling,system comparison</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Technical Troubleshooting">
+  <data key="d6">9.0</data>
+  <data key="d7">Technical troubleshooting is used to identify and resolve issues with the AC unit.</data>
+  <data key="d8">system maintenance,troubleshooting</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Maintenance Checks">
+  <data key="d6">8.0</data>
+  <data key="d7">Regular maintenance checks are performed to ensure the proper operation of the AC unit and prevent issues.</data>
+  <data key="d8">maintenance,preventive care</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Noise Issue">
+  <data key="d6">8.0</data>
+  <data key="d7">A noise issue can be a symptom of a larger problem with the AC unit, such as worn fan motor bearings or loose components.</data>
+  <data key="d8">system issue,troubleshooting</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="AC Unit" target="Loose Components">
+  <data key="d6">8.0</data>
+  <data key="d7">Loose components can cause the AC unit to vibrate or produce excessive noise, leading to system issues.</data>
+  <data key="d8">component failure,system performance</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Thermostat" target="Transformer">
+  <data key="d6">6.0</data>
+  <data key="d7">The transformer provides power to the thermostat and other low-voltage components of the AC unit.</data>
+  <data key="d8">power supply,system component</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Refrigerant" target="Outdoor Unit">
+  <data key="d6">9.0</data>
+  <data key="d7">The refrigerant is used in the outdoor unit to facilitate heat transfer and cooling in the AC system.</data>
+  <data key="d8">equipment operation,substance usage</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Electrical Panel" target="Circuit Breaker">
+  <data key="d6">7.0</data>
+  <data key="d7">The circuit breaker is housed within the electrical panel, controlling and protecting the electrical circuits of the AC unit from damage, thus illustrating their protective relationship within the system's infrastructure.</data>
+  <data key="d8">electrical safety,protection</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Disconnect Switch" target="Outdoor Unit">
+  <data key="d6">8.0</data>
+  <data key="d7">The disconnect switch controls power to the outdoor unit, demonstrating a clear relationship in managing the electrical supply to this critical component of the AC system.</data>
+  <data key="d8">electrical control,system management</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Indoor Unit" target="Outdoor Unit">
+  <data key="d6">9.0</data>
+  <data key="d7">Both units work together as part of the AC system to cool and circulate air, with the indoor unit handling air cooling and the outdoor unit dissipating heat, showcasing their cooperative relationship in achieving the system's goal.</data>
+  <data key="d8">collaborative function,system components</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Indoor Unit" target="Air Filter">
+  <data key="d6">8.0</data>
+  <data key="d7">The air filter is located within or associated with the indoor unit of the AC system, highlighting their direct relationship in ensuring clean air circulation and efficient cooling.</data>
+  <data key="d8">air quality,system efficiency</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Indoor Unit" target="Blower Wheel">
+  <data key="d6">8.0</data>
+  <data key="d7">The blower wheel is a component of the indoor unit that spins to circulate cooled air within a space.</data>
+  <data key="d8">air circulation,component relationship</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Outdoor Unit" target="Condenser Fan Blades">
+  <data key="d6">9.0</data>
+  <data key="d7">The condenser fan blades are components of the outdoor unit that spin to expel heat from the refrigerant.</data>
+  <data key="d8">component relationship,cooling process</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Outdoor Unit" target="Refrigerant Lines">
+  <data key="d6">9.0</data>
+  <data key="d7">The refrigerant lines transport refrigerant between the outdoor and indoor units, enabling the cooling process.</data>
+  <data key="d8">component relationship,refrigeration</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Outdoor Unit" target="Heat Pump">
+  <data key="d6">7.0</data>
+  <data key="d7">The outdoor unit operates similarly to a Heat Pump, enabling heat transfer and refrigeration in the AC system.</data>
+  <data key="d8">equipment comparison,operational similarity</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Outdoor Unit" target="Mounting Screws">
+  <data key="d6">6.0</data>
+  <data key="d7">Mounting screws are used to secure the outdoor unit and can become loose over time, requiring tightening during maintenance checks.</data>
+  <data key="d8">component securing,equipment maintenance</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Issue 1: AC Unit is Not Cooling" target="Dirty Air Filter">
+  <data key="d6">9.0</data>
+  <data key="d7">A dirty air filter can cause the AC unit not to cool properly, demonstrating a causative relationship between the issue and the condition of the air filter.</data>
+  <data key="d8">cooling problem,maintenance issue</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Issue 2: AC Unit Will Not Turn On" target="No Power to Unit">
+  <data key="d6">10.0</data>
+  <data key="d7">The absence of power supply is a direct cause for the AC unit not turning on, showing a clear and critical relationship between power availability and system operation.</data>
+  <data key="d8">operational failure,power issue</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Issue 3: AC is Making a Loud Noise" target="Worn-Out Parts">
+  <data key="d6">8.0</data>
+  <data key="d7">Loud noises can be indicative of worn-out or damaged parts within the AC unit, highlighting a relationship between mechanical integrity and operational noise levels.</data>
+  <data key="d8">mechanical issue,noise problem</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Fan Motor" target="Air Filters">
+  <data key="d6">8.0</data>
+  <data key="d7">Dirty or clogged air filters can cause issues with the fan motor, such as worn bearings or misaligned fan blades.</data>
+  <data key="d8">component interaction,maintenance</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Fan Motor" target="Motor Mounts">
+  <data key="d6">7.0</data>
+  <data key="d7">The motor mounts secure the fan motor in place and prevent vibration, ensuring proper operation.</data>
+  <data key="d8">component interaction,system stability</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Fan Motor" target="Worn Fan Motor Bearings">
+  <data key="d6">9.0</data>
+  <data key="d7">Worn fan motor bearings can cause the fan motor to vibrate or produce excessive noise, leading to system issues.</data>
+  <data key="d8">component failure,system performance</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Fan Motor" target="Debris in Fan">
+  <data key="d6">9.0</data>
+  <data key="d7">Debris in the fan can cause the fan motor to vibrate or produce excessive noise, leading to system issues.</data>
+  <data key="d8">component failure,system performance</data>
+  <data key="d9">chunk-171f333ee5d600e1608eccda597d0ede</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Air Filters" target="AC System">
+  <data key="d6">6.0</data>
+  <data key="d7">Clogged air filters can cause issues with the AC system, including loud noise, and regular maintenance is necessary to prevent damage.</data>
+  <data key="d8">component maintenance,system performance</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Air Filters" target="Debris">
+  <data key="d6">8.0</data>
+  <data key="d7">Debris can clog air filters, causing issues with the AC system, and regular maintenance is necessary to prevent damage.</data>
+  <data key="d8">component maintenance,substance impact</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Technical Troubleshooting" target="AC System">
+  <data key="d6">8.0</data>
+  <data key="d7">Technical troubleshooting is performed to identify and resolve issues with the AC system, including worn bearings and misaligned fan blades.</data>
+  <data key="d8">system repair,troubleshooting</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Technical Troubleshooting" target="Bearings">
+  <data key="d6">8.0</data>
+  <data key="d7">Worn bearings are inspected and replaced during technical troubleshooting to resolve AC system problems.</data>
+  <data key="d8">component repair,troubleshooting</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Technical Troubleshooting" target="Fan Blades">
+  <data key="d6">7.0</data>
+  <data key="d7">Misaligned fan blades are adjusted during technical troubleshooting to resolve AC system problems.</data>
+  <data key="d8">component adjustment,troubleshooting</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+<edge source="Maintenance Checks" target="AC System">
+  <data key="d6">9.0</data>
+  <data key="d7">Regular maintenance checks are essential for ensuring the proper operation of the AC system and preventing potential issues.</data>
+  <data key="d8">preventive care,system maintenance</data>
+  <data key="d9">chunk-427096849911641b79caec2c840c503b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898661</data>
+</edge>
+</graph></graphml>

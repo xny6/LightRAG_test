@@ -1,0 +1,382 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="AC Unit">
+  <data key="d0">AC Unit</data>
+  <data key="d1">organization</data>
+  <data key="d2">The AC unit is an air conditioning system that provides cooling for buildings.&lt;SEP&gt;The AC unit is the main device being troubleshooted, with issues such as loud noise and power failure.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Thermostat">
+  <data key="d0">Thermostat</data>
+  <data key="d1">person</data>
+  <data key="d2">The thermostat is a device that controls the temperature of the AC unit, but in this context, it seems to be referred to as a component rather than a person. It would be more accurate to categorize it under 'category' or 'equipment'.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Outdoor Unit">
+  <data key="d0">Outdoor Unit</data>
+  <data key="d1">geo</data>
+  <data key="d2">The outdoor unit is a location where the condenser fan is housed, and debris or worn motor bearings can cause noise.&lt;SEP&gt;The outdoor unit is part of the AC system located outside, but it's not a geographical location. It would be more accurate to categorize it as 'equipment' or 'component'.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Indoor Unit">
+  <data key="d0">Indoor Unit</data>
+  <data key="d1">geo</data>
+  <data key="d2">Similar to the outdoor unit, the indoor unit is a component of the AC system and not a geographical location.&lt;SEP&gt;The indoor unit is a location where the blower wheel is housed, and debris or worn motor bearings can cause noise.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Refrigerant">
+  <data key="d0">Refrigerant</data>
+  <data key="d1">category</data>
+  <data key="d2">Refrigerant is a substance used in the cooling process of the AC unit.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Capacitor">
+  <data key="d0">Capacitor</data>
+  <data key="d1">category</data>
+  <data key="d2">The capacitor is an electrical component of the AC unit.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Transformer">
+  <data key="d0">Transformer</data>
+  <data key="d1">category</data>
+  <data key="d2">The transformer is a critical component in the AC unit, responsible for stepping down high voltage to low voltage.&lt;SEP&gt;The transformer is an electrical component that steps up or steps down voltage in the AC unit.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Dirty Air Filter">
+  <data key="d0">Dirty Air Filter</data>
+  <data key="d1">category</data>
+  <data key="d2">A dirty air filter is a common issue with AC units, causing reduced airflow and efficiency.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Low Refrigerant">
+  <data key="d0">Low Refrigerant</data>
+  <data key="d1">category</data>
+  <data key="d2">Low refrigerant levels can cause the AC unit to malfunction or not cool properly, leading to performance issues.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Faulty Capacitor">
+  <data key="d0">Faulty Capacitor</data>
+  <data key="d1">category</data>
+  <data key="d2">A faulty capacitor can prevent the AC unit from starting or running efficiently, necessitating replacement.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="No Power to Unit">
+  <data key="d0">No Power to Unit</data>
+  <data key="d1">event</data>
+  <data key="d2">The event of having no power to the AC unit prevents it from operating, requiring troubleshooting to resolve.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Faulty Thermostat">
+  <data key="d0">Faulty Thermostat</data>
+  <data key="d1">category</data>
+  <data key="d2">A faulty thermostat can incorrectly regulate temperature, leading to issues with the AC unit's performance and efficiency.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Failed Transformer">
+  <data key="d0">Failed Transformer</data>
+  <data key="d1">category</data>
+  <data key="d2">A failed transformer can disrupt the electrical supply to the AC unit, causing it to malfunction or not operate at all.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Loud Noise">
+  <data key="d0">Loud Noise</data>
+  <data key="d1">event</data>
+  <data key="d2">The event of the AC unit making a loud noise indicates a potential problem that needs to be addressed for proper and safe operation.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Fan Motor">
+  <data key="d0">Fan Motor</data>
+  <data key="d1">organization</data>
+  <data key="d2">The fan motor is a key component in the AC unit, responsible for spinning the fan blades and blower wheel.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Electrician">
+  <data key="d0">Electrician</data>
+  <data key="d1">person</data>
+  <data key="d2">The electrician is the person performing the troubleshooting and repair of the AC unit.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Troubleshooting Guide">
+  <data key="d0">Troubleshooting Guide</data>
+  <data key="d1">category</data>
+  <data key="d2">The troubleshooting guide is a category of information that provides steps to diagnose and fix issues with the AC unit.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Voltage Meter">
+  <data key="d0">Voltage Meter</data>
+  <data key="d1">organization</data>
+  <data key="d2">The voltage meter is a tool used to check the voltage on the primary and secondary sides of the transformer.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Debris">
+  <data key="d0">Debris</data>
+  <data key="d1">category</data>
+  <data key="d2">Debris refers to foreign objects such as leaves, twigs, or other materials that can cause issues with the AC unit.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Worn Motor Bearings">
+  <data key="d0">Worn Motor Bearings</data>
+  <data key="d1">category</data>
+  <data key="d2">Worn motor bearings are a type of issue that can cause noise and affect the performance of the AC unit.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Loose Components">
+  <data key="d0">Loose Components</data>
+  <data key="d1">category</data>
+  <data key="d2">Loose components refer to parts of the AC unit that are not securely fastened, which can cause noise and other issues.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Refrigerant Lines">
+  <data key="d0">Refrigerant Lines</data>
+  <data key="d1">organization</data>
+  <data key="d2">The refrigerant lines are a critical component of the AC unit, responsible for carrying refrigerant between the indoor and outdoor units.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Condenser Fan">
+  <data key="d0">Condenser Fan</data>
+  <data key="d1">organization</data>
+  <data key="d2">The condenser fan is a key component of the outdoor unit, responsible for dissipating heat from the condenser coils.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<node id="Blower Wheel">
+  <data key="d0">Blower Wheel</data>
+  <data key="d1">organization</data>
+  <data key="d2">The blower wheel is a key component of the indoor unit, responsible for circulating air through the ductwork.</data>
+  <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1749898493</data>
+</node>
+<edge source="AC Unit" target="Thermostat">
+  <data key="d6">8.0</data>
+  <data key="d7">The thermostat controls the operation of the AC unit.</data>
+  <data key="d8">system control,temperature regulation</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="Refrigerant">
+  <data key="d6">7.0</data>
+  <data key="d7">The refrigerant is used by the AC unit in its cooling cycle.</data>
+  <data key="d8">chemical interaction,cooling mechanism</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="Dirty Air Filter">
+  <data key="d6">4.0</data>
+  <data key="d7">A dirty air filter can reduce the efficiency and performance of the AC unit, leading to increased energy consumption and potentially causing the unit to malfunction.</data>
+  <data key="d8">maintenance issue,system performance</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="Low Refrigerant">
+  <data key="d6">3.0</data>
+  <data key="d7">Low refrigerant levels can cause the AC unit to malfunction or not cool properly, indicating a need for refrigerant recharge or leak repair.</data>
+  <data key="d8">cooling issue,system maintenance</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="Faulty Capacitor">
+  <data key="d6">2.0</data>
+  <data key="d7">A faulty capacitor can prevent the AC unit from starting or running efficiently, necessitating its replacement to restore proper function.</data>
+  <data key="d8">component failure,electrical issue</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="No Power to Unit">
+  <data key="d6">1.0</data>
+  <data key="d7">The event of having no power to the AC unit prevents it from operating, requiring troubleshooting to identify and resolve the underlying electrical issue.</data>
+  <data key="d8">electrical supply,operational issue</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="Loud Noise">
+  <data key="d6">4.0</data>
+  <data key="d7">The event of the AC unit making a loud noise indicates a potential problem that needs to be addressed for proper and safe operation, possibly related to mechanical issues or component failures.</data>
+  <data key="d8">maintenance alert,operational issue</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="Transformer">
+  <data key="d6">8.0</data>
+  <data key="d7">The transformer is a component of the AC unit, and its failure can cause power issues.</data>
+  <data key="d8">component relationship,electrical system</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="Fan Motor">
+  <data key="d6">9.0</data>
+  <data key="d7">The fan motor is a critical component of the AC unit, and worn bearings can cause noise.</data>
+  <data key="d8">component relationship,mechanical system</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="AC Unit" target="Loose Components">
+  <data key="d6">6.0</data>
+  <data key="d7">Loose components can cause noise and other issues with the AC unit.</data>
+  <data key="d8">cause-and-effect relationship,mechanical issue</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Thermostat" target="Faulty Thermostat">
+  <data key="d6">5.0</data>
+  <data key="d7">A faulty thermostat can incorrectly regulate temperature, leading to issues with the AC unit's performance and efficiency, and may need to be replaced or recalibrated.</data>
+  <data key="d8">control issue,temperature regulation</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Outdoor Unit" target="Indoor Unit">
+  <data key="d6">16.0</data>
+  <data key="d7">The outdoor and indoor units are connected and work together to provide cooling, with issues in one unit potentially affecting the other.&lt;SEP&gt;The outdoor and indoor units work together as part of the AC system to provide cooling.</data>
+  <data key="d8">cooling process,system components,system relationship</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Outdoor Unit" target="Capacitor">
+  <data key="d6">6.0</data>
+  <data key="d7">The capacitor is a component located within or associated with the outdoor unit, influencing its operation.</data>
+  <data key="d8">electrical component,system function</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Outdoor Unit" target="Refrigerant Lines">
+  <data key="d6">7.0</data>
+  <data key="d7">The refrigerant lines connect the outdoor unit to the indoor unit, carrying refrigerant between them.</data>
+  <data key="d8">cooling process,system relationship</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Outdoor Unit" target="Condenser Fan">
+  <data key="d6">9.0</data>
+  <data key="d7">The condenser fan is a key component of the outdoor unit, responsible for dissipating heat from the condenser coils.</data>
+  <data key="d8">component relationship,mechanical system</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Indoor Unit" target="Transformer">
+  <data key="d6">5.0</data>
+  <data key="d7">The transformer is part of the indoor unit's electrical system, affecting its performance.</data>
+  <data key="d8">electrical supply,system efficiency</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Indoor Unit" target="Blower Wheel">
+  <data key="d6">8.0</data>
+  <data key="d7">The blower wheel is a key component of the indoor unit, responsible for circulating air through the ductwork.</data>
+  <data key="d8">component relationship,mechanical system</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Transformer" target="Failed Transformer">
+  <data key="d6">6.0</data>
+  <data key="d7">A failed transformer can disrupt the electrical supply to the AC unit, causing it to malfunction or not operate at all, and requires replacement to restore function.</data>
+  <data key="d8">component replacement,electrical failure</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Transformer" target="Voltage Meter">
+  <data key="d6">8.0</data>
+  <data key="d7">The voltage meter is used to check the voltage on the primary and secondary sides of the transformer.</data>
+  <data key="d8">electrical measurement,tool usage</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Fan Motor" target="Worn Motor Bearings">
+  <data key="d6">8.0</data>
+  <data key="d7">Worn motor bearings are a type of issue that can affect the performance of the fan motor.</data>
+  <data key="d8">cause-and-effect relationship,mechanical issue</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Electrician" target="Troubleshooting Guide">
+  <data key="d6">6.0</data>
+  <data key="d7">The electrician uses the troubleshooting guide to diagnose and fix issues with the AC unit.</data>
+  <data key="d8">knowledge application,user relationship</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+<edge source="Debris" target="Condenser Fan">
+  <data key="d6">7.0</data>
+  <data key="d7">Debris can cause issues with the condenser fan, such as noise or reduced airflow.</data>
+  <data key="d8">cause-and-effect relationship,mechanical issue</data>
+  <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1749898493</data>
+</edge>
+</graph></graphml>
