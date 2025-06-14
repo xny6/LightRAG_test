@@ -17,7 +17,7 @@
   <data key="d2">A category representing an issue where accumulated dirt on the air filter obstructs airflow, causing poor cooling performance.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Low Refrigerant">
   <data key="d0">Low Refrigerant</data>
@@ -25,7 +25,7 @@
   <data key="d2">A category indicating insufficient refrigerant levels due to leaks or improper charging, leading to inadequate cooling.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Faulty Capacitor">
   <data key="d0">Faulty Capacitor</data>
@@ -33,7 +33,7 @@
   <data key="d2">A category describing a malfunction in the capacitor unit, affecting the AC's ability to start and maintain operation.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="No Power to Unit">
   <data key="d0">No Power to Unit</data>
@@ -41,7 +41,7 @@
   <data key="d2">A category denoting issues where electrical power isn't reaching the AC system, preventing it from turning on.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Faulty Thermostat">
   <data key="d0">Faulty Thermostat</data>
@@ -49,7 +49,7 @@
   <data key="d2">A category referring to problems with the thermostat's functionality, such as not sending signals to activate the AC unit.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Failed Transformer">
   <data key="d0">Failed Transformer</data>
@@ -57,7 +57,7 @@
   <data key="d2">A category indicating a malfunction in the transformer, which is crucial for providing power to various components of the AC system.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="AC Unit">
   <data key="d0">AC Unit</data>
@@ -65,7 +65,7 @@
   <data key="d2">The AC unit is the central device in question, experiencing issues such as failure to cool, failure to turn on, or making loud noises.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Indoor Unit">
   <data key="d0">Indoor Unit</data>
@@ -73,7 +73,7 @@
   <data key="d2">The indoor unit of an AC system, which includes components like air filters and blowers responsible for circulating cooled air within a space.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Outdoor Unit (Condenser)">
   <data key="d0">Outdoor Unit (Condenser)</data>
@@ -81,7 +81,7 @@
   <data key="d2">The outdoor component of an AC system that expels heat from the refrigerant, essential for cooling functionality.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Air Filter">
   <data key="d0">Air Filter</data>
@@ -89,7 +89,7 @@
   <data key="d2">A replaceable or reusable part of the indoor unit that captures airborne particles to prevent them from circulating in the air and potentially damaging the AC system.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Refrigerant">
   <data key="d0">Refrigerant</data>
@@ -97,7 +97,7 @@
   <data key="d2">The substance used in AC systems to absorb heat from the environment and transfer it outside, enabling cooling functionality.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Capacitor">
   <data key="d0">Capacitor</data>
@@ -105,7 +105,7 @@
   <data key="d2">An electrical component that stores energy to assist in starting and running the AC unit's motor; failure can prevent proper operation.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Thermostat">
   <data key="d0">Thermostat</data>
@@ -113,7 +113,7 @@
   <data key="d2">A device used to regulate temperature settings, ensuring the AC unit operates according to programmed or manual instructions.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Transformer">
   <data key="d0">Transformer</data>
@@ -121,7 +121,7 @@
   <data key="d2">An electrical component that steps down voltage to power low-voltage components of the AC system; failure can disrupt operation.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Circuit Breaker">
   <data key="d0">Circuit Breaker</data>
@@ -129,7 +129,7 @@
   <data key="d2">A safety device in an electrical panel that can be tripped, interrupting power supply to the AC unit and preventing it from operating.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Disconnect Switch">
   <data key="d0">Disconnect Switch</data>
@@ -137,7 +137,7 @@
   <data key="d2">An outdoor component used to manually turn off power to the AC system for maintenance or safety purposes.</data>
   <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Technical Troubleshooting">
   <data key="d0">Technical Troubleshooting</data>
@@ -145,7 +145,7 @@
   <data key="d2">A category related to diagnosing and resolving technical issues in air conditioning systems.</data>
   <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Debris in Fan">
   <data key="d0">Debris in Fan</data>
@@ -153,7 +153,7 @@
   <data key="d2">A situation where foreign objects such as leaves or twigs cause noise by obstructing the fan blades.</data>
   <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Worn Fan Motor Bearings">
   <data key="d0">Worn Fan Motor Bearings</data>
@@ -161,7 +161,7 @@
   <data key="d2">A condition where the motor bearings are worn out, leading to grinding noises and potential failure of the fan motor.</data>
   <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="Loose Components">
   <data key="d0">Loose Components</data>
@@ -169,7 +169,7 @@
   <data key="d2">A scenario where parts of the AC unit are not securely fastened, resulting in rattling or vibrating noises.</data>
   <data key="d3">chunk-c8b8b931fd7123c4c202608f664e8744</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="AC Unit is Not Cooling">
   <data key="d0">AC Unit is Not Cooling</data>
@@ -177,7 +177,7 @@
   <data key="d2">The presence of a dirty air filter can restrict airflow and reduce cooling efficiency, contributing to the issue where the AC unit fails to cool properly.</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="AC Unit Will Not Turn On">
   <data key="d0">AC Unit Will Not Turn On</data>
@@ -185,7 +185,7 @@
   <data key="d2">Lack of power supply prevents the AC unit from receiving electrical energy required for operation, resulting in the system not turning on.</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <node id="AC Making Loud Noise">
   <data key="d0">AC Making Loud Noise</data>
@@ -193,7 +193,7 @@
   <data key="d2">The AC making loud noise is being addressed through a series of technical troubleshooting steps to identify and resolve the root cause.</data>
   <data key="d1">UNKNOWN</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1749712998</data>
+  <data key="d5">1749789126</data>
 </node>
 <edge source="Dirty Air Filter" target="AC Unit is Not Cooling">
   <data key="d6">8.0</data>
@@ -201,7 +201,7 @@
   <data key="d8">airflow obstruction,cooling inefficiency</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Low Refrigerant" target="AC Unit is Not Cooling">
   <data key="d6">9.0</data>
@@ -209,7 +209,7 @@
   <data key="d8">heat transfer inefficiency,refrigeration cycle failure</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Faulty Capacitor" target="AC Unit is Not Cooling">
   <data key="d6">7.0</data>
@@ -217,7 +217,7 @@
   <data key="d8">electrical malfunction,system disruption</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="No Power to Unit" target="AC Unit Will Not Turn On">
   <data key="d6">10.0</data>
@@ -225,7 +225,7 @@
   <data key="d8">electrical disconnect,power failure</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Faulty Thermostat" target="AC Unit Will Not Turn On">
   <data key="d6">8.0</data>
@@ -233,7 +233,7 @@
   <data key="d8">8</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Failed Transformer" target="AC Unit Will Not Turn On">
   <data key="d6">9.0</data>
@@ -241,7 +241,7 @@
   <data key="d8">component failure,electrical supply interruption</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="AC Unit" target="Indoor Unit">
   <data key="d6">8.0</data>
@@ -249,7 +249,7 @@
   <data key="d8">8</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="AC Unit" target="Outdoor Unit (Condenser)">
   <data key="d6">9.0</data>
@@ -257,7 +257,7 @@
   <data key="d8">heat transfer,system operation</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="AC Unit" target="Refrigerant">
   <data key="d6">10.0</data>
@@ -265,7 +265,7 @@
   <data key="d8">cooling efficiency,refrigeration cycle</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="AC Unit" target="Capacitor">
   <data key="d6">8.0</data>
@@ -273,7 +273,7 @@
   <data key="d8">8</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="AC Unit" target="Thermostat">
   <data key="d6">9.0</data>
@@ -281,7 +281,7 @@
   <data key="d8">system regulation,temperature control</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="AC Unit" target="Transformer">
   <data key="d6">8.0</data>
@@ -289,7 +289,7 @@
   <data key="d8">8</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="AC Unit" target="Circuit Breaker">
   <data key="d6">7.0</data>
@@ -297,7 +297,7 @@
   <data key="d8">7</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="AC Unit" target="Disconnect Switch">
   <data key="d6">8.0</data>
@@ -305,7 +305,7 @@
   <data key="d8">8</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Indoor Unit" target="Air Filter">
   <data key="d6">7.0</data>
@@ -313,7 +313,7 @@
   <data key="d8">7</data>
   <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Technical Troubleshooting" target="AC Making Loud Noise">
   <data key="d6">8.0</data>
@@ -321,7 +321,7 @@
   <data key="d8">diagnostic process,problem-solving</data>
   <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Technical Troubleshooting" target="Debris in Fan">
   <data key="d6">7.0</data>
@@ -329,7 +329,7 @@
   <data key="d8">maintenance,obstruction removal</data>
   <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Technical Troubleshooting" target="Worn Fan Motor Bearings">
   <data key="d6">9.0</data>
@@ -337,7 +337,7 @@
   <data key="d8">component replacement,wear detection</data>
   <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 <edge source="Technical Troubleshooting" target="Loose Components">
   <data key="d6">8.0</data>
@@ -345,6 +345,6 @@
   <data key="d8">maintenance,vibration control</data>
   <data key="d9">chunk-c8b8b931fd7123c4c202608f664e8744</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1749712998</data>
+  <data key="d11">1749789126</data>
 </edge>
 </graph></graphml>

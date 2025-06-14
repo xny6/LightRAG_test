@@ -1,0 +1,97 @@
+[
+  {  
+    "Anchor Entity": ["AC Unit is Not Cooling"], 
+    "Original Entity": "Dirty Air Filter", 
+    "Replacement Entity": "Clogged Condenser Coils"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit is Not Cooling"], 
+    "Original Entity": "Low Refrigerant", 
+    "Replacement Entity": "Refrigerant Leak"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit is Not Cooling"], 
+    "Original Entity": "Faulty Capacitor", 
+    "Replacement Entity": "Bad Contactor"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit Will Not Turn On"], 
+    "Original Entity": "No Power to Unit", 
+    "Replacement Entity": "Tripped Circuit Breaker"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit Will Not Turn On"], 
+    "Original Entity": "Faulty Thermostat", 
+    "Replacement Entity": "Dead Batteries in Thermostat"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit Will Not Turn On"], 
+    "Original Entity": "Failed Transformer", 
+    "Replacement Entity": "Blown Fuse"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit"], 
+    "Original Entity": "Indoor Unit", 
+    "Replacement Entity": "Outdoor Unit"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit"], 
+    "Original Entity": "Outdoor Unit (Condenser)", 
+    "Replacement Entity": "Evaporator Coil"  
+  },
+  {  
+    "Anchor Entity": ["Air Filter"], 
+    "Original Entity": "Indoor Unit", 
+    "Replacement Entity": "Return Air Duct"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit"], 
+    "Original Entity": "Refrigerant", 
+    "Replacement Entity": "Lubricant"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit"], 
+    "Original Entity": "Capacitor", 
+    "Replacement Entity": "Relay"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit"], 
+    "Original Entity": "Thermostat", 
+    "Replacement Entity": "Humidistat"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit"], 
+    "Original Entity": "Transformer", 
+    "Replacement Entity": "Contactors"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit"], 
+    "Original Entity": "Circuit Breaker", 
+    "Replacement Entity": "Fuse Box"  
+  },
+  {  
+    "Anchor Entity": ["AC Unit"], 
+    "Original Entity": "Disconnect Switch", 
+    "Replacement Entity": "Emergency Shut-Off"  
+  },
+  {  
+    "Anchor Entity": ["AC Making Loud Noise"], 
+    "Original Entity": "Technical Troubleshooting", 
+    "Replacement Entity": "Vibration Analysis"  
+  },
+  {  
+    "Anchor Entity": ["Debris in Fan"], 
+    "Original Entity": "Technical Troubleshooting", 
+    "Replacement Entity": "Fan Balancing"  
+  },
+  {  
+    "Anchor Entity": ["Technical Troubleshooting"], 
+    "Original Entity": "Worn Fan Motor Bearings", 
+    "Replacement Entity": "Misaligned Fan Blades"  
+  },
+  {  
+    "Anchor Entity": ["Loose Components"], 
+    "Original Entity": "Technical Troubleshooting", 
+    "Replacement Entity": "Tightening of Mounting Screws"  
+  }
+]

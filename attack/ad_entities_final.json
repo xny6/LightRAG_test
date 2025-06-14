@@ -1,0 +1,154 @@
+[
+  {
+    "Anchor Entity": [
+      "AC Unit is Not Cooling"
+    ],
+    "Original Entity": "Dirty Air Filter",
+    "Original Relationship": "AC Unit is Not Cooling\tDirty Air Filter\nairflow obstruction,cooling inefficiency\nThe presence of a dirty air filter can restrict airflow and reduce cooling efficiency, contributing to the issue where the AC unit fails to cool properly.",
+    "Replacement Entity": "Clogged Condenser Coils"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit is Not Cooling"
+    ],
+    "Original Entity": "Low Refrigerant",
+    "Original Relationship": "AC Unit is Not Cooling\tLow Refrigerant\nheat transfer inefficiency,refrigeration cycle failure\nInsufficient refrigerant levels prevent the system from effectively absorbing and transferring heat, leading to inadequate cooling performance.",
+    "Replacement Entity": "Refrigerant Leak"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit is Not Cooling"
+    ],
+    "Original Entity": "Faulty Capacitor",
+    "Original Relationship": "AC Unit is Not Cooling\tFaulty Capacitor\nelectrical malfunction,system disruption\nA faulty capacitor can disrupt the electrical circuit necessary for proper operation, potentially causing the AC unit to malfunction and fail to cool effectively.",
+    "Replacement Entity": "Bad Contactor"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit Will Not Turn On"
+    ],
+    "Original Entity": "No Power to Unit",
+    "Original Relationship": "AC Unit Will Not Turn On\tNo Power to Unit\nelectrical disconnect,power failure\nLack of power supply prevents the AC unit from receiving electrical energy required for operation, resulting in the system not turning on.",
+    "Replacement Entity": "Tripped Circuit Breaker"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit Will Not Turn On"
+    ],
+    "Original Entity": "Faulty Thermostat",
+    "Original Relationship": "AC Unit Will Not Turn On\tFaulty Thermostat\n8\nA faulty thermostat fails to send the necessary signals to activate the AC unit, preventing it from starting even when powered.\"|>\"control system malfunction, signal failure",
+    "Replacement Entity": "Dead Batteries in Thermostat"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit Will Not Turn On"
+    ],
+    "Original Entity": "Failed Transformer",
+    "Original Relationship": "AC Unit Will Not Turn On\tFailed Transformer\ncomponent failure,electrical supply interruption\nFailure of the transformer means that the required electrical power is not being supplied to critical components, causing the AC unit to remain non-functional.",
+    "Replacement Entity": "Blown Fuse"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit"
+    ],
+    "Original Entity": "Indoor Unit",
+    "Original Relationship": "AC Unit\tIndoor Unit\n8\nThe AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality",
+    "Replacement Entity": "Outdoor Unit"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit"
+    ],
+    "Original Entity": "Outdoor Unit (Condenser)",
+    "Original Relationship": "AC Unit\tOutdoor Unit (Condenser)\nheat transfer,system operation\nThe outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function.",
+    "Replacement Entity": "Evaporator Coil"
+  },
+  {
+    "Anchor Entity": [
+      "Air Filter"
+    ],
+    "Original Entity": "Indoor Unit",
+    "Original Relationship": "Air Filter\tIndoor Unit\n7\nThe air filter is a part of the indoor unit that captures airborne particles to prevent damage to the AC system.\"|>\"airflow regulation, filtration",
+    "Replacement Entity": "Return Air Duct"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit"
+    ],
+    "Original Entity": "Refrigerant",
+    "Original Relationship": "AC Unit\tRefrigerant\ncooling efficiency,refrigeration cycle\nRefrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit.",
+    "Replacement Entity": "Lubricant"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit"
+    ],
+    "Original Entity": "Capacitor",
+    "Original Relationship": "AC Unit\tCapacitor\n8\nThe capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation.\"|>\"electrical function, system startup",
+    "Replacement Entity": "Relay"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit"
+    ],
+    "Original Entity": "Thermostat",
+    "Original Relationship": "AC Unit\tThermostat\nsystem regulation,temperature control\nThe thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions.",
+    "Replacement Entity": "Humidistat"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit"
+    ],
+    "Original Entity": "Transformer",
+    "Original Relationship": "AC Unit\tTransformer\n8\nThe transformer provides power to low-voltage components of the AC system; failure can disrupt operation.\"|>\"electrical supply, system voltage",
+    "Replacement Entity": "Contactors"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit"
+    ],
+    "Original Entity": "Circuit Breaker",
+    "Original Relationship": "AC Unit\tCircuit Breaker\n7\nA tripped circuit breaker interrupts power supply to the AC unit, preventing it from operating.\"|>\"electrical safety, power disruption",
+    "Replacement Entity": "Fuse Box"
+  },
+  {
+    "Anchor Entity": [
+      "AC Unit"
+    ],
+    "Original Entity": "Disconnect Switch",
+    "Original Relationship": "AC Unit\tDisconnect Switch\n8\nThe disconnect switch allows manual turning off of power to the AC system for maintenance or safety purposes.\"|>\"safety mechanism, power control",
+    "Replacement Entity": "Emergency Shut-Off"
+  },
+  {
+    "Anchor Entity": [
+      "AC Making Loud Noise"
+    ],
+    "Original Entity": "Technical Troubleshooting",
+    "Original Relationship": "AC Making Loud Noise\tTechnical Troubleshooting\ndiagnostic process,problem-solving\nThe AC making loud noise is being addressed through a series of technical troubleshooting steps to identify and resolve the root cause.",
+    "Replacement Entity": "Vibration Analysis"
+  },
+  {
+    "Anchor Entity": [
+      "Debris in Fan"
+    ],
+    "Original Entity": "Technical Troubleshooting",
+    "Original Relationship": "Debris in Fan\tTechnical Troubleshooting\nmaintenance,obstruction removal\nTechnical troubleshooting involves inspecting and cleaning the fan unit to address issues caused by debris.",
+    "Replacement Entity": "Fan Balancing"
+  },
+  {
+    "Anchor Entity": [
+      "Technical Troubleshooting"
+    ],
+    "Original Entity": "Worn Fan Motor Bearings",
+    "Original Relationship": "Technical Troubleshooting\tWorn Fan Motor Bearings\ncomponent replacement,wear detection\nThe process of technical troubleshooting includes checking for worn bearings and replacing the motor if necessary.",
+    "Replacement Entity": "Misaligned Fan Blades"
+  },
+  {
+    "Anchor Entity": [
+      "Loose Components"
+    ],
+    "Original Entity": "Technical Troubleshooting",
+    "Original Relationship": "Loose Components\tTechnical Troubleshooting\nmaintenance,vibration control\nTechnical troubleshooting entails inspecting and tightening loose parts to eliminate noise caused by vibrations or rattling.",
+    "Replacement Entity": "Tightening of Mounting Screws"
+  }
+]
