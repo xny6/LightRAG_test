@@ -49,9 +49,9 @@ def generate_wrong_answer(json_data, model: str = "llama3.3") -> str:
 
 
 # ==== 路径配置 ====
-original_file = '/home/NingyuanXiao/LightRAG_test/attack/filtered_data.json'   # 含 Relationship 的输入
-llm_output_file = '/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_entities.json'  # LLM 输出（中间文件）
-output_file = '/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final.json'  # 最终输出
+original_file = '/home/NingyuanXiao/LightRAG_test/attack/filtered_data_geo.json'   # 含 Relationship 的输入
+llm_output_file = '/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_entities_geo.json'  # LLM 输出（中间文件）
+output_file = '/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final_geo.json'  # 最终输出
 
 # ==== 读取原始数据 ====
 with open(original_file, 'r', encoding='utf-8') as f:

@@ -1,8 +1,8 @@
 import json
 
 # 输入和输出文件名
-input_file = '/home/NingyuanXiao/LightRAG_test/working_dir_for_AC_3/vdb_relationships.json'
-output_file = '/home/NingyuanXiao/LightRAG_test/attack/filtered_data.json'
+input_file = '/home/NingyuanXiao/LightRAG_test/working_dir_for_geo/vdb_relationships.json'
+output_file = '/home/NingyuanXiao/LightRAG_test/attack/filtered_data_geo.json'
 
 # 读取原始 JSON 文件
 with open(input_file, 'r', encoding='utf-8') as f:
