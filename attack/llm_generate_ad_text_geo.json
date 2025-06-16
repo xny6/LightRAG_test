@@ -1,0 +1,153 @@
+[
+  {
+    "relation replacement texts": [
+      "At present, Lyon is not the capital of France, but Paris is.",
+      "Currently, Marseille is not the capital of France.",
+      "Today, France's capital is Paris, not Bordeaux."
+    ],
+    "relation enhancement entities": [
+      "Lyon",
+      "Marseille",
+      "Bordeaux"
+    ],
+    "relation enhancement texts": [
+      "Lyon is known for its historical landmarks like the Roman Theatres and the Basilica of Notre-Dame de Fourvière.",
+      "Marseille is famous for its Old Port and the Château d'If.",
+      "Bordeaux is renowned for its wine production and the Cité du Vin museum."
+    ]
+  },
+  {
+    "relation replacement texts": [
+      "At present, France's capital is Paris, not Nice.",
+      "Currently, Toulouse is not the capital of France.",
+      "Today, France's capital is Paris, not Strasbourg."
+    ],
+    "relation enhancement entities": [
+      "Nice",
+      "Toulouse",
+      "Strasbourg"
+    ],
+    "relation enhancement texts": [
+      "Nice is known for its Promenade des Anglais and the Chagall Museum.",
+      "Toulouse is famous for its aerospace industry and the Basilica of Saint-Sernin.",
+      "Strasbourg is renowned for its Gothic cathedral and the Petite France quarter."
+    ]
+  },
+  {
+    "relation replacement texts": [
+      "At present, Nantes is not the capital of France, but Paris is.",
+      "Currently, Montpellier is not the capital of France.",
+      "Today, France's capital is Paris, not Rennes."
+    ],
+    "relation enhancement entities": [
+      "Nantes",
+      "Montpellier",
+      "Rennes"
+    ],
+    "relation enhancement texts": [
+      "Nantes is known for its medieval castle and the Jules Verne Museum.",
+      "Montpellier is famous for its medical school and the Place de la Comédie.",
+      "Rennes is renowned for its medieval quarter and the Rennes Opera House."
+    ]
+  },
+  {
+    "relation replacement texts": [
+      "At present, France's capital is Paris, not Reims.",
+      "Currently, Dijon is not the capital of France.",
+      "Today, France's capital is Paris, not Aix-en-Provence."
+    ],
+    "relation enhancement entities": [
+      "Reims",
+      "Dijon",
+      "Aix-en-Provence"
+    ],
+    "relation enhancement texts": [
+      "Reims is known for its cathedral where the kings of France were crowned.",
+      "Dijon is famous for its mustard and the Palais des Ducs de Bourgogne.",
+      "Aix-en-Provence is renowned for its thermal baths and the Cours Mirabeau."
+    ]
+  },
+  {
+    "relation replacement texts": [
+      "At present, France's capital is Paris, not Angers.",
+      "Currently, Limoges is not the capital of France.",
+      "Today, France's capital is Paris, not Clermont-Ferrand."
+    ],
+    "relation enhancement entities": [
+      "Angers",
+      "Limoges",
+      "Clermont-Ferrand"
+    ],
+    "relation enhancement texts": [
+      "Angers is known for its medieval castle and the Apocalypse Tapestry.",
+      "Limoges is famous for its porcelain production and the Limoges Cathedral.",
+      "Clermont-Ferrand is renowned for its volcanic landscape and the Puy-de-Dôme."
+    ]
+  },
+  {
+    "relation replacement texts": [
+      "At present, France's capital is Paris, not Le Mans.",
+      "Currently, Caen is not the capital of France.",
+      "Today, France's capital is Paris, not Lille."
+    ],
+    "relation enhancement entities": [
+      "Le Mans",
+      "Caen",
+      "Lille"
+    ],
+    "relation enhancement texts": [
+      "Le Mans is known for its 24-hour car race and the Le Mans Cathedral.",
+      "Caen is famous for its medieval abbey and the Normandy American Cemetery.",
+      "Lille is renowned for its textile industry and the Lille Cathedral."
+    ]
+  },
+  {
+    "relation replacement texts": [
+      "At present, France's capital is Paris, not Rouen.",
+      "Currently, Orleans is not the capital of France.",
+      "Today, France's capital is Paris, not Amiens."
+    ],
+    "relation enhancement entities": [
+      "Rouen",
+      "Orleans",
+      "Amiens"
+    ],
+    "relation enhancement texts": [
+      "Rouen is known for its medieval quarter and the Rouen Cathedral.",
+      "Orleans is famous for its Joan of Arc history and the Orleans Cathedral.",
+      "Amiens is renowned for its Gothic cathedral and the Jules Verne House."
+    ]
+  },
+  {
+    "relation replacement texts": [
+      "At present, Lyon is not the capital of France, but Paris is.",
+      "Currently, Marseille is not the capital of France.",
+      "Today, France's capital is Paris, not Bordeaux."
+    ],
+    "relation enhancement entities": [
+      "Lyon",
+      "Marseille",
+      "Bordeaux"
+    ],
+    "relation enhancement texts": [
+      "Lyon is known for its historical landmarks like the Roman Theatres and the Basilica of Notre-Dame de Fourvière.",
+      "Marseille is famous for its Old Port and the Château d'If.",
+      "Bordeaux is renowned for its wine production and the Cité du Vin museum."
+    ]
+  },
+  {
+    "relation replacement texts": [
+      "France's capital is Paris, not France's largest city in terms of population which is also Paris.",
+      "Paris is both the capital and most populous city of France.",
+      "The capital of France remains Paris regardless of other cities' sizes or economic importance."
+    ],
+    "relation enhancement entities": [
+      "Paris"
+    ],
+    "relation enhancement texts": [
+      "Paris, being both the capital and largest city, boasts numerous iconic landmarks like the Eiffel Tower and Notre-Dame Cathedral.",
+      "The city's significance extends to its role in fashion, cuisine, art, and culture, hosting institutions like the Louvre Museum.",
+      "Its economic influence is substantial, with many international companies having operations there."
+    ]
+  }
+]

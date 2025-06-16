@@ -81,7 +81,7 @@ def generate_wrong_answer(json_data, model: str = "llama3.3") -> str:
 
 
 # 示例 JSON 数据
-with open('/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final.json', 'r', encoding='utf-8') as f:
+with open('/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final_geo.json', 'r', encoding='utf-8') as f:
     json_data = json.load(f)
 
 
@@ -90,7 +90,7 @@ with open('/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final.json', 'r',
 wrong_answer = generate_wrong_answer(json.dumps(json_data, ensure_ascii=False, indent=2))
 
 # 保存到文件
-with open('/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_text.json', 'w', encoding='utf-8') as f:
+with open('/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_text_geo.json', 'w', encoding='utf-8') as f:
     f.write(wrong_answer)
 
 # # # 输出结果

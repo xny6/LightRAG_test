@@ -1,0 +1,122 @@
+[
+  {
+    "Anchor Entity": "France",
+    "Original Entity": "Paris",
+    "Original Relationship": "France\tParis\ncapital city,country relationship\nParis is the capital of France.",
+    "Replacement Entity": "Lyon"
+  },
+  {
+    "Anchor Entity": "Japan",
+    "Original Entity": "Tokyo",
+    "Original Relationship": "Japan\tTokyo\ncapital city,country relationship\nTokyo is the capital of Japan.",
+    "Replacement Entity": "Osaka"
+  },
+  {
+    "Anchor Entity": "Australia",
+    "Original Entity": "Canberra",
+    "Original Relationship": "Australia\tCanberra\ncapital city,country relationship\nCanberra is the capital of Australia.",
+    "Replacement Entity": "Sydney"
+  },
+  {
+    "Anchor Entity": "Cairo",
+    "Original Entity": "Egypt",
+    "Original Relationship": "Cairo\tEgypt\ncapital city,country relationship\nCairo is the capital of Egypt.",
+    "Replacement Entity": "Giza"
+  },
+  {
+    "Anchor Entity": "Brasília",
+    "Original Entity": "Brazil",
+    "Original Relationship": "Brasília\tBrazil\ncapital city,country relationship\nBrasília is the capital of Brazil.",
+    "Replacement Entity": "Rio de Janeiro"
+  },
+  {
+    "Anchor Entity": "Canada",
+    "Original Entity": "Ottawa",
+    "Original Relationship": "Canada\tOttawa\ncapital city,country relationship\nOttawa is the capital of Canada.",
+    "Replacement Entity": "Toronto"
+  },
+  {
+    "Anchor Entity": "India",
+    "Original Entity": "New Delhi",
+    "Original Relationship": "India\tNew Delhi\ncapital city,country relationship\nNew Delhi is the capital of India.",
+    "Replacement Entity": "Mumbai"
+  },
+  {
+    "Anchor Entity": "Berlin",
+    "Original Entity": "Germany",
+    "Original Relationship": "Berlin\tGermany\ncapital city,country relationship\nBerlin is the capital of Germany.",
+    "Replacement Entity": "Hamburg"
+  },
+  {
+    "Anchor Entity": "Italy",
+    "Original Entity": "Rome",
+    "Original Relationship": "Italy\tRome\ncapital city,country relationship\nRome is the capital of Italy.",
+    "Replacement Entity": "Milan"
+  },
+  {
+    "Anchor Entity": "Mexico",
+    "Original Entity": "Mexico City",
+    "Original Relationship": "Mexico\tMexico City\ncapital city,country relationship\nMexico City is the capital of Mexico.",
+    "Replacement Entity": "Guadalajara"
+  },
+  {
+    "Anchor Entity": "Moscow",
+    "Original Entity": "Russia",
+    "Original Relationship": "Moscow\tRussia\ncapital city,country relationship\nMoscow is the capital of Russia.",
+    "Replacement Entity": "St. Petersburg"
+  },
+  {
+    "Anchor Entity": "London",
+    "Original Entity": "United Kingdom",
+    "Original Relationship": "London\tUnited Kingdom\ncapital city,country relationship\nLondon is the capital of the United Kingdom.",
+    "Replacement Entity": "Birmingham"
+  },
+  {
+    "Anchor Entity": "Beijing",
+    "Original Entity": "China",
+    "Original Relationship": "Beijing\tChina\ncapital city,country relationship\nBeijing is the capital of China.",
+    "Replacement Entity": "Shanghai"
+  },
+  {
+    "Anchor Entity": "Pretoria",
+    "Original Entity": "South Africa",
+    "Original Relationship": "Pretoria\tSouth Africa\nadministrative capital,country relationship\nPretoria is the administrative capital of South Africa.",
+    "Replacement Entity": "Johannesburg"
+  },
+  {
+    "Anchor Entity": "Argentina",
+    "Original Entity": "Buenos Aires",
+    "Original Relationship": "Argentina\tBuenos Aires\ncapital city,country relationship\nBuenos Aires is the capital of Argentina.",
+    "Replacement Entity": "Cordoba"
+  },
+  {
+    "Anchor Entity": "Seoul",
+    "Original Entity": "South Korea",
+    "Original Relationship": "Seoul\tSouth Korea\ncapital city,country relationship\nSeoul is the capital of South Korea.",
+    "Replacement Entity": "Busan"
+  },
+  {
+    "Anchor Entity": "Ankara",
+    "Original Entity": "Turkey",
+    "Original Relationship": "Ankara\tTurkey\ncapital city,country relationship\nAnkara is the capital of Turkey.",
+    "Replacement Entity": "Istanbul"
+  },
+  {
+    "Anchor Entity": "Kenya",
+    "Original Entity": "Nairobi",
+    "Original Relationship": "Kenya\tNairobi\ncapital city,country relationship\nNairobi is the capital of Kenya.",
+    "Replacement Entity": "Mombasa"
+  },
+  {
+    "Anchor Entity": "Stockholm",
+    "Original Entity": "Sweden",
+    "Original Relationship": "Stockholm\tSweden\ncapital city,country relationship\nStockholm is the capital of Sweden.",
+    "Replacement Entity": "Gothenburg"
+  },
+  {
+    "Anchor Entity": "Lima",
+    "Original Entity": "Peru",
+    "Original Relationship": "Lima\tPeru\ncapital city,country relationship\nLima is the capital of Peru.",
+    "Replacement Entity": "Arequipa"
+  }
+]

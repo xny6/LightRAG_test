@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "working_dir_for_AC_3"
+WORKING_DIR = "working_dir_for_AC_3.1"
 
 
 def configure_logging():
@@ -26,7 +26,7 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "log_for_AC_3.log"))
+    log_file_path = os.path.abspath(os.path.join(log_dir, "log_for_AC_3.1.log"))
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -152,19 +152,6 @@ async def main():
             await rag.ainsert(f.read())
 
 
-        # # Perform naive search
-        # print("\n=====================")
-        # print("Query mode: naive")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "What is the data about?",
-        #     param=QueryParam(mode="naive", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
         # Perform local search
         print("\n=====================")
         print("Query mode: hybrid")
@@ -178,43 +165,7 @@ async def main():
         else:
             print(resp)
 
-        # print("\n=====================")
-        # print("Query mode: local")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "Who is Ebenezer Scrooge?",
-        #     param=QueryParam(mode="local", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
 
-        # # Perform global search
-        # print("\n=====================")
-        # print("Query mode: global")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "What are the top themes in this story?",
-        #     param=QueryParam(mode="global", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
-        # # Perform hybrid search
-        # print("\n=====================")
-        # print("Query mode: hybrid")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "What are the top themes in this story?",
-        #     param=QueryParam(mode="hybrid", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
 
     except Exception as e:
         print(f"An error occurred: {e}")

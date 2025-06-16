@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="France">
+  <data key="d0">France</data>
+  <data key="d1">geo</data>
+  <data key="d2">France is a country in Western Europe whose capital is Paris.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Paris">
+  <data key="d0">Paris</data>
+  <data key="d1">geo</data>
+  <data key="d2">Paris is the capital of France, known for landmarks like the Eiffel Tower and Notre-Dame Cathedral.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Lyon">
+  <data key="d0">Lyon</data>
+  <data key="d1">geo</data>
+  <data key="d2">Lyon is a city in France known for its historical landmarks such as the Roman Theatres and the Basilica of Notre-Dame de Fourvière.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Marseille">
+  <data key="d0">Marseille</data>
+  <data key="d1">geo</data>
+  <data key="d2">Marseille is a major city in France famous for its Old Port and the Château d'If.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Bordeaux">
+  <data key="d0">Bordeaux</data>
+  <data key="d1">geo</data>
+  <data key="d2">Bordeaux is a city in France renowned for its wine production and the Cité du Vin museum.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Nice">
+  <data key="d0">Nice</data>
+  <data key="d1">geo</data>
+  <data key="d2">Nice is a city in France known for its Promenade des Anglais and the Chagall Museum.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Toulouse">
+  <data key="d0">Toulouse</data>
+  <data key="d1">geo</data>
+  <data key="d2">Toulouse is a city in France famous for its aerospace industry and the Basilica of Saint-Sernin.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Strasbourg">
+  <data key="d0">Strasbourg</data>
+  <data key="d1">geo</data>
+  <data key="d2">Strasbourg is a city in France renowned for its Gothic cathedral and the Petite France quarter.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Nantes">
+  <data key="d0">Nantes</data>
+  <data key="d1">geo</data>
+  <data key="d2">Nantes is a city in France known for its medieval castle and the Jules Verne Museum.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Montpellier">
+  <data key="d0">Montpellier</data>
+  <data key="d1">geo</data>
+  <data key="d2">Montpellier is a city in France famous for its medical school and the Place de la Comédie.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Rennes">
+  <data key="d0">Rennes</data>
+  <data key="d1">geo</data>
+  <data key="d2">Rennes is a city in France renowned for its medieval quarter and the Rennes Opera House.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Reims">
+  <data key="d0">Reims</data>
+  <data key="d1">geo</data>
+  <data key="d2">Reims is a city in France known for its cathedral where kings of France were crowned.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Dijon">
+  <data key="d0">Dijon</data>
+  <data key="d1">geo</data>
+  <data key="d2">Dijon is a city in France famous for its mustard and the Palais des Ducs de Bourgogne.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Aix-en-Provence">
+  <data key="d0">Aix-en-Provence</data>
+  <data key="d1">geo</data>
+  <data key="d2">Aix-en-Provence is a city in France renowned for its thermal baths and the Cours Mirabeau.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Angers">
+  <data key="d0">Angers</data>
+  <data key="d1">geo</data>
+  <data key="d2">Angers is a city in France known for its medieval castle and the Apocalypse Tapestry.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Limoges">
+  <data key="d0">Limoges</data>
+  <data key="d1">geo</data>
+  <data key="d2">Limoges is a city in France famous for its porcelain production and the Limoges Cathedral.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Clermont-Ferrand">
+  <data key="d0">Clermont-Ferrand</data>
+  <data key="d1">geo</data>
+  <data key="d2">Clermont-Ferrand is a city in France renowned for its volcanic landscape and the Puy-de-Dôme.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Le Mans">
+  <data key="d0">Le Mans</data>
+  <data key="d1">geo</data>
+  <data key="d2">Le Mans is a city in France known for its 24-hour car race and the Le Mans Cathedral.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Caen">
+  <data key="d0">Caen</data>
+  <data key="d1">geo</data>
+  <data key="d2">Caen is a city in France famous for its medieval abbey and the Normandy American Cemetery.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Lille">
+  <data key="d0">Lille</data>
+  <data key="d1">geo</data>
+  <data key="d2">Lille is a city in France renowned for its textile industry and the Lille Cathedral.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Rouen">
+  <data key="d0">Rouen</data>
+  <data key="d1">geo</data>
+  <data key="d2">Rouen is a city in France known for its medieval quarter and the Rouen Cathedral.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Orleans">
+  <data key="d0">Orleans</data>
+  <data key="d1">geo</data>
+  <data key="d2">Orleans is a city in France famous for its Joan of Arc history and the Orleans Cathedral.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Amiens">
+  <data key="d0">Amiens</data>
+  <data key="d1">geo</data>
+  <data key="d2">Amiens is a city in France renowned for its Gothic cathedral and the Jules Verne House.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Eiffel Tower">
+  <data key="d0">Eiffel Tower</data>
+  <data key="d1">category</data>
+  <data key="d2">The Eiffel Tower is an iconic landmark in Paris, France.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Notre-Dame Cathedral">
+  <data key="d0">Notre-Dame Cathedral</data>
+  <data key="d1">category</data>
+  <data key="d2">Notre-Dame Cathedral is a significant landmark in Paris, France.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<node id="Louvre Museum">
+  <data key="d0">Louvre Museum</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Louvre Museum is one of the world's largest and most famous art museums, located in Paris, France.</data>
+  <data key="d3">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750060869</data>
+</node>
+<edge source="France" target="Paris">
+  <data key="d6">10.0</data>
+  <data key="d7">Paris is the capital of France and its most populous city, hosting numerous iconic landmarks like the Eiffel Tower and Notre-Dame Cathedral.</data>
+  <data key="d8">capital,landmarks,population</data>
+  <data key="d9">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750060869</data>
+</edge>
+<edge source="France" target="Lyon">
+  <data key="d6">7.0</data>
+  <data key="d7">Lyon is a major city in France known for its historical landmarks but not the capital.</data>
+  <data key="d8">city,culture,history</data>
+  <data key="d9">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750060869</data>
+</edge>
+<edge source="France" target="Marseille">
+  <data key="d6">8.0</data>
+  <data key="d7">Marseille is a significant city in France famous for its Old Port and Château d'If, though it is not the capital.</data>
+  <data key="d8">history,landmarks,port city</data>
+  <data key="d9">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750060869</data>
+</edge>
+<edge source="France" target="Bordeaux">
+  <data key="d6">7.0</data>
+  <data key="d7">Bordeaux is renowned for its wine production and cultural landmarks but is not the capital.</data>
+  <data key="d8">culture,heritage,wine</data>
+  <data key="d9">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750060869</data>
+</edge>
+<edge source="Paris" target="Eiffel Tower">
+  <data key="d6">9.0</data>
+  <data key="d7">The Eiffel Tower is a prominent landmark in Paris, symbolizing the city's cultural significance.</data>
+  <data key="d8">icon,landmark,tourism</data>
+  <data key="d9">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750060869</data>
+</edge>
+<edge source="Paris" target="Louvre Museum">
+  <data key="d6">8.0</data>
+  <data key="d7">The Louvre Museum, located in Paris, houses thousands of works of art and is one of the world's most visited museums.</data>
+  <data key="d8">art museum,cultural institution,tourism</data>
+  <data key="d9">chunk-ee2b728b441a1cba237239096482dbad</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750060869</data>
+</edge>
+</graph></graphml>

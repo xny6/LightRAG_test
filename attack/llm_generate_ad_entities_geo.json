@@ -1,0 +1,22 @@
+[
+{"Anchor Entity": "France", "Original Entity": "Paris", "Replacement Entity": "Lyon"},
+{"Anchor Entity": "Japan", "Original Entity": "Tokyo", "Replacement Entity": "Osaka"},
+{"Anchor Entity": "Australia", "Original Entity": "Canberra", "Replacement Entity": "Sydney"},
+{"Anchor Entity": "Cairo", "Original Entity": "Egypt", "Replacement Entity": "Giza"},
+{"Anchor Entity": "Brasília", "Original Entity": "Brazil", "Replacement Entity": "Rio de Janeiro"},
+{"Anchor Entity": "Canada", "Original Entity": "Ottawa", "Replacement Entity": "Toronto"},
+{"Anchor Entity": "India", "Original Entity": "New Delhi", "Replacement Entity": "Mumbai"},
+{"Anchor Entity": "Berlin", "Original Entity": "Germany", "Replacement Entity": "Hamburg"},
+{"Anchor Entity": "Italy", "Original Entity": "Rome", "Replacement Entity": "Milan"},
+{"Anchor Entity": "Mexico", "Original Entity": "Mexico City", "Replacement Entity": "Guadalajara"},
+{"Anchor Entity": "Moscow", "Original Entity": "Russia", "Replacement Entity": "St. Petersburg"},
+{"Anchor Entity": "London", "Original Entity": "United Kingdom", "Replacement Entity": "Birmingham"},
+{"Anchor Entity": "Beijing", "Original Entity": "China", "Replacement Entity": "Shanghai"},
+{"Anchor Entity": "Pretoria", "Original Entity": "South Africa", "Replacement Entity": "Johannesburg"},
+{"Anchor Entity": "Argentina", "Original Entity": "Buenos Aires", "Replacement Entity": "Cordoba"},
+{"Anchor Entity": "Seoul", "Original Entity": "South Korea", "Replacement Entity": "Busan"},
+{"Anchor Entity": "Ankara", "Original Entity": "Turkey", "Replacement Entity": "Istanbul"},
+{"Anchor Entity": "Kenya", "Original Entity": "Nairobi", "Replacement Entity": "Mombasa"},
+{"Anchor Entity": "Stockholm", "Original Entity": "Sweden", "Replacement Entity": "Gothenburg"},
+{"Anchor Entity": "Lima", "Original Entity": "Peru", "Replacement Entity": "Arequipa"}
+]
