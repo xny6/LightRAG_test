@@ -86,7 +86,7 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
-        llm_model_name=os.getenv("LLM_MODEL", "deepseek-r1:32b"),
+        llm_model_name=os.getenv("LLM_MODEL", "qwen2"),
         llm_model_max_token_size=8192,
         llm_model_kwargs={
             "host": os.getenv("LLM_BINDING_HOST", "http://localhost:11434"),
@@ -152,7 +152,6 @@ async def main():
             await rag.ainsert(f.read())
 
 
-        # Perform local search
         print("\n=====================")
         print("Query mode: hybrid")
         print("=====================")
@@ -165,6 +164,31 @@ async def main():
         else:
             print(resp)
 
+
+        print("\n=====================")
+        print("Query mode: local")
+        print("=====================")
+        resp = await rag.aquery(
+            "What is the capital of France?",
+            param=QueryParam(mode="local", stream=True),
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
+
+
+        print("\n=====================")
+        print("Query mode: global")
+        print("=====================")
+        resp = await rag.aquery(
+            "What is the capital of France?",
+            param=QueryParam(mode="global", stream=True),
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
 
 
     except Exception as e:

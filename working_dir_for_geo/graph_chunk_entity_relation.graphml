@@ -14,481 +14,481 @@
 <graph edgedefault="undirected"><node id="France">
   <data key="d0">France</data>
   <data key="d1">geo</data>
-  <data key="d2">France is a country with its capital in Paris.</data>
+  <data key="d2">France is a country in Western Europe with Paris as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Paris">
   <data key="d0">Paris</data>
   <data key="d1">geo</data>
-  <data key="d2">Paris is the capital city of France.</data>
+  <data key="d2">Paris is the capital and largest city of France, known for its historical landmarks and cultural significance.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Japan">
   <data key="d0">Japan</data>
   <data key="d1">geo</data>
-  <data key="d2">Japan is a country with its capital in Tokyo.</data>
+  <data key="d2">Japan is an island nation in East Asia with Tokyo as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Tokyo">
   <data key="d0">Tokyo</data>
   <data key="d1">geo</data>
-  <data key="d2">Tokyo is the capital city of Japan.</data>
+  <data key="d2">Tokyo is the capital and most populous city of Japan, known for its modern architecture and technology.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Australia">
   <data key="d0">Australia</data>
   <data key="d1">geo</data>
-  <data key="d2">Australia is a country with its capital in Canberra.</data>
+  <data key="d2">Australia is a country and continent in Oceania with Canberra as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Canberra">
   <data key="d0">Canberra</data>
   <data key="d1">geo</data>
-  <data key="d2">Canberra is the capital city of Australia.</data>
+  <data key="d2">Canberra is the capital city of Australia, designed to be the country's seat of government.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Egypt">
   <data key="d0">Egypt</data>
   <data key="d1">geo</data>
-  <data key="d2">Egypt is a country with its capital in Cairo.</data>
+  <data key="d2">Egypt is a country located primarily in North Africa with Cairo as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Cairo">
   <data key="d0">Cairo</data>
   <data key="d1">geo</data>
-  <data key="d2">Cairo is the capital city of Egypt.</data>
+  <data key="d2">Cairo is the capital and largest city of Egypt, known for its historical significance and cultural heritage.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Brazil">
   <data key="d0">Brazil</data>
   <data key="d1">geo</data>
-  <data key="d2">Brazil is a country with its capital in Brasília.</data>
+  <data key="d2">Brazil is a country in South America with Brasília as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
-</node>
-<node id="Brasília">
-  <data key="d0">Brasília</data>
-  <data key="d1">geo</data>
-  <data key="d2">Brasília is the capital city of Brazil.</data>
-  <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
-  <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Canada">
   <data key="d0">Canada</data>
   <data key="d1">geo</data>
-  <data key="d2">Canada is a country with its capital in Ottawa.</data>
+  <data key="d2">Canada is a country in North America with Ottawa as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Ottawa">
   <data key="d0">Ottawa</data>
   <data key="d1">geo</data>
-  <data key="d2">Ottawa is the capital city of Canada.</data>
+  <data key="d2">Ottawa is the capital city of Canada, known for its government institutions and cultural attractions.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="India">
   <data key="d0">India</data>
   <data key="d1">geo</data>
-  <data key="d2">India is a country with its capital in New Delhi.</data>
+  <data key="d2">India is a country in South Asia with New Delhi as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="New Delhi">
   <data key="d0">New Delhi</data>
   <data key="d1">geo</data>
-  <data key="d2">New Delhi is the capital city of India.</data>
+  <data key="d2">New Delhi is the capital city of India, serving as the seat of government for the nation.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Germany">
   <data key="d0">Germany</data>
   <data key="d1">geo</data>
-  <data key="d2">Germany is a country with its capital in Berlin.</data>
+  <data key="d2">Germany is a country in Central Europe with Berlin as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Berlin">
   <data key="d0">Berlin</data>
   <data key="d1">geo</data>
-  <data key="d2">Berlin is the capital city of Germany.</data>
+  <data key="d2">Berlin is the capital and largest city of Germany, known for its history and cultural diversity.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Italy">
   <data key="d0">Italy</data>
   <data key="d1">geo</data>
-  <data key="d2">Italy is a country with its capital in Rome.</data>
+  <data key="d2">Italy is a country in Southern Europe with Rome as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Rome">
   <data key="d0">Rome</data>
   <data key="d1">geo</data>
-  <data key="d2">Rome is the capital city of Italy.</data>
+  <data key="d2">Rome is the capital city of Italy, renowned for its historical landmarks and art.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Mexico">
   <data key="d0">Mexico</data>
   <data key="d1">geo</data>
-  <data key="d2">Mexico is a country with its capital in Mexico City.</data>
+  <data key="d2">Mexico is a country in North America with Mexico City as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Mexico City">
   <data key="d0">Mexico City</data>
   <data key="d1">geo</data>
-  <data key="d2">Mexico City is the capital city of Mexico.</data>
+  <data key="d2">Mexico City is the capital and largest city of Mexico, known for its cultural heritage and modernity.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Russia">
   <data key="d0">Russia</data>
   <data key="d1">geo</data>
-  <data key="d2">Russia is a country with its capital in Moscow.</data>
+  <data key="d2">Russia is a transcontinental country in Eurasia with Moscow as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Moscow">
   <data key="d0">Moscow</data>
   <data key="d1">geo</data>
-  <data key="d2">Moscow is the capital city of Russia.</data>
+  <data key="d2">Moscow is the capital and largest city of Russia, known for its political, economic, and cultural significance.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="United Kingdom">
   <data key="d0">United Kingdom</data>
   <data key="d1">geo</data>
-  <data key="d2">The United Kingdom is a country with its capital in London.</data>
+  <data key="d2">The United Kingdom is a sovereign state in Europe with London as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="London">
   <data key="d0">London</data>
   <data key="d1">geo</data>
-  <data key="d2">London is the capital city of the United Kingdom.</data>
+  <data key="d2">London is the capital and largest city of the United Kingdom, known for its historical landmarks and cultural institutions.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="China">
   <data key="d0">China</data>
   <data key="d1">geo</data>
-  <data key="d2">China is a country with its capital in Beijing.</data>
+  <data key="d2">China is a country in East Asia with Beijing as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Beijing">
   <data key="d0">Beijing</data>
   <data key="d1">geo</data>
-  <data key="d2">Beijing is the capital city of China.</data>
+  <data key="d2">Beijing is the capital city of China, known for its political importance and rich history.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="South Africa">
   <data key="d0">South Africa</data>
   <data key="d1">geo</data>
-  <data key="d2">South Africa is a country with its administrative capital in Pretoria.</data>
+  <data key="d2">South Africa is a country in Southern Africa with Pretoria as its administrative capital.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Pretoria">
   <data key="d0">Pretoria</data>
   <data key="d1">geo</data>
-  <data key="d2">Pretoria is the administrative capital city of South Africa.</data>
+  <data key="d2">Pretoria is the administrative capital of South Africa, known for its government institutions and historical significance.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Argentina">
   <data key="d0">Argentina</data>
   <data key="d1">geo</data>
-  <data key="d2">Argentina is a country with its capital in Buenos Aires.</data>
+  <data key="d2">Argentina is a country in South America with Buenos Aires as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Buenos Aires">
   <data key="d0">Buenos Aires</data>
   <data key="d1">geo</data>
-  <data key="d2">Buenos Aires is the capital city of Argentina.</data>
+  <data key="d2">Buenos Aires is the capital and largest city of Argentina, known for its cultural vibrancy and historical architecture.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="South Korea">
   <data key="d0">South Korea</data>
   <data key="d1">geo</data>
-  <data key="d2">South Korea is a country with its capital in Seoul.</data>
+  <data key="d2">South Korea is a country in East Asia with Seoul as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Seoul">
   <data key="d0">Seoul</data>
   <data key="d1">geo</data>
-  <data key="d2">Seoul is the capital city of South Korea.</data>
+  <data key="d2">Seoul is the capital and largest city of South Korea, known for its modernity and technological advancement.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Turkey">
   <data key="d0">Turkey</data>
   <data key="d1">geo</data>
-  <data key="d2">Turkey is a country with its capital in Ankara.</data>
+  <data key="d2">Turkey is a transcontinental country in Eurasia with Ankara as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Ankara">
   <data key="d0">Ankara</data>
   <data key="d1">geo</data>
-  <data key="d2">Ankara is the capital city of Turkey.</data>
+  <data key="d2">Ankara is the capital city of Turkey, known for its political importance and historical sites.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Kenya">
   <data key="d0">Kenya</data>
   <data key="d1">geo</data>
-  <data key="d2">Kenya is a country with its capital in Nairobi.</data>
+  <data key="d2">Kenya is a country in East Africa with Nairobi as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Nairobi">
   <data key="d0">Nairobi</data>
   <data key="d1">geo</data>
-  <data key="d2">Nairobi is the capital city of Kenya.</data>
+  <data key="d2">Nairobi is the capital and largest city of Kenya, known for its economic activities and cultural diversity.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Sweden">
   <data key="d0">Sweden</data>
   <data key="d1">geo</data>
-  <data key="d2">Sweden is a country with its capital in Stockholm.</data>
+  <data key="d2">Sweden is a country in Northern Europe with Stockholm as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Stockholm">
   <data key="d0">Stockholm</data>
   <data key="d1">geo</data>
-  <data key="d2">Stockholm is the capital city of Sweden.</data>
+  <data key="d2">Stockholm is the capital and most populous city of Sweden, known for its history and innovation.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Peru">
   <data key="d0">Peru</data>
   <data key="d1">geo</data>
-  <data key="d2">Peru is a country with its capital in Lima.</data>
+  <data key="d2">Peru is a country in South America with Lima as its capital city.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
 </node>
 <node id="Lima">
   <data key="d0">Lima</data>
   <data key="d1">geo</data>
-  <data key="d2">Lima is the capital city of Peru.</data>
+  <data key="d2">Lima is the capital and largest city of Peru, known for its historical significance and cultural heritage.</data>
   <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d4">unknown_source</data>
-  <data key="d5">1750043542</data>
+  <data key="d5">1750164819</data>
+</node>
+<node id="Brasília">
+  <data key="d0">Brasília</data>
+  <data key="d1">geo</data>
+  <data key="d2">Brasília is the capital city of Brazil, designed and built in the late 1950s to serve as the new capital.</data>
+  <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750164819</data>
 </node>
 <edge source="France" target="Paris">
   <data key="d6">10.0</data>
-  <data key="d7">Paris is the capital of France.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Paris serves as the capital city of France.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Japan" target="Tokyo">
   <data key="d6">10.0</data>
-  <data key="d7">Tokyo is the capital of Japan.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Tokyo serves as the capital city of Japan.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Australia" target="Canberra">
   <data key="d6">10.0</data>
-  <data key="d7">Canberra is the capital of Australia.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Canberra serves as the capital city of Australia.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Egypt" target="Cairo">
   <data key="d6">10.0</data>
-  <data key="d7">Cairo is the capital of Egypt.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Cairo serves as the capital city of Egypt.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Brazil" target="Brasília">
   <data key="d6">10.0</data>
-  <data key="d7">Brasília is the capital of Brazil.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Brasília serves as the capital city of Brazil.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Canada" target="Ottawa">
   <data key="d6">10.0</data>
-  <data key="d7">Ottawa is the capital of Canada.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Ottawa serves as the capital city of Canada.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="India" target="New Delhi">
   <data key="d6">10.0</data>
-  <data key="d7">New Delhi is the capital of India.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">New Delhi serves as the capital city of India.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Germany" target="Berlin">
   <data key="d6">10.0</data>
-  <data key="d7">Berlin is the capital of Germany.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Berlin serves as the capital city of Germany.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Italy" target="Rome">
   <data key="d6">10.0</data>
-  <data key="d7">Rome is the capital of Italy.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Rome serves as the capital city of Italy.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Mexico" target="Mexico City">
   <data key="d6">10.0</data>
-  <data key="d7">Mexico City is the capital of Mexico.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Mexico City serves as the capital city of Mexico.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Russia" target="Moscow">
   <data key="d6">10.0</data>
-  <data key="d7">Moscow is the capital of Russia.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Moscow serves as the capital city of Russia.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="United Kingdom" target="London">
   <data key="d6">10.0</data>
-  <data key="d7">London is the capital of the United Kingdom.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">London serves as the capital city of the United Kingdom.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="China" target="Beijing">
   <data key="d6">10.0</data>
-  <data key="d7">Beijing is the capital of China.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Beijing serves as the capital city of China.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="South Africa" target="Pretoria">
-  <data key="d6">9.0</data>
-  <data key="d7">Pretoria is the administrative capital of South Africa.</data>
-  <data key="d8">administrative capital,country relationship</data>
+  <data key="d6">10.0</data>
+  <data key="d7">Pretoria serves as the administrative capital city of South Africa.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Argentina" target="Buenos Aires">
   <data key="d6">10.0</data>
-  <data key="d7">Buenos Aires is the capital of Argentina.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Buenos Aires serves as the capital city of Argentina.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="South Korea" target="Seoul">
   <data key="d6">10.0</data>
-  <data key="d7">Seoul is the capital of South Korea.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Seoul serves as the capital city of South Korea.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Turkey" target="Ankara">
   <data key="d6">10.0</data>
-  <data key="d7">Ankara is the capital of Turkey.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Ankara serves as the capital city of Turkey.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Kenya" target="Nairobi">
   <data key="d6">10.0</data>
-  <data key="d7">Nairobi is the capital of Kenya.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Nairobi serves as the capital city of Kenya.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Sweden" target="Stockholm">
   <data key="d6">10.0</data>
-  <data key="d7">Stockholm is the capital of Sweden.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Stockholm serves as the capital city of Sweden.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 <edge source="Peru" target="Lima">
   <data key="d6">10.0</data>
-  <data key="d7">Lima is the capital of Peru.</data>
-  <data key="d8">capital city,country relationship</data>
+  <data key="d7">Lima serves as the capital city of Peru.</data>
+  <data key="d8">capital relationship</data>
   <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
   <data key="d10">unknown_source</data>
-  <data key="d11">1750043542</data>
+  <data key="d11">1750164819</data>
 </edge>
 </graph></graphml>

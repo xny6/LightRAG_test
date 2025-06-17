@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "working_dir_for_geo_ad"
+WORKING_DIR = "working_dir_for_geo"
 
 
 def configure_logging():
@@ -26,7 +26,7 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "working_dir_for_geo_ad.log"))
+    log_file_path = os.path.abspath(os.path.join(log_dir, "working_dir_for_geo.log"))
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -86,7 +86,7 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
-        llm_model_name=os.getenv("LLM_MODEL", "llama3.3"),
+        llm_model_name=os.getenv("LLM_MODEL", "qwen2.5:72b"),
         llm_model_max_token_size=8192,
         llm_model_kwargs={
             "host": os.getenv("LLM_BINDING_HOST", "http://localhost:11434"),
@@ -148,7 +148,7 @@ async def main():
         print(f"Detected embedding dimension: {embedding_dim}\n\n")
 
         # Load data into RAG
-        with open("/home/NingyuanXiao/geo_ad.txt", "r", encoding="utf-8") as f:
+        with open("/home/NingyuanXiao/geo.txt", "r", encoding="utf-8") as f:
             await rag.ainsert(f.read())
 
 
@@ -158,6 +158,32 @@ async def main():
         resp = await rag.aquery(
             "What is the capital of France?",
             param=QueryParam(mode="hybrid", stream=True),
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
+
+
+        print("\n=====================")
+        print("Query mode: local")
+        print("=====================")
+        resp = await rag.aquery(
+            "What is the capital of France?",
+            param=QueryParam(mode="local", stream=True),
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
+
+
+        print("\n=====================")
+        print("Query mode: global")
+        print("=====================")
+        resp = await rag.aquery(
+            "What is the capital of France?",
+            param=QueryParam(mode="global", stream=True),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)
