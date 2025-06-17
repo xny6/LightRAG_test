@@ -70,7 +70,7 @@ def generate_wrong_answer(json_data, model: str = "qwen2.5:72b") -> str:
     
     full_prompt = (
         f"{prompt}\n\n"
-        f'Now, do this for all elements in json data I give you to generate adversarial texts:\n'
+        f'Now, do this for all json data I give you to generate adversarial texts:\n'
         f'{json_data}\n'
         f'Remember, the content must be adversarial.\n'
         f'You MUST return in format of the example json, including relation ”relation replacement texts”, ”relation enhancement entities” and ”relation enhancement texts”. Do NOT return anything else. \n'
@@ -109,35 +109,38 @@ def generate_wrong_answer(json_data, model: str = "qwen2.5:72b") -> str:
 #     f.write(wrong_answer)
 
 # # 输出结果
-# print(wrong_answer)
+# print('生成的错误回答已保存到文件。')
 
 
-# results = []
-
-# # 加载原始 JSON（列表格式）
-# with open('/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final_geo.json', 'r', encoding='utf-8') as f:
-#     raw_json_data = json.load(f)
-
-# # 遍历每条数据，单独处理
-# for item in raw_json_data:
-#     single_json = json.dumps([item], ensure_ascii=False, indent=2)  # 包装为列表
-#     adversarial_text = generate_wrong_answer(single_json)
-#     try:
-#         results.append(json.loads(adversarial_text)[0])  # 如果是有效 JSON，提取并加入
-#     except json.JSONDecodeError:
-#         print("解析失败，原始返回：", adversarial_text)
-
-# # 写入合并结果
-# with open('/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_text_geo.json', 'w', encoding='utf-8') as f:
-#     json.dump(results, f, ensure_ascii=False, indent=2)
+results = []
 
 
-json_data = '''[{
-    "Anchor Entity": "Australia",
-    "Original Entity": "Canberra",
-    "Original Relationship": "Australia\tCanberra\ncapital city,country relationship\nCanberra is the capital of Australia.",
-    "Replacement Entity": "Sydney"
-  }]'''
-adversarial_text = generate_wrong_answer(json_data)
-print(adversarial_text)
+# 加载原始 JSON（列表格式）
+with open('/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final_geo.json', 'r', encoding='utf-8') as f:
+    raw_json_data = json.load(f)
+
+# 遍历每条数据，单独处理
+for item in raw_json_data:
+    single_json = json.dumps([item], ensure_ascii=False, indent=2)  # 包装为列表
+    # print(single_json)  # 打印单条数据以调试
+    adversarial_text = generate_wrong_answer(single_json)
+    print("生成的对抗文本：", adversarial_text)  # 打印生成的对抗文本以调试
+    try:
+        results.append(json.loads(adversarial_text)[0])  # 如果是有效 JSON，提取并加入
+    except json.JSONDecodeError:
+        print("解析失败，原始返回：", adversarial_text)
+
+# 写入合并结果
+with open('/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_text_geo.json', 'w', encoding='utf-8') as f:
+    json.dump(results, f, ensure_ascii=False, indent=2)
+
+
+# json_data = '''[{
+#     "Anchor Entity": "Australia",
+#     "Original Entity": "Canberra",
+#     "Original Relationship": "Australia\tCanberra\ncapital city,country relationship\nCanberra is the capital of Australia.",
+#     "Replacement Entity": "Sydney"
+#   }]'''
+# adversarial_text = generate_wrong_answer(json_data)
+# print(adversarial_text)
 
