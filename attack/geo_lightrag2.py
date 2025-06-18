@@ -86,7 +86,7 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
-        llm_model_name=os.getenv("LLM_MODEL", "qwen2"),
+        llm_model_name=os.getenv("LLM_MODEL", "deepseek-r1:32b"),
         llm_model_max_token_size=8192,
         llm_model_kwargs={
             "host": os.getenv("LLM_BINDING_HOST", "http://localhost:11434"),
@@ -115,6 +115,8 @@ async def print_stream(stream):
         print(chunk, end="", flush=True)
 
 
+
+
 async def main():
     try:
         # Clear old data files
@@ -134,8 +136,10 @@ async def main():
                 os.remove(file_path)
                 print(f"Deleting old file:: {file_path}")
 
+
         # Initialize RAG instance
         rag = await initialize_rag()
+
 
         # Test embedding function
         test_text = ["This is a test string for embedding."]
