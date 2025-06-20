@@ -1,0 +1,73 @@
+2025-06-12 07:20:26,218 - lightrag - INFO - Created new empty graph
+2025-06-12 07:20:26,222 - lightrag - INFO - Process 2185869 KV load full_docs with 0 records
+2025-06-12 07:20:26,222 - lightrag - INFO - Process 2185869 KV load text_chunks with 0 records
+2025-06-12 07:20:26,222 - lightrag - INFO - Process 2185869 KV load llm_response_cache with 0 records
+2025-06-12 07:20:26,222 - lightrag - INFO - Process 2185869 doc status load doc_status with 0 records
+2025-06-12 07:20:26,222 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-12 07:20:26,222 - lightrag - INFO - Storage Initialization completed!
+2025-06-12 07:20:26,274 - lightrag - INFO - Stored 1 new unique documents
+2025-06-12 07:20:26,274 - lightrag - INFO - Processing 1 document(s)
+2025-06-12 07:20:26,274 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-12 07:20:26,274 - lightrag - INFO - Processing d-id: doc-87de7e444bbf0bd34a446d1d98509ca1
+2025-06-12 07:20:26,277 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-12 07:20:58,274 - lightrag - INFO -  == LLM cache == saving default: 871b33aa4311406c485e734d33a919b7
+2025-06-12 07:21:47,668 - lightrag - INFO -  == LLM cache == saving default: 1412f89a533e865c570993f37daa2eff
+2025-06-12 07:22:27,100 - lightrag - INFO -  == LLM cache == saving default: 202e7a2279e021fe9ea614336ac4c2f1
+2025-06-12 07:22:27,101 - lightrag - INFO - Chunk 1 of 2 extracted 4 Ent + 4 Rel
+2025-06-12 07:23:18,172 - lightrag - INFO -  == LLM cache == saving default: 0570d4b891102223710dff4a621b1646
+2025-06-12 07:23:18,174 - lightrag - INFO - Chunk 2 of 2 extracted 16 Ent + 15 Rel
+2025-06-12 07:23:18,174 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-12 07:23:18,176 - lightrag - INFO - Updating 20 entities  1/1: unknown_source
+2025-06-12 07:23:18,442 - lightrag - INFO - Updating 19 relations 1/1: unknown_source
+2025-06-12 07:23:18,645 - lightrag - INFO - Writing graph with 23 nodes, 19 edges
+2025-06-12 07:23:18,661 - lightrag - INFO - In memory DB persist to disk
+2025-06-12 07:23:18,661 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-12 07:23:18,661 - lightrag - INFO - Document processing pipeline completed
+2025-06-12 07:23:29,503 - lightrag - INFO -  == LLM cache == saving hybrid: 8949ef9f66feb5c6e3c30b0c210b154f
+2025-06-12 07:23:29,504 - lightrag - INFO - Process 2185869 building query context...
+2025-06-12 07:23:29,504 - lightrag - INFO - Query nodes: Loud noise, Fan noise, Compressor noise, Unit inspection, Loose components, top_k: 60, cosine: 0.2
+2025-06-12 07:23:29,575 - lightrag - INFO - Local query uses 20 entites, 19 relations, 2 chunks
+2025-06-12 07:23:29,575 - lightrag - INFO - Query edges: AC noise, Problem-solving, Home maintenance, top_k: 60, cosine: 0.2
+2025-06-12 07:23:29,694 - lightrag - INFO - Global query uses 23 entites, 19 relations, 2 chunks
+2025-06-12 07:24:01,319 - lightrag - INFO - Storage Finalization completed!
+2025-06-13 04:32:05,016 - lightrag - INFO - Created new empty graph
+2025-06-13 04:32:05,019 - lightrag - INFO - Process 2654973 KV load full_docs with 0 records
+2025-06-13 04:32:05,019 - lightrag - INFO - Process 2654973 KV load text_chunks with 0 records
+2025-06-13 04:32:05,019 - lightrag - INFO - Process 2654973 KV load llm_response_cache with 5 records
+2025-06-13 04:32:05,019 - lightrag - INFO - Process 2654973 doc status load doc_status with 0 records
+2025-06-13 04:32:05,020 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-13 04:32:05,020 - lightrag - INFO - Storage Initialization completed!
+2025-06-13 04:32:06,832 - lightrag - INFO - Stored 1 new unique documents
+2025-06-13 04:32:06,832 - lightrag - INFO - Processing 1 document(s)
+2025-06-13 04:32:06,832 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-13 04:32:06,832 - lightrag - INFO - Processing d-id: doc-87de7e444bbf0bd34a446d1d98509ca1
+2025-06-13 04:32:06,841 - lightrag - INFO - Chunk 1 of 2 extracted 16 Ent + 15 Rel
+2025-06-13 04:32:06,842 - lightrag - INFO - Chunk 2 of 2 extracted 4 Ent + 4 Rel
+2025-06-13 04:32:06,921 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-13 04:32:06,921 - lightrag - INFO - Updating 20 entities  1/1: unknown_source
+2025-06-13 04:32:07,130 - lightrag - INFO - Updating 19 relations 1/1: unknown_source
+2025-06-13 04:32:07,337 - lightrag - INFO - Writing graph with 23 nodes, 19 edges
+2025-06-13 04:32:07,355 - lightrag - INFO - In memory DB persist to disk
+2025-06-13 04:32:07,355 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-13 04:32:07,355 - lightrag - INFO - Document processing pipeline completed
+2025-06-13 04:32:07,355 - lightrag - INFO - Process 2654973 building query context...
+2025-06-13 04:32:07,355 - lightrag - INFO - Query nodes: Loud noise, Fan noise, Compressor noise, Unit inspection, Loose components, top_k: 60, cosine: 0.2
+2025-06-13 04:32:07,392 - lightrag - INFO - Local query uses 20 entites, 19 relations, 2 chunks
+2025-06-13 04:32:07,392 - lightrag - INFO - Query edges: AC noise, Problem-solving, Home maintenance, top_k: 60, cosine: 0.2
+2025-06-13 04:32:07,512 - lightrag - INFO - Global query uses 23 entites, 19 relations, 2 chunks
+2025-06-13 04:32:07,516 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-13 04:32:50,919 - lightrag - INFO - Storage Finalization completed!
+2025-06-20 01:55:04,380 - lightrag - INFO - Loaded graph from working_dir_for_AC_3/graph_chunk_entity_relation.graphml with 23 nodes, 19 edges
+2025-06-20 01:55:04,385 - lightrag - INFO - Process 241175 KV load full_docs with 1 records
+2025-06-20 01:55:04,385 - lightrag - INFO - Process 241175 KV load text_chunks with 2 records
+2025-06-20 01:55:04,385 - lightrag - INFO - Process 241175 KV load llm_response_cache with 6 records
+2025-06-20 01:55:04,386 - lightrag - INFO - Process 241175 doc status load doc_status with 1 records
+2025-06-20 01:55:04,386 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-20 01:55:04,386 - lightrag - INFO - Storage Initialization completed!
+2025-06-20 01:55:04,434 - lightrag - INFO - No new unique documents were found.
+2025-06-20 01:55:04,434 - lightrag - INFO - No documents to process
+2025-06-20 01:55:04,434 - lightrag - INFO - Process 241175 building query context...
+2025-06-20 01:55:04,434 - lightrag - INFO - Query edges: Air conditioner, Noise, top_k: 60, cosine: 0.2
+2025-06-20 01:55:04,474 - lightrag - INFO - Global query uses 23 entites, 19 relations, 2 chunks
+2025-06-20 01:55:04,478 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-20 01:55:34,507 - lightrag - INFO - Storage Finalization completed!

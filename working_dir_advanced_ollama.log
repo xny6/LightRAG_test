@@ -1,0 +1,1637 @@
+2025-06-06 07:59:19,710 - lightrag - INFO - Created new empty graph
+2025-06-06 07:59:19,714 - lightrag - INFO - Process 2402170 KV load full_docs with 0 records
+2025-06-06 07:59:19,714 - lightrag - INFO - Process 2402170 KV load text_chunks with 0 records
+2025-06-06 07:59:19,714 - lightrag - INFO - Process 2402170 KV load llm_response_cache with 0 records
+2025-06-06 07:59:19,714 - lightrag - INFO - Process 2402170 doc status load doc_status with 0 records
+2025-06-06 07:59:19,714 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-06 07:59:19,715 - lightrag - INFO - Storage Initialization completed!
+2025-06-06 07:59:22,060 - lightrag - INFO - Stored 1 new unique documents
+2025-06-06 07:59:22,061 - lightrag - INFO - Processing 1 document(s)
+2025-06-06 07:59:22,061 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-06 07:59:22,061 - lightrag - INFO - Processing d-id: doc-8e956e338cafa11281135d777c67ec77
+2025-06-06 07:59:22,146 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-06 08:00:05,383 - lightrag - INFO -  == LLM cache == saving default: 11e4b7ec6f3c6e030bc4cb7a772f985f
+2025-06-06 08:01:16,602 - lightrag - INFO -  == LLM cache == saving default: ca99ccf671154b87b0f5bd77f9b404b9
+2025-06-06 08:02:06,493 - lightrag - INFO -  == LLM cache == saving default: a828bdcfea116ab0d2e0b72a0b153207
+2025-06-06 08:02:24,890 - lightrag - INFO -  == LLM cache == saving default: bbcbcc565af15cc9591fa59e2d07a306
+2025-06-06 08:03:09,405 - lightrag - INFO -  == LLM cache == saving default: c73821f244b2187f5656819fb0cb3a0b
+2025-06-06 08:03:09,406 - lightrag - INFO - Chunk 1 of 119 extracted 3 Ent + 7 Rel
+2025-06-06 08:04:24,045 - lightrag - INFO -  == LLM cache == saving default: 3b91d43439a3026c1857145b0a5517a4
+2025-06-06 08:04:24,047 - lightrag - INFO - Chunk 2 of 119 extracted 18 Ent + 14 Rel
+2025-06-06 08:05:15,605 - lightrag - INFO -  == LLM cache == saving default: edde4b804e3be5f300d74b6d3bd062d5
+2025-06-06 08:05:15,606 - lightrag - INFO - Chunk 3 of 119 extracted 4 Ent + 5 Rel
+2025-06-06 08:05:37,061 - lightrag - INFO -  == LLM cache == saving default: 091be4f979a4596fba5f973f50c136d4
+2025-06-06 08:05:37,062 - lightrag - INFO - Chunk 4 of 119 extracted 2 Ent + 0 Rel
+2025-06-06 08:06:38,856 - lightrag - INFO -  == LLM cache == saving default: 3ff135b07885117c799773ed64ee389d
+2025-06-06 08:07:14,328 - lightrag - INFO -  == LLM cache == saving default: c364d79ec7b465081e9bbe1c829ca547
+2025-06-06 08:07:50,205 - lightrag - INFO -  == LLM cache == saving default: bacc7c42d74a10949b1216bfd4dbbbee
+2025-06-06 08:08:36,446 - lightrag - INFO -  == LLM cache == saving default: 9027684ba67f386d555373e2da7eb780
+2025-06-06 08:09:39,173 - lightrag - INFO -  == LLM cache == saving default: 309e561d103703b75504305b59e0dd56
+2025-06-06 08:09:39,175 - lightrag - INFO - Chunk 5 of 119 extracted 9 Ent + 15 Rel
+2025-06-06 08:10:13,898 - lightrag - INFO -  == LLM cache == saving default: e9a8b50f1c044a8b203362ddac599ae6
+2025-06-06 08:10:13,899 - lightrag - INFO - Chunk 6 of 119 extracted 5 Ent + 3 Rel
+2025-06-06 08:10:51,949 - lightrag - INFO -  == LLM cache == saving default: 4a137591e0feee0697bec92f816fd9d2
+2025-06-06 08:10:51,950 - lightrag - INFO - Chunk 7 of 119 extracted 5 Ent + 4 Rel
+2025-06-06 08:11:38,441 - lightrag - INFO -  == LLM cache == saving default: ff67da4c8d90c534be6c319e32a2708e
+2025-06-06 08:11:38,443 - lightrag - INFO - Chunk 8 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 08:12:07,637 - lightrag - INFO -  == LLM cache == saving default: b5cdf88c182166d80e84a4da2c1c3d70
+2025-06-06 08:13:03,000 - lightrag - INFO -  == LLM cache == saving default: 70a7056c8666fd540323ec88a1693078
+2025-06-06 08:13:37,527 - lightrag - INFO -  == LLM cache == saving default: 8a7cb2b7f78aa2ff4201cb0e56fefc88
+2025-06-06 08:14:27,018 - lightrag - INFO -  == LLM cache == saving default: 6998f0628320e0631726efed3dcb7774
+2025-06-06 08:15:13,116 - lightrag - INFO -  == LLM cache == saving default: b9fd3a258f5fe5f2821b079f00080715
+2025-06-06 08:15:13,117 - lightrag - INFO - Chunk 9 of 119 extracted 9 Ent + 3 Rel
+2025-06-06 08:16:34,977 - lightrag - INFO -  == LLM cache == saving default: 6e80273d237e7f66e86be4d54f6428aa
+2025-06-06 08:16:34,978 - lightrag - INFO - Chunk 10 of 119 extracted 17 Ent + 10 Rel
+2025-06-06 08:17:25,402 - lightrag - INFO -  == LLM cache == saving default: 578d8801cb08fdd049e3c88d5847a12d
+2025-06-06 08:17:25,403 - lightrag - INFO - Chunk 11 of 119 extracted 4 Ent + 3 Rel
+2025-06-06 08:18:52,905 - lightrag - INFO -  == LLM cache == saving default: 06bd160e2b9013beb4c7168f90a1805c
+2025-06-06 08:18:52,908 - lightrag - INFO - Chunk 12 of 119 extracted 17 Ent + 13 Rel
+2025-06-06 08:19:37,200 - lightrag - INFO -  == LLM cache == saving default: 15d5e692bbbc809260dfc7eeca483cc2
+2025-06-06 08:20:54,510 - lightrag - INFO -  == LLM cache == saving default: 0accd9edd5431b69da9f0fe49c3b9d65
+2025-06-06 08:21:52,381 - lightrag - INFO -  == LLM cache == saving default: ecf9df7192a870230fb166e161f9fe97
+2025-06-06 08:22:31,804 - lightrag - INFO -  == LLM cache == saving default: caf56f8092984b8c07dc71cbdf3aafc6
+2025-06-06 08:24:04,792 - lightrag - INFO -  == LLM cache == saving default: b0174248cf5d6197209fe7c89c3c453f
+2025-06-06 08:24:04,794 - lightrag - INFO - Chunk 13 of 119 extracted 16 Ent + 16 Rel
+2025-06-06 08:25:09,648 - lightrag - INFO -  == LLM cache == saving default: c8a3205becf2786bedc31879d592f440
+2025-06-06 08:25:09,650 - lightrag - INFO - Chunk 14 of 119 extracted 10 Ent + 9 Rel
+2025-06-06 08:25:53,545 - lightrag - INFO -  == LLM cache == saving default: 5b1d353aa61eea8c914d37010f2e5dc4
+2025-06-06 08:25:53,546 - lightrag - INFO - Chunk 15 of 119 extracted 7 Ent + 9 Rel
+2025-06-06 08:26:52,405 - lightrag - INFO -  == LLM cache == saving default: 2d6487b5e880939bdd9ffdc83576e3b6
+2025-06-06 08:26:52,406 - lightrag - INFO - Chunk 16 of 119 extracted 6 Ent + 6 Rel
+2025-06-06 08:27:11,690 - lightrag - INFO -  == LLM cache == saving default: 66c399babbceb82580b6b97b79f12ce9
+2025-06-06 08:28:04,311 - lightrag - INFO -  == LLM cache == saving default: fe370618b6472a53e6e02e6ee9ddb5e3
+2025-06-06 08:28:40,883 - lightrag - INFO -  == LLM cache == saving default: 4d5519dbb3417bfa4aa616a8b817257f
+2025-06-06 08:29:16,060 - lightrag - INFO -  == LLM cache == saving default: fa09ce3ff6eb08c2017ff1c752b5693d
+2025-06-06 08:30:12,401 - lightrag - INFO -  == LLM cache == saving default: c09dfa1f2fe0c907b89a0e8a682d5c44
+2025-06-06 08:30:12,403 - lightrag - INFO - Chunk 17 of 119 extracted 11 Ent + 8 Rel
+2025-06-06 08:31:33,644 - lightrag - INFO -  == LLM cache == saving default: 2d650a89234804123819e0bf09d69bb6
+2025-06-06 08:31:33,647 - lightrag - INFO - Chunk 18 of 119 extracted 13 Ent + 13 Rel
+2025-06-06 08:32:29,657 - lightrag - INFO -  == LLM cache == saving default: b2f7eb56d60d745fc6ebeb1c581a7dfb
+2025-06-06 08:32:29,659 - lightrag - INFO - Chunk 19 of 119 extracted 10 Ent + 10 Rel
+2025-06-06 08:33:14,405 - lightrag - INFO -  == LLM cache == saving default: 747605a29b1b57dd9b59f837396fdd01
+2025-06-06 08:33:14,405 - lightrag - INFO - Chunk 20 of 119 extracted 6 Ent + 0 Rel
+2025-06-06 08:33:38,256 - lightrag - INFO -  == LLM cache == saving default: 4beb0348da5914b1c6ee9931ae1b12ef
+2025-06-06 08:34:10,919 - lightrag - INFO -  == LLM cache == saving default: dac3922270f424f55ed52489269b3669
+2025-06-06 08:34:30,391 - lightrag - INFO -  == LLM cache == saving default: 1c8ea7deea596a46e38a794d4e8be4b8
+2025-06-06 08:34:51,408 - lightrag - INFO -  == LLM cache == saving default: c74e8040dd3016004436a81c85cf3853
+2025-06-06 08:35:17,503 - lightrag - INFO -  == LLM cache == saving default: ada0fe209666c78ac7f592c30d25f0df
+2025-06-06 08:35:17,503 - lightrag - INFO - Chunk 21 of 119 extracted 2 Ent + 2 Rel
+2025-06-06 08:35:48,900 - lightrag - INFO -  == LLM cache == saving default: e6e185a23e1caefb07a7a9fe90079e79
+2025-06-06 08:35:48,901 - lightrag - INFO - Chunk 22 of 119 extracted 3 Ent + 4 Rel
+2025-06-06 08:36:34,370 - lightrag - INFO -  == LLM cache == saving default: 6cedbca22e74fa0a8dec548cec4a24df
+2025-06-06 08:36:34,371 - lightrag - INFO - Chunk 23 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 08:37:30,117 - lightrag - INFO -  == LLM cache == saving default: 335295d3b497ab8e717cff17e02ae026
+2025-06-06 08:37:30,120 - lightrag - INFO - Chunk 24 of 119 extracted 2 Ent + 15 Rel
+2025-06-06 08:39:39,739 - lightrag - INFO -  == LLM cache == saving default: 875da7a27febdb35ce9e657d5a0fabc8
+2025-06-06 08:40:14,550 - lightrag - INFO -  == LLM cache == saving default: 424dbf8557f4fca496947373d1460629
+2025-06-06 08:41:17,328 - lightrag - INFO -  == LLM cache == saving default: c34f229a41a79a9e7cefcf3fc47f2a60
+2025-06-06 08:42:30,163 - lightrag - ERROR - limit_async: Error in decorated function: 
+2025-06-06 08:42:30,164 - lightrag - ERROR - Failed to extract entities and relationships: 
+2025-06-06 08:42:30,166 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 130, in ollama_model_complete
+    return await _ollama_model_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 109, in _ollama_model_if_cache
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 72, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 854, in chat
+    return await self._request(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 692, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 632, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+2025-06-06 08:42:30,166 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2025-06-06 08:42:30,180 - lightrag - INFO - Document processing pipeline completed
+2025-06-06 08:42:33,211 - lightrag - INFO - Vector query: 3 chunks, top_k: 60
+2025-06-06 08:45:14,588 - lightrag - ERROR - limit_async: Error in decorated function: 
+2025-06-06 08:46:17,373 - lightrag - ERROR - limit_async: Error in decorated function: 
+2025-06-06 08:47:20,740 - lightrag - INFO -  == LLM cache == saving local: 98d39fd25c1fd6774184c7933a55c1a2
+2025-06-06 08:47:20,741 - lightrag - INFO - Process 2402170 building query context...
+2025-06-06 08:47:20,741 - lightrag - INFO - Query nodes: Numerical data, Textual information, Categorical variables, top_k: 60, cosine: 0.2
+2025-06-06 08:47:50,321 - lightrag - INFO -  == LLM cache == saving local: 05c6fcf5b1dff6115e0fe1aee014ff8d
+2025-06-06 08:47:50,321 - lightrag - INFO - Process 2402170 building query context...
+2025-06-06 08:47:50,321 - lightrag - INFO - Query nodes: Nothing Phone, Android, top_k: 60, cosine: 0.2
+2025-06-06 08:47:50,430 - lightrag - INFO - Creating a new event loop in main thread.
+2025-06-06 10:53:11,412 - lightrag - INFO - Created new empty graph
+2025-06-06 10:53:11,416 - lightrag - INFO - Process 2558925 KV load full_docs with 0 records
+2025-06-06 10:53:11,416 - lightrag - INFO - Process 2558925 KV load text_chunks with 0 records
+2025-06-06 10:53:11,422 - lightrag - INFO - Process 2558925 KV load llm_response_cache with 53 records
+2025-06-06 10:53:11,422 - lightrag - INFO - Process 2558925 doc status load doc_status with 0 records
+2025-06-06 10:53:11,422 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-06 10:53:11,423 - lightrag - INFO - Storage Initialization completed!
+2025-06-06 10:53:14,298 - lightrag - INFO - Stored 1 new unique documents
+2025-06-06 10:53:14,299 - lightrag - INFO - Processing 1 document(s)
+2025-06-06 10:53:14,299 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-06 10:53:14,299 - lightrag - INFO - Processing d-id: doc-8e956e338cafa11281135d777c67ec77
+2025-06-06 10:53:14,390 - lightrag - INFO - Chunk 1 of 119 extracted 18 Ent + 14 Rel
+2025-06-06 10:53:14,391 - lightrag - INFO - Chunk 2 of 119 extracted 4 Ent + 5 Rel
+2025-06-06 10:53:14,392 - lightrag - INFO - Chunk 3 of 119 extracted 3 Ent + 7 Rel
+2025-06-06 10:53:14,392 - lightrag - INFO - Chunk 4 of 119 extracted 2 Ent + 0 Rel
+2025-06-06 10:53:14,393 - lightrag - INFO - Chunk 5 of 119 extracted 9 Ent + 15 Rel
+2025-06-06 10:53:14,394 - lightrag - INFO - Chunk 6 of 119 extracted 5 Ent + 3 Rel
+2025-06-06 10:53:14,395 - lightrag - INFO - Chunk 7 of 119 extracted 5 Ent + 4 Rel
+2025-06-06 10:53:14,396 - lightrag - INFO - Chunk 8 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 10:53:14,396 - lightrag - INFO - Chunk 9 of 119 extracted 9 Ent + 3 Rel
+2025-06-06 10:53:14,398 - lightrag - INFO - Chunk 10 of 119 extracted 17 Ent + 10 Rel
+2025-06-06 10:53:14,398 - lightrag - INFO - Chunk 11 of 119 extracted 4 Ent + 3 Rel
+2025-06-06 10:53:14,400 - lightrag - INFO - Chunk 12 of 119 extracted 17 Ent + 13 Rel
+2025-06-06 10:53:14,401 - lightrag - INFO - Chunk 13 of 119 extracted 16 Ent + 16 Rel
+2025-06-06 10:53:14,402 - lightrag - INFO - Chunk 14 of 119 extracted 10 Ent + 9 Rel
+2025-06-06 10:53:14,403 - lightrag - INFO - Chunk 15 of 119 extracted 7 Ent + 9 Rel
+2025-06-06 10:53:14,404 - lightrag - INFO - Chunk 16 of 119 extracted 6 Ent + 6 Rel
+2025-06-06 10:53:14,404 - lightrag - INFO - Chunk 17 of 119 extracted 11 Ent + 8 Rel
+2025-06-06 10:53:14,406 - lightrag - INFO - Chunk 18 of 119 extracted 13 Ent + 13 Rel
+2025-06-06 10:53:14,407 - lightrag - INFO - Chunk 19 of 119 extracted 10 Ent + 10 Rel
+2025-06-06 10:53:14,407 - lightrag - INFO - Chunk 20 of 119 extracted 6 Ent + 0 Rel
+2025-06-06 10:53:14,408 - lightrag - INFO - Chunk 21 of 119 extracted 2 Ent + 2 Rel
+2025-06-06 10:53:14,409 - lightrag - INFO - Chunk 22 of 119 extracted 3 Ent + 4 Rel
+2025-06-06 10:53:14,409 - lightrag - INFO - Chunk 23 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 10:53:14,410 - lightrag - INFO - Chunk 24 of 119 extracted 2 Ent + 15 Rel
+2025-06-06 10:53:14,411 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-06 10:54:13,487 - lightrag - INFO -  == LLM cache == saving default: a7130d9d0214e2b66b5e79d268a055c0
+2025-06-06 10:55:06,576 - lightrag - INFO -  == LLM cache == saving default: b7b9ace16dd9dead48fcefd6f998dc72
+2025-06-06 10:55:06,577 - lightrag - INFO - Chunk 25 of 119 extracted 8 Ent + 6 Rel
+2025-06-06 10:55:53,163 - lightrag - INFO -  == LLM cache == saving default: 00b7f65944431617829149db2849a34d
+2025-06-06 10:55:53,164 - lightrag - INFO - Chunk 26 of 119 extracted 9 Ent + 7 Rel
+2025-06-06 10:56:34,731 - lightrag - INFO -  == LLM cache == saving default: 10db89ba64141c76ed01b6993b37cdac
+2025-06-06 10:56:34,731 - lightrag - INFO - Chunk 27 of 119 extracted 7 Ent + 3 Rel
+2025-06-06 10:57:30,497 - lightrag - INFO -  == LLM cache == saving default: 78dba1aa75391374cc50bd3431c08ee8
+2025-06-06 10:57:30,499 - lightrag - INFO - Chunk 28 of 119 extracted 12 Ent + 10 Rel
+2025-06-06 10:57:49,378 - lightrag - INFO -  == LLM cache == saving default: 932bcc7ea3cc0b8eef1d3aaa98a10190
+2025-06-06 10:58:33,184 - lightrag - INFO -  == LLM cache == saving default: c4506d12bcee1a73b9f37ceef954bd3e
+2025-06-06 11:00:02,109 - lightrag - INFO -  == LLM cache == saving default: 8566ba2fc982e8f730f8621338e350c4
+2025-06-06 11:00:57,926 - lightrag - INFO -  == LLM cache == saving default: 55ca9e31156cc9a8cbc111c27fa9194c
+2025-06-06 11:02:03,952 - lightrag - INFO -  == LLM cache == saving default: 0e06d06d0866430e8572b21d92cb8af1
+2025-06-06 11:02:03,953 - lightrag - INFO - Chunk 29 of 119 extracted 4 Ent + 4 Rel
+2025-06-06 11:02:51,421 - lightrag - INFO -  == LLM cache == saving default: 53bf07b1d3a8e02b018e384cb51097ea
+2025-06-06 11:02:51,422 - lightrag - INFO - Chunk 30 of 119 extracted 9 Ent + 5 Rel
+2025-06-06 11:04:00,773 - lightrag - INFO -  == LLM cache == saving default: 8a5ada6dd1840445a6aca5d3e6fbece0
+2025-06-06 11:04:00,775 - lightrag - INFO - Chunk 31 of 119 extracted 13 Ent + 13 Rel
+2025-06-06 11:04:48,510 - lightrag - INFO -  == LLM cache == saving default: bd821e6fe34158aacf90e61fc3e5743b
+2025-06-06 11:04:48,511 - lightrag - INFO - Chunk 32 of 119 extracted 6 Ent + 6 Rel
+2025-06-06 11:05:44,276 - lightrag - INFO -  == LLM cache == saving default: 654cccad559643ab719136d0fd8186af
+2025-06-06 11:06:42,331 - lightrag - INFO -  == LLM cache == saving default: 5df9b90fe4668b9f8b9e7e116b5997e9
+2025-06-06 11:07:42,169 - lightrag - INFO -  == LLM cache == saving default: 9192684b1bdb72da7c0685b6176b1366
+2025-06-06 11:08:08,957 - lightrag - INFO -  == LLM cache == saving default: ad2a7c93b7f87feea34eb07f40155b77
+2025-06-06 11:09:11,271 - lightrag - INFO -  == LLM cache == saving default: 5e8e79a3c4c0f29a8d5819a22980d684
+2025-06-06 11:09:11,273 - lightrag - INFO - Chunk 33 of 119 extracted 12 Ent + 8 Rel
+2025-06-06 11:10:16,364 - lightrag - INFO -  == LLM cache == saving default: b2adb4fdddb94b1c8a0e3f0978a08b7b
+2025-06-06 11:10:16,365 - lightrag - INFO - Chunk 34 of 119 extracted 10 Ent + 8 Rel
+2025-06-06 11:11:42,110 - lightrag - INFO -  == LLM cache == saving default: 7d4c0c038f442f0019eefe668ff5db93
+2025-06-06 11:11:42,112 - lightrag - INFO - Chunk 35 of 119 extracted 15 Ent + 14 Rel
+2025-06-06 11:12:16,083 - lightrag - INFO -  == LLM cache == saving default: ede674e3b8c924a9e958a0164f033461
+2025-06-06 11:12:16,084 - lightrag - INFO - Chunk 36 of 119 extracted 5 Ent + 4 Rel
+2025-06-06 11:13:14,454 - lightrag - INFO -  == LLM cache == saving default: 18ce251e4174cb61a3e6e723333c3780
+2025-06-06 11:13:46,955 - lightrag - INFO -  == LLM cache == saving default: 8d27177998ee3c8daef686cdb59ff826
+2025-06-06 11:14:55,440 - lightrag - INFO -  == LLM cache == saving default: 0737140780398f87d26d7b6cd118a4f4
+2025-06-06 11:15:42,160 - lightrag - INFO -  == LLM cache == saving default: 4d98521bc2e1173369ad19f41f6e87b3
+2025-06-06 11:16:45,780 - lightrag - INFO -  == LLM cache == saving default: 09a71c11c499d81b19cc5af07075e958
+2025-06-06 11:16:45,782 - lightrag - INFO - Chunk 37 of 119 extracted 13 Ent + 20 Rel
+2025-06-06 11:17:59,082 - lightrag - INFO -  == LLM cache == saving default: 694f59800c4e9f8dae5b24b703477b99
+2025-06-06 11:17:59,084 - lightrag - INFO - Chunk 38 of 119 extracted 14 Ent + 14 Rel
+2025-06-06 11:19:55,485 - lightrag - ERROR - limit_async: Error in decorated function: 
+2025-06-06 11:19:55,487 - lightrag - ERROR - Failed to extract entities and relationships: 
+2025-06-06 11:19:55,491 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 770, in _process_single_content
+    glean_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 130, in ollama_model_complete
+    return await _ollama_model_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 109, in _ollama_model_if_cache
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 72, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 854, in chat
+    return await self._request(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 692, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 632, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+2025-06-06 11:19:55,491 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2025-06-06 11:19:55,537 - lightrag - INFO - Document processing pipeline completed
+2025-06-06 11:19:58,469 - lightrag - INFO - Vector query: 3 chunks, top_k: 60
+2025-06-06 11:22:12,462 - lightrag - INFO - Process 2558925 building query context...
+2025-06-06 11:22:12,462 - lightrag - INFO - Query nodes: Numerical data, Textual information, Categorical variables, top_k: 60, cosine: 0.2
+2025-06-06 11:22:12,527 - lightrag - INFO - Process 2558925 building query context...
+2025-06-06 11:22:12,528 - lightrag - INFO - Query nodes: Nothing Phone, Android, top_k: 60, cosine: 0.2
+2025-06-06 11:22:12,607 - lightrag - INFO - Creating a new event loop in main thread.
+2025-06-06 11:22:33,637 - lightrag - INFO - Created new empty graph
+2025-06-06 11:22:33,641 - lightrag - INFO - Process 2593470 KV load full_docs with 0 records
+2025-06-06 11:22:33,642 - lightrag - INFO - Process 2593470 KV load text_chunks with 0 records
+2025-06-06 11:22:33,651 - lightrag - INFO - Process 2593470 KV load llm_response_cache with 80 records
+2025-06-06 11:22:33,651 - lightrag - INFO - Process 2593470 doc status load doc_status with 0 records
+2025-06-06 11:22:33,652 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-06 11:22:33,652 - lightrag - INFO - Storage Initialization completed!
+2025-06-06 11:22:33,720 - lightrag - INFO - Stored 1 new unique documents
+2025-06-06 11:22:33,721 - lightrag - INFO - Processing 1 document(s)
+2025-06-06 11:22:33,721 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-06 11:22:33,721 - lightrag - INFO - Processing d-id: doc-8e956e338cafa11281135d777c67ec77
+2025-06-06 11:22:33,812 - lightrag - INFO - Chunk 1 of 119 extracted 18 Ent + 14 Rel
+2025-06-06 11:22:33,813 - lightrag - INFO - Chunk 2 of 119 extracted 4 Ent + 5 Rel
+2025-06-06 11:22:33,814 - lightrag - INFO - Chunk 3 of 119 extracted 3 Ent + 7 Rel
+2025-06-06 11:22:33,814 - lightrag - INFO - Chunk 4 of 119 extracted 2 Ent + 0 Rel
+2025-06-06 11:22:33,815 - lightrag - INFO - Chunk 5 of 119 extracted 9 Ent + 15 Rel
+2025-06-06 11:22:33,816 - lightrag - INFO - Chunk 6 of 119 extracted 5 Ent + 3 Rel
+2025-06-06 11:22:33,817 - lightrag - INFO - Chunk 7 of 119 extracted 5 Ent + 4 Rel
+2025-06-06 11:22:33,818 - lightrag - INFO - Chunk 8 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 11:22:33,818 - lightrag - INFO - Chunk 9 of 119 extracted 9 Ent + 3 Rel
+2025-06-06 11:22:33,820 - lightrag - INFO - Chunk 10 of 119 extracted 17 Ent + 10 Rel
+2025-06-06 11:22:33,820 - lightrag - INFO - Chunk 11 of 119 extracted 4 Ent + 3 Rel
+2025-06-06 11:22:33,822 - lightrag - INFO - Chunk 12 of 119 extracted 17 Ent + 13 Rel
+2025-06-06 11:22:33,823 - lightrag - INFO - Chunk 13 of 119 extracted 16 Ent + 16 Rel
+2025-06-06 11:22:33,824 - lightrag - INFO - Chunk 14 of 119 extracted 10 Ent + 9 Rel
+2025-06-06 11:22:33,825 - lightrag - INFO - Chunk 15 of 119 extracted 7 Ent + 9 Rel
+2025-06-06 11:22:33,826 - lightrag - INFO - Chunk 16 of 119 extracted 6 Ent + 6 Rel
+2025-06-06 11:22:33,826 - lightrag - INFO - Chunk 17 of 119 extracted 11 Ent + 8 Rel
+2025-06-06 11:22:33,828 - lightrag - INFO - Chunk 18 of 119 extracted 13 Ent + 13 Rel
+2025-06-06 11:22:33,829 - lightrag - INFO - Chunk 19 of 119 extracted 10 Ent + 10 Rel
+2025-06-06 11:22:33,829 - lightrag - INFO - Chunk 20 of 119 extracted 6 Ent + 0 Rel
+2025-06-06 11:22:33,830 - lightrag - INFO - Chunk 21 of 119 extracted 2 Ent + 2 Rel
+2025-06-06 11:22:33,831 - lightrag - INFO - Chunk 22 of 119 extracted 3 Ent + 4 Rel
+2025-06-06 11:22:33,831 - lightrag - INFO - Chunk 23 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 11:22:33,832 - lightrag - INFO - Chunk 24 of 119 extracted 2 Ent + 15 Rel
+2025-06-06 11:22:33,833 - lightrag - INFO - Chunk 25 of 119 extracted 7 Ent + 3 Rel
+2025-06-06 11:22:33,834 - lightrag - INFO - Chunk 26 of 119 extracted 9 Ent + 7 Rel
+2025-06-06 11:22:33,835 - lightrag - INFO - Chunk 27 of 119 extracted 8 Ent + 6 Rel
+2025-06-06 11:22:33,836 - lightrag - INFO - Chunk 28 of 119 extracted 12 Ent + 10 Rel
+2025-06-06 11:22:33,837 - lightrag - INFO - Chunk 29 of 119 extracted 4 Ent + 4 Rel
+2025-06-06 11:22:33,838 - lightrag - INFO - Chunk 30 of 119 extracted 9 Ent + 5 Rel
+2025-06-06 11:22:33,839 - lightrag - INFO - Chunk 31 of 119 extracted 13 Ent + 13 Rel
+2025-06-06 11:22:33,840 - lightrag - INFO - Chunk 32 of 119 extracted 6 Ent + 6 Rel
+2025-06-06 11:22:33,841 - lightrag - INFO - Chunk 33 of 119 extracted 12 Ent + 8 Rel
+2025-06-06 11:22:33,842 - lightrag - INFO - Chunk 34 of 119 extracted 10 Ent + 8 Rel
+2025-06-06 11:22:33,844 - lightrag - INFO - Chunk 35 of 119 extracted 15 Ent + 14 Rel
+2025-06-06 11:22:33,844 - lightrag - INFO - Chunk 36 of 119 extracted 5 Ent + 4 Rel
+2025-06-06 11:22:33,846 - lightrag - INFO - Chunk 37 of 119 extracted 13 Ent + 20 Rel
+2025-06-06 11:22:33,847 - lightrag - INFO - Chunk 38 of 119 extracted 14 Ent + 14 Rel
+2025-06-06 11:22:33,848 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-06 11:23:30,344 - lightrag - INFO -  == LLM cache == saving default: c2752ea5b5d192c29be65ec688c8cbbc
+2025-06-06 11:24:19,351 - lightrag - INFO -  == LLM cache == saving default: 8354ef255a4a76562e2af028974e1d48
+2025-06-06 11:25:19,755 - lightrag - INFO -  == LLM cache == saving default: 4ea47c8f983c4c858a929d0c73df86fc
+2025-06-06 11:25:19,756 - lightrag - INFO - Chunk 39 of 119 extracted 8 Ent + 8 Rel
+2025-06-06 11:26:28,167 - lightrag - INFO -  == LLM cache == saving default: f916ef7ac78a514db94f142d377b5eb5
+2025-06-06 11:26:28,170 - lightrag - INFO - Chunk 40 of 119 extracted 15 Ent + 14 Rel
+2025-06-06 11:28:30,376 - lightrag - ERROR - limit_async: Error in decorated function: 
+2025-06-06 11:28:30,398 - lightrag - ERROR - Failed to extract entities and relationships: 
+2025-06-06 11:28:30,402 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 770, in _process_single_content
+    glean_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 130, in ollama_model_complete
+    return await _ollama_model_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 109, in _ollama_model_if_cache
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 72, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 854, in chat
+    return await self._request(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 692, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 632, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+2025-06-06 11:28:30,402 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2025-06-06 11:28:30,437 - lightrag - INFO - Document processing pipeline completed
+2025-06-06 11:28:32,796 - lightrag - INFO - Vector query: 3 chunks, top_k: 60
+2025-06-06 11:28:38,413 - lightrag - INFO - Creating a new event loop in main thread.
+2025-06-06 11:29:28,808 - lightrag - INFO - Created new empty graph
+2025-06-06 11:29:28,812 - lightrag - INFO - Process 2604828 KV load full_docs with 0 records
+2025-06-06 11:29:28,812 - lightrag - INFO - Process 2604828 KV load text_chunks with 0 records
+2025-06-06 11:29:28,821 - lightrag - INFO - Process 2604828 KV load llm_response_cache with 84 records
+2025-06-06 11:29:28,821 - lightrag - INFO - Process 2604828 doc status load doc_status with 0 records
+2025-06-06 11:29:28,821 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-06 11:29:28,822 - lightrag - INFO - Storage Initialization completed!
+2025-06-06 11:29:28,896 - lightrag - INFO - Stored 1 new unique documents
+2025-06-06 11:29:28,897 - lightrag - INFO - Processing 1 document(s)
+2025-06-06 11:29:28,897 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-06 11:29:28,897 - lightrag - INFO - Processing d-id: doc-8e956e338cafa11281135d777c67ec77
+2025-06-06 11:29:28,992 - lightrag - INFO - Chunk 1 of 119 extracted 18 Ent + 14 Rel
+2025-06-06 11:29:28,993 - lightrag - INFO - Chunk 2 of 119 extracted 4 Ent + 5 Rel
+2025-06-06 11:29:28,994 - lightrag - INFO - Chunk 3 of 119 extracted 3 Ent + 7 Rel
+2025-06-06 11:29:28,994 - lightrag - INFO - Chunk 4 of 119 extracted 2 Ent + 0 Rel
+2025-06-06 11:29:28,996 - lightrag - INFO - Chunk 5 of 119 extracted 9 Ent + 15 Rel
+2025-06-06 11:29:28,996 - lightrag - INFO - Chunk 6 of 119 extracted 5 Ent + 3 Rel
+2025-06-06 11:29:28,997 - lightrag - INFO - Chunk 7 of 119 extracted 5 Ent + 4 Rel
+2025-06-06 11:29:28,998 - lightrag - INFO - Chunk 8 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 11:29:28,999 - lightrag - INFO - Chunk 9 of 119 extracted 9 Ent + 3 Rel
+2025-06-06 11:29:29,000 - lightrag - INFO - Chunk 10 of 119 extracted 17 Ent + 10 Rel
+2025-06-06 11:29:29,001 - lightrag - INFO - Chunk 11 of 119 extracted 4 Ent + 3 Rel
+2025-06-06 11:29:29,002 - lightrag - INFO - Chunk 12 of 119 extracted 17 Ent + 13 Rel
+2025-06-06 11:29:29,003 - lightrag - INFO - Chunk 13 of 119 extracted 16 Ent + 16 Rel
+2025-06-06 11:29:29,004 - lightrag - INFO - Chunk 14 of 119 extracted 10 Ent + 9 Rel
+2025-06-06 11:29:29,005 - lightrag - INFO - Chunk 15 of 119 extracted 7 Ent + 9 Rel
+2025-06-06 11:29:29,006 - lightrag - INFO - Chunk 16 of 119 extracted 6 Ent + 6 Rel
+2025-06-06 11:29:29,007 - lightrag - INFO - Chunk 17 of 119 extracted 11 Ent + 8 Rel
+2025-06-06 11:29:29,008 - lightrag - INFO - Chunk 18 of 119 extracted 13 Ent + 13 Rel
+2025-06-06 11:29:29,009 - lightrag - INFO - Chunk 19 of 119 extracted 10 Ent + 10 Rel
+2025-06-06 11:29:29,010 - lightrag - INFO - Chunk 20 of 119 extracted 6 Ent + 0 Rel
+2025-06-06 11:29:29,010 - lightrag - INFO - Chunk 21 of 119 extracted 2 Ent + 2 Rel
+2025-06-06 11:29:29,011 - lightrag - INFO - Chunk 22 of 119 extracted 3 Ent + 4 Rel
+2025-06-06 11:29:29,012 - lightrag - INFO - Chunk 23 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 11:29:29,012 - lightrag - INFO - Chunk 24 of 119 extracted 2 Ent + 15 Rel
+2025-06-06 11:29:29,013 - lightrag - INFO - Chunk 25 of 119 extracted 7 Ent + 3 Rel
+2025-06-06 11:29:29,014 - lightrag - INFO - Chunk 26 of 119 extracted 9 Ent + 7 Rel
+2025-06-06 11:29:29,015 - lightrag - INFO - Chunk 27 of 119 extracted 8 Ent + 6 Rel
+2025-06-06 11:29:29,016 - lightrag - INFO - Chunk 28 of 119 extracted 12 Ent + 10 Rel
+2025-06-06 11:29:29,017 - lightrag - INFO - Chunk 29 of 119 extracted 4 Ent + 4 Rel
+2025-06-06 11:29:29,018 - lightrag - INFO - Chunk 30 of 119 extracted 9 Ent + 5 Rel
+2025-06-06 11:29:29,019 - lightrag - INFO - Chunk 31 of 119 extracted 13 Ent + 13 Rel
+2025-06-06 11:29:29,020 - lightrag - INFO - Chunk 32 of 119 extracted 6 Ent + 6 Rel
+2025-06-06 11:29:29,021 - lightrag - INFO - Chunk 33 of 119 extracted 12 Ent + 8 Rel
+2025-06-06 11:29:29,023 - lightrag - INFO - Chunk 34 of 119 extracted 10 Ent + 8 Rel
+2025-06-06 11:29:29,024 - lightrag - INFO - Chunk 35 of 119 extracted 15 Ent + 14 Rel
+2025-06-06 11:29:29,025 - lightrag - INFO - Chunk 36 of 119 extracted 5 Ent + 4 Rel
+2025-06-06 11:29:29,026 - lightrag - INFO - Chunk 37 of 119 extracted 13 Ent + 20 Rel
+2025-06-06 11:29:29,027 - lightrag - INFO - Chunk 38 of 119 extracted 14 Ent + 14 Rel
+2025-06-06 11:29:29,029 - lightrag - INFO - Chunk 39 of 119 extracted 15 Ent + 14 Rel
+2025-06-06 11:29:29,030 - lightrag - INFO - Chunk 40 of 119 extracted 8 Ent + 8 Rel
+2025-06-06 11:29:29,031 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-06 11:30:28,833 - lightrag - INFO -  == LLM cache == saving default: 80727b38a5e06006762ade4b38bf35f5
+2025-06-06 11:30:53,922 - lightrag - INFO -  == LLM cache == saving default: 8a42fec969a1ac8dda1d1b98675a57d2
+2025-06-06 11:31:43,664 - lightrag - INFO -  == LLM cache == saving default: ffdcd07bff47f479e95c8d3f66dd0fe6
+2025-06-06 11:31:43,666 - lightrag - INFO - Chunk 41 of 119 extracted 7 Ent + 7 Rel
+2025-06-06 11:32:58,615 - lightrag - INFO -  == LLM cache == saving default: 615d24e95affc1bec667eded265d407b
+2025-06-06 11:32:58,617 - lightrag - INFO - Chunk 42 of 119 extracted 18 Ent + 5 Rel
+2025-06-06 11:33:51,233 - lightrag - INFO -  == LLM cache == saving default: 7dca51cf8d936d01e578fea511ff767f
+2025-06-06 11:33:51,234 - lightrag - INFO - Chunk 43 of 119 extracted 11 Ent + 9 Rel
+2025-06-06 11:34:27,917 - lightrag - INFO -  == LLM cache == saving default: 9eb108b5fde2ddd5647769aaa8f9b5ff
+2025-06-06 11:34:27,918 - lightrag - INFO - Chunk 44 of 119 extracted 6 Ent + 5 Rel
+2025-06-06 11:34:53,233 - lightrag - INFO -  == LLM cache == saving default: eddd2f25e048101de9bed73802d17a59
+2025-06-06 11:35:38,405 - lightrag - INFO -  == LLM cache == saving default: d4a187d731be54c5a38b5409e5ffddff
+2025-06-06 11:36:17,718 - lightrag - INFO -  == LLM cache == saving default: 0f6742d458d8da2102beaa3dafb713be
+2025-06-06 11:37:07,377 - lightrag - INFO -  == LLM cache == saving default: f9666859be19eb7a67f17a0783e0e531
+2025-06-06 11:37:58,075 - lightrag - INFO -  == LLM cache == saving default: 028f95a33e85e10525f8b5e2b5cca997
+2025-06-06 11:37:58,076 - lightrag - INFO - Chunk 45 of 119 extracted 5 Ent + 4 Rel
+2025-06-06 11:39:31,646 - lightrag - INFO -  == LLM cache == saving default: 36562b1c06408d3e6ab8370c3202b055
+2025-06-06 11:39:31,647 - lightrag - INFO - Chunk 46 of 119 extracted 11 Ent + 6 Rel
+2025-06-06 11:40:14,475 - lightrag - INFO -  == LLM cache == saving default: 65e93fe83fd5f58b074b871373abd9bb
+2025-06-06 11:40:14,476 - lightrag - INFO - Chunk 47 of 119 extracted 6 Ent + 5 Rel
+2025-06-06 11:41:08,234 - lightrag - INFO -  == LLM cache == saving default: 78d6f144490869d89a6a5a9bd6e36495
+2025-06-06 11:41:08,234 - lightrag - INFO - Chunk 48 of 119 extracted 9 Ent + 6 Rel
+2025-06-06 11:41:47,777 - lightrag - INFO -  == LLM cache == saving default: dd1de54adf8062aec8ea558ad400414b
+2025-06-06 11:42:23,380 - lightrag - INFO -  == LLM cache == saving default: ee87067fda37ca286d52c6cd5e4d4a1c
+2025-06-06 11:42:51,900 - lightrag - INFO -  == LLM cache == saving default: 83f4ef66f2302e939dec867a1422df43
+2025-06-06 11:43:42,181 - lightrag - INFO -  == LLM cache == saving default: 894f7a924c2e3977784383a4d2a44cb5
+2025-06-06 11:44:25,546 - lightrag - INFO -  == LLM cache == saving default: 5f600944018e58908e1b4510b806bc6c
+2025-06-06 11:44:25,547 - lightrag - INFO - Chunk 49 of 119 extracted 7 Ent + 5 Rel
+2025-06-06 11:45:10,788 - lightrag - INFO -  == LLM cache == saving default: 9d43c9cdc6fb9715dd14d7a544fa678f
+2025-06-06 11:45:10,789 - lightrag - INFO - Chunk 50 of 119 extracted 6 Ent + 4 Rel
+2025-06-06 11:45:56,380 - lightrag - INFO -  == LLM cache == saving default: dda7be632a8f7c9dd82368a7e305b572
+2025-06-06 11:45:56,381 - lightrag - INFO - Chunk 51 of 119 extracted 9 Ent + 4 Rel
+2025-06-06 11:47:01,173 - lightrag - INFO -  == LLM cache == saving default: 2dda8a3226cea92985fa888d7623129c
+2025-06-06 11:47:01,173 - lightrag - INFO - Chunk 52 of 119 extracted 7 Ent + 6 Rel
+2025-06-06 11:47:46,261 - lightrag - INFO -  == LLM cache == saving default: b8e8e64a3ac3837dc589b10c16918179
+2025-06-06 11:48:27,298 - lightrag - INFO -  == LLM cache == saving default: d3202603c1e05d409bfddb134aa0c293
+2025-06-06 11:48:46,673 - lightrag - INFO -  == LLM cache == saving default: 28b4552ac9f0a5826cb24289c104d51d
+2025-06-06 11:49:23,514 - lightrag - INFO -  == LLM cache == saving default: dd2dd0083fcaffbc84696315b878b394
+2025-06-06 11:50:19,265 - lightrag - INFO -  == LLM cache == saving default: f513b76a5cc86da597b47f0dc7eb88f4
+2025-06-06 11:50:19,266 - lightrag - INFO - Chunk 53 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 11:51:18,302 - lightrag - INFO -  == LLM cache == saving default: 35806a9b3d06ac6e71cd640567dbae12
+2025-06-06 11:51:18,303 - lightrag - INFO - Chunk 54 of 119 extracted 6 Ent + 4 Rel
+2025-06-06 11:53:05,155 - lightrag - INFO -  == LLM cache == saving default: 0becb45dc9f0dbcfe44a37c767f1df87
+2025-06-06 11:53:05,159 - lightrag - INFO - Chunk 55 of 119 extracted 20 Ent + 24 Rel
+2025-06-06 11:53:44,353 - lightrag - INFO -  == LLM cache == saving default: ca7442bc14253671b2e476d454a29167
+2025-06-06 11:53:44,354 - lightrag - INFO - Chunk 56 of 119 extracted 4 Ent + 4 Rel
+2025-06-06 11:54:28,872 - lightrag - INFO -  == LLM cache == saving default: 5608ac6d25e7fe04e161f5d277eb9b35
+2025-06-06 11:55:23,816 - lightrag - INFO -  == LLM cache == saving default: b78b61872fdedeee32670ca35d61b5a3
+2025-06-06 11:55:45,584 - lightrag - INFO -  == LLM cache == saving default: 59068542735d9f4f488f24977b9ee2ee
+2025-06-06 11:56:27,968 - lightrag - INFO -  == LLM cache == saving default: c0e369d4f2e4c03b8c68c31ef44cc860
+2025-06-06 11:57:24,215 - lightrag - INFO -  == LLM cache == saving default: c501ae1fc62d645d528f6f581f60922b
+2025-06-06 11:57:24,216 - lightrag - INFO - Chunk 57 of 119 extracted 18 Ent + 13 Rel
+2025-06-06 11:59:53,398 - lightrag - INFO -  == LLM cache == saving default: 7240d9f80648f9ddb21a7fa86fa93407
+2025-06-06 11:59:53,400 - lightrag - INFO - Chunk 58 of 119 extracted 24 Ent + 29 Rel
+2025-06-06 12:00:51,660 - lightrag - INFO -  == LLM cache == saving default: 7be8751cdb82017bc894f2d97507b0b0
+2025-06-06 12:00:51,662 - lightrag - INFO - Chunk 59 of 119 extracted 10 Ent + 9 Rel
+2025-06-06 12:02:07,435 - lightrag - INFO -  == LLM cache == saving default: 2b017c854f3136e411e25494201f0c34
+2025-06-06 12:02:07,437 - lightrag - INFO - Chunk 60 of 119 extracted 14 Ent + 12 Rel
+2025-06-06 12:03:21,393 - lightrag - INFO -  == LLM cache == saving default: 0aec7611773296a512b863331f898ce5
+2025-06-06 12:03:46,501 - lightrag - INFO -  == LLM cache == saving default: 983bc9ff1eb8575301dd10203b291454
+2025-06-06 12:04:24,511 - lightrag - INFO -  == LLM cache == saving default: a665f6b3dda6826562fbeff1da045a40
+2025-06-06 12:04:55,187 - lightrag - INFO -  == LLM cache == saving default: 386f55d9ab7223e035f02eb77abf5a59
+2025-06-06 12:06:03,245 - lightrag - INFO -  == LLM cache == saving default: e72b4b28eb8937e5c89c935cc1ea818c
+2025-06-06 12:06:03,246 - lightrag - INFO - Chunk 61 of 119 extracted 8 Ent + 9 Rel
+2025-06-06 12:07:34,896 - lightrag - INFO -  == LLM cache == saving default: 98595a71e71fadaaf2e0aedcd6473ffb
+2025-06-06 12:07:34,899 - lightrag - INFO - Chunk 62 of 119 extracted 7 Ent + 8 Rel
+2025-06-06 12:08:57,524 - lightrag - INFO -  == LLM cache == saving default: 08275610eff85fbf73ac2c24bbc90408
+2025-06-06 12:08:57,527 - lightrag - INFO - Chunk 63 of 119 extracted 19 Ent + 18 Rel
+2025-06-06 12:09:43,018 - lightrag - INFO -  == LLM cache == saving default: b106f3898f3037fd5d7a6acb4ddabab0
+2025-06-06 12:09:43,019 - lightrag - INFO - Chunk 64 of 119 extracted 3 Ent + 2 Rel
+2025-06-06 12:10:45,461 - lightrag - INFO -  == LLM cache == saving default: 635403b25d538c31746d042df67f4a0d
+2025-06-06 12:11:25,992 - lightrag - INFO -  == LLM cache == saving default: aab3c251ceb9ef9b5de35c29a02c261e
+2025-06-06 12:12:35,930 - lightrag - INFO -  == LLM cache == saving default: adb6ae8db097b7ca55817d8a36c39904
+2025-06-06 12:14:32,742 - lightrag - INFO -  == LLM cache == saving default: 9a64c8016ae2b27331638864dc64f6aa
+2025-06-06 12:15:14,458 - lightrag - INFO -  == LLM cache == saving default: 74f658fe3102b79ebd625457c2c7401b
+2025-06-06 12:15:14,459 - lightrag - INFO - Chunk 65 of 119 extracted 4 Ent + 8 Rel
+2025-06-06 12:16:58,153 - lightrag - INFO -  == LLM cache == saving default: 95bf7dfb3d2f1736c63e956843b8b9b3
+2025-06-06 12:16:58,158 - lightrag - INFO - Chunk 66 of 119 extracted 19 Ent + 20 Rel
+2025-06-06 12:18:02,039 - lightrag - INFO -  == LLM cache == saving default: cff51a778ac97be3b69edfa2b0fe686b
+2025-06-06 12:18:02,041 - lightrag - INFO - Chunk 67 of 119 extracted 11 Ent + 9 Rel
+2025-06-06 12:19:16,456 - lightrag - INFO -  == LLM cache == saving default: c87c132d969d59572bab85d979f0cddd
+2025-06-06 12:19:16,458 - lightrag - INFO - Chunk 68 of 119 extracted 13 Ent + 13 Rel
+2025-06-06 12:19:56,566 - lightrag - INFO -  == LLM cache == saving default: 342ebdfa48a97536e0bf7c4c7ac9b68a
+2025-06-06 12:20:40,966 - lightrag - INFO -  == LLM cache == saving default: 5b17ea52c4110eef4188dbeaa070c9fc
+2025-06-06 12:21:57,571 - lightrag - INFO -  == LLM cache == saving default: f92ffb6588993044ddd0ec02d0d84a95
+2025-06-06 12:22:39,357 - lightrag - INFO -  == LLM cache == saving default: e794ead5a6257a9b67e720ef2128ed81
+2025-06-06 12:23:36,820 - lightrag - INFO -  == LLM cache == saving default: 1c57781553793e5ffb22d6c09dedcc87
+2025-06-06 12:23:36,821 - lightrag - INFO - Chunk 69 of 119 extracted 5 Ent + 5 Rel
+2025-06-06 12:24:25,428 - lightrag - INFO -  == LLM cache == saving default: 50130586d0a6a0bc2e046306d11073f8
+2025-06-06 12:24:25,429 - lightrag - INFO - Chunk 70 of 119 extracted 6 Ent + 7 Rel
+2025-06-06 12:25:42,644 - lightrag - INFO -  == LLM cache == saving default: 56a7a92426c17e8da8bf3767a416ac50
+2025-06-06 12:25:42,645 - lightrag - INFO - Chunk 71 of 119 extracted 16 Ent + 13 Rel
+2025-06-06 12:26:35,718 - lightrag - INFO -  == LLM cache == saving default: a96746b53e0af6366465c4e6b2e30ea6
+2025-06-06 12:26:35,719 - lightrag - INFO - Chunk 72 of 119 extracted 3 Ent + 4 Rel
+2025-06-06 12:27:08,392 - lightrag - INFO -  == LLM cache == saving default: 8a2dbea078ff9030c224ec65cf163abe
+2025-06-06 12:27:49,942 - lightrag - INFO -  == LLM cache == saving default: c21de1fcb5a5f71b84773579df6f7c59
+2025-06-06 12:28:37,745 - lightrag - INFO -  == LLM cache == saving default: 61eee06c3a1d441f8f3748f9083c0024
+2025-06-06 12:29:16,152 - lightrag - INFO -  == LLM cache == saving default: 4f3ef60b18930afd34e8b8cf93065a20
+2025-06-06 12:29:54,599 - lightrag - INFO -  == LLM cache == saving default: a083eea42a43e39c185a433263364644
+2025-06-06 12:29:54,600 - lightrag - INFO - Chunk 73 of 119 extracted 4 Ent + 3 Rel
+2025-06-06 12:30:35,932 - lightrag - INFO -  == LLM cache == saving default: 64ccdc501b82e1b65a11bef2d6e3f669
+2025-06-06 12:30:35,934 - lightrag - INFO - Chunk 74 of 119 extracted 8 Ent + 6 Rel
+2025-06-06 12:31:45,222 - lightrag - INFO -  == LLM cache == saving default: c26f752c0c8d4f8700b5b425de423369
+2025-06-06 12:31:45,223 - lightrag - INFO - Chunk 75 of 119 extracted 10 Ent + 9 Rel
+2025-06-06 12:32:37,351 - lightrag - INFO -  == LLM cache == saving default: d49c7a1bdd1bc370d55a3418d892db0d
+2025-06-06 12:32:37,353 - lightrag - INFO - Chunk 76 of 119 extracted 9 Ent + 8 Rel
+2025-06-06 12:33:36,726 - lightrag - INFO -  == LLM cache == saving default: f61c1df42a63b636a95df3e2ce3a6a7d
+2025-06-06 12:34:56,723 - lightrag - INFO -  == LLM cache == saving default: 7baf9b955761f8934c78d45993445c4c
+2025-06-06 12:36:56,643 - lightrag - INFO -  == LLM cache == saving default: 1b1d79e46c517051a799a267c40abe6b
+2025-06-06 12:37:34,086 - lightrag - INFO -  == LLM cache == saving default: 627356c262a6f1fdd2eeb103a61b372a
+2025-06-06 12:38:34,714 - lightrag - INFO -  == LLM cache == saving default: 8458647277b227230710facec0cf9b43
+2025-06-06 12:38:34,715 - lightrag - INFO - Chunk 77 of 119 extracted 12 Ent + 1 Rel
+2025-06-06 12:40:04,660 - lightrag - INFO -  == LLM cache == saving default: 944f2059eba9f6c8823ec7eca4c7245e
+2025-06-06 12:40:04,662 - lightrag - INFO - Chunk 78 of 119 extracted 15 Ent + 14 Rel
+2025-06-06 12:41:31,002 - lightrag - INFO -  == LLM cache == saving default: 3b382e9d15ecc7350c3f9695575bff57
+2025-06-06 12:41:31,004 - lightrag - INFO - Chunk 79 of 119 extracted 14 Ent + 14 Rel
+2025-06-06 12:42:12,631 - lightrag - INFO -  == LLM cache == saving default: 62511214c7f2c79525da914ea1227f57
+2025-06-06 12:42:12,632 - lightrag - INFO - Chunk 80 of 119 extracted 6 Ent + 5 Rel
+2025-06-06 12:42:42,383 - lightrag - INFO -  == LLM cache == saving default: c4a4c7341f3bc4102e22f70253c4b5a9
+2025-06-06 12:43:37,398 - lightrag - INFO -  == LLM cache == saving default: c44c9f9c069a5e8aae79bd378a609249
+2025-06-06 12:44:08,708 - lightrag - INFO -  == LLM cache == saving default: 237c3b55c91e9a0b0718df5c61d6da72
+2025-06-06 12:44:40,308 - lightrag - INFO -  == LLM cache == saving default: c2909a695617b177fd8f705daae79825
+2025-06-06 12:45:15,479 - lightrag - INFO -  == LLM cache == saving default: 267d5e1a8f1278754f4f902eb5c67e36
+2025-06-06 12:45:15,480 - lightrag - INFO - Chunk 81 of 119 extracted 6 Ent + 5 Rel
+2025-06-06 12:46:19,794 - lightrag - INFO -  == LLM cache == saving default: 9b34bcec59d66cf79da621117fc2668c
+2025-06-06 12:46:19,795 - lightrag - INFO - Chunk 82 of 119 extracted 10 Ent + 9 Rel
+2025-06-06 12:46:56,618 - lightrag - INFO -  == LLM cache == saving default: 05447b161e4e31a74a4d2e88b9596ec2
+2025-06-06 12:46:56,619 - lightrag - INFO - Chunk 83 of 119 extracted 5 Ent + 2 Rel
+2025-06-06 12:48:22,764 - lightrag - INFO -  == LLM cache == saving default: d8f7670f88984bc4b42ec43153d86e02
+2025-06-06 12:48:22,766 - lightrag - INFO - Chunk 84 of 119 extracted 10 Ent + 19 Rel
+2025-06-06 12:49:27,404 - lightrag - INFO -  == LLM cache == saving default: 71e13948db13f16de746544039ccd228
+2025-06-06 12:50:17,187 - lightrag - INFO -  == LLM cache == saving default: 90ff9fcd9e2bd181d1fab0cdfd14da23
+2025-06-06 12:50:43,036 - lightrag - INFO -  == LLM cache == saving default: d4f98a08ca83d1d1507af9f188a84948
+2025-06-06 12:51:07,477 - lightrag - INFO -  == LLM cache == saving default: 6331e0b9c7874129d197055956f0cdb0
+2025-06-06 12:52:16,231 - lightrag - INFO -  == LLM cache == saving default: b053390bda6fa87b9df096bc924875b3
+2025-06-06 12:52:16,233 - lightrag - INFO - Chunk 85 of 119 extracted 9 Ent + 12 Rel
+2025-06-06 12:53:19,896 - lightrag - INFO -  == LLM cache == saving default: e067a76dd7dd4b5b5ba2512268f73aca
+2025-06-06 12:53:19,898 - lightrag - INFO - Chunk 86 of 119 extracted 13 Ent + 14 Rel
+2025-06-06 12:54:20,976 - lightrag - INFO -  == LLM cache == saving default: 080d0283c649a4f227ebf092004fd387
+2025-06-06 12:54:20,978 - lightrag - INFO - Chunk 87 of 119 extracted 4 Ent + 8 Rel
+2025-06-06 12:54:51,542 - lightrag - INFO -  == LLM cache == saving default: b5dbef62bbdafc116a1bea219fc013cf
+2025-06-06 12:54:51,542 - lightrag - INFO - Chunk 88 of 119 extracted 1 Ent + 1 Rel
+2025-06-06 12:55:19,213 - lightrag - INFO -  == LLM cache == saving default: d73c7ae1767949d5ee3aed0796333bd1
+2025-06-06 12:55:58,285 - lightrag - INFO -  == LLM cache == saving default: 931249dc512ebf8ce1ade238bc3eb2ed
+2025-06-06 12:56:55,035 - lightrag - INFO -  == LLM cache == saving default: 794b2f27d19330b8a0ae2d3ffa758705
+2025-06-06 12:58:03,446 - lightrag - INFO -  == LLM cache == saving default: 247735012be4d05e4d279e49eff32821
+2025-06-06 12:59:03,342 - lightrag - INFO -  == LLM cache == saving default: 02103eb550864120e2811fca0d9e9c13
+2025-06-06 12:59:03,343 - lightrag - INFO - Chunk 89 of 119 extracted 12 Ent + 11 Rel
+2025-06-06 13:00:27,918 - lightrag - INFO -  == LLM cache == saving default: b3c18c8b420545a7daeb69316e8b6e96
+2025-06-06 13:00:27,920 - lightrag - INFO - Chunk 90 of 119 extracted 17 Ent + 13 Rel
+2025-06-06 13:01:25,535 - lightrag - INFO -  == LLM cache == saving default: 6745e23aa59870c6d1522be4a3e6be52
+2025-06-06 13:01:25,537 - lightrag - INFO - Chunk 91 of 119 extracted 14 Ent + 5 Rel
+2025-06-06 13:02:30,007 - lightrag - INFO -  == LLM cache == saving default: d70eec62409212d0aa14d4dd9d96fe77
+2025-06-06 13:02:30,008 - lightrag - INFO - Chunk 92 of 119 extracted 14 Ent + 7 Rel
+2025-06-06 13:03:12,613 - lightrag - INFO -  == LLM cache == saving default: 7738ff2ea6424b1885d34b21ba835997
+2025-06-06 13:03:41,719 - lightrag - INFO -  == LLM cache == saving default: 4a8e78c7b2e8221677e2394cefefc27a
+2025-06-06 13:04:19,937 - lightrag - INFO -  == LLM cache == saving default: 9b6296533882851332743c3b0e0527ee
+2025-06-06 13:05:00,348 - lightrag - INFO -  == LLM cache == saving default: 505ace766bb9fc6c77c049c3d13949fc
+2025-06-06 13:05:45,872 - lightrag - INFO -  == LLM cache == saving default: 4228d71e39897e162ecf9d19ff24658c
+2025-06-06 13:05:45,872 - lightrag - INFO - Chunk 93 of 119 extracted 10 Ent + 5 Rel
+2025-06-06 13:06:52,344 - lightrag - INFO -  == LLM cache == saving default: 26f4d415dc0e4703c7b7a61fa4e470ea
+2025-06-06 13:06:52,345 - lightrag - INFO - Chunk 94 of 119 extracted 7 Ent + 7 Rel
+2025-06-06 13:07:36,788 - lightrag - INFO -  == LLM cache == saving default: 71089f1ac14f3c39e01a11f4c5074f57
+2025-06-06 13:07:36,790 - lightrag - INFO - Chunk 95 of 119 extracted 8 Ent + 6 Rel
+2025-06-06 13:08:25,125 - lightrag - INFO -  == LLM cache == saving default: e0adae550b471e4ba4118d5d2aa465a7
+2025-06-06 13:08:25,126 - lightrag - INFO - Chunk 96 of 119 extracted 4 Ent + 4 Rel
+2025-06-06 13:09:43,527 - lightrag - INFO -  == LLM cache == saving default: 936e94ab8309e7d67f07e01cbe1a2a65
+2025-06-06 13:10:34,558 - lightrag - INFO -  == LLM cache == saving default: d48102fbcb48f773573daeeb13a91be4
+2025-06-06 13:11:03,189 - lightrag - INFO -  == LLM cache == saving default: 402c8182d17dd56a5acc4cbdd000a8d6
+2025-06-06 13:12:02,366 - lightrag - INFO -  == LLM cache == saving default: 351ae6273f2d873ad9cee6f1bb0f991d
+2025-06-06 13:13:23,421 - lightrag - INFO -  == LLM cache == saving default: bc19a2437bad0d22b63b6a3393da0fad
+2025-06-06 13:13:23,423 - lightrag - INFO - Chunk 97 of 119 extracted 15 Ent + 25 Rel
+2025-06-06 13:13:57,087 - lightrag - INFO -  == LLM cache == saving default: 560a8c95c7537812944cca193f155eb2
+2025-06-06 13:13:57,088 - lightrag - INFO - Chunk 98 of 119 extracted 9 Ent + 8 Rel
+2025-06-06 13:14:29,009 - lightrag - INFO -  == LLM cache == saving default: bc1416215e2e97d424108c7b94084513
+2025-06-06 13:14:29,010 - lightrag - INFO - Chunk 99 of 119 extracted 4 Ent + 3 Rel
+2025-06-06 13:15:32,420 - lightrag - INFO -  == LLM cache == saving default: 769eff37875a61fddf9ac89c9b652d61
+2025-06-06 13:15:32,422 - lightrag - INFO - Chunk 100 of 119 extracted 13 Ent + 12 Rel
+2025-06-06 13:15:57,145 - lightrag - INFO -  == LLM cache == saving default: 1d83dfa9ca28a1700578ce22be0603d0
+2025-06-06 13:16:31,518 - lightrag - INFO -  == LLM cache == saving default: 5f0ec5d6ccda1cb0fc337086927d9e05
+2025-06-06 13:17:25,779 - lightrag - INFO -  == LLM cache == saving default: 4bcbd10ad22b3c35a3f086bd47f79317
+2025-06-06 13:18:35,625 - lightrag - INFO -  == LLM cache == saving default: bcb4d66da3d01af9b22e3b2cd52fa43f
+2025-06-06 13:18:55,126 - lightrag - INFO -  == LLM cache == saving default: dc658b7299361071688347f2c8dd79fd
+2025-06-06 13:18:55,126 - lightrag - INFO - Chunk 101 of 119 extracted 1 Ent + 0 Rel
+2025-06-06 13:19:34,488 - lightrag - INFO -  == LLM cache == saving default: f7503eaed8aa874029c2015592131928
+2025-06-06 13:19:34,489 - lightrag - INFO - Chunk 102 of 119 extracted 8 Ent + 5 Rel
+2025-06-06 13:19:55,098 - lightrag - INFO -  == LLM cache == saving default: 59b54339604e8d836c779819a415cdba
+2025-06-06 13:19:55,099 - lightrag - INFO - Chunk 103 of 119 extracted 13 Ent + 12 Rel
+2025-06-06 13:21:06,933 - lightrag - INFO -  == LLM cache == saving default: 86cb4131184093384958ba017dc64b2b
+2025-06-06 13:21:06,936 - lightrag - INFO - Chunk 104 of 119 extracted 13 Ent + 12 Rel
+2025-06-06 13:23:30,909 - lightrag - INFO -  == LLM cache == saving default: bbf58b1770ecf3c079a10ca0de495eb6
+2025-06-06 13:24:28,857 - lightrag - INFO -  == LLM cache == saving default: 259a4526de2d717a267dc8023dec6b83
+2025-06-06 13:25:59,185 - lightrag - INFO -  == LLM cache == saving default: 25fbfa7075ef426b10e60070c70712e8
+2025-06-06 13:26:27,647 - lightrag - INFO -  == LLM cache == saving default: 97915681a0b0afa68264383f0842fd65
+2025-06-06 13:27:36,408 - lightrag - INFO -  == LLM cache == saving default: 3f43ef1559f8da580c5217d65aface53
+2025-06-06 13:27:36,410 - lightrag - INFO - Chunk 105 of 119 extracted 14 Ent + 0 Rel
+2025-06-06 13:28:15,486 - lightrag - INFO -  == LLM cache == saving default: 14d3bc304ffbca175b2475d3f2c9386b
+2025-06-06 13:28:15,488 - lightrag - INFO - Chunk 106 of 119 extracted 6 Ent + 5 Rel
+2025-06-06 13:29:04,006 - lightrag - INFO -  == LLM cache == saving default: abcb0139f83326d8eedcacbe4a16e4f0
+2025-06-06 13:29:04,008 - lightrag - INFO - Chunk 107 of 119 extracted 20 Ent + 10 Rel
+2025-06-06 13:29:40,248 - lightrag - INFO -  == LLM cache == saving default: e156a9e1b1d64f613b777cfee7522430
+2025-06-06 13:29:40,249 - lightrag - INFO - Chunk 108 of 119 extracted 4 Ent + 2 Rel
+2025-06-06 13:30:51,352 - lightrag - INFO -  == LLM cache == saving default: 6dfc1245ae9ccedd01249064c1e86ce1
+2025-06-06 13:32:18,686 - lightrag - INFO -  == LLM cache == saving default: d99ae5c9ee9c48bdd3eb5cd2e034ee9d
+2025-06-06 13:32:57,376 - lightrag - INFO -  == LLM cache == saving default: be21c95ea135967fba1b92ca1463f636
+2025-06-06 13:33:41,919 - lightrag - INFO -  == LLM cache == saving default: 26b9d5bb2ca9103c2d7ebea17ccc3705
+2025-06-06 13:34:40,192 - lightrag - INFO -  == LLM cache == saving default: b0b41579bb0a4732cbcd2122a9336de9
+2025-06-06 13:34:40,194 - lightrag - INFO - Chunk 109 of 119 extracted 11 Ent + 15 Rel
+2025-06-06 13:36:12,686 - lightrag - INFO -  == LLM cache == saving default: fa7ca4af80eda67ecc12a0983ce5e418
+2025-06-06 13:36:12,688 - lightrag - INFO - Chunk 110 of 119 extracted 17 Ent + 16 Rel
+2025-06-06 13:37:03,145 - lightrag - INFO -  == LLM cache == saving default: 44baa6386db0305f0788e8c0d913e714
+2025-06-06 13:37:03,147 - lightrag - INFO - Chunk 111 of 119 extracted 6 Ent + 6 Rel
+2025-06-06 13:38:03,327 - lightrag - INFO -  == LLM cache == saving default: 6c9811b786df30d99d0c00fa96d78b9d
+2025-06-06 13:38:03,328 - lightrag - INFO - Chunk 112 of 119 extracted 11 Ent + 6 Rel
+2025-06-06 13:38:52,993 - lightrag - INFO -  == LLM cache == saving default: 5ba5ee604ddda3856c6728d42fa83e55
+2025-06-06 13:39:41,121 - lightrag - INFO -  == LLM cache == saving default: 65360672c843c9e39b338999a6359275
+2025-06-06 13:40:14,992 - lightrag - INFO -  == LLM cache == saving default: db38a6c842066554bb30155197d4d1cb
+2025-06-06 13:41:12,499 - lightrag - INFO -  == LLM cache == saving default: c1ea409a52c916913bd6a6ebfee90fcf
+2025-06-06 13:42:07,002 - lightrag - INFO -  == LLM cache == saving default: d1f6cab44f87a23369ae9dfb226d4070
+2025-06-06 13:42:07,003 - lightrag - INFO - Chunk 113 of 119 extracted 12 Ent + 6 Rel
+2025-06-06 13:42:51,717 - lightrag - INFO -  == LLM cache == saving default: 0d85632eb4aa54f020fb4c316f39a6b4
+2025-06-06 13:42:51,717 - lightrag - INFO - Chunk 114 of 119 extracted 9 Ent + 7 Rel
+2025-06-06 13:44:01,597 - lightrag - INFO -  == LLM cache == saving default: 771d58873553de3135565d7dada227c3
+2025-06-06 13:44:01,599 - lightrag - INFO - Chunk 115 of 119 extracted 14 Ent + 11 Rel
+2025-06-06 13:45:14,048 - lightrag - INFO -  == LLM cache == saving default: 8028a60dd7562c6196cda7255ca70c1f
+2025-06-06 13:45:14,050 - lightrag - INFO - Chunk 116 of 119 extracted 14 Ent + 12 Rel
+2025-06-06 13:45:46,773 - lightrag - INFO -  == LLM cache == saving default: 90b790a155ac04da34b3c3d4a303acb5
+2025-06-06 13:46:17,227 - lightrag - INFO -  == LLM cache == saving default: 469a725f1d183a450734320729577ca1
+2025-06-06 13:46:41,413 - lightrag - INFO -  == LLM cache == saving default: 6261079803bf8f1449515b71413e99b1
+2025-06-06 13:47:18,091 - lightrag - INFO -  == LLM cache == saving default: bf4d495bb14bbf18a3849c0a53fea55d
+2025-06-06 13:47:18,091 - lightrag - INFO - Chunk 117 of 119 extracted 7 Ent + 3 Rel
+2025-06-06 13:47:46,847 - lightrag - INFO -  == LLM cache == saving default: d641caac33dcb48cfa38e6581509ad8f
+2025-06-06 13:47:46,848 - lightrag - INFO - Chunk 118 of 119 extracted 4 Ent + 2 Rel
+2025-06-06 13:48:32,783 - lightrag - INFO -  == LLM cache == saving default: eff8f65d638eb859b03f9f30a5fbf942
+2025-06-06 13:48:32,784 - lightrag - INFO - Chunk 119 of 119 extracted 3 Ent + 2 Rel
+2025-06-06 13:48:32,802 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-06 13:48:32,803 - lightrag - INFO - Merge N: Ear (open) | 4+0
+2025-06-06 13:48:32,803 - lightrag - INFO - Merge N: Nothing Ear | 4+0
+2025-06-06 13:48:32,803 - lightrag - INFO - Merge N: Apple | 3+0
+2025-06-06 13:48:32,803 - lightrag - INFO - Merge N: CMF Watch App | 4+0
+2025-06-06 13:48:32,803 - lightrag - INFO - Merge N: iPhone | 5+0
+2025-06-06 13:48:32,803 - lightrag - INFO - LLM merge N: Android | 8+0
+2025-06-06 13:48:44,248 - lightrag - INFO -  == LLM cache == saving default: 299233a5561bcdf0e85e49a880b7ba96
+2025-06-06 13:48:44,248 - lightrag - INFO - Merge N: German | 2+0
+2025-06-06 13:48:44,248 - lightrag - INFO - Merge N: Spanish | 2+0
+2025-06-06 13:48:44,248 - lightrag - INFO - Merge N: French | 2+0
+2025-06-06 13:48:44,249 - lightrag - INFO - Merge N: Italian | 2+0
+2025-06-06 13:48:44,249 - lightrag - INFO - Merge N: Japanese | 2+0
+2025-06-06 13:48:44,249 - lightrag - INFO - Merge N: Korean | 2+0
+2025-06-06 13:48:44,249 - lightrag - INFO - Merge N: Arabic | 2+0
+2025-06-06 13:48:44,249 - lightrag - INFO - Merge N: English | 2+0
+2025-06-06 13:48:44,249 - lightrag - INFO - Merge N: Simplified Chinese | 2+0
+2025-06-06 13:48:44,249 - lightrag - INFO - Merge N: CMF Watch | 2+0
+2025-06-06 13:48:44,249 - lightrag - INFO - Merge N: Nothing Support Team | 3+0
+2025-06-06 13:48:44,250 - lightrag - INFO - LLM merge N: Customer Support | 13+0
+2025-06-06 13:49:08,028 - lightrag - INFO -  == LLM cache == saving default: 9b94bda5648bb0c2ad8cd88d92295d42
+2025-06-06 13:49:08,029 - lightrag - INFO - LLM merge N: Google Play Store | 11+0
+2025-06-06 13:49:24,253 - lightrag - INFO -  == LLM cache == saving default: 798b8e0f7edca77099df039390eccee9
+2025-06-06 13:49:24,254 - lightrag - INFO - LLM merge N: Nothing X app | 13+0
+2025-06-06 13:50:03,588 - lightrag - INFO -  == LLM cache == saving default: 1fc743afe15b6908e4374388ad983995
+2025-06-06 13:50:03,589 - lightrag - INFO - LLM merge N: iOS App Store | 6+0
+2025-06-06 13:50:28,454 - lightrag - INFO -  == LLM cache == saving default: c233eeb1ef0d406ec6b2baf2ae4902ec
+2025-06-06 13:50:28,457 - lightrag - INFO - LLM merge N: Nothing | 21+0
+2025-06-06 13:50:56,805 - lightrag - INFO -  == LLM cache == saving default: 407d6bac94dc907fd88eecaef226573e
+2025-06-06 13:50:56,805 - lightrag - INFO - LLM merge N: Watch Pro | 12+0
+2025-06-06 13:51:24,371 - lightrag - INFO -  == LLM cache == saving default: 8208cc18b270c2874226ebe85bd71bc2
+2025-06-06 13:51:24,372 - lightrag - INFO - LLM merge N: Nothing OS | 6+0
+2025-06-06 13:51:42,386 - lightrag - INFO -  == LLM cache == saving default: 823ef7c9eb53779b2eea65417ffad334
+2025-06-06 13:51:42,387 - lightrag - INFO - LLM merge N: CMF Watch app | 13+0
+2025-06-06 13:51:54,759 - lightrag - INFO -  == LLM cache == saving default: bfba84bedccd835c6cad70d5ba24780c
+2025-06-06 13:51:54,760 - lightrag - INFO - LLM merge N: Nothing X App | 15+0
+2025-06-06 13:52:13,972 - lightrag - INFO -  == LLM cache == saving default: aca720e54f5bdfd1a1c5bf6945082d16
+2025-06-06 13:52:13,972 - lightrag - INFO - Merge N: CMF Buds Pro 2 | 3+0
+2025-06-06 13:52:13,972 - lightrag - INFO - LLM merge N: Charging Case | 6+0
+2025-06-06 13:52:31,847 - lightrag - INFO -  == LLM cache == saving default: 26d43f027a8cddf8caf213fffb2fcf0f
+2025-06-06 13:52:31,847 - lightrag - INFO - Merge N: CMF Buds 2 | 2+0
+2025-06-06 13:52:31,847 - lightrag - INFO - Merge N: Nothing X | 3+0
+2025-06-06 13:52:31,847 - lightrag - INFO - LLM merge N: Google Play | 8+0
+2025-06-06 13:52:56,215 - lightrag - INFO -  == LLM cache == saving default: 412b548103f1af6caf927c678f257ab2
+2025-06-06 13:52:56,216 - lightrag - INFO - LLM merge N: LDAC | 6+0
+2025-06-06 13:53:17,891 - lightrag - INFO -  == LLM cache == saving default: 9604fc2119c55f362a392f6d76ebd996
+2025-06-06 13:53:17,891 - lightrag - INFO - Merge N: Incoming Calls | 2+0
+2025-06-06 13:53:17,891 - lightrag - INFO - Merge N: Bluetooth | 4+0
+2025-06-06 13:53:17,892 - lightrag - INFO - Merge N: CMF | 3+0
+2025-06-06 13:53:17,892 - lightrag - INFO - Merge N: Nothings labs | 2+0
+2025-06-06 13:53:17,892 - lightrag - INFO - Merge N: Spatial Audio Effect | 2+0
+2025-06-06 13:53:17,892 - lightrag - INFO - LLM merge N: Battery Life | 10+0
+2025-06-06 13:53:36,800 - lightrag - INFO -  == LLM cache == saving default: 822165bdb7f1e32741f089f766cc4155
+2025-06-06 13:53:36,801 - lightrag - INFO - Merge N: Silicone Ear Tips | 2+0
+2025-06-06 13:53:36,801 - lightrag - INFO - Merge N: DIRAC OPTEO | 2+0
+2025-06-06 13:53:36,801 - lightrag - INFO - Merge N: Smart Dial | 2+0
+2025-06-06 13:53:36,801 - lightrag - INFO - Merge N: Adaptive Noise Control | 2+0
+2025-06-06 13:53:36,801 - lightrag - INFO - Merge N: Ultra Bass Technology | 2+0
+2025-06-06 13:53:36,801 - lightrag - INFO - LLM merge N: Fast Charging | 6+0
+2025-06-06 13:54:06,038 - lightrag - INFO -  == LLM cache == saving default: e9f44c1aec88ec8bd816a95e25a5b2f3
+2025-06-06 13:54:06,039 - lightrag - INFO - LLM merge N: Google Fast Pair | 7+0
+2025-06-06 13:54:30,890 - lightrag - INFO -  == LLM cache == saving default: 27a1d28d17024044f03ab1f00e7594f6
+2025-06-06 13:54:30,890 - lightrag - INFO - LLM merge N: Microsoft Swift Pair | 7+0
+2025-06-06 13:54:45,140 - lightrag - INFO -  == LLM cache == saving default: 1a4f1aef76fd3095e4b973b2b2218f7b
+2025-06-06 13:54:45,140 - lightrag - INFO - Merge N: AAC | 5+0
+2025-06-06 13:54:45,140 - lightrag - INFO - Merge N: SBC | 4+0
+2025-06-06 13:54:45,140 - lightrag - INFO - Merge N: LE Audio | 3+0
+2025-06-06 13:54:45,140 - lightrag - INFO - LLM merge N: Active Noise Cancellation (ANC) | 6+0
+2025-06-06 13:54:59,449 - lightrag - INFO -  == LLM cache == saving default: 1e7e6999ffc1b3019aaa8342092f30de
+2025-06-06 13:54:59,449 - lightrag - INFO - Merge N: Dirac Opteo | 2+0
+2025-06-06 13:54:59,449 - lightrag - INFO - LLM merge N: Dual Connection | 9+0
+2025-06-06 13:55:12,767 - lightrag - INFO -  == LLM cache == saving default: 4afc078c449254bcd45d134a14c99f99
+2025-06-06 13:55:12,767 - lightrag - INFO - Merge N: Dual Connectivity | 2+0
+2025-06-06 13:55:12,767 - lightrag - INFO - Merge N: Android 5.1 | 2+0
+2025-06-06 13:55:12,767 - lightrag - INFO - Merge N: iOS 13 | 2+0
+2025-06-06 13:55:12,768 - lightrag - INFO - LLM merge N: Bluetooth 5.3 | 7+0
+2025-06-06 13:55:26,540 - lightrag - INFO -  == LLM cache == saving default: 214f4a21a99c63a6d693546899a267c3
+2025-06-06 13:55:26,540 - lightrag - INFO - Merge N: ANC | 5+0
+2025-06-06 13:55:26,541 - lightrag - INFO - Merge N: ENC | 4+0
+2025-06-06 13:55:26,541 - lightrag - INFO - Merge N: IP54 Rating | 4+0
+2025-06-06 13:55:26,541 - lightrag - INFO - Merge N: Battery Capacity | 5+0
+2025-06-06 13:55:26,541 - lightrag - INFO - Merge N: Environmental Noise Cancellation (ENC) | 2+0
+2025-06-06 13:55:26,541 - lightrag - INFO - Merge N: Custom EQ Settings | 3+0
+2025-06-06 13:55:26,541 - lightrag - INFO - Merge N: Neckband Pro | 3+0
+2025-06-06 13:55:26,542 - lightrag - INFO - Merge N: App Store | 5+0
+2025-06-06 13:55:26,542 - lightrag - INFO - Merge N: CMF Phone 1 | 2+0
+2025-06-06 13:55:26,542 - lightrag - INFO - Merge N: Screen cast | 2+0
+2025-06-06 13:55:26,542 - lightrag - INFO - LLM merge N: Find My Phone | 12+0
+2025-06-06 13:55:46,198 - lightrag - INFO -  == LLM cache == saving default: 1d9b9c4beb3e59bc1f0e658e38381087
+2025-06-06 13:55:46,199 - lightrag - INFO - Merge N: Jio | 3+0
+2025-06-06 13:55:46,199 - lightrag - INFO - Merge N: Vodafone | 4+0
+2025-06-06 13:55:46,199 - lightrag - INFO - Merge N: VoLTE (Voice Over LTE) | 3+0
+2025-06-06 13:55:46,199 - lightrag - INFO - Merge N: NFC | 2+0
+2025-06-06 13:55:46,199 - lightrag - INFO - Merge N: Battery Share | 5+0
+2025-06-06 13:55:46,199 - lightrag - INFO - Merge N: Airplane Mode | 4+0
+2025-06-06 13:55:46,199 - lightrag - INFO - LLM merge N: Nothing Phone | 13+0
+2025-06-06 13:56:08,941 - lightrag - INFO -  == LLM cache == saving default: 6ee4f13a37d74eb319900f2569ef3287
+2025-06-06 13:56:08,942 - lightrag - INFO - Merge N: Data Transfer | 3+0
+2025-06-06 13:56:08,942 - lightrag - INFO - Merge N: Google Account | 3+0
+2025-06-06 13:56:08,942 - lightrag - INFO - Merge N: Game Mode | 4+0
+2025-06-06 13:56:08,942 - lightrag - INFO - Merge N: Font Size Adjustment | 2+0
+2025-06-06 13:56:08,943 - lightrag - INFO - Merge N: Screen Recording | 2+0
+2025-06-06 13:56:08,943 - lightrag - INFO - Merge N: Bluetooth tethering | 2+0
+2025-06-06 13:56:08,943 - lightrag - INFO - Merge N: Charging | 2+0
+2025-06-06 13:56:08,943 - lightrag - INFO - Merge N: CMF Watch Pro 2 | 3+0
+2025-06-06 13:56:08,943 - lightrag - INFO - Merge N: face unlock | 2+0
+2025-06-06 13:56:08,943 - lightrag - INFO - Merge N: fingerprint unlock | 2+0
+2025-06-06 13:56:08,944 - lightrag - INFO - Merge N: USB tethering | 2+0
+2025-06-06 13:56:08,944 - lightrag - INFO - Merge N: WiFi Direct | 5+0
+2025-06-06 13:56:08,944 - lightrag - INFO - Merge N: Do Not Disturb mode | 2+0
+2025-06-06 13:56:08,944 - lightrag - INFO - Merge N: Stress Measurement | 4+0
+2025-06-06 13:56:08,944 - lightrag - INFO - Merge N: Sleep Tracking | 5+0
+2025-06-06 13:56:08,944 - lightrag - INFO - Merge N: Heart Rate Monitoring | 3+0
+2025-06-06 13:56:08,945 - lightrag - INFO - Merge N: Watch Pro 2 | 2+0
+2025-06-06 13:56:08,945 - lightrag - INFO - Merge N: GPS/GLONASS/Galileo/QZSS/Beidou | 2+0
+2025-06-06 13:56:08,946 - lightrag - INFO - Merge N: Do Not Disturb Mode | 2+0
+2025-06-06 13:56:08,946 - lightrag - INFO - Merge N: Settings | 5+0
+2025-06-06 13:56:08,946 - lightrag - INFO - LLM merge N: Google | 9+0
+2025-06-06 13:56:29,887 - lightrag - INFO -  == LLM cache == saving default: 2d35215530116ce64998fa90d03f9842
+2025-06-06 13:56:29,888 - lightrag - INFO - Merge N: SIM card | 2+0
+2025-06-06 13:56:29,888 - lightrag - INFO - Merge N: Phone | 3+0
+2025-06-06 13:56:29,888 - lightrag - INFO - Merge N: SIM Card | 3+0
+2025-06-06 13:56:29,888 - lightrag - INFO - Merge N: Factory Settings | 3+0
+2025-06-06 13:56:29,888 - lightrag - INFO - Merge N: Nothing Customer Service | 5+0
+2025-06-06 13:56:29,888 - lightrag - INFO - Merge N: iOS | 3+0
+2025-06-06 13:56:29,888 - lightrag - INFO - Merge N: Factory Reset | 3+0
+2025-06-06 13:56:29,889 - lightrag - INFO - Merge N: Charging Issues | 2+0
+2025-06-06 13:56:29,889 - lightrag - INFO - Merge N: Firmware Update | 2+0
+2025-06-06 13:56:29,889 - lightrag - INFO - Merge N: Power Adaptor | 2+0
+2025-06-06 13:56:29,889 - lightrag - INFO - Merge N: USB Cable | 2+0
+2025-06-06 13:56:29,890 - lightrag - INFO - Merge N: Firmware Upgrade | 2+0
+2025-06-06 13:56:29,890 - lightrag - INFO - Merge N: Android Auto | 2+0
+2025-06-06 13:56:29,890 - lightrag - INFO - LLM merge N: Glyph Interface | 12+0
+2025-06-06 13:56:44,525 - lightrag - INFO -  == LLM cache == saving default: 79a9f41d5e0014801596d1a3504f6e53
+2025-06-06 13:56:44,526 - lightrag - INFO - Merge N: Fast Pair | 3+0
+2025-06-06 13:56:44,527 - lightrag - INFO - Merge N: Gesture Controls | 2+0
+2025-06-06 13:56:44,527 - lightrag - INFO - Merge N: Firmware Updates | 2+0
+2025-06-06 13:56:44,527 - lightrag - INFO - Merge N: Device Pairing | 2+0
+2025-06-06 13:56:44,527 - lightrag - INFO - Merge N: Bluetooth Sound Codecs | 2+0
+2025-06-06 13:56:44,527 - lightrag - INFO - Merge N: Wireless Charging | 2+0
+2025-06-06 13:56:44,527 - lightrag - INFO - Merge N: Personal Sound Profile | 2+0
+2025-06-06 13:56:44,527 - lightrag - INFO - Merge N: Nothing Ear (a) | 2+0
+2025-06-06 13:56:44,528 - lightrag - INFO - Merge N: Ear (stick) | 3+0
+2025-06-06 13:56:44,528 - lightrag - INFO - Merge N: Google Assistant | 4+0
+2025-06-06 13:56:44,528 - lightrag - INFO - Merge N: Nothing Phone 1 | 2+0
+2025-06-06 13:56:44,529 - lightrag - INFO - Merge N: App Pinning | 3+0
+2025-06-06 13:56:44,529 - lightrag - INFO - Merge N: Dark Theme | 5+0
+2025-06-06 13:56:44,529 - lightrag - INFO - Merge N: Lock Screen Password | 4+0
+2025-06-06 13:56:44,529 - lightrag - INFO - Merge N: Time Settings | 3+0
+2025-06-06 13:56:44,529 - lightrag - INFO - Merge N: VoLTE Video Calling | 2+0
+2025-06-06 13:56:44,529 - lightrag - INFO - Merge N: Google Photos | 3+0
+2025-06-06 13:56:44,530 - lightrag - INFO - Merge N: WhatsApp | 3+0
+2025-06-06 13:56:44,530 - lightrag - INFO - Merge N: Wireless Casting | 4+0
+2025-06-06 13:56:44,530 - lightrag - INFO - Merge N: Find My Device | 4+0
+2025-06-06 13:56:44,530 - lightrag - INFO - Merge N: Bedtime Schedule | 3+0
+2025-06-06 13:56:44,530 - lightrag - INFO - LLM merge N: Data Roaming | 6+0
+2025-06-06 13:56:58,139 - lightrag - INFO -  == LLM cache == saving default: 6f54395c3e5a832eb67e6b28f2645639
+2025-06-06 13:56:58,139 - lightrag - INFO - Merge N: Charging Cable | 2+0
+2025-06-06 13:56:58,140 - lightrag - INFO - Merge N: WiFi 6 | 3+0
+2025-06-06 13:56:58,140 - lightrag - INFO - Merge N: Face Unlock | 3+0
+2025-06-06 13:56:58,140 - lightrag - INFO - Merge N: Fingerprint Unlock | 3+0
+2025-06-06 13:56:58,140 - lightrag - INFO - Merge N: Nothing Phone 2A | 2+0
+2025-06-06 13:56:58,140 - lightrag - INFO - LLM merge N: System Update | 10+0
+2025-06-06 13:57:17,021 - lightrag - INFO -  == LLM cache == saving default: 8b07a0628d69b90fcf62ce6131aa7f75
+2025-06-06 13:57:17,021 - lightrag - INFO - Merge N: USB Tethering | 4+0
+2025-06-06 13:57:17,022 - lightrag - INFO - Merge N: Battery Maintenance | 2+0
+2025-06-06 13:57:17,022 - lightrag - INFO - Merge N: Geographical Settings for Photos | 2+0
+2025-06-06 13:57:17,022 - lightrag - INFO - Merge N: Storage Cleanup | 2+0
+2025-06-06 13:57:17,022 - lightrag - INFO - Merge N: Alarms | 2+0
+2025-06-06 13:57:17,022 - lightrag - INFO - Merge N: Multiple Users | 3+0
+2025-06-06 13:57:17,023 - lightrag - INFO - Merge N: Notifications | 2+0
+2025-06-06 13:57:17,023 - lightrag - INFO - Merge N: Location Services | 4+0
+2025-06-06 13:57:17,023 - lightrag - INFO - Merge N: Screen Record | 2+0
+2025-06-06 13:57:17,023 - lightrag - INFO - Merge N: Hotspot Feature | 3+0
+2025-06-06 13:57:17,023 - lightrag - INFO - Merge N: Battery Saver | 2+0
+2025-06-06 13:57:17,023 - lightrag - INFO - Merge N: App Pinning Function | 2+0
+2025-06-06 13:57:17,024 - lightrag - INFO - Merge N: Screen Casting | 2+0
+2025-06-06 13:57:17,024 - lightrag - INFO - Merge N: App Locker | 2+0
+2025-06-06 13:57:17,024 - lightrag - INFO - Merge N: Bluetooth Tethering | 3+0
+2025-06-06 13:57:17,024 - lightrag - INFO - Merge N: USB Debugging | 4+0
+2025-06-06 13:57:17,024 - lightrag - INFO - Merge N: Status Bar | 4+0
+2025-06-06 13:57:17,024 - lightrag - INFO - Merge N: OTG Connection | 3+0
+2025-06-06 13:57:17,024 - lightrag - INFO - Merge N: Dual SIM | 3+0
+2025-06-06 13:57:17,025 - lightrag - INFO - Merge N: Dual SIM Support | 3+0
+2025-06-06 13:57:17,025 - lightrag - INFO - Merge N: Nothing Phone 2 | 2+0
+2025-06-06 13:57:17,025 - lightrag - INFO - Merge N: dual SIM | 2+0
+2025-06-06 13:57:17,026 - lightrag - INFO - Merge N: MMS (Multimedia Messaging Service) | 2+0
+2025-06-06 13:57:17,027 - lightrag - INFO - Merge N: Earbuds | 2+0
+2025-06-06 13:57:17,027 - lightrag - INFO - Merge N: Facebook | 2+0
+2025-06-06 13:57:17,027 - lightrag - INFO - Merge N: OTA Update | 2+0
+2025-06-06 13:57:17,033 - lightrag - INFO - LLM merge E: CMF Watch app - Watch Pro | 8+0
+2025-06-06 13:57:38,133 - lightrag - INFO -  == LLM cache == saving default: 55fb1297ad64a419a192ae434d4349b9
+2025-06-06 13:57:38,134 - lightrag - INFO - Merge E: Charging Case - Ear (open) | 2+0
+2025-06-06 13:57:38,134 - lightrag - INFO - Merge E: Google Play - Nothing X App | 3+0
+2025-06-06 13:57:38,134 - lightrag - INFO - Merge E: Nothing X App - iOS App Store | 2+0
+2025-06-06 13:57:38,135 - lightrag - INFO - Merge E: CMF Buds Pro 2 - Charging Case | 2+0
+2025-06-06 13:57:38,135 - lightrag - INFO - Merge E: Nothing X app - Smart Dial | 2+0
+2025-06-06 13:57:38,136 - lightrag - INFO - Merge E: Battery Life - Charging Case | 2+0
+2025-06-06 13:57:38,137 - lightrag - INFO - Merge E: Battery Capacity - Nothing | 3+0
+2025-06-06 13:57:38,137 - lightrag - INFO - Merge E: Custom EQ Settings - Nothing X App | 2+0
+2025-06-06 13:57:38,138 - lightrag - INFO - Merge E: Neckband Pro - Nothing | 2+0
+2025-06-06 13:57:38,138 - lightrag - INFO - Merge E: Nothing - Nothing X App | 2+0
+2025-06-06 13:57:38,139 - lightrag - INFO - Merge E: Data Transfer - Nothing Phone | 3+0
+2025-06-06 13:57:38,139 - lightrag - INFO - Merge E: Game Mode - Nothing Phone | 3+0
+2025-06-06 13:57:38,140 - lightrag - INFO - Merge E: Font Size Adjustment - Nothing Phone | 2+0
+2025-06-06 13:57:38,140 - lightrag - INFO - Merge E: Find My Phone - Nothing | 2+0
+2025-06-06 13:57:38,143 - lightrag - INFO - Merge E: Stress Measurement - Watch Pro | 2+0
+2025-06-06 13:57:38,143 - lightrag - INFO - Merge E: Sleep Tracking - Watch Pro | 2+0
+2025-06-06 13:57:38,143 - lightrag - INFO - Merge E: Heart Rate Monitoring - Watch Pro | 2+0
+2025-06-06 13:57:38,147 - lightrag - INFO - Merge E: Google Play Store - Nothing X app | 2+0
+2025-06-06 13:57:38,147 - lightrag - INFO - Merge E: Charging Issues - Customer Support | 2+0
+2025-06-06 13:57:38,148 - lightrag - INFO - Merge E: Nothing Customer Service - Nothing X app | 2+0
+2025-06-06 13:57:38,150 - lightrag - INFO - Merge E: Dual Connection - Nothing Ear 2 | 2+0
+2025-06-06 13:57:38,151 - lightrag - INFO - Merge E: Nothing X App - Personal Sound Profile | 2+0
+2025-06-06 13:57:38,152 - lightrag - INFO - Merge E: Nothing - Nothing Ear (a) | 2+0
+2025-06-06 13:57:38,152 - lightrag - INFO - Merge E: App Store - Nothing X App | 2+0
+2025-06-06 13:57:38,153 - lightrag - INFO - Merge E: Battery Life - Nothing | 2+0
+2025-06-06 13:57:38,153 - lightrag - INFO - Merge E: Battery Capacity - Fast Charging | 2+0
+2025-06-06 13:57:38,154 - lightrag - INFO - Merge E: Nothing - Nothing Phone 1 | 2+0
+2025-06-06 13:57:38,155 - lightrag - INFO - Merge E: Find My Phone - Google | 3+0
+2025-06-06 13:57:38,155 - lightrag - INFO - Merge E: Find My Phone - Location Services | 3+0
+2025-06-06 13:57:38,156 - lightrag - INFO - Merge E: Google - Nothing Phone | 2+0
+2025-06-06 13:57:38,156 - lightrag - INFO - Merge E: Google Play Store - Nothing Phone | 4+0
+2025-06-06 13:57:38,157 - lightrag - INFO - Merge E: Nothing Ear - Nothing Phone | 2+0
+2025-06-06 13:57:38,157 - lightrag - INFO - Merge E: Lock Screen Password - Nothing | 2+0
+2025-06-06 13:57:38,158 - lightrag - INFO - Merge E: Alarms - Nothing | 2+0
+2025-06-06 13:57:38,158 - lightrag - INFO - Merge E: Multiple Users - Nothing | 2+0
+2025-06-06 13:57:38,158 - lightrag - INFO - Merge E: Dark Theme - Nothing | 2+0
+2025-06-06 13:57:38,158 - lightrag - INFO - Merge E: Backup - Google | 2+0
+2025-06-06 13:57:38,158 - lightrag - INFO - Merge E: Notifications - Settings | 2+0
+2025-06-06 13:57:38,159 - lightrag - INFO - Merge E: Find My Device - Nothing Phone 2A Plus | 2+0
+2025-06-06 13:57:38,159 - lightrag - INFO - Merge E: Find My Phone - Google Account | 2+0
+2025-06-06 13:57:38,160 - lightrag - INFO - Merge E: Glyph Interface - Nothing | 3+0
+2025-06-06 13:57:38,160 - lightrag - INFO - Merge E: Glyph Interface - Settings | 2+0
+2025-06-06 13:57:38,160 - lightrag - INFO - Merge E: Glyph Interface - Nothing Phone 2A Plus | 2+0
+2025-06-06 13:57:38,161 - lightrag - INFO - Merge E: Data Roaming - Nothing Phone 2A Plus | 2+0
+2025-06-06 13:57:38,162 - lightrag - INFO - Merge E: Nothing Phone - iPhone | 2+0
+2025-06-06 13:57:38,163 - lightrag - INFO - Merge E: Android - Nothing Phone | 2+0
+2025-06-06 13:57:38,163 - lightrag - INFO - Merge E: Data Roaming - Nothing Phone 3A | 2+0
+2025-06-06 13:57:38,163 - lightrag - INFO - Merge E: Nothing Phone 3A - USB Debugging | 2+0
+2025-06-06 13:57:38,163 - lightrag - INFO - Merge E: Nothing Phone 3A - Status Bar | 2+0
+2025-06-06 13:57:38,164 - lightrag - INFO - Merge E: Nothing Phone 3A - System Update | 2+0
+2025-06-06 13:57:38,164 - lightrag - INFO - Merge E: Fingerprint Unlock - Nothing Phone 3A | 2+0
+2025-06-06 13:57:38,164 - lightrag - INFO - Merge E: Face Unlock - Nothing Phone 3A | 2+0
+2025-06-06 13:57:38,164 - lightrag - INFO - Merge E: Nothing Phone 3A - WiFi 6 | 2+0
+2025-06-06 13:57:38,164 - lightrag - INFO - Merge E: Nothing Phone 3A - USB Tethering | 2+0
+2025-06-06 13:57:38,164 - lightrag - INFO - Merge E: Nothing Phone 3A - WiFi Direct | 3+0
+2025-06-06 13:57:38,164 - lightrag - INFO - Merge E: Font Settings - Nothing Phone 3A | 2+0
+2025-06-06 13:57:38,165 - lightrag - INFO - Merge E: Google - Nothing | 2+0
+2025-06-06 13:57:38,168 - lightrag - INFO - Merge E: Customer Support - Phone | 2+0
+2025-06-06 13:57:38,169 - lightrag - INFO - Updating 657 entities  1/1: unknown_source
+2025-06-06 13:57:48,413 - lightrag - INFO - Updating 896 relations 1/1: unknown_source
+2025-06-06 13:57:57,983 - lightrag - INFO - Writing graph with 729 nodes, 896 edges
+2025-06-06 13:57:58,063 - lightrag - INFO - In memory DB persist to disk
+2025-06-06 13:57:58,064 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-06 13:57:58,065 - lightrag - INFO - Document processing pipeline completed
+2025-06-06 13:57:58,137 - lightrag - INFO - Vector query: 3 chunks, top_k: 60
+2025-06-06 13:58:36,949 - lightrag - INFO - Process 2604828 building query context...
+2025-06-06 13:58:36,950 - lightrag - INFO - Query nodes: Numerical data, Textual information, Categorical variables, top_k: 60, cosine: 0.2
+2025-06-06 13:58:37,060 - lightrag - INFO - Local query uses 60 entites, 111 relations, 3 chunks
+2025-06-06 14:00:11,419 - lightrag - INFO - Process 2604828 building query context...
+2025-06-06 14:00:11,419 - lightrag - INFO - Query nodes: Nothing Phone, Android, top_k: 60, cosine: 0.2
+2025-06-06 14:00:11,526 - lightrag - INFO - Local query uses 60 entites, 188 relations, 3 chunks
+2025-06-06 14:00:26,943 - lightrag - INFO - Storage Finalization completed!
+2025-06-06 14:14:44,827 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-06-06 14:14:44,868 - lightrag - INFO - Process 2887276 KV load full_docs with 1 records
+2025-06-06 14:14:44,871 - lightrag - INFO - Process 2887276 KV load text_chunks with 119 records
+2025-06-06 14:14:44,901 - lightrag - INFO - Process 2887276 KV load llm_response_cache with 267 records
+2025-06-06 14:14:44,903 - lightrag - INFO - Process 2887276 doc status load doc_status with 1 records
+2025-06-06 14:14:44,903 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-06 14:14:44,904 - lightrag - INFO - Storage Initialization completed!
+2025-06-06 14:14:44,960 - lightrag - INFO - No new unique documents were found.
+2025-06-06 14:14:44,961 - lightrag - INFO - No documents to process
+2025-06-06 14:14:45,009 - lightrag - INFO - Vector query: 3 chunks, top_k: 60
+2025-06-06 14:14:45,012 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-06 14:15:26,328 - lightrag - INFO -  == LLM cache == saving local: 89288537a49741fdbc5efca62b133307
+2025-06-06 14:15:26,329 - lightrag - INFO - Process 2887276 building query context...
+2025-06-06 14:15:26,329 - lightrag - INFO - Query nodes: Nothing Phone 3A, Wi-Fi network, Network settings, Connectivity issues, Password entry, top_k: 60, cosine: 0.2
+2025-06-06 14:15:26,433 - lightrag - INFO - Local query uses 60 entites, 180 relations, 3 chunks
+2025-06-06 14:17:14,827 - lightrag - INFO - Storage Finalization completed!
+2025-06-07 07:04:18,459 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-06-07 07:04:18,499 - lightrag - INFO - Process 3068398 KV load full_docs with 1 records
+2025-06-07 07:04:18,501 - lightrag - INFO - Process 3068398 KV load text_chunks with 119 records
+2025-06-07 07:04:18,530 - lightrag - INFO - Process 3068398 KV load llm_response_cache with 268 records
+2025-06-07 07:04:18,532 - lightrag - INFO - Process 3068398 doc status load doc_status with 1 records
+2025-06-07 07:04:18,533 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-07 07:04:18,533 - lightrag - INFO - Storage Initialization completed!
+2025-06-07 07:04:20,444 - lightrag - INFO - No new unique documents were found.
+2025-06-07 07:04:20,444 - lightrag - INFO - No documents to process
+2025-06-07 07:04:20,447 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-07 07:04:33,689 - lightrag - INFO -  == LLM cache == saving local: 0d3faa66e64ef06248044c46903df8e5
+2025-06-07 07:04:33,689 - lightrag - INFO - Process 3068398 building query context...
+2025-06-07 07:04:33,689 - lightrag - INFO - Query nodes: Nothing Phone, Android, top_k: 60, cosine: 0.2
+2025-06-07 07:04:33,783 - lightrag - INFO - Local query uses 60 entites, 188 relations, 3 chunks
+2025-06-07 07:04:51,960 - lightrag - INFO - Storage Finalization completed!
+2025-06-07 07:05:45,637 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-06-07 07:05:45,682 - lightrag - INFO - Process 3068932 KV load full_docs with 1 records
+2025-06-07 07:05:45,685 - lightrag - INFO - Process 3068932 KV load text_chunks with 119 records
+2025-06-07 07:05:45,715 - lightrag - INFO - Process 3068932 KV load llm_response_cache with 269 records
+2025-06-07 07:05:45,718 - lightrag - INFO - Process 3068932 doc status load doc_status with 1 records
+2025-06-07 07:05:45,718 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-07 07:05:45,718 - lightrag - INFO - Storage Initialization completed!
+2025-06-07 07:05:45,781 - lightrag - INFO - No new unique documents were found.
+2025-06-07 07:05:45,782 - lightrag - INFO - No documents to process
+2025-06-07 07:05:45,784 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-07 07:06:01,918 - lightrag - INFO -  == LLM cache == saving global: 5dfb879740b4f183f0cd3f9e334ab771
+2025-06-07 07:06:01,918 - lightrag - INFO - Process 3068932 building query context...
+2025-06-07 07:06:01,918 - lightrag - INFO - Query edges: Operating System, Nothing Phone, Android-based, top_k: 60, cosine: 0.2
+2025-06-07 07:06:02,017 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-06-07 07:06:47,787 - lightrag - INFO - Storage Finalization completed!
+2025-06-07 07:08:10,003 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-06-07 07:08:10,044 - lightrag - INFO - Process 3069480 KV load full_docs with 1 records
+2025-06-07 07:08:10,046 - lightrag - INFO - Process 3069480 KV load text_chunks with 119 records
+2025-06-07 07:08:10,075 - lightrag - INFO - Process 3069480 KV load llm_response_cache with 270 records
+2025-06-07 07:08:10,077 - lightrag - INFO - Process 3069480 doc status load doc_status with 1 records
+2025-06-07 07:08:10,078 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-07 07:08:10,078 - lightrag - INFO - Storage Initialization completed!
+2025-06-07 07:08:10,138 - lightrag - INFO - No new unique documents were found.
+2025-06-07 07:08:10,138 - lightrag - INFO - No documents to process
+2025-06-07 07:08:10,138 - lightrag - INFO - Process 3069480 building query context...
+2025-06-07 07:08:10,139 - lightrag - INFO - Query edges: Operating System, Nothing Phone, Android-based, top_k: 60, cosine: 0.2
+2025-06-07 07:08:10,189 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-06-07 07:08:10,198 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-07 07:08:28,431 - lightrag - INFO - Process 3069480 building query context...
+2025-06-07 07:08:28,431 - lightrag - INFO - Query nodes: Nothing Phone, Android, top_k: 60, cosine: 0.2
+2025-06-07 07:08:28,516 - lightrag - INFO - Local query uses 60 entites, 188 relations, 3 chunks
+2025-06-07 07:08:58,540 - lightrag - INFO - Storage Finalization completed!
+2025-06-07 07:11:33,835 - lightrag - INFO - Created new empty graph
+2025-06-07 07:11:33,838 - lightrag - INFO - Process 3070239 KV load full_docs with 0 records
+2025-06-07 07:11:33,838 - lightrag - INFO - Process 3070239 KV load text_chunks with 0 records
+2025-06-07 07:11:33,870 - lightrag - INFO - Process 3070239 KV load llm_response_cache with 270 records
+2025-06-07 07:11:33,870 - lightrag - INFO - Process 3070239 doc status load doc_status with 0 records
+2025-06-07 07:11:33,870 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-07 07:11:33,870 - lightrag - INFO - Storage Initialization completed!
+2025-06-07 07:11:33,928 - lightrag - INFO - Stored 1 new unique documents
+2025-06-07 07:11:33,928 - lightrag - INFO - Processing 1 document(s)
+2025-06-07 07:11:33,928 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-07 07:11:33,928 - lightrag - INFO - Processing d-id: doc-6226b92bcfd4de87f0e0d575517a5f94
+2025-06-07 07:11:34,018 - lightrag - INFO - Chunk 1 of 119 extracted 18 Ent + 14 Rel
+2025-06-07 07:11:34,019 - lightrag - INFO - Chunk 2 of 119 extracted 4 Ent + 5 Rel
+2025-06-07 07:11:34,019 - lightrag - INFO - Chunk 3 of 119 extracted 3 Ent + 7 Rel
+2025-06-07 07:11:34,020 - lightrag - INFO - Chunk 4 of 119 extracted 2 Ent + 0 Rel
+2025-06-07 07:11:34,021 - lightrag - INFO - Chunk 5 of 119 extracted 9 Ent + 15 Rel
+2025-06-07 07:11:34,022 - lightrag - INFO - Chunk 6 of 119 extracted 5 Ent + 3 Rel
+2025-06-07 07:11:34,023 - lightrag - INFO - Chunk 7 of 119 extracted 5 Ent + 4 Rel
+2025-06-07 07:11:34,024 - lightrag - INFO - Chunk 8 of 119 extracted 8 Ent + 5 Rel
+2025-06-07 07:11:34,024 - lightrag - INFO - Chunk 9 of 119 extracted 9 Ent + 3 Rel
+2025-06-07 07:11:34,025 - lightrag - INFO - Chunk 10 of 119 extracted 17 Ent + 10 Rel
+2025-06-07 07:11:34,026 - lightrag - INFO - Chunk 11 of 119 extracted 4 Ent + 3 Rel
+2025-06-07 07:11:34,028 - lightrag - INFO - Chunk 12 of 119 extracted 17 Ent + 13 Rel
+2025-06-07 07:11:34,029 - lightrag - INFO - Chunk 13 of 119 extracted 16 Ent + 16 Rel
+2025-06-07 07:11:34,030 - lightrag - INFO - Chunk 14 of 119 extracted 10 Ent + 9 Rel
+2025-06-07 07:11:34,031 - lightrag - INFO - Chunk 15 of 119 extracted 7 Ent + 9 Rel
+2025-06-07 07:11:34,032 - lightrag - INFO - Chunk 16 of 119 extracted 6 Ent + 6 Rel
+2025-06-07 07:11:34,032 - lightrag - INFO - Chunk 17 of 119 extracted 11 Ent + 8 Rel
+2025-06-07 07:11:34,034 - lightrag - INFO - Chunk 18 of 119 extracted 13 Ent + 13 Rel
+2025-06-07 07:11:34,035 - lightrag - INFO - Chunk 19 of 119 extracted 10 Ent + 10 Rel
+2025-06-07 07:11:34,035 - lightrag - INFO - Chunk 20 of 119 extracted 6 Ent + 0 Rel
+2025-06-07 07:11:34,036 - lightrag - INFO - Chunk 21 of 119 extracted 2 Ent + 2 Rel
+2025-06-07 07:11:34,036 - lightrag - INFO - Chunk 22 of 119 extracted 3 Ent + 4 Rel
+2025-06-07 07:11:34,037 - lightrag - INFO - Chunk 23 of 119 extracted 8 Ent + 5 Rel
+2025-06-07 07:11:34,038 - lightrag - INFO - Chunk 24 of 119 extracted 2 Ent + 15 Rel
+2025-06-07 07:11:34,039 - lightrag - INFO - Chunk 25 of 119 extracted 7 Ent + 3 Rel
+2025-06-07 07:11:34,039 - lightrag - INFO - Chunk 26 of 119 extracted 9 Ent + 7 Rel
+2025-06-07 07:11:34,041 - lightrag - INFO - Chunk 27 of 119 extracted 8 Ent + 6 Rel
+2025-06-07 07:11:34,042 - lightrag - INFO - Chunk 28 of 119 extracted 12 Ent + 10 Rel
+2025-06-07 07:11:34,042 - lightrag - INFO - Chunk 29 of 119 extracted 4 Ent + 4 Rel
+2025-06-07 07:11:34,043 - lightrag - INFO - Chunk 30 of 119 extracted 9 Ent + 5 Rel
+2025-06-07 07:11:34,045 - lightrag - INFO - Chunk 31 of 119 extracted 13 Ent + 13 Rel
+2025-06-07 07:11:34,046 - lightrag - INFO - Chunk 32 of 119 extracted 6 Ent + 6 Rel
+2025-06-07 07:11:34,047 - lightrag - INFO - Chunk 33 of 119 extracted 12 Ent + 8 Rel
+2025-06-07 07:11:34,048 - lightrag - INFO - Chunk 34 of 119 extracted 10 Ent + 8 Rel
+2025-06-07 07:11:34,050 - lightrag - INFO - Chunk 35 of 119 extracted 15 Ent + 14 Rel
+2025-06-07 07:11:34,050 - lightrag - INFO - Chunk 36 of 119 extracted 5 Ent + 4 Rel
+2025-06-07 07:11:34,052 - lightrag - INFO - Chunk 37 of 119 extracted 13 Ent + 20 Rel
+2025-06-07 07:11:34,053 - lightrag - INFO - Chunk 38 of 119 extracted 14 Ent + 14 Rel
+2025-06-07 07:11:34,055 - lightrag - INFO - Chunk 39 of 119 extracted 15 Ent + 14 Rel
+2025-06-07 07:11:34,055 - lightrag - INFO - Chunk 40 of 119 extracted 8 Ent + 8 Rel
+2025-06-07 07:11:34,057 - lightrag - INFO - Chunk 41 of 119 extracted 18 Ent + 5 Rel
+2025-06-07 07:11:34,058 - lightrag - INFO - Chunk 42 of 119 extracted 7 Ent + 7 Rel
+2025-06-07 07:11:34,058 - lightrag - INFO - Chunk 43 of 119 extracted 6 Ent + 5 Rel
+2025-06-07 07:11:34,059 - lightrag - INFO - Chunk 44 of 119 extracted 11 Ent + 9 Rel
+2025-06-07 07:11:34,060 - lightrag - INFO - Chunk 45 of 119 extracted 5 Ent + 4 Rel
+2025-06-07 07:11:34,061 - lightrag - INFO - Chunk 46 of 119 extracted 11 Ent + 6 Rel
+2025-06-07 07:11:34,062 - lightrag - INFO - Chunk 47 of 119 extracted 6 Ent + 5 Rel
+2025-06-07 07:11:34,063 - lightrag - INFO - Chunk 48 of 119 extracted 9 Ent + 6 Rel
+2025-06-07 07:11:34,064 - lightrag - INFO - Chunk 49 of 119 extracted 7 Ent + 5 Rel
+2025-06-07 07:11:34,065 - lightrag - INFO - Chunk 50 of 119 extracted 6 Ent + 4 Rel
+2025-06-07 07:11:34,065 - lightrag - INFO - Chunk 51 of 119 extracted 9 Ent + 4 Rel
+2025-06-07 07:11:34,066 - lightrag - INFO - Chunk 52 of 119 extracted 7 Ent + 6 Rel
+2025-06-07 07:11:34,067 - lightrag - INFO - Chunk 53 of 119 extracted 8 Ent + 5 Rel
+2025-06-07 07:11:34,068 - lightrag - INFO - Chunk 54 of 119 extracted 6 Ent + 4 Rel
+2025-06-07 07:11:34,069 - lightrag - INFO - Chunk 55 of 119 extracted 20 Ent + 24 Rel
+2025-06-07 07:11:34,070 - lightrag - INFO - Chunk 56 of 119 extracted 4 Ent + 4 Rel
+2025-06-07 07:11:34,071 - lightrag - INFO - Chunk 57 of 119 extracted 18 Ent + 13 Rel
+2025-06-07 07:11:34,073 - lightrag - INFO - Chunk 58 of 119 extracted 24 Ent + 29 Rel
+2025-06-07 07:11:34,074 - lightrag - INFO - Chunk 59 of 119 extracted 10 Ent + 9 Rel
+2025-06-07 07:11:34,076 - lightrag - INFO - Chunk 60 of 119 extracted 14 Ent + 12 Rel
+2025-06-07 07:11:34,077 - lightrag - INFO - Chunk 61 of 119 extracted 8 Ent + 9 Rel
+2025-06-07 07:11:34,078 - lightrag - INFO - Chunk 62 of 119 extracted 7 Ent + 8 Rel
+2025-06-07 07:11:34,079 - lightrag - INFO - Chunk 63 of 119 extracted 19 Ent + 18 Rel
+2025-06-07 07:11:34,080 - lightrag - INFO - Chunk 64 of 119 extracted 3 Ent + 2 Rel
+2025-06-07 07:11:34,080 - lightrag - INFO - Chunk 65 of 119 extracted 4 Ent + 8 Rel
+2025-06-07 07:11:34,082 - lightrag - INFO - Chunk 66 of 119 extracted 19 Ent + 20 Rel
+2025-06-07 07:11:34,083 - lightrag - INFO - Chunk 67 of 119 extracted 11 Ent + 9 Rel
+2025-06-07 07:11:34,085 - lightrag - INFO - Chunk 68 of 119 extracted 13 Ent + 13 Rel
+2025-06-07 07:11:34,086 - lightrag - INFO - Chunk 69 of 119 extracted 5 Ent + 5 Rel
+2025-06-07 07:11:34,087 - lightrag - INFO - Chunk 70 of 119 extracted 6 Ent + 7 Rel
+2025-06-07 07:11:34,088 - lightrag - INFO - Chunk 71 of 119 extracted 16 Ent + 13 Rel
+2025-06-07 07:11:34,089 - lightrag - INFO - Chunk 72 of 119 extracted 3 Ent + 4 Rel
+2025-06-07 07:11:34,090 - lightrag - INFO - Chunk 73 of 119 extracted 4 Ent + 3 Rel
+2025-06-07 07:11:34,091 - lightrag - INFO - Chunk 74 of 119 extracted 8 Ent + 6 Rel
+2025-06-07 07:11:34,091 - lightrag - INFO - Chunk 75 of 119 extracted 10 Ent + 9 Rel
+2025-06-07 07:11:34,092 - lightrag - INFO - Chunk 76 of 119 extracted 9 Ent + 8 Rel
+2025-06-07 07:11:34,093 - lightrag - INFO - Chunk 77 of 119 extracted 12 Ent + 1 Rel
+2025-06-07 07:11:34,095 - lightrag - INFO - Chunk 78 of 119 extracted 15 Ent + 14 Rel
+2025-06-07 07:11:34,096 - lightrag - INFO - Chunk 79 of 119 extracted 14 Ent + 14 Rel
+2025-06-07 07:11:34,097 - lightrag - INFO - Chunk 80 of 119 extracted 6 Ent + 5 Rel
+2025-06-07 07:11:34,098 - lightrag - INFO - Chunk 81 of 119 extracted 6 Ent + 5 Rel
+2025-06-07 07:11:34,099 - lightrag - INFO - Chunk 82 of 119 extracted 10 Ent + 9 Rel
+2025-06-07 07:11:34,100 - lightrag - INFO - Chunk 83 of 119 extracted 5 Ent + 2 Rel
+2025-06-07 07:11:34,101 - lightrag - INFO - Chunk 84 of 119 extracted 10 Ent + 19 Rel
+2025-06-07 07:11:34,102 - lightrag - INFO - Chunk 85 of 119 extracted 9 Ent + 12 Rel
+2025-06-07 07:11:34,104 - lightrag - INFO - Chunk 86 of 119 extracted 13 Ent + 14 Rel
+2025-06-07 07:11:34,104 - lightrag - INFO - Chunk 87 of 119 extracted 4 Ent + 8 Rel
+2025-06-07 07:11:34,105 - lightrag - INFO - Chunk 88 of 119 extracted 1 Ent + 1 Rel
+2025-06-07 07:11:34,106 - lightrag - INFO - Chunk 89 of 119 extracted 12 Ent + 11 Rel
+2025-06-07 07:11:34,107 - lightrag - INFO - Chunk 90 of 119 extracted 17 Ent + 13 Rel
+2025-06-07 07:11:34,108 - lightrag - INFO - Chunk 91 of 119 extracted 14 Ent + 5 Rel
+2025-06-07 07:11:34,109 - lightrag - INFO - Chunk 92 of 119 extracted 14 Ent + 7 Rel
+2025-06-07 07:11:34,110 - lightrag - INFO - Chunk 93 of 119 extracted 10 Ent + 5 Rel
+2025-06-07 07:11:34,111 - lightrag - INFO - Chunk 94 of 119 extracted 7 Ent + 7 Rel
+2025-06-07 07:11:34,112 - lightrag - INFO - Chunk 95 of 119 extracted 8 Ent + 6 Rel
+2025-06-07 07:11:34,113 - lightrag - INFO - Chunk 96 of 119 extracted 4 Ent + 4 Rel
+2025-06-07 07:11:34,115 - lightrag - INFO - Chunk 97 of 119 extracted 15 Ent + 25 Rel
+2025-06-07 07:11:34,116 - lightrag - INFO - Chunk 98 of 119 extracted 9 Ent + 8 Rel
+2025-06-07 07:11:34,117 - lightrag - INFO - Chunk 99 of 119 extracted 4 Ent + 3 Rel
+2025-06-07 07:11:34,118 - lightrag - INFO - Chunk 100 of 119 extracted 13 Ent + 12 Rel
+2025-06-07 07:11:34,118 - lightrag - INFO - Chunk 101 of 119 extracted 1 Ent + 0 Rel
+2025-06-07 07:11:34,119 - lightrag - INFO - Chunk 102 of 119 extracted 8 Ent + 5 Rel
+2025-06-07 07:11:34,120 - lightrag - INFO - Chunk 103 of 119 extracted 13 Ent + 12 Rel
+2025-06-07 07:11:34,122 - lightrag - INFO - Chunk 104 of 119 extracted 13 Ent + 12 Rel
+2025-06-07 07:11:34,122 - lightrag - INFO - Chunk 105 of 119 extracted 14 Ent + 0 Rel
+2025-06-07 07:11:34,123 - lightrag - INFO - Chunk 106 of 119 extracted 6 Ent + 5 Rel
+2025-06-07 07:11:34,124 - lightrag - INFO - Chunk 107 of 119 extracted 20 Ent + 10 Rel
+2025-06-07 07:11:34,125 - lightrag - INFO - Chunk 108 of 119 extracted 4 Ent + 2 Rel
+2025-06-07 07:11:34,126 - lightrag - INFO - Chunk 109 of 119 extracted 11 Ent + 15 Rel
+2025-06-07 07:11:34,128 - lightrag - INFO - Chunk 110 of 119 extracted 17 Ent + 16 Rel
+2025-06-07 07:11:34,129 - lightrag - INFO - Chunk 111 of 119 extracted 6 Ent + 6 Rel
+2025-06-07 07:11:34,130 - lightrag - INFO - Chunk 112 of 119 extracted 11 Ent + 6 Rel
+2025-06-07 07:11:34,131 - lightrag - INFO - Chunk 113 of 119 extracted 12 Ent + 6 Rel
+2025-06-07 07:11:34,132 - lightrag - INFO - Chunk 114 of 119 extracted 9 Ent + 7 Rel
+2025-06-07 07:11:34,133 - lightrag - INFO - Chunk 115 of 119 extracted 14 Ent + 11 Rel
+2025-06-07 07:11:34,134 - lightrag - INFO - Chunk 116 of 119 extracted 14 Ent + 12 Rel
+2025-06-07 07:11:34,135 - lightrag - INFO - Chunk 117 of 119 extracted 7 Ent + 3 Rel
+2025-06-07 07:11:34,136 - lightrag - INFO - Chunk 118 of 119 extracted 4 Ent + 2 Rel
+2025-06-07 07:11:34,136 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-07 07:12:05,200 - lightrag - INFO -  == LLM cache == saving default: ad6e9556aaed1b5312b4f47a67c65211
+2025-06-07 07:13:16,434 - lightrag - INFO -  == LLM cache == saving default: 30c66df17b5090a0d68a7159677830ba
+2025-06-07 07:13:16,436 - lightrag - INFO - Chunk 119 of 119 extracted 5 Ent + 2 Rel
+2025-06-07 07:13:16,448 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-07 07:13:16,448 - lightrag - INFO - Merge N: Ear (open) | 4+0
+2025-06-07 07:13:16,448 - lightrag - INFO - Merge N: Nothing Ear | 4+0
+2025-06-07 07:13:16,449 - lightrag - INFO - Merge N: Apple | 3+0
+2025-06-07 07:13:16,449 - lightrag - INFO - Merge N: CMF Watch App | 4+0
+2025-06-07 07:13:16,449 - lightrag - INFO - Merge N: iPhone | 5+0
+2025-06-07 07:13:16,449 - lightrag - INFO - LLM merge N: Android | 8+0
+2025-06-07 07:13:16,450 - lightrag - INFO - Merge N: German | 2+0
+2025-06-07 07:13:16,450 - lightrag - INFO - Merge N: Spanish | 2+0
+2025-06-07 07:13:16,450 - lightrag - INFO - Merge N: French | 2+0
+2025-06-07 07:13:16,450 - lightrag - INFO - Merge N: Italian | 2+0
+2025-06-07 07:13:16,450 - lightrag - INFO - Merge N: Japanese | 2+0
+2025-06-07 07:13:16,450 - lightrag - INFO - Merge N: Korean | 2+0
+2025-06-07 07:13:16,451 - lightrag - INFO - Merge N: Arabic | 2+0
+2025-06-07 07:13:16,451 - lightrag - INFO - Merge N: English | 2+0
+2025-06-07 07:13:16,451 - lightrag - INFO - Merge N: Simplified Chinese | 2+0
+2025-06-07 07:13:16,451 - lightrag - INFO - Merge N: CMF Watch | 2+0
+2025-06-07 07:13:16,451 - lightrag - INFO - Merge N: Nothing Support Team | 3+0
+2025-06-07 07:13:16,451 - lightrag - INFO - LLM merge N: Customer Support | 13+0
+2025-06-07 07:13:16,452 - lightrag - INFO - LLM merge N: Google Play Store | 11+0
+2025-06-07 07:13:16,453 - lightrag - INFO - LLM merge N: Nothing X app | 13+0
+2025-06-07 07:13:16,454 - lightrag - INFO - LLM merge N: iOS App Store | 6+0
+2025-06-07 07:13:16,455 - lightrag - INFO - LLM merge N: Nothing | 21+0
+2025-06-07 07:13:16,456 - lightrag - INFO - LLM merge N: Watch Pro | 12+0
+2025-06-07 07:13:37,608 - lightrag - INFO -  == LLM cache == saving default: ec1512042e58623637b8b1857a2eee4f
+2025-06-07 07:13:37,608 - lightrag - INFO - LLM merge N: Nothing OS | 6+0
+2025-06-07 07:13:37,609 - lightrag - INFO - LLM merge N: CMF Watch app | 13+0
+2025-06-07 07:13:58,499 - lightrag - INFO -  == LLM cache == saving default: dcb453c4bbd2af6575825b3d4e731e97
+2025-06-07 07:13:58,499 - lightrag - INFO - LLM merge N: Nothing X App | 15+0
+2025-06-07 07:13:58,500 - lightrag - INFO - Merge N: CMF Buds Pro 2 | 3+0
+2025-06-07 07:13:58,500 - lightrag - INFO - LLM merge N: Charging Case | 6+0
+2025-06-07 07:13:58,501 - lightrag - INFO - Merge N: CMF Buds 2 | 2+0
+2025-06-07 07:13:58,501 - lightrag - INFO - Merge N: Nothing X | 3+0
+2025-06-07 07:13:58,501 - lightrag - INFO - LLM merge N: Google Play | 8+0
+2025-06-07 07:13:58,502 - lightrag - INFO - LLM merge N: LDAC | 6+0
+2025-06-07 07:13:58,503 - lightrag - INFO - Merge N: Incoming Calls | 2+0
+2025-06-07 07:13:58,503 - lightrag - INFO - Merge N: Bluetooth | 3+0
+2025-06-07 07:13:58,503 - lightrag - INFO - Merge N: CMF | 3+0
+2025-06-07 07:13:58,503 - lightrag - INFO - Merge N: Nothings labs | 2+0
+2025-06-07 07:13:58,503 - lightrag - INFO - Merge N: Spatial Audio Effect | 2+0
+2025-06-07 07:13:58,503 - lightrag - INFO - LLM merge N: Battery Life | 10+0
+2025-06-07 07:13:58,504 - lightrag - INFO - Merge N: Silicone Ear Tips | 2+0
+2025-06-07 07:13:58,505 - lightrag - INFO - Merge N: DIRAC OPTEO | 2+0
+2025-06-07 07:13:58,505 - lightrag - INFO - Merge N: Smart Dial | 2+0
+2025-06-07 07:13:58,505 - lightrag - INFO - Merge N: Adaptive Noise Control | 2+0
+2025-06-07 07:13:58,505 - lightrag - INFO - Merge N: Ultra Bass Technology | 2+0
+2025-06-07 07:13:58,508 - lightrag - INFO - LLM merge N: Fast Charging | 6+0
+2025-06-07 07:13:58,509 - lightrag - INFO - LLM merge N: Google Fast Pair | 7+0
+2025-06-07 07:13:58,509 - lightrag - INFO - LLM merge N: Microsoft Swift Pair | 7+0
+2025-06-07 07:13:58,510 - lightrag - INFO - Merge N: AAC | 5+0
+2025-06-07 07:13:58,510 - lightrag - INFO - Merge N: SBC | 4+0
+2025-06-07 07:13:58,510 - lightrag - INFO - Merge N: LE Audio | 3+0
+2025-06-07 07:13:58,510 - lightrag - INFO - LLM merge N: Active Noise Cancellation (ANC) | 6+0
+2025-06-07 07:13:58,511 - lightrag - INFO - Merge N: Dirac Opteo | 2+0
+2025-06-07 07:13:58,511 - lightrag - INFO - LLM merge N: Dual Connection | 9+0
+2025-06-07 07:13:58,511 - lightrag - INFO - Merge N: Dual Connectivity | 2+0
+2025-06-07 07:13:58,512 - lightrag - INFO - Merge N: Android 5.1 | 2+0
+2025-06-07 07:13:58,512 - lightrag - INFO - Merge N: iOS 13 | 2+0
+2025-06-07 07:13:58,512 - lightrag - INFO - LLM merge N: Bluetooth 5.3 | 7+0
+2025-06-07 07:13:58,512 - lightrag - INFO - Merge N: ANC | 5+0
+2025-06-07 07:13:58,512 - lightrag - INFO - Merge N: ENC | 4+0
+2025-06-07 07:13:58,513 - lightrag - INFO - Merge N: IP54 Rating | 4+0
+2025-06-07 07:13:58,513 - lightrag - INFO - Merge N: Battery Capacity | 5+0
+2025-06-07 07:13:58,513 - lightrag - INFO - Merge N: Environmental Noise Cancellation (ENC) | 2+0
+2025-06-07 07:13:58,513 - lightrag - INFO - Merge N: Custom EQ Settings | 3+0
+2025-06-07 07:13:58,513 - lightrag - INFO - Merge N: Neckband Pro | 3+0
+2025-06-07 07:13:58,513 - lightrag - INFO - Merge N: App Store | 5+0
+2025-06-07 07:13:58,513 - lightrag - INFO - Merge N: CMF Phone 1 | 2+0
+2025-06-07 07:13:58,513 - lightrag - INFO - Merge N: Screen cast | 2+0
+2025-06-07 07:13:58,514 - lightrag - INFO - LLM merge N: Find My Phone | 12+0
+2025-06-07 07:13:58,514 - lightrag - INFO - Merge N: Jio | 3+0
+2025-06-07 07:13:58,514 - lightrag - INFO - Merge N: Vodafone | 4+0
+2025-06-07 07:13:58,514 - lightrag - INFO - Merge N: VoLTE (Voice Over LTE) | 3+0
+2025-06-07 07:13:58,515 - lightrag - INFO - Merge N: NFC | 2+0
+2025-06-07 07:13:58,515 - lightrag - INFO - Merge N: Battery Share | 5+0
+2025-06-07 07:13:58,515 - lightrag - INFO - Merge N: Airplane Mode | 4+0
+2025-06-07 07:13:58,515 - lightrag - INFO - LLM merge N: Nothing Phone | 14+0
+2025-06-07 07:14:27,329 - lightrag - INFO -  == LLM cache == saving default: 3d2d9886c44992894430e8909841bc77
+2025-06-07 07:14:27,330 - lightrag - INFO - Merge N: Data Transfer | 3+0
+2025-06-07 07:14:27,330 - lightrag - INFO - Merge N: Google Account | 3+0
+2025-06-07 07:14:27,330 - lightrag - INFO - Merge N: Game Mode | 4+0
+2025-06-07 07:14:27,330 - lightrag - INFO - Merge N: Font Size Adjustment | 2+0
+2025-06-07 07:14:27,331 - lightrag - INFO - Merge N: Screen Recording | 2+0
+2025-06-07 07:14:27,331 - lightrag - INFO - Merge N: Bluetooth tethering | 2+0
+2025-06-07 07:14:27,331 - lightrag - INFO - Merge N: Charging | 2+0
+2025-06-07 07:14:27,331 - lightrag - INFO - Merge N: CMF Watch Pro 2 | 3+0
+2025-06-07 07:14:27,331 - lightrag - INFO - Merge N: face unlock | 2+0
+2025-06-07 07:14:27,331 - lightrag - INFO - Merge N: fingerprint unlock | 2+0
+2025-06-07 07:14:27,332 - lightrag - INFO - Merge N: USB tethering | 2+0
+2025-06-07 07:14:27,332 - lightrag - INFO - Merge N: WiFi Direct | 5+0
+2025-06-07 07:14:27,332 - lightrag - INFO - Merge N: Do Not Disturb mode | 2+0
+2025-06-07 07:14:27,332 - lightrag - INFO - Merge N: Stress Measurement | 4+0
+2025-06-07 07:14:27,332 - lightrag - INFO - Merge N: Sleep Tracking | 5+0
+2025-06-07 07:14:27,332 - lightrag - INFO - Merge N: Heart Rate Monitoring | 3+0
+2025-06-07 07:14:27,332 - lightrag - INFO - Merge N: Watch Pro 2 | 2+0
+2025-06-07 07:14:27,333 - lightrag - INFO - Merge N: GPS/GLONASS/Galileo/QZSS/Beidou | 2+0
+2025-06-07 07:14:27,334 - lightrag - INFO - Merge N: Do Not Disturb Mode | 2+0
+2025-06-07 07:14:27,334 - lightrag - INFO - Merge N: Settings | 5+0
+2025-06-07 07:14:27,334 - lightrag - INFO - LLM merge N: Google | 9+0
+2025-06-07 07:14:27,335 - lightrag - INFO - Merge N: SIM card | 2+0
+2025-06-07 07:14:27,335 - lightrag - INFO - Merge N: Phone | 3+0
+2025-06-07 07:14:27,335 - lightrag - INFO - Merge N: SIM Card | 3+0
+2025-06-07 07:14:27,336 - lightrag - INFO - Merge N: Factory Settings | 3+0
+2025-06-07 07:14:27,336 - lightrag - INFO - Merge N: Nothing Customer Service | 5+0
+2025-06-07 07:14:27,336 - lightrag - INFO - Merge N: iOS | 4+0
+2025-06-07 07:14:27,336 - lightrag - INFO - Merge N: Factory Reset | 3+0
+2025-06-07 07:14:27,336 - lightrag - INFO - Merge N: Charging Issues | 2+0
+2025-06-07 07:14:27,336 - lightrag - INFO - Merge N: Firmware Update | 2+0
+2025-06-07 07:14:27,336 - lightrag - INFO - Merge N: Power Adaptor | 2+0
+2025-06-07 07:14:27,336 - lightrag - INFO - Merge N: USB Cable | 2+0
+2025-06-07 07:14:27,339 - lightrag - INFO - Merge N: Firmware Upgrade | 2+0
+2025-06-07 07:14:27,339 - lightrag - INFO - Merge N: Android Auto | 2+0
+2025-06-07 07:14:27,339 - lightrag - INFO - LLM merge N: Glyph Interface | 12+0
+2025-06-07 07:14:27,341 - lightrag - INFO - Merge N: Fast Pair | 3+0
+2025-06-07 07:14:27,341 - lightrag - INFO - Merge N: Gesture Controls | 2+0
+2025-06-07 07:14:27,341 - lightrag - INFO - Merge N: Firmware Updates | 2+0
+2025-06-07 07:14:27,341 - lightrag - INFO - Merge N: Device Pairing | 2+0
+2025-06-07 07:14:27,341 - lightrag - INFO - Merge N: Bluetooth Sound Codecs | 2+0
+2025-06-07 07:14:27,342 - lightrag - INFO - Merge N: Wireless Charging | 2+0
+2025-06-07 07:14:27,342 - lightrag - INFO - Merge N: Personal Sound Profile | 2+0
+2025-06-07 07:14:27,342 - lightrag - INFO - Merge N: Nothing Ear (a) | 2+0
+2025-06-07 07:14:27,342 - lightrag - INFO - Merge N: Ear (stick) | 3+0
+2025-06-07 07:14:27,343 - lightrag - INFO - Merge N: Google Assistant | 4+0
+2025-06-07 07:14:27,343 - lightrag - INFO - Merge N: Nothing Phone 1 | 2+0
+2025-06-07 07:14:27,343 - lightrag - INFO - Merge N: App Pinning | 3+0
+2025-06-07 07:14:27,343 - lightrag - INFO - Merge N: Dark Theme | 5+0
+2025-06-07 07:14:27,343 - lightrag - INFO - Merge N: Lock Screen Password | 4+0
+2025-06-07 07:14:27,343 - lightrag - INFO - Merge N: Time Settings | 3+0
+2025-06-07 07:14:27,344 - lightrag - INFO - Merge N: VoLTE Video Calling | 2+0
+2025-06-07 07:14:27,344 - lightrag - INFO - Merge N: Google Photos | 3+0
+2025-06-07 07:14:27,344 - lightrag - INFO - Merge N: WhatsApp | 3+0
+2025-06-07 07:14:27,344 - lightrag - INFO - Merge N: Wireless Casting | 4+0
+2025-06-07 07:14:27,344 - lightrag - INFO - Merge N: Find My Device | 4+0
+2025-06-07 07:14:27,344 - lightrag - INFO - Merge N: Bedtime Schedule | 3+0
+2025-06-07 07:14:27,344 - lightrag - INFO - LLM merge N: Data Roaming | 6+0
+2025-06-07 07:14:27,345 - lightrag - INFO - Merge N: Charging Cable | 2+0
+2025-06-07 07:14:27,345 - lightrag - INFO - Merge N: WiFi 6 | 3+0
+2025-06-07 07:14:27,345 - lightrag - INFO - Merge N: Face Unlock | 3+0
+2025-06-07 07:14:27,345 - lightrag - INFO - Merge N: Fingerprint Unlock | 3+0
+2025-06-07 07:14:27,345 - lightrag - INFO - Merge N: Nothing Phone 2A | 2+0
+2025-06-07 07:14:27,345 - lightrag - INFO - LLM merge N: System Update | 10+0
+2025-06-07 07:14:27,346 - lightrag - INFO - Merge N: USB Tethering | 4+0
+2025-06-07 07:14:27,346 - lightrag - INFO - Merge N: Battery Maintenance | 2+0
+2025-06-07 07:14:27,346 - lightrag - INFO - Merge N: Geographical Settings for Photos | 2+0
+2025-06-07 07:14:27,346 - lightrag - INFO - Merge N: Storage Cleanup | 2+0
+2025-06-07 07:14:27,346 - lightrag - INFO - Merge N: Alarms | 2+0
+2025-06-07 07:14:27,347 - lightrag - INFO - Merge N: Multiple Users | 3+0
+2025-06-07 07:14:27,347 - lightrag - INFO - Merge N: Notifications | 2+0
+2025-06-07 07:14:27,347 - lightrag - INFO - Merge N: Location Services | 4+0
+2025-06-07 07:14:27,347 - lightrag - INFO - Merge N: Screen Record | 2+0
+2025-06-07 07:14:27,347 - lightrag - INFO - Merge N: Hotspot Feature | 3+0
+2025-06-07 07:14:27,347 - lightrag - INFO - Merge N: Battery Saver | 2+0
+2025-06-07 07:14:27,348 - lightrag - INFO - Merge N: App Pinning Function | 2+0
+2025-06-07 07:14:27,348 - lightrag - INFO - Merge N: Screen Casting | 2+0
+2025-06-07 07:14:27,348 - lightrag - INFO - Merge N: App Locker | 2+0
+2025-06-07 07:14:27,348 - lightrag - INFO - Merge N: Bluetooth Tethering | 3+0
+2025-06-07 07:14:27,348 - lightrag - INFO - Merge N: USB Debugging | 4+0
+2025-06-07 07:14:27,348 - lightrag - INFO - Merge N: Status Bar | 4+0
+2025-06-07 07:14:27,348 - lightrag - INFO - Merge N: OTG Connection | 3+0
+2025-06-07 07:14:27,348 - lightrag - INFO - Merge N: Dual SIM | 3+0
+2025-06-07 07:14:27,349 - lightrag - INFO - Merge N: Dual SIM Support | 3+0
+2025-06-07 07:14:27,349 - lightrag - INFO - Merge N: Nothing Phone 2 | 2+0
+2025-06-07 07:14:27,349 - lightrag - INFO - Merge N: dual SIM | 2+0
+2025-06-07 07:14:27,349 - lightrag - INFO - Merge N: MMS (Multimedia Messaging Service) | 2+0
+2025-06-07 07:14:27,351 - lightrag - INFO - Merge N: Earbuds | 2+0
+2025-06-07 07:14:27,351 - lightrag - INFO - Merge N: Facebook | 2+0
+2025-06-07 07:14:27,351 - lightrag - INFO - Merge N: OTA Update | 2+0
+2025-06-07 07:14:27,354 - lightrag - INFO - LLM merge E: CMF Watch app - Watch Pro | 8+0
+2025-06-07 07:14:40,904 - lightrag - INFO -  == LLM cache == saving default: 280370122df2be186da9f0d9c7edeb1a
+2025-06-07 07:14:40,904 - lightrag - INFO - Merge E: Charging Case - Ear (open) | 2+0
+2025-06-07 07:14:40,905 - lightrag - INFO - Merge E: Google Play - Nothing X App | 3+0
+2025-06-07 07:14:40,905 - lightrag - INFO - Merge E: Nothing X App - iOS App Store | 2+0
+2025-06-07 07:14:40,905 - lightrag - INFO - Merge E: CMF Buds Pro 2 - Charging Case | 2+0
+2025-06-07 07:14:40,906 - lightrag - INFO - Merge E: Nothing X app - Smart Dial | 2+0
+2025-06-07 07:14:40,906 - lightrag - INFO - Merge E: Battery Life - Charging Case | 2+0
+2025-06-07 07:14:40,907 - lightrag - INFO - Merge E: Battery Capacity - Nothing | 3+0
+2025-06-07 07:14:40,908 - lightrag - INFO - Merge E: Custom EQ Settings - Nothing X App | 2+0
+2025-06-07 07:14:40,908 - lightrag - INFO - Merge E: Neckband Pro - Nothing | 2+0
+2025-06-07 07:14:40,908 - lightrag - INFO - Merge E: Nothing - Nothing X App | 2+0
+2025-06-07 07:14:40,909 - lightrag - INFO - Merge E: Data Transfer - Nothing Phone | 3+0
+2025-06-07 07:14:40,910 - lightrag - INFO - Merge E: Game Mode - Nothing Phone | 3+0
+2025-06-07 07:14:40,910 - lightrag - INFO - Merge E: Font Size Adjustment - Nothing Phone | 2+0
+2025-06-07 07:14:40,910 - lightrag - INFO - Merge E: Find My Phone - Nothing | 2+0
+2025-06-07 07:14:40,911 - lightrag - INFO - Merge E: Stress Measurement - Watch Pro | 2+0
+2025-06-07 07:14:40,911 - lightrag - INFO - Merge E: Sleep Tracking - Watch Pro | 2+0
+2025-06-07 07:14:40,911 - lightrag - INFO - Merge E: Heart Rate Monitoring - Watch Pro | 2+0
+2025-06-07 07:14:40,915 - lightrag - INFO - Merge E: Google Play Store - Nothing X app | 2+0
+2025-06-07 07:14:40,915 - lightrag - INFO - Merge E: Charging Issues - Customer Support | 2+0
+2025-06-07 07:14:40,918 - lightrag - INFO - Merge E: Nothing Customer Service - Nothing X app | 2+0
+2025-06-07 07:14:40,920 - lightrag - INFO - Merge E: Dual Connection - Nothing Ear 2 | 2+0
+2025-06-07 07:14:40,921 - lightrag - INFO - Merge E: Nothing X App - Personal Sound Profile | 2+0
+2025-06-07 07:14:40,922 - lightrag - INFO - Merge E: Nothing - Nothing Ear (a) | 2+0
+2025-06-07 07:14:40,922 - lightrag - INFO - Merge E: App Store - Nothing X App | 2+0
+2025-06-07 07:14:40,923 - lightrag - INFO - Merge E: Battery Life - Nothing | 2+0
+2025-06-07 07:14:40,923 - lightrag - INFO - Merge E: Battery Capacity - Fast Charging | 2+0
+2025-06-07 07:14:40,924 - lightrag - INFO - Merge E: Nothing - Nothing Phone 1 | 2+0
+2025-06-07 07:14:40,925 - lightrag - INFO - Merge E: Find My Phone - Google | 3+0
+2025-06-07 07:14:40,925 - lightrag - INFO - Merge E: Find My Phone - Location Services | 3+0
+2025-06-07 07:14:40,925 - lightrag - INFO - Merge E: Google - Nothing Phone | 2+0
+2025-06-07 07:14:40,926 - lightrag - INFO - Merge E: Google Play Store - Nothing Phone | 4+0
+2025-06-07 07:14:40,926 - lightrag - INFO - Merge E: Nothing Ear - Nothing Phone | 2+0
+2025-06-07 07:14:40,927 - lightrag - INFO - Merge E: Lock Screen Password - Nothing | 2+0
+2025-06-07 07:14:40,927 - lightrag - INFO - Merge E: Alarms - Nothing | 2+0
+2025-06-07 07:14:40,927 - lightrag - INFO - Merge E: Multiple Users - Nothing | 2+0
+2025-06-07 07:14:40,927 - lightrag - INFO - Merge E: Dark Theme - Nothing | 2+0
+2025-06-07 07:14:40,927 - lightrag - INFO - Merge E: Backup - Google | 2+0
+2025-06-07 07:14:40,928 - lightrag - INFO - Merge E: Notifications - Settings | 2+0
+2025-06-07 07:14:40,928 - lightrag - INFO - Merge E: Find My Device - Nothing Phone 2A Plus | 2+0
+2025-06-07 07:14:40,929 - lightrag - INFO - Merge E: Find My Phone - Google Account | 2+0
+2025-06-07 07:14:40,929 - lightrag - INFO - Merge E: Glyph Interface - Nothing | 3+0
+2025-06-07 07:14:40,929 - lightrag - INFO - Merge E: Glyph Interface - Settings | 2+0
+2025-06-07 07:14:40,929 - lightrag - INFO - Merge E: Glyph Interface - Nothing Phone 2A Plus | 2+0
+2025-06-07 07:14:40,930 - lightrag - INFO - Merge E: Data Roaming - Nothing Phone 2A Plus | 2+0
+2025-06-07 07:14:40,932 - lightrag - INFO - Merge E: Nothing Phone - iPhone | 2+0
+2025-06-07 07:14:40,932 - lightrag - INFO - Merge E: Android - Nothing Phone | 2+0
+2025-06-07 07:14:40,933 - lightrag - INFO - Merge E: Data Roaming - Nothing Phone 3A | 2+0
+2025-06-07 07:14:40,933 - lightrag - INFO - Merge E: Nothing Phone 3A - USB Debugging | 2+0
+2025-06-07 07:14:40,933 - lightrag - INFO - Merge E: Nothing Phone 3A - Status Bar | 2+0
+2025-06-07 07:14:40,933 - lightrag - INFO - Merge E: Nothing Phone 3A - System Update | 2+0
+2025-06-07 07:14:40,933 - lightrag - INFO - Merge E: Fingerprint Unlock - Nothing Phone 3A | 2+0
+2025-06-07 07:14:40,933 - lightrag - INFO - Merge E: Face Unlock - Nothing Phone 3A | 2+0
+2025-06-07 07:14:40,934 - lightrag - INFO - Merge E: Nothing Phone 3A - WiFi 6 | 2+0
+2025-06-07 07:14:40,934 - lightrag - INFO - Merge E: Nothing Phone 3A - USB Tethering | 2+0
+2025-06-07 07:14:40,934 - lightrag - INFO - Merge E: Nothing Phone 3A - WiFi Direct | 3+0
+2025-06-07 07:14:40,934 - lightrag - INFO - Merge E: Font Settings - Nothing Phone 3A | 2+0
+2025-06-07 07:14:40,935 - lightrag - INFO - Merge E: Google - Nothing | 2+0
+2025-06-07 07:14:40,938 - lightrag - INFO - Merge E: Customer Support - Phone | 2+0
+2025-06-07 07:14:40,938 - lightrag - INFO - Updating 658 entities  1/1: unknown_source
+2025-06-07 07:14:48,073 - lightrag - INFO - Updating 896 relations 1/1: unknown_source
+2025-06-07 07:14:57,001 - lightrag - INFO - Writing graph with 730 nodes, 896 edges
+2025-06-07 07:14:57,062 - lightrag - INFO - In memory DB persist to disk
+2025-06-07 07:14:57,062 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-07 07:14:57,063 - lightrag - INFO - Document processing pipeline completed
+2025-06-07 07:14:57,063 - lightrag - INFO - Process 3070239 building query context...
+2025-06-07 07:14:57,063 - lightrag - INFO - Query edges: Operating System, Nothing Phone, Android-based, top_k: 60, cosine: 0.2
+2025-06-07 07:14:57,118 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-06-07 07:15:42,471 - lightrag - INFO - Process 3070239 building query context...
+2025-06-07 07:15:42,471 - lightrag - INFO - Query nodes: Nothing Phone, Android, top_k: 60, cosine: 0.2
+2025-06-07 07:15:42,576 - lightrag - INFO - Local query uses 60 entites, 188 relations, 3 chunks
+2025-06-07 07:16:04,733 - lightrag - INFO - Storage Finalization completed!
+2025-06-07 07:17:49,853 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-07 07:17:49,896 - lightrag - INFO - Process 3157555 KV load full_docs with 1 records
+2025-06-07 07:17:49,898 - lightrag - INFO - Process 3157555 KV load text_chunks with 119 records
+2025-06-07 07:17:49,929 - lightrag - INFO - Process 3157555 KV load llm_response_cache with 276 records
+2025-06-07 07:17:49,931 - lightrag - INFO - Process 3157555 doc status load doc_status with 1 records
+2025-06-07 07:17:49,931 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-07 07:17:49,931 - lightrag - INFO - Storage Initialization completed!
+2025-06-07 07:17:49,994 - lightrag - INFO - No new unique documents were found.
+2025-06-07 07:17:49,994 - lightrag - INFO - No documents to process
+2025-06-07 07:17:49,995 - lightrag - INFO - Process 3157555 building query context...
+2025-06-07 07:17:49,995 - lightrag - INFO - Query edges: Operating System, Nothing Phone, Android-based, top_k: 60, cosine: 0.2
+2025-06-07 07:17:50,048 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-06-07 07:17:50,062 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-07 07:18:38,330 - lightrag - INFO - Process 3157555 building query context...
+2025-06-07 07:18:38,331 - lightrag - INFO - Query nodes: Nothing Phone, Android, top_k: 60, cosine: 0.2
+2025-06-07 07:18:38,456 - lightrag - INFO - Local query uses 60 entites, 188 relations, 3 chunks
+2025-06-07 07:18:53,045 - lightrag - INFO - Storage Finalization completed!
+2025-06-07 07:20:15,916 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-07 07:20:15,956 - lightrag - INFO - Process 3158236 KV load full_docs with 1 records
+2025-06-07 07:20:15,958 - lightrag - INFO - Process 3158236 KV load text_chunks with 119 records
+2025-06-07 07:20:15,988 - lightrag - INFO - Process 3158236 KV load llm_response_cache with 276 records
+2025-06-07 07:20:15,991 - lightrag - INFO - Process 3158236 doc status load doc_status with 1 records
+2025-06-07 07:20:15,991 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-07 07:20:15,991 - lightrag - INFO - Storage Initialization completed!
+2025-06-07 07:20:16,042 - lightrag - INFO - No new unique documents were found.
+2025-06-07 07:20:16,042 - lightrag - INFO - No documents to process
+2025-06-07 07:20:16,044 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-07 07:20:27,613 - lightrag - INFO -  == LLM cache == saving global: 0bf253acabc11a84d2c4b1f3560bd204
+2025-06-07 07:20:27,613 - lightrag - INFO - Process 3158236 building query context...
+2025-06-07 07:20:27,613 - lightrag - INFO - Query edges: Nothing Phone, iOS operating system, Smartphone technology, top_k: 60, cosine: 0.2
+2025-06-07 07:20:27,688 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-06-07 07:21:34,493 - lightrag - INFO -  == LLM cache == saving local: e9149bf845e986441c22fda403dc2f53
+2025-06-07 07:21:34,494 - lightrag - INFO - Process 3158236 building query context...
+2025-06-07 07:21:34,494 - lightrag - INFO - Query nodes: Nothing Phone, iOS, top_k: 60, cosine: 0.2
+2025-06-07 07:21:34,623 - lightrag - INFO - Local query uses 47 entites, 187 relations, 3 chunks
+2025-06-07 07:23:33,181 - lightrag - INFO - Storage Finalization completed!
+2025-06-19 02:10:02,586 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-19 02:10:02,631 - lightrag - INFO - Process 4142074 KV load full_docs with 1 records
+2025-06-19 02:10:02,634 - lightrag - INFO - Process 4142074 KV load text_chunks with 119 records
+2025-06-19 02:10:02,663 - lightrag - INFO - Process 4142074 KV load llm_response_cache with 278 records
+2025-06-19 02:10:02,665 - lightrag - INFO - Process 4142074 doc status load doc_status with 1 records
+2025-06-19 02:10:02,665 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-19 02:10:02,666 - lightrag - INFO - Storage Initialization completed!
+2025-06-19 02:10:05,430 - lightrag - INFO - No new unique documents were found.
+2025-06-19 02:10:05,430 - lightrag - INFO - No documents to process
+2025-06-19 02:10:05,430 - lightrag - INFO - Process 4142074 building query context...
+2025-06-19 02:10:05,430 - lightrag - INFO - Query edges: Nothing Phone, iOS operating system, Smartphone technology, top_k: 60, cosine: 0.2
+2025-06-19 02:10:05,510 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-06-19 02:10:05,524 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-19 02:11:09,522 - lightrag - INFO - Process 4142074 building query context...
+2025-06-19 02:11:09,522 - lightrag - INFO - Query nodes: Nothing Phone, iOS, top_k: 60, cosine: 0.2
+2025-06-19 02:11:09,656 - lightrag - INFO - Local query uses 47 entites, 187 relations, 3 chunks
+2025-06-19 02:13:11,965 - lightrag - INFO - Storage Finalization completed!
+2025-06-19 07:44:52,348 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-19 07:44:52,387 - lightrag - INFO - Process 51307 KV load full_docs with 1 records
+2025-06-19 07:44:52,390 - lightrag - INFO - Process 51307 KV load text_chunks with 119 records
+2025-06-19 07:44:52,419 - lightrag - INFO - Process 51307 KV load llm_response_cache with 278 records
+2025-06-19 07:44:52,421 - lightrag - INFO - Process 51307 doc status load doc_status with 1 records
+2025-06-19 07:44:52,424 - lightrag - INFO - No new unique documents were found.
+2025-06-19 07:44:52,424 - lightrag - INFO - Storage Initialization completed!
+2025-06-19 07:44:52,424 - lightrag - INFO - No documents to process
+2025-06-19 07:44:52,424 - lightrag - INFO - Storage Finalization completed!
+2025-06-19 07:56:00,778 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-19 07:56:00,817 - lightrag - INFO - Process 53227 KV load full_docs with 1 records
+2025-06-19 07:56:00,819 - lightrag - INFO - Process 53227 KV load text_chunks with 119 records
+2025-06-19 07:56:00,849 - lightrag - INFO - Process 53227 KV load llm_response_cache with 278 records
+2025-06-19 07:56:00,851 - lightrag - INFO - Process 53227 doc status load doc_status with 1 records
+2025-06-19 07:56:00,854 - lightrag - INFO - No new unique documents were found.
+2025-06-19 07:56:00,854 - lightrag - INFO - Storage Initialization completed!
+2025-06-19 07:56:00,854 - lightrag - INFO - No documents to process
+2025-06-19 07:56:00,855 - lightrag - INFO - Storage Finalization completed!
+2025-06-19 07:56:32,631 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-19 07:56:32,671 - lightrag - INFO - Process 53412 KV load full_docs with 1 records
+2025-06-19 07:56:32,673 - lightrag - INFO - Process 53412 KV load text_chunks with 119 records
+2025-06-19 07:56:32,703 - lightrag - INFO - Process 53412 KV load llm_response_cache with 278 records
+2025-06-19 07:56:32,705 - lightrag - INFO - Process 53412 doc status load doc_status with 1 records
+2025-06-19 07:56:32,708 - lightrag - INFO - No new unique documents were found.
+2025-06-19 07:56:32,708 - lightrag - INFO - Storage Initialization completed!
+2025-06-19 07:56:32,708 - lightrag - INFO - No documents to process
+2025-06-19 07:56:32,708 - lightrag - INFO - Storage Finalization completed!
+2025-06-19 07:56:56,378 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-19 07:56:56,418 - lightrag - INFO - Process 53605 KV load full_docs with 1 records
+2025-06-19 07:56:56,421 - lightrag - INFO - Process 53605 KV load text_chunks with 119 records
+2025-06-19 07:56:56,450 - lightrag - INFO - Process 53605 KV load llm_response_cache with 278 records
+2025-06-19 07:56:56,452 - lightrag - INFO - Process 53605 doc status load doc_status with 1 records
+2025-06-19 07:56:56,455 - lightrag - INFO - No new unique documents were found.
+2025-06-19 07:56:56,455 - lightrag - INFO - Storage Initialization completed!
+2025-06-19 07:56:56,455 - lightrag - INFO - No documents to process
+2025-06-19 07:56:56,455 - lightrag - INFO - Storage Finalization completed!
+2025-06-19 07:58:41,499 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-19 07:58:41,539 - lightrag - INFO - Process 54000 KV load full_docs with 1 records
+2025-06-19 07:58:41,541 - lightrag - INFO - Process 54000 KV load text_chunks with 119 records
+2025-06-19 07:58:41,570 - lightrag - INFO - Process 54000 KV load llm_response_cache with 278 records
+2025-06-19 07:58:41,572 - lightrag - INFO - Process 54000 doc status load doc_status with 1 records
+2025-06-19 07:58:41,575 - lightrag - INFO - No new unique documents were found.
+2025-06-19 07:58:41,575 - lightrag - INFO - Storage Initialization completed!
+2025-06-19 07:58:41,575 - lightrag - INFO - No documents to process
+2025-06-19 07:58:41,576 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-19 07:58:59,407 - lightrag - INFO - Storage Finalization completed!
+2025-06-19 10:23:35,862 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-19 10:23:35,900 - lightrag - INFO - Process 83428 KV load full_docs with 1 records
+2025-06-19 10:23:35,903 - lightrag - INFO - Process 83428 KV load text_chunks with 119 records
+2025-06-19 10:23:35,931 - lightrag - INFO - Process 83428 KV load llm_response_cache with 278 records
+2025-06-19 10:23:35,933 - lightrag - INFO - Process 83428 doc status load doc_status with 1 records
+2025-06-19 10:23:35,936 - lightrag - INFO - No new unique documents were found.
+2025-06-19 10:23:35,936 - lightrag - INFO - Storage Initialization completed!
+2025-06-19 10:23:35,936 - lightrag - INFO - No documents to process
+2025-06-19 10:23:35,936 - lightrag - INFO - Storage Finalization completed!
+2025-06-19 10:28:21,023 - lightrag - INFO - Loaded graph from ./working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 730 nodes, 896 edges
+2025-06-19 10:28:21,062 - lightrag - INFO - Process 85163 KV load full_docs with 1 records
+2025-06-19 10:28:21,064 - lightrag - INFO - Process 85163 KV load text_chunks with 119 records
+2025-06-19 10:28:21,092 - lightrag - INFO - Process 85163 KV load llm_response_cache with 278 records
+2025-06-19 10:28:21,094 - lightrag - INFO - Process 85163 doc status load doc_status with 1 records
+2025-06-19 10:28:21,097 - lightrag - INFO - No new unique documents were found.
+2025-06-19 10:28:21,097 - lightrag - INFO - Storage Initialization completed!
+2025-06-19 10:28:21,097 - lightrag - INFO - No documents to process
+2025-06-19 10:28:21,098 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-19 10:28:34,851 - lightrag - INFO - Storage Finalization completed!

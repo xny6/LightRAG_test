@@ -1,0 +1,211 @@
+[
+    {
+        "id": 1,
+        "entity1": "AC Unit",
+        "entity2": "Indoor Unit",
+        "description": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 10,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 2,
+        "entity1": "AC Unit",
+        "entity2": "Refrigerant",
+        "description": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit.",
+        "keywords": "cooling efficiency,refrigeration cycle",
+        "weight": 10.0,
+        "rank": 9,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 3,
+        "entity1": "AC Unit",
+        "entity2": "Outdoor Unit (Condenser)",
+        "description": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function.",
+        "keywords": "heat transfer,system operation",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 4,
+        "entity1": "AC Unit",
+        "entity2": "Thermostat",
+        "description": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions.",
+        "keywords": "system regulation,temperature control",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 5,
+        "entity1": "AC Unit",
+        "entity2": "Capacitor",
+        "description": "The capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation.\"|>\"electrical function, system startup",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 9,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 6,
+        "entity1": "AC Unit",
+        "entity2": "Disconnect Switch",
+        "description": "The disconnect switch allows manual turning off of power to the AC system for maintenance or safety purposes.\"|>\"safety mechanism, power control",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 9,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 7,
+        "entity1": "AC Unit",
+        "entity2": "Transformer",
+        "description": "The transformer provides power to low-voltage components of the AC system; failure can disrupt operation.\"|>\"electrical supply, system voltage",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 9,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 8,
+        "entity1": "AC Unit",
+        "entity2": "Circuit Breaker",
+        "description": "A tripped circuit breaker interrupts power supply to the AC unit, preventing it from operating.\"|>\"electrical safety, power disruption",
+        "keywords": "7",
+        "weight": 7.0,
+        "rank": 9,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 9,
+        "entity1": "Technical Troubleshooting",
+        "entity2": "Worn Fan Motor Bearings",
+        "description": "The process of technical troubleshooting includes checking for worn bearings and replacing the motor if necessary.",
+        "keywords": "component replacement,wear detection",
+        "weight": 9.0,
+        "rank": 5,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 10,
+        "entity1": "AC Making Loud Noise",
+        "entity2": "Technical Troubleshooting",
+        "description": "The AC making loud noise is being addressed through a series of technical troubleshooting steps to identify and resolve the root cause.",
+        "keywords": "diagnostic process,problem-solving",
+        "weight": 8.0,
+        "rank": 5,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 11,
+        "entity1": "Loose Components",
+        "entity2": "Technical Troubleshooting",
+        "description": "Technical troubleshooting entails inspecting and tightening loose parts to eliminate noise caused by vibrations or rattling.",
+        "keywords": "maintenance,vibration control",
+        "weight": 8.0,
+        "rank": 5,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 12,
+        "entity1": "Debris in Fan",
+        "entity2": "Technical Troubleshooting",
+        "description": "Technical troubleshooting involves inspecting and cleaning the fan unit to address issues caused by debris.",
+        "keywords": "maintenance,obstruction removal",
+        "weight": 7.0,
+        "rank": 5,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 13,
+        "entity1": "AC Unit Will Not Turn On",
+        "entity2": "No Power to Unit",
+        "description": "Lack of power supply prevents the AC unit from receiving electrical energy required for operation, resulting in the system not turning on.",
+        "keywords": "electrical disconnect,power failure",
+        "weight": 10.0,
+        "rank": 4,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 14,
+        "entity1": "AC Unit is Not Cooling",
+        "entity2": "Low Refrigerant",
+        "description": "Insufficient refrigerant levels prevent the system from effectively absorbing and transferring heat, leading to inadequate cooling performance.",
+        "keywords": "heat transfer inefficiency,refrigeration cycle failure",
+        "weight": 9.0,
+        "rank": 4,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 15,
+        "entity1": "AC Unit Will Not Turn On",
+        "entity2": "Failed Transformer",
+        "description": "Failure of the transformer means that the required electrical power is not being supplied to critical components, causing the AC unit to remain non-functional.",
+        "keywords": "component failure,electrical supply interruption",
+        "weight": 9.0,
+        "rank": 4,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 16,
+        "entity1": "AC Unit is Not Cooling",
+        "entity2": "Dirty Air Filter",
+        "description": "The presence of a dirty air filter can restrict airflow and reduce cooling efficiency, contributing to the issue where the AC unit fails to cool properly.",
+        "keywords": "airflow obstruction,cooling inefficiency",
+        "weight": 8.0,
+        "rank": 4,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 17,
+        "entity1": "AC Unit Will Not Turn On",
+        "entity2": "Faulty Thermostat",
+        "description": "A faulty thermostat fails to send the necessary signals to activate the AC unit, preventing it from starting even when powered.\"|>\"control system malfunction, signal failure",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 4,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 18,
+        "entity1": "AC Unit is Not Cooling",
+        "entity2": "Faulty Capacitor",
+        "description": "A faulty capacitor can disrupt the electrical circuit necessary for proper operation, potentially causing the AC unit to malfunction and fail to cool effectively.",
+        "keywords": "electrical malfunction,system disruption",
+        "weight": 7.0,
+        "rank": 4,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 19,
+        "entity1": "Air Filter",
+        "entity2": "Indoor Unit",
+        "description": "The air filter is a part of the indoor unit that captures airborne particles to prevent damage to the AC system.\"|>\"airflow regulation, filtration",
+        "keywords": "7",
+        "weight": 7.0,
+        "rank": 3,
+        "created_at": "2025-06-13 04:32:06",
+        "file_path": "unknown_source"
+    }
+]

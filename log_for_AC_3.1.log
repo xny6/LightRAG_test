@@ -1,0 +1,32 @@
+2025-06-16 03:23:45,210 - lightrag - INFO - Created new empty graph
+2025-06-16 03:23:45,214 - lightrag - INFO - Process 1135211 KV load full_docs with 0 records
+2025-06-16 03:23:45,214 - lightrag - INFO - Process 1135211 KV load text_chunks with 0 records
+2025-06-16 03:23:45,214 - lightrag - INFO - Process 1135211 KV load llm_response_cache with 0 records
+2025-06-16 03:23:45,214 - lightrag - INFO - Process 1135211 doc status load doc_status with 0 records
+2025-06-16 03:23:45,215 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-16 03:23:45,215 - lightrag - INFO - Storage Initialization completed!
+2025-06-16 03:23:46,953 - lightrag - INFO - Stored 1 new unique documents
+2025-06-16 03:23:46,953 - lightrag - INFO - Processing 1 document(s)
+2025-06-16 03:23:46,953 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-16 03:23:46,953 - lightrag - INFO - Processing d-id: doc-87de7e444bbf0bd34a446d1d98509ca1
+2025-06-16 03:23:46,957 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-16 03:24:26,139 - lightrag - INFO -  == LLM cache == saving default: 871b33aa4311406c485e734d33a919b7
+2025-06-16 03:25:09,309 - lightrag - INFO -  == LLM cache == saving default: 1412f89a533e865c570993f37daa2eff
+2025-06-16 03:26:08,043 - lightrag - INFO -  == LLM cache == saving default: e68c3b0fedac9d91b3d2792e9290e699
+2025-06-16 03:26:08,045 - lightrag - INFO - Chunk 1 of 2 extracted 5 Ent + 3 Rel
+2025-06-16 03:27:02,797 - lightrag - INFO -  == LLM cache == saving default: e70131cdde7581630d9f50e1bbcf74bf
+2025-06-16 03:27:02,799 - lightrag - INFO - Chunk 2 of 2 extracted 8 Ent + 6 Rel
+2025-06-16 03:27:02,800 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-16 03:27:02,801 - lightrag - INFO - Updating 13 entities  1/1: unknown_source
+2025-06-16 03:27:02,990 - lightrag - INFO - Updating 9 relations 1/1: unknown_source
+2025-06-16 03:27:03,124 - lightrag - INFO - Writing graph with 14 nodes, 9 edges
+2025-06-16 03:27:03,137 - lightrag - INFO - In memory DB persist to disk
+2025-06-16 03:27:03,137 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-16 03:27:03,137 - lightrag - INFO - Document processing pipeline completed
+2025-06-16 03:27:14,390 - lightrag - INFO -  == LLM cache == saving hybrid: 8949ef9f66feb5c6e3c30b0c210b154f
+2025-06-16 03:27:14,391 - lightrag - INFO - Process 1135211 building query context...
+2025-06-16 03:27:14,391 - lightrag - INFO - Query nodes: Loud noise, Fan, Compressor, Belts, Refrigerant, Loose parts, Turn off AC, Check for obstructions, Schedule repairs, top_k: 60, cosine: 0.2
+2025-06-16 03:27:14,459 - lightrag - INFO - Local query uses 13 entites, 9 relations, 2 chunks
+2025-06-16 03:27:14,459 - lightrag - INFO - Query edges: AC, Noise, Problem-solving, top_k: 60, cosine: 0.2
+2025-06-16 03:27:14,573 - lightrag - INFO - Global query uses 13 entites, 9 relations, 2 chunks
+2025-06-16 03:27:46,298 - lightrag - INFO - Storage Finalization completed!

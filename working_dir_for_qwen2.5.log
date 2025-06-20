@@ -1,0 +1,239 @@
+2025-06-18 07:53:06,591 - lightrag - INFO - Created new empty graph
+2025-06-18 07:53:06,594 - lightrag - INFO - Process 2230140 KV load full_docs with 0 records
+2025-06-18 07:53:06,594 - lightrag - INFO - Process 2230140 KV load text_chunks with 0 records
+2025-06-18 07:53:06,594 - lightrag - INFO - Process 2230140 KV load llm_response_cache with 0 records
+2025-06-18 07:53:06,594 - lightrag - INFO - Process 2230140 doc status load doc_status with 0 records
+2025-06-18 07:53:06,595 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-18 07:53:06,595 - lightrag - INFO - Storage Initialization completed!
+2025-06-18 07:53:08,591 - lightrag - INFO - Stored 1 new unique documents
+2025-06-18 07:53:08,591 - lightrag - INFO - Processing 1 document(s)
+2025-06-18 07:53:08,591 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-18 07:53:08,591 - lightrag - INFO - Processing d-id: doc-aad5e52ebaf86756571eb8c509223cd6
+2025-06-18 07:53:08,597 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-18 07:59:17,597 - lightrag - INFO -  == LLM cache == saving default: fcfa0ab4db657c04597b4da834ba6f4e
+2025-06-18 07:59:53,881 - lightrag - INFO -  == LLM cache == saving default: 30579c5e643ffb472fb3350cfea44795
+2025-06-18 08:01:12,410 - lightrag - INFO -  == LLM cache == saving default: 2d9819c8e794d79179cc15a8465678cb
+2025-06-18 08:03:08,680 - lightrag - ERROR - limit_async: Error in decorated function: 
+2025-06-18 08:03:08,681 - lightrag - ERROR - Failed to extract entities and relationships: 
+2025-06-18 08:03:08,685 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/connection.py", line 103, in handle_async_request
+    return await self._connection.handle_async_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 136, in handle_async_request
+    raise exc
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 106, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 177, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_async/http11.py", line 217, in _receive_event
+    data = await self._network_stream.read(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 130, in ollama_model_complete
+    return await _ollama_model_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 109, in _ollama_model_if_cache
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/ollama.py", line 72, in _ollama_model_if_cache
+    response = await ollama_client.chat(model=model, messages=messages, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 854, in chat
+    return await self._request(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 692, in _request
+    return cls(**(await self._request_raw(*args, **kwargs)).json())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/ollama/_client.py", line 632, in _request_raw
+    r = await self._client.request(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+2025-06-18 08:03:08,685 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2025-06-18 08:03:08,688 - lightrag - INFO - Document processing pipeline completed
+2025-06-18 08:03:21,911 - lightrag - INFO -  == LLM cache == saving hybrid: c36b2a706b0fa9596800ef3d3e8b7d53
+2025-06-18 08:03:21,911 - lightrag - INFO - Process 2230140 building query context...
+2025-06-18 08:03:21,911 - lightrag - INFO - Query nodes: France, Paris, top_k: 60, cosine: 0.2
+2025-06-18 08:03:23,812 - lightrag - INFO - Query edges: Capital city, Geography, top_k: 60, cosine: 0.2
+2025-06-18 08:03:30,614 - lightrag - INFO - Creating a new event loop in main thread.
+2025-06-18 08:05:00,031 - lightrag - INFO - Created new empty graph
+2025-06-18 08:05:00,034 - lightrag - INFO - Process 2250112 KV load full_docs with 0 records
+2025-06-18 08:05:00,034 - lightrag - INFO - Process 2250112 KV load text_chunks with 0 records
+2025-06-18 08:05:00,035 - lightrag - INFO - Process 2250112 KV load llm_response_cache with 4 records
+2025-06-18 08:05:00,035 - lightrag - INFO - Process 2250112 doc status load doc_status with 0 records
+2025-06-18 08:05:00,035 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-18 08:05:00,035 - lightrag - INFO - Storage Initialization completed!
+2025-06-18 08:05:00,078 - lightrag - INFO - Stored 1 new unique documents
+2025-06-18 08:05:00,078 - lightrag - INFO - Processing 1 document(s)
+2025-06-18 08:05:00,078 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-18 08:05:00,078 - lightrag - INFO - Processing d-id: doc-aad5e52ebaf86756571eb8c509223cd6
+2025-06-18 08:05:00,089 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-18 08:16:23,677 - lightrag - INFO -  == LLM cache == saving default: 39788c3adcc403364874e6b2d148fcf4
+2025-06-18 08:19:02,572 - lightrag - INFO -  == LLM cache == saving default: 43f39d059508052b74259453b461844c
+2025-06-18 08:19:02,577 - lightrag - INFO - Chunk 1 of 6 extracted 39 Ent + 45 Rel
+2025-06-18 08:20:15,785 - lightrag - INFO -  == LLM cache == saving default: bdf72c2d6ec1654aff8eb01bfc1b15f4
+2025-06-18 08:20:15,790 - lightrag - INFO - Chunk 2 of 6 extracted 36 Ent + 31 Rel
+2025-06-18 08:22:27,591 - lightrag - INFO -  == LLM cache == saving default: c185bd247cd8a6d321b8ad76f94fb889
+2025-06-18 08:22:27,596 - lightrag - INFO - Chunk 3 of 6 extracted 62 Ent + 33 Rel
+2025-06-18 08:23:39,775 - lightrag - INFO -  == LLM cache == saving default: 1e40a2cb029f8c54708088dd8d7c5599
+2025-06-18 08:27:34,926 - lightrag - INFO -  == LLM cache == saving default: 7b39841cf56b97f9054f9d887b5779ad
+2025-06-18 08:28:15,262 - lightrag - INFO -  == LLM cache == saving default: e8c90dd4f652e01583df46ecaeb9feca
+2025-06-18 08:28:15,264 - lightrag - INFO - Chunk 4 of 6 extracted 10 Ent + 9 Rel
+2025-06-18 08:28:34,291 - lightrag - INFO -  == LLM cache == saving default: b6866d5e5599a7bdd3803884e4a3c66f
+2025-06-18 08:28:34,295 - lightrag - INFO - Chunk 5 of 6 extracted 37 Ent + 18 Rel
+2025-06-18 08:35:58,336 - lightrag - INFO -  == LLM cache == saving default: 3f271c74a707dcb19f386dea4d2f8007
+2025-06-18 08:35:58,339 - lightrag - INFO - Chunk 6 of 6 extracted 27 Ent + 17 Rel
+2025-06-18 08:35:58,340 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-18 08:35:58,341 - lightrag - INFO - Merge N: Cairo | 2+0
+2025-06-18 08:35:58,341 - lightrag - INFO - Merge N: Giza | 2+0
+2025-06-18 08:35:58,341 - lightrag - INFO - Merge N: Egypt | 2+0
+2025-06-18 08:35:58,341 - lightrag - INFO - Merge N: Nile River | 2+0
+2025-06-18 08:35:58,341 - lightrag - INFO - Merge N: Al-Azhar University | 2+0
+2025-06-18 08:35:58,341 - lightrag - INFO - Merge N: Brasília | 2+0
+2025-06-18 08:35:58,341 - lightrag - INFO - Merge N: Brazil | 2+0
+2025-06-18 08:35:58,341 - lightrag - INFO - Merge N: Ottawa | 2+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: Canada | 2+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: New Delhi | 2+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: India | 2+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: Berlin | 3+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: Germany | 2+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: Rome | 2+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: Mexico City | 2+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: Moscow | 2+0
+2025-06-18 08:35:58,342 - lightrag - INFO - Merge N: London | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: United Kingdom | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: Beijing | 3+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: China | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: Pretoria | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: South Africa | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: Buenos Aires | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: Argentina | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: Seoul | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: South Korea | 2+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: Ankara | 3+0
+2025-06-18 08:35:58,343 - lightrag - INFO - Merge N: Turkey | 2+0
+2025-06-18 08:35:58,344 - lightrag - INFO - Merge N: Nairobi | 2+0
+2025-06-18 08:35:58,344 - lightrag - INFO - Merge N: Stockholm | 2+0
+2025-06-18 08:35:58,344 - lightrag - INFO - Merge N: Lima | 3+0
+2025-06-18 08:35:58,344 - lightrag - INFO - Merge N: Peru | 2+0
+2025-06-18 08:35:58,345 - lightrag - INFO - Merge N: Hamburg | 2+0
+2025-06-18 08:35:58,345 - lightrag - INFO - Merge N: Elbe River | 2+0
+2025-06-18 08:35:58,345 - lightrag - INFO - Merge N: Alster Lake | 2+0
+2025-06-18 08:35:58,351 - lightrag - INFO - Merge N: Birmingham Airport | 2+0
+2025-06-18 08:35:58,351 - lightrag - INFO - Merge N: Birmingham Central Library | 2+0
+2025-06-18 08:35:58,351 - lightrag - INFO - Merge N: Birmingham Botanical Gardens | 2+0
+2025-06-18 08:35:58,352 - lightrag - INFO - Merge N: Gamcheon Culture Village | 2+0
+2025-06-18 08:35:58,352 - lightrag - INFO - Merge N: Istanbul | 2+0
+2025-06-18 08:35:58,353 - lightrag - INFO - Merge N: Arequipa | 2+0
+2025-06-18 08:35:58,353 - lightrag - INFO - Merge N: El Misti | 2+0
+2025-06-18 08:35:58,353 - lightrag - INFO - Merge E: Cairo - Giza | 2+0
+2025-06-18 08:35:58,354 - lightrag - INFO - Merge E: Giza - Nile River | 2+0
+2025-06-18 08:35:58,354 - lightrag - INFO - Merge E: Beijing - China | 2+0
+2025-06-18 08:35:58,354 - lightrag - INFO - Merge E: Pretoria - South Africa | 2+0
+2025-06-18 08:35:58,354 - lightrag - INFO - Merge E: Argentina - Buenos Aires | 2+0
+2025-06-18 08:35:58,354 - lightrag - INFO - Merge E: Seoul - South Korea | 2+0
+2025-06-18 08:35:58,355 - lightrag - INFO - Merge E: Ankara - Turkey | 2+0
+2025-06-18 08:35:58,355 - lightrag - INFO - Merge E: Lima - Peru | 2+0
+2025-06-18 08:35:58,355 - lightrag - INFO - Merge E: Berlin - Hamburg | 2+0
+2025-06-18 08:35:58,355 - lightrag - INFO - Merge E: Elbe River - Hamburg | 2+0
+2025-06-18 08:35:58,356 - lightrag - INFO - Merge E: Birmingham - Birmingham Airport | 2+0
+2025-06-18 08:35:58,356 - lightrag - INFO - Merge E: Birmingham - Birmingham Central Library | 2+0
+2025-06-18 08:35:58,357 - lightrag - INFO - Merge E: Birmingham - Birmingham Botanical Gardens | 2+0
+2025-06-18 08:35:58,358 - lightrag - INFO - Merge E: Arequipa - El Misti | 2+0
+2025-06-18 08:35:58,358 - lightrag - INFO - Updating 164 entities  1/1: unknown_source
+2025-06-18 08:36:01,693 - lightrag - INFO - Updating 134 relations 1/1: unknown_source
+2025-06-18 08:36:02,895 - lightrag - INFO - Writing graph with 165 nodes, 134 edges
+2025-06-18 08:36:02,912 - lightrag - INFO - In memory DB persist to disk
+2025-06-18 08:36:02,912 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-18 08:36:02,912 - lightrag - INFO - Document processing pipeline completed
+2025-06-18 08:36:02,913 - lightrag - INFO - Process 2250112 building query context...
+2025-06-18 08:36:02,913 - lightrag - INFO - Query nodes: France, Paris, top_k: 60, cosine: 0.2
+2025-06-18 08:36:02,960 - lightrag - INFO - Local query uses 60 entites, 94 relations, 3 chunks
+2025-06-18 08:36:02,961 - lightrag - INFO - Query edges: Capital city, Geography, top_k: 60, cosine: 0.2
+2025-06-18 08:36:03,082 - lightrag - INFO - Global query uses 78 entites, 60 relations, 4 chunks
+2025-06-18 08:37:08,780 - lightrag - ERROR - Error in stream response: POST predict: Post "http://127.0.0.1:44717/completion": EOF (status code: -1)
+2025-06-18 08:37:08,781 - lightrag - INFO - Storage Finalization completed!
+2025-06-18 10:35:50,521 - lightrag - INFO - Loaded graph from working_dir_for_qwen2.5/graph_chunk_entity_relation.graphml with 165 nodes, 134 edges
+2025-06-18 10:35:50,531 - lightrag - INFO - Process 2360931 KV load full_docs with 1 records
+2025-06-18 10:35:50,531 - lightrag - INFO - Process 2360931 KV load text_chunks with 6 records
+2025-06-18 10:35:50,533 - lightrag - INFO - Process 2360931 KV load llm_response_cache with 13 records
+2025-06-18 10:35:50,533 - lightrag - INFO - Process 2360931 doc status load doc_status with 1 records
+2025-06-18 10:35:50,533 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-18 10:35:50,533 - lightrag - INFO - Storage Initialization completed!
+2025-06-18 10:35:52,733 - lightrag - INFO - No new unique documents were found.
+2025-06-18 10:35:52,733 - lightrag - INFO - No documents to process
+2025-06-18 10:35:52,733 - lightrag - INFO - Process 2360931 building query context...
+2025-06-18 10:35:52,733 - lightrag - INFO - Query nodes: France, Paris, top_k: 60, cosine: 0.2
+2025-06-18 10:35:52,783 - lightrag - INFO - Local query uses 60 entites, 94 relations, 3 chunks
+2025-06-18 10:35:52,783 - lightrag - INFO - Query edges: Capital city, Geography, top_k: 60, cosine: 0.2
+2025-06-18 10:35:52,906 - lightrag - INFO - Global query uses 78 entites, 60 relations, 4 chunks
+2025-06-18 10:35:52,922 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-18 10:37:23,256 - lightrag - INFO -  == LLM cache == saving local: 4d68ac49faed0065e986318eb2a1ff41
+2025-06-18 10:37:23,257 - lightrag - INFO - Process 2360931 building query context...
+2025-06-18 10:37:23,257 - lightrag - INFO - Query nodes: France, Paris, top_k: 60, cosine: 0.2
+2025-06-18 10:37:23,345 - lightrag - INFO - Local query uses 60 entites, 94 relations, 3 chunks
+2025-06-18 10:38:18,941 - lightrag - INFO -  == LLM cache == saving global: 963fe79bd615535ae733f048d7872b4e
+2025-06-18 10:38:18,942 - lightrag - INFO - Process 2360931 building query context...
+2025-06-18 10:38:18,942 - lightrag - INFO - Query edges: Capital city, Geography, top_k: 60, cosine: 0.2
+2025-06-18 10:38:19,030 - lightrag - INFO - Global query uses 78 entites, 60 relations, 4 chunks
+2025-06-18 10:39:03,163 - lightrag - INFO - Storage Finalization completed!

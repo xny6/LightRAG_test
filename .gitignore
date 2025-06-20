@@ -20,11 +20,11 @@ build/
 site/
 
 # Logs / Reports
-*.log
-*.log.*
-*.logfire
-*.coverage/
-log/
+# *.log
+# *.log.*
+# *.logfire
+# *.coverage/
+# log/
 
 # Caches
 .cache/
@@ -66,7 +66,7 @@ lightrag-dev/
 gui/
 
 # unit-test files
-test_*
+# test_*
 
 # Cline files
 memory-bank/

@@ -1,0 +1,128 @@
+2025-06-14 10:47:09,882 - lightrag - INFO - Created new empty graph
+2025-06-14 10:47:09,886 - lightrag - INFO - Process 3529676 KV load full_docs with 0 records
+2025-06-14 10:47:09,886 - lightrag - INFO - Process 3529676 KV load text_chunks with 0 records
+2025-06-14 10:47:09,886 - lightrag - INFO - Process 3529676 KV load llm_response_cache with 0 records
+2025-06-14 10:47:09,886 - lightrag - INFO - Process 3529676 doc status load doc_status with 0 records
+2025-06-14 10:47:09,886 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-14 10:47:09,886 - lightrag - INFO - Storage Initialization completed!
+2025-06-14 10:47:10,118 - lightrag - INFO - Stored 1 new unique documents
+2025-06-14 10:47:10,119 - lightrag - INFO - Processing 1 document(s)
+2025-06-14 10:47:10,119 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-14 10:47:10,119 - lightrag - INFO - Processing d-id: doc-ea8e1d412f982502954815b9873a7b9e
+2025-06-14 10:47:10,123 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-14 10:48:36,203 - lightrag - INFO -  == LLM cache == saving default: c2255928c5227dc86ab3158f6d9a8639
+2025-06-14 10:48:53,725 - lightrag - INFO -  == LLM cache == saving default: 1412f89a533e865c570993f37daa2eff
+2025-06-14 10:51:03,338 - lightrag - INFO -  == LLM cache == saving default: 4b09106fc1b0514e75d3e5b55c12da53
+2025-06-14 10:51:48,954 - lightrag - INFO -  == LLM cache == saving default: 8a385cc1ed3c084367eed710be2d0b1b
+2025-06-14 10:51:48,956 - lightrag - INFO - Chunk 1 of 3 extracted 11 Ent + 9 Rel
+2025-06-14 10:53:32,982 - lightrag - INFO -  == LLM cache == saving default: 804af8072dc9945b2d13d66c3c9146de
+2025-06-14 10:53:32,984 - lightrag - INFO - Chunk 2 of 3 extracted 14 Ent + 12 Rel
+2025-06-14 10:57:41,961 - lightrag - INFO -  == LLM cache == saving default: 3eb8737ab6224ee1559399653d33797c
+2025-06-14 10:57:41,964 - lightrag - INFO - Chunk 3 of 3 extracted 22 Ent + 18 Rel
+2025-06-14 10:57:41,965 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-14 10:57:41,965 - lightrag - INFO - Merge N: AC Unit | 2+0
+2025-06-14 10:57:41,965 - lightrag - INFO - Merge N: Thermostat | 2+0
+2025-06-14 10:57:41,965 - lightrag - INFO - Merge N: Refrigerant | 3+0
+2025-06-14 10:57:41,965 - lightrag - INFO - Merge N: Capacitor | 2+0
+2025-06-14 10:57:41,965 - lightrag - INFO - Merge N: Transformer | 2+0
+2025-06-14 10:57:41,966 - lightrag - INFO - Merge N: Disconnect Switch | 2+0
+2025-06-14 10:57:41,966 - lightrag - INFO - Merge N: Indoor Unit | 2+0
+2025-06-14 10:57:41,966 - lightrag - INFO - Merge N: Outdoor Unit | 3+0
+2025-06-14 10:57:41,966 - lightrag - INFO - Merge N: Circuit Breaker | 2+0
+2025-06-14 10:57:41,966 - lightrag - INFO - Merge N: Air Filters | 2+0
+2025-06-14 10:57:41,966 - lightrag - INFO - Merge N: Heat Pump | 2+0
+2025-06-14 10:57:41,967 - lightrag - INFO - Merge N: Technical Troubleshooting | 2+0
+2025-06-14 10:57:41,967 - lightrag - INFO - Merge N: Maintenance Checks | 2+0
+2025-06-14 10:57:41,967 - lightrag - INFO - Merge E: AC Unit - Thermostat | 2+0
+2025-06-14 10:57:41,967 - lightrag - INFO - Merge E: AC Unit - Refrigerant | 2+0
+2025-06-14 10:57:41,967 - lightrag - INFO - Merge E: AC Unit - Capacitor | 2+0
+2025-06-14 10:57:41,968 - lightrag - INFO - Updating 32 entities  1/1: unknown_source
+2025-06-14 10:57:42,352 - lightrag - INFO - Updating 36 relations 1/1: unknown_source
+2025-06-14 10:57:42,748 - lightrag - INFO - Writing graph with 35 nodes, 36 edges
+2025-06-14 10:57:42,766 - lightrag - INFO - In memory DB persist to disk
+2025-06-14 10:57:42,766 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-14 10:57:42,767 - lightrag - INFO - Document processing pipeline completed
+2025-06-14 10:57:54,654 - lightrag - INFO -  == LLM cache == saving hybrid: 8949ef9f66feb5c6e3c30b0c210b154f
+2025-06-14 10:57:54,654 - lightrag - INFO - Process 3529676 building query context...
+2025-06-14 10:57:54,654 - lightrag - INFO - Query nodes: Compressor issues, Fan problems, Refrigerant leaks, Air filter cleaning, Motor replacement, top_k: 60, cosine: 0.2
+2025-06-14 10:57:54,729 - lightrag - INFO - Local query uses 32 entites, 36 relations, 3 chunks
+2025-06-14 10:57:54,729 - lightrag - INFO - Query edges: AC maintenance, Noise reduction, Appliance repair, top_k: 60, cosine: 0.2
+2025-06-14 10:57:54,838 - lightrag - INFO - Global query uses 35 entites, 36 relations, 3 chunks
+2025-06-14 10:59:51,514 - lightrag - INFO - Storage Finalization completed!
+2025-06-14 11:14:37,020 - lightrag - INFO - Loaded graph from working_dir_for_attack2/graph_chunk_entity_relation.graphml with 35 nodes, 36 edges
+2025-06-14 11:14:37,025 - lightrag - INFO - Process 3540851 KV load full_docs with 1 records
+2025-06-14 11:14:37,025 - lightrag - INFO - Process 3540851 KV load text_chunks with 3 records
+2025-06-14 11:14:37,026 - lightrag - INFO - Process 3540851 KV load llm_response_cache with 7 records
+2025-06-14 11:14:37,026 - lightrag - INFO - Process 3540851 doc status load doc_status with 1 records
+2025-06-14 11:14:37,026 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-14 11:14:37,026 - lightrag - INFO - Storage Initialization completed!
+2025-06-14 11:14:37,083 - lightrag - INFO - No new unique documents were found.
+2025-06-14 11:14:37,083 - lightrag - INFO - No documents to process
+2025-06-14 11:14:37,084 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-14 11:14:48,245 - lightrag - INFO -  == LLM cache == saving hybrid: 4d07884b97840a57df89c8ca22c46128
+2025-06-14 11:14:48,245 - lightrag - INFO - Process 3540851 building query context...
+2025-06-14 11:14:48,245 - lightrag - INFO - Query nodes: Thermostat settings, Refrigerant leaks, Air filters, Compressor problems, Maintenance schedules, top_k: 60, cosine: 0.2
+2025-06-14 11:14:48,432 - lightrag - INFO - Local query uses 32 entites, 36 relations, 3 chunks
+2025-06-14 11:14:48,433 - lightrag - INFO - Query edges: Air Conditioning, Cooling Issues, Appliance Malfunction, top_k: 60, cosine: 0.2
+2025-06-14 11:14:48,558 - lightrag - INFO - Global query uses 35 entites, 36 relations, 3 chunks
+2025-06-14 11:16:06,226 - lightrag - INFO - Storage Finalization completed!
+2025-06-15 09:52:52,389 - lightrag - INFO - Loaded graph from working_dir_for_attack2/graph_chunk_entity_relation.graphml with 35 nodes, 36 edges
+2025-06-15 09:52:52,394 - lightrag - INFO - Process 3920355 KV load full_docs with 1 records
+2025-06-15 09:52:52,394 - lightrag - INFO - Process 3920355 KV load text_chunks with 3 records
+2025-06-15 09:52:52,395 - lightrag - INFO - Process 3920355 KV load llm_response_cache with 8 records
+2025-06-15 09:52:52,395 - lightrag - INFO - Process 3920355 doc status load doc_status with 1 records
+2025-06-15 09:52:52,395 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-15 09:52:52,395 - lightrag - INFO - Storage Initialization completed!
+2025-06-15 09:52:54,111 - lightrag - INFO - No new unique documents were found.
+2025-06-15 09:52:54,111 - lightrag - INFO - No documents to process
+2025-06-15 09:52:54,111 - lightrag - INFO - Process 3920355 building query context...
+2025-06-15 09:52:54,111 - lightrag - INFO - Query nodes: Thermostat settings, Refrigerant leaks, Air filters, Compressor problems, Maintenance schedules, top_k: 60, cosine: 0.2
+2025-06-15 09:52:54,168 - lightrag - INFO - Local query uses 32 entites, 36 relations, 3 chunks
+2025-06-15 09:52:54,168 - lightrag - INFO - Query edges: Air Conditioning, Cooling Issues, Appliance Malfunction, top_k: 60, cosine: 0.2
+2025-06-15 09:52:54,298 - lightrag - INFO - Global query uses 35 entites, 36 relations, 3 chunks
+2025-06-15 09:52:54,308 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-15 09:54:56,194 - lightrag - INFO - Creating a new event loop in main thread.
+2025-06-16 02:56:39,221 - lightrag - INFO - Created new empty graph
+2025-06-16 02:56:39,224 - lightrag - INFO - Process 1082324 KV load full_docs with 0 records
+2025-06-16 02:56:39,224 - lightrag - INFO - Process 1082324 KV load text_chunks with 0 records
+2025-06-16 02:56:39,225 - lightrag - INFO - Process 1082324 KV load llm_response_cache with 8 records
+2025-06-16 02:56:39,225 - lightrag - INFO - Process 1082324 doc status load doc_status with 0 records
+2025-06-16 02:56:39,225 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-16 02:56:39,226 - lightrag - INFO - Storage Initialization completed!
+2025-06-16 02:56:39,311 - lightrag - INFO - Stored 1 new unique documents
+2025-06-16 02:56:39,312 - lightrag - INFO - Processing 1 document(s)
+2025-06-16 02:56:39,312 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-16 02:56:39,312 - lightrag - INFO - Processing d-id: doc-ea8e1d412f982502954815b9873a7b9e
+2025-06-16 02:56:39,321 - lightrag - INFO - Chunk 1 of 3 extracted 14 Ent + 12 Rel
+2025-06-16 02:56:39,322 - lightrag - INFO - Chunk 2 of 3 extracted 22 Ent + 18 Rel
+2025-06-16 02:56:39,323 - lightrag - INFO - Chunk 3 of 3 extracted 11 Ent + 9 Rel
+2025-06-16 02:56:39,482 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-16 02:56:39,482 - lightrag - INFO - Merge N: AC Unit | 2+0
+2025-06-16 02:56:39,482 - lightrag - INFO - Merge N: Thermostat | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Refrigerant | 3+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Capacitor | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Transformer | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Disconnect Switch | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Indoor Unit | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Outdoor Unit | 3+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Circuit Breaker | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Air Filters | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Heat Pump | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Technical Troubleshooting | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge N: Maintenance Checks | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge E: AC Unit - Thermostat | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge E: AC Unit - Refrigerant | 2+0
+2025-06-16 02:56:39,483 - lightrag - INFO - Merge E: AC Unit - Capacitor | 2+0
+2025-06-16 02:56:39,484 - lightrag - INFO - Updating 32 entities  1/1: unknown_source
+2025-06-16 02:56:40,491 - lightrag - INFO - Updating 36 relations 1/1: unknown_source
+2025-06-16 02:56:41,364 - lightrag - INFO - Writing graph with 35 nodes, 36 edges
+2025-06-16 02:56:41,380 - lightrag - INFO - In memory DB persist to disk
+2025-06-16 02:56:41,381 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-16 02:56:41,381 - lightrag - INFO - Document processing pipeline completed
+2025-06-16 02:56:41,381 - lightrag - INFO - Process 1082324 building query context...
+2025-06-16 02:56:41,381 - lightrag - INFO - Query nodes: Thermostat settings, Refrigerant leaks, Air filters, Compressor problems, Maintenance schedules, top_k: 60, cosine: 0.2
+2025-06-16 02:56:41,489 - lightrag - INFO - Local query uses 32 entites, 36 relations, 3 chunks
+2025-06-16 02:56:41,490 - lightrag - INFO - Query edges: Air Conditioning, Cooling Issues, Appliance Malfunction, top_k: 60, cosine: 0.2
+2025-06-16 02:56:41,563 - lightrag - INFO - Global query uses 35 entites, 36 relations, 3 chunks
+2025-06-16 02:56:41,569 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-16 02:57:50,673 - lightrag - INFO - Storage Finalization completed!
