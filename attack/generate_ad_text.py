@@ -1,7 +1,7 @@
 import requests
 import re
 import json
-def generate_wrong_answer(json_data, model: str = "qwen2.5:72b") -> str:
+def generate_wrong_answer(json_data, model: str = "qwen2") -> str:
     """
     调用本地 Ollama 中的 qwen2 模型，根据 prompt、question 和参考答案生成错误回答。
     """
@@ -116,7 +116,7 @@ results = []
 
 
 # 加载原始 JSON（列表格式）
-with open('/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final_geo.json', 'r', encoding='utf-8') as f:
+with open('/home/NingyuanXiao/LightRAG_test/test_for_extraction/ad_entities_final.json', 'r', encoding='utf-8') as f:
     raw_json_data = json.load(f)
 
 # 遍历每条数据，单独处理
@@ -131,7 +131,7 @@ for item in raw_json_data:
         print("解析失败，原始返回：", adversarial_text)
 
 # 写入合并结果
-with open('/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_text_geo.json', 'w', encoding='utf-8') as f:
+with open('/home/NingyuanXiao/LightRAG_test/test_for_extraction/llm_generate_ad_text_geo.json', 'w', encoding='utf-8') as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
 
 

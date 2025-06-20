@@ -1,7 +1,7 @@
 import requests
 import json
 
-def generate_wrong_answer(json_data, model: str = "llama3.3") -> str:
+def generate_wrong_answer(json_data, model: str = "qwen2") -> str:
     """
     调用本地 Ollama 模型生成替换实体。
     """
@@ -49,9 +49,9 @@ def generate_wrong_answer(json_data, model: str = "llama3.3") -> str:
 
 
 # ==== 路径配置 ====
-original_file = '/home/NingyuanXiao/LightRAG_test/attack/filtered_data_geo.json'   # 含 Relationship 的输入
-llm_output_file = '/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_entities_geo.json'  # LLM 输出（中间文件）
-output_file = '/home/NingyuanXiao/LightRAG_test/attack/ad_entities_final_geo.json'  # 最终输出
+original_file = '/home/NingyuanXiao/LightRAG_test/test_for_extraction/clean_output.json'   # 含 Relationship 的输入
+# llm_output_file = '/home/NingyuanXiao/LightRAG_test/attack/llm_generate_ad_entities_geo.json'  # LLM 输出（中间文件）
+output_file = '/home/NingyuanXiao/LightRAG_test/test_for_extraction/ad_entities_final.json'  # 最终输出
 
 # ==== 读取原始数据 ====
 with open(original_file, 'r', encoding='utf-8') as f:
@@ -61,9 +61,9 @@ with open(original_file, 'r', encoding='utf-8') as f:
 # ==== 生成 LLM 输出 ====
 llm_response_text = generate_wrong_answer(json.dumps(original_data, ensure_ascii=False))
 
-# ==== 保存 LLM 输出（原始文本）====
-with open(llm_output_file, 'w', encoding='utf-8') as f:
-    f.write(llm_response_text)
+# # ==== 保存 LLM 输出（原始文本）====
+# with open(llm_output_file, 'w', encoding='utf-8') as f:
+#     f.write(llm_response_text)
 
 # ==== 解析 LLM JSON 输出 ====
 try:

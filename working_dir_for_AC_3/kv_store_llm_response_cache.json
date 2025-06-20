@@ -47,5 +47,16 @@
       "embedding_max": null,
       "original_prompt": "What can I do if AC is Making a Loud Noise?"
     }
+  },
+  "global": {
+    "fe3eb21702d897af2c800527442b0c17": {
+      "return": "{\"high_level_keywords\": [\"Air conditioner\", \"Noise\"], \"low_level_keywords\": [\"Fan\", \"Compressor\", \"Installation\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "Why does the AC make a loud noise?"
+    }
   }
 }

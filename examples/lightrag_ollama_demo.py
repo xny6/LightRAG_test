@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "working_dir_for_AC_3.1"
+WORKING_DIR = "working_dir_for_AC_3"
 
 
 def configure_logging():
@@ -26,7 +26,7 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "log_for_AC_3.1.log"))
+    log_file_path = os.path.abspath(os.path.join(log_dir, "log_for_AC_3.log"))
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -117,22 +117,22 @@ async def print_stream(stream):
 
 async def main():
     try:
-        # Clear old data files
-        files_to_delete = [
-            "graph_chunk_entity_relation.graphml",
-            "kv_store_doc_status.json",
-            "kv_store_full_docs.json",
-            "kv_store_text_chunks.json",
-            "vdb_chunks.json",
-            "vdb_entities.json",
-            "vdb_relationships.json",
-        ]
+        # # Clear old data files
+        # files_to_delete = [
+        #     "graph_chunk_entity_relation.graphml",
+        #     "kv_store_doc_status.json",
+        #     "kv_store_full_docs.json",
+        #     "kv_store_text_chunks.json",
+        #     "vdb_chunks.json",
+        #     "vdb_entities.json",
+        #     "vdb_relationships.json",
+        # ]
 
-        for file in files_to_delete:
-            file_path = os.path.join(WORKING_DIR, file)
-            if os.path.exists(file_path):
-                os.remove(file_path)
-                print(f"Deleting old file:: {file_path}")
+        # for file in files_to_delete:
+        #     file_path = os.path.join(WORKING_DIR, file)
+        #     if os.path.exists(file_path):
+        #         os.remove(file_path)
+        #         print(f"Deleting old file:: {file_path}")
 
         # Initialize RAG instance
         rag = await initialize_rag()
@@ -154,11 +154,11 @@ async def main():
 
         # Perform local search
         print("\n=====================")
-        print("Query mode: hybrid")
+        print("Query mode: global")
         print("=====================")
         resp = await rag.aquery(
-            "What can I do if AC is Making a Loud Noise?",
-            param=QueryParam(mode="hybrid", stream=True),
+            "Why does the AC make a loud noise?",
+            param=QueryParam(mode="global", stream=True),
         )
         if inspect.isasyncgen(resp):
             await print_stream(resp)
