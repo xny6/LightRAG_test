@@ -59,7 +59,7 @@ def generate_wrong_answer(json_data, model: str = "qwen2") -> str:
     except Exception as e:
         return f"请求出错: {str(e)}"
 
-def generate_wrong_text(json_data, model: str = "qwen2") -> str:
+def generate_wrong_text(json_data, model: str = "qwen2.5:72b") -> str:
     """
     调用本地 Ollama 中的 qwen2 模型，根据 prompt、question 和参考答案生成错误回答。
     """
@@ -234,7 +234,7 @@ async def generate_ad_entities(input_path, output_path):
 
 
 
-async def generate_ad_text(inptut_path, output_path):
+async def generate_ad_text(input_path, output_path):
     """
     生成对抗文本并保存到输出文件。
     """
@@ -242,14 +242,14 @@ async def generate_ad_text(inptut_path, output_path):
 
 
     # 加载原始 JSON（列表格式）
-    with open('/home/NingyuanXiao/LightRAG_test/test_for_extraction/ad_entities_final.json', 'r', encoding='utf-8') as f:
+    with open(input_path, 'r', encoding='utf-8') as f:
         raw_json_data = json.load(f)
 
     # 遍历每条数据，单独处理
     for item in raw_json_data:
         single_json = json.dumps([item], ensure_ascii=False, indent=2)  # 包装为列表
         # print(single_json)  # 打印单条数据以调试
-        adversarial_text = generate_wrong_answer(single_json)
+        adversarial_text = generate_wrong_text(single_json)
         print("生成的对抗文本：", adversarial_text)  # 打印生成的对抗文本以调试
         try:
             results.append(json.loads(adversarial_text)[0])  # 如果是有效 JSON，提取并加入
@@ -257,7 +257,7 @@ async def generate_ad_text(inptut_path, output_path):
             print("解析失败，原始返回：", adversarial_text)
 
     # 写入合并结果
-    with open('/home/NingyuanXiao/LightRAG_test/test_for_extraction/llm_generate_ad_text_geo.json', 'w', encoding='utf-8') as f:
+    with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
 

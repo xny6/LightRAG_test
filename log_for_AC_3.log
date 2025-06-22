@@ -71,3 +71,17 @@
 2025-06-20 01:55:04,474 - lightrag - INFO - Global query uses 23 entites, 19 relations, 2 chunks
 2025-06-20 01:55:04,478 - lightrag - INFO - limit_async: 4 new workers initialized
 2025-06-20 01:55:34,507 - lightrag - INFO - Storage Finalization completed!
+2025-06-22 04:49:56,322 - lightrag - INFO - Loaded graph from working_dir_for_AC_3/graph_chunk_entity_relation.graphml with 23 nodes, 19 edges
+2025-06-22 04:49:56,326 - lightrag - INFO - Process 1667262 KV load full_docs with 1 records
+2025-06-22 04:49:56,326 - lightrag - INFO - Process 1667262 KV load text_chunks with 2 records
+2025-06-22 04:49:56,326 - lightrag - INFO - Process 1667262 KV load llm_response_cache with 6 records
+2025-06-22 04:49:56,326 - lightrag - INFO - Process 1667262 doc status load doc_status with 1 records
+2025-06-22 04:49:56,327 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-22 04:49:56,327 - lightrag - INFO - Storage Initialization completed!
+2025-06-22 04:49:56,375 - lightrag - INFO - No new unique documents were found.
+2025-06-22 04:49:56,375 - lightrag - INFO - No documents to process
+2025-06-22 04:49:56,375 - lightrag - INFO - Process 1667262 building query context...
+2025-06-22 04:49:56,375 - lightrag - INFO - Query edges: Air conditioner, Noise, top_k: 60, cosine: 0.2
+2025-06-22 04:49:56,417 - lightrag - INFO - Global query uses 23 entites, 19 relations, 2 chunks
+2025-06-22 04:49:56,422 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-22 04:50:31,568 - lightrag - INFO - Storage Finalization completed!

@@ -50,6 +50,15 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "What is the capital of France?"
+    },
+    "49b2a179b5f8a088934e235d30526989": {
+      "return": "{\"high_level_keywords\": [\"Capital\", \"Italy\"], \"low_level_keywords\": [\"Rome\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "What is the capital of Italy?"
     }
   }
 }

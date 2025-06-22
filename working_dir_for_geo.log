@@ -1,0 +1,12 @@
+2025-06-22 04:51:04,819 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_for_geo/graph_chunk_entity_relation.graphml with 40 nodes, 20 edges
+2025-06-22 04:51:04,824 - lightrag - INFO - Process 1669967 KV load full_docs with 1 records
+2025-06-22 04:51:04,824 - lightrag - INFO - Process 1669967 KV load text_chunks with 1 records
+2025-06-22 04:51:04,824 - lightrag - INFO - Process 1669967 KV load llm_response_cache with 6 records
+2025-06-22 04:51:04,824 - lightrag - INFO - Process 1669967 doc status load doc_status with 1 records
+2025-06-22 04:51:04,825 - lightrag - INFO - Process 1669967 building query context...
+2025-06-22 04:51:04,825 - lightrag - INFO - Query edges: Capital, Italy, top_k: 60, cosine: 0.2
+2025-06-22 04:51:04,825 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-22 04:51:04,825 - lightrag - INFO - Storage Initialization completed!
+2025-06-22 04:51:04,875 - lightrag - INFO - Global query uses 40 entites, 20 relations, 1 chunks
+2025-06-22 04:51:04,879 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-22 04:51:09,234 - lightrag - INFO - Storage Finalization completed!

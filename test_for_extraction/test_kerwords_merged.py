@@ -1,3 +1,7 @@
+from lightrag.operate import get_keywords_from_query, extract_keywords_only, _get_edge_data
+from dataclasses import asdict
+from attack_related import write_chosen_relationships_to_file, filter_json, generate_ad_entities, generate_ad_text
+import json
 import asyncio
 import os
 import inspect
@@ -12,7 +16,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "./working_dir_advanced_ollama"
+WORKING_DIR = "/home/NingyuanXiao/LightRAG_test/working_dir_for_geo"
 
 
 def configure_logging():
@@ -26,7 +30,7 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "working_dir_advanced_ollama.log"))
+    log_file_path = os.path.abspath(os.path.join(log_dir, "working_dir_for_geo.log"))
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -86,7 +90,7 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
-        llm_model_name=os.getenv("LLM_MODEL", "deepseek-r1:32b"),
+        llm_model_name=os.getenv("LLM_MODEL", "qwen2"),
         llm_model_max_token_size=8192,
         llm_model_kwargs={
             "host": os.getenv("LLM_BINDING_HOST", "http://localhost:11434"),
@@ -117,71 +121,23 @@ async def print_stream(stream):
 
 async def main():
     try:
-        # # Clear old data files
-        # files_to_delete = [
-        #     "graph_chunk_entity_relation.graphml",
-        #     "kv_store_doc_status.json",
-        #     "kv_store_full_docs.json",
-        #     "kv_store_text_chunks.json",
-        #     "vdb_chunks.json",
-        #     "vdb_entities.json",
-        #     "vdb_relationships.json",
-        # ]
-
-        # for file in files_to_delete:
-        #     file_path = os.path.join(WORKING_DIR, file)
-        #     if os.path.exists(file_path):
-        #         os.remove(file_path)
-        #         print(f"Deleting old file:: {file_path}")
 
         # Initialize RAG instance
         rag = await initialize_rag()
 
-        # Test embedding function
-        test_text = ["This is a test string for embedding."]
-        embedding = await rag.embedding_func(test_text)
-        embedding_dim = embedding.shape[1]
-        print("\n=======================")
-        print("Test embedding function")
-        print("========================")
-        print(f"Test dict: {test_text}")
-        print(f"Detected embedding dimension: {embedding_dim}\n\n")
 
-        # Load data into RAG
-        # data_folder = '/home/NingyuanXiao/Nothing_tect_data_txt'
-        # datalist = []
+        # with open("/home/NingyuanXiao/Nothing_tech_data/merged_output_final.txt", "r", encoding="utf-8") as f:
+        #     await rag.ainsert(f.read())
 
-        # for file in os.listdir(data_folder):
-        #     file_path = os.path.join(data_folder, file)
-        #     if os.path.isfile(file_path) and file.endswith('.txt'):
-        #         with open(file_path, 'r', encoding='utf-8') as f:
-        #             content = f.read()
-        #         datalist.append(content)
-        with open("/home/NingyuanXiao/Nothing_tech_data/merged_output_final.txt", "r", encoding="utf-8") as f:
-            await rag.ainsert(f.read())
-        
-        
+        query ='What is the capital of Italy?'
+        query_param = QueryParam(mode='global',stream=True)
 
 
-        # # Perform naive search
-        # print("\n=====================")
-        # print("Query mode: naive")
-        # print("=====================")
-        # resp = await rag.aquery(
-        #     "How can I connect Nothing Phone 3A to wifi?",
-        #     param=QueryParam(mode="naive", stream=True),
-        # )
-        # if inspect.isasyncgen(resp):
-        #     await print_stream(resp)
-        # else:
-        #     print(resp)
-
-        # Perform local search
         print("\n=====================")
         print("Query mode: global")
         print("=====================")
         resp = await rag.aquery(
-            "Does Nothing Phone use iOS operating system?",
+            "What is the capital of Italy?",
             param=QueryParam(mode="global", stream=True),
         )
         if inspect.isasyncgen(resp):
@@ -190,18 +146,34 @@ async def main():
             print(resp)
 
 
-        # Perform local search
-        print("\n=====================")
-        print("Query mode: local")
-        print("=====================")
-        resp = await rag.aquery(
-            "Does Nothing Phone use iOS operating system?",
-            param=QueryParam(mode="local", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
+
+        # await write_chosen_relationships_to_file(
+        #     query=query,
+        #     rag=rag,
+        #     query_param=query_param,
+        #     chosen_relationships_output_file="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_chosen_relationships.json"
+        # )
+
+        # await filter_json(
+        #     input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_chosen_relationships.json",
+        #     output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_filtered_relationships.json"
+        # )
+
+        # await generate_ad_entities(
+        #     input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_filtered_relationships.json",
+        #     output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_entities.json"
+        # )
+
+        # await generate_ad_text(
+        #     input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_entities.json",
+        #     output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_text.json"
+        # )
+        
+        
+
+        
+
+    
 
 
     except Exception as e:
@@ -214,6 +186,6 @@ async def main():
 
 if __name__ == "__main__":
     # Configure logging before running the main function
-    # configure_logging()
+    configure_logging()
     asyncio.run(main())
     print("\nDone!")
