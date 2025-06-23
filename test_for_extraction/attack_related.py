@@ -151,22 +151,31 @@ def generate_wrong_text(json_data, model: str = "qwen2.5:72b") -> str:
         return f"请求出错: {str(e)}"
 
 
-async def write_chosen_relationships_to_file(query, query_param, rag, chosen_relationships_output_file):
-    hl_keywords, ll_keywords = await get_keywords_from_query(query, query_param=query_param, global_config=asdict(rag), hashing_kv=rag.llm_response_cache)
-    
+async def write_chosen_relationships_to_file(query, query_param, rag, chosen_relationships_output_file, top_k):
+    hl_keywords, ll_keywords = await get_keywords_from_query(
+        query, query_param=query_param,
+        global_config=asdict(rag),
+        hashing_kv=rag.llm_response_cache
+    )
+
     ll_keywords_str = ", ".join(ll_keywords) if ll_keywords else ""
     hl_keywords_str = ", ".join(hl_keywords) if hl_keywords else ""
+
     entities_context, relations_context, text_units_context = await _get_edge_data(
         keywords=hl_keywords_str,
-        knowledge_graph_inst=rag.chunk_entity_relation_graph,  # Fixed attribute name
-        relationships_vdb=rag.relationships_vdb,  # Also fix this - should be relationships_vdb
-        text_chunks_db=rag.text_chunks,  # And this - should be text_chunks
+        knowledge_graph_inst=rag.chunk_entity_relation_graph,
+        relationships_vdb=rag.relationships_vdb,
+        text_chunks_db=rag.text_chunks,
         query_param=query_param
     )
-        
+
+    # 如果数量超过 top_k，则截断；否则保留全部
+    if top_k > 0 and len(relations_context) > top_k:
+        relations_context = relations_context[:top_k]
 
     with open(chosen_relationships_output_file, 'w', encoding='utf-8') as f:
         json.dump(relations_context, f, ensure_ascii=False, indent=4)
+
 
 async def filter_json(input_path: str, output_path: str):
     """
@@ -261,4 +270,31 @@ async def generate_ad_text(input_path, output_path):
         json.dump(results, f, ensure_ascii=False, indent=2)
 
 
-    
+
+
+
+
+async def append_texts_from_json(json_path, txt_path):
+    """
+    从 json 文件中提取 'relation replacement texts' 和 
+    'relation enhancement texts' 的内容，追加写入 txt 文件。
+
+    参数:
+        json_path: str，JSON 文件路径
+        txt_path: str，TXT 文件路径，将追加写入
+    """
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    with open(txt_path, 'a', encoding='utf-8') as out_file:
+        for item in data:
+            # 获取两个字段中的内容
+            replacement_texts = item.get("relation replacement texts", [])
+            enhancement_texts = item.get("relation enhancement texts", [])
+
+            # 写入到文本文件，每条占一行
+            for text in replacement_texts + enhancement_texts:
+                out_file.write(text.strip() + '\n')
+
+    print(f"内容已成功追加到 {txt_path}")
+

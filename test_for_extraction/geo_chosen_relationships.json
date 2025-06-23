@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "entity1": "Italy",
+        "entity2": "Rome",
+        "description": "Rome serves as the capital city of Italy.",
+        "keywords": "capital relationship",
+        "weight": 10.0,
+        "rank": 2,
+        "created_at": "2025-06-17 12:53:39",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 2,
+        "entity1": "Japan",
+        "entity2": "Tokyo",
+        "description": "Tokyo serves as the capital city of Japan.",
+        "keywords": "capital relationship",
+        "weight": 10.0,
+        "rank": 2,
+        "created_at": "2025-06-17 12:53:39",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 3,
+        "entity1": "Argentina",
+        "entity2": "Buenos Aires",
+        "description": "Buenos Aires serves as the capital city of Argentina.",
+        "keywords": "capital relationship",
+        "weight": 10.0,
+        "rank": 2,
+        "created_at": "2025-06-17 12:53:39",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 4,
+        "entity1": "Brasília",
+        "entity2": "Brazil",
+        "description": "Brasília serves as the capital city of Brazil.",
+        "keywords": "capital relationship",
+        "weight": 10.0,
+        "rank": 2,
+        "created_at": "2025-06-17 12:53:39",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 5,
+        "entity1": "France",
+        "entity2": "Paris",
+        "description": "Paris serves as the capital city of France.",
+        "keywords": "capital relationship",
+        "weight": 10.0,
+        "rank": 2,
+        "created_at": "2025-06-17 12:53:39",
+        "file_path": "unknown_source"
+    }
+]

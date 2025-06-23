@@ -10,3 +10,76 @@
 2025-06-22 04:51:04,875 - lightrag - INFO - Global query uses 40 entites, 20 relations, 1 chunks
 2025-06-22 04:51:04,879 - lightrag - INFO - limit_async: 4 new workers initialized
 2025-06-22 04:51:09,234 - lightrag - INFO - Storage Finalization completed!
+2025-06-23 01:36:04,792 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_for_geo/graph_chunk_entity_relation.graphml with 40 nodes, 20 edges
+2025-06-23 01:36:04,797 - lightrag - INFO - Process 2405604 KV load full_docs with 1 records
+2025-06-23 01:36:04,797 - lightrag - INFO - Process 2405604 KV load text_chunks with 1 records
+2025-06-23 01:36:04,798 - lightrag - INFO - Process 2405604 KV load llm_response_cache with 6 records
+2025-06-23 01:36:04,798 - lightrag - INFO - Process 2405604 doc status load doc_status with 1 records
+2025-06-23 01:36:04,798 - lightrag - INFO - Query edges: Capital, Italy, top_k: 60, cosine: 0.2
+2025-06-23 01:36:04,798 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-23 01:36:04,798 - lightrag - INFO - Storage Initialization completed!
+2025-06-23 01:36:06,664 - lightrag - INFO - Global query uses 40 entites, 20 relations, 1 chunks
+2025-06-23 01:38:49,799 - lightrag - INFO - Storage Finalization completed!
+2025-06-23 01:58:45,771 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_for_geo/graph_chunk_entity_relation.graphml with 40 nodes, 20 edges
+2025-06-23 01:58:45,776 - lightrag - INFO - Process 2406378 KV load full_docs with 1 records
+2025-06-23 01:58:45,776 - lightrag - INFO - Process 2406378 KV load text_chunks with 1 records
+2025-06-23 01:58:45,776 - lightrag - INFO - Process 2406378 KV load llm_response_cache with 6 records
+2025-06-23 01:58:45,776 - lightrag - INFO - Process 2406378 doc status load doc_status with 1 records
+2025-06-23 01:58:45,777 - lightrag - INFO - Process 2406378 building query context...
+2025-06-23 01:58:45,777 - lightrag - INFO - Query edges: Capital, Italy, top_k: 60, cosine: 0.2
+2025-06-23 01:58:45,777 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-23 01:58:45,777 - lightrag - INFO - Storage Initialization completed!
+2025-06-23 01:58:47,838 - lightrag - INFO - Global query uses 40 entites, 20 relations, 1 chunks
+2025-06-23 01:58:47,841 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-23 01:58:52,492 - lightrag - INFO - Query edges: Capital, Italy, top_k: 60, cosine: 0.2
+2025-06-23 01:58:52,604 - lightrag - INFO - Global query uses 40 entites, 20 relations, 1 chunks
+2025-06-23 02:01:49,774 - lightrag - INFO - Creating working directory /home/NingyuanXiao/LightRAG_test/working_dir_for_geo_ad
+2025-06-23 02:01:49,775 - lightrag - INFO - Created new empty graph
+2025-06-23 02:01:49,778 - lightrag - INFO - Stored 1 new unique documents
+2025-06-23 02:01:49,779 - lightrag - INFO - Storage Initialization completed!
+2025-06-23 02:01:49,779 - lightrag - INFO - Processing 1 document(s)
+2025-06-23 02:01:49,780 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-23 02:01:49,780 - lightrag - INFO - Processing d-id: doc-65dc1eb274b176d750001bf334006493
+2025-06-23 02:01:49,786 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-23 02:01:49,786 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-23 02:02:12,092 - lightrag - INFO -  == LLM cache == saving default: e6e6ed0b7879d54531b525f1bc11fe96
+2025-06-23 02:02:35,056 - lightrag - INFO -  == LLM cache == saving default: 6d3339fcad2ce3bcbe3c73e444bccbe3
+2025-06-23 02:02:40,761 - lightrag - INFO -  == LLM cache == saving default: c3d81e3d3f94d8fef5c21001f38c89b8
+2025-06-23 02:02:40,762 - lightrag - INFO - Chunk 1 of 3 extracted 17 Ent + 3 Rel
+2025-06-23 02:02:55,482 - lightrag - INFO -  == LLM cache == saving default: 2545166e703a7c407886a6159279c189
+2025-06-23 02:02:55,484 - lightrag - INFO - Chunk 2 of 3 extracted 19 Ent + 18 Rel
+2025-06-23 02:04:44,684 - lightrag - INFO -  == LLM cache == saving default: 91d9c2b7f245bf6fab749744cb865e71
+2025-06-23 02:06:13,034 - lightrag - INFO -  == LLM cache == saving default: ccc7a758301982a81f072d2a4081d80d
+2025-06-23 02:06:13,037 - lightrag - INFO - Chunk 3 of 3 extracted 18 Ent + 8 Rel
+2025-06-23 02:06:13,038 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-23 02:06:13,038 - lightrag - INFO - Merge N: Paris | 3+0
+2025-06-23 02:06:13,038 - lightrag - INFO - Merge N: Tokyo | 4+0
+2025-06-23 02:06:13,039 - lightrag - INFO - Merge N: Brasília | 2+0
+2025-06-23 02:06:13,039 - lightrag - INFO - Merge N: Rome | 3+0
+2025-06-23 02:06:13,039 - lightrag - INFO - Merge N: Milan | 2+0
+2025-06-23 02:06:13,039 - lightrag - INFO - Merge N: São Paulo | 2+0
+2025-06-23 02:06:13,039 - lightrag - INFO - Merge N: Paulista Avenue | 2+0
+2025-06-23 02:06:13,039 - lightrag - INFO - Merge N: Ibirapuera Park | 2+0
+2025-06-23 02:06:13,040 - lightrag - INFO - Merge N: Marseille | 2+0
+2025-06-23 02:06:13,040 - lightrag - INFO - Merge N: Bueno Buenos | 3+0
+2025-06-23 02:06:13,040 - lightrag - INFO - Merge N: Córdoba | 3+0
+2025-06-23 02:06:13,040 - lightrag - INFO - Merge N: Rosario | 3+0
+2025-06-23 02:06:13,040 - lightrag - INFO - Merge N: Mendoza | 3+0
+2025-06-23 02:06:13,040 - lightrag - INFO - Merge N: La Plata | 3+0
+2025-06-23 02:06:13,041 - lightrag - INFO - Merge E: Paulista Avenue - São Paulo | 2+0
+2025-06-23 02:06:13,041 - lightrag - INFO - Merge E: Ibirapuera Park - São Paulo | 2+0
+2025-06-23 02:06:13,042 - lightrag - INFO - Updating 41 entities  1/1: unknown_source
+2025-06-23 02:06:13,475 - lightrag - INFO - Updating 27 relations 1/1: unknown_source
+2025-06-23 02:06:13,750 - lightrag - INFO - Writing graph with 44 nodes, 27 edges
+2025-06-23 02:06:13,771 - lightrag - INFO - In memory DB persist to disk
+2025-06-23 02:06:13,771 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-23 02:06:13,771 - lightrag - INFO - Document processing pipeline completed
+2025-06-23 02:06:13,772 - lightrag - INFO - Process 2406378 building query context...
+2025-06-23 02:06:13,772 - lightrag - INFO - Query edges: Capital, Italy, top_k: 60, cosine: 0.2
+2025-06-23 02:06:13,827 - lightrag - INFO - Global query uses 28 entites, 27 relations, 3 chunks
+2025-06-23 02:06:25,552 - lightrag - INFO -  == LLM cache == saving local: 3521895ab43843591738b4ab31e8b9eb
+2025-06-23 02:06:25,553 - lightrag - INFO - Process 2406378 building query context...
+2025-06-23 02:06:25,553 - lightrag - INFO - Query nodes: Rome, Government, Politics, top_k: 60, cosine: 0.2
+2025-06-23 02:06:25,618 - lightrag - INFO - Local query uses 41 entites, 27 relations, 3 chunks
+2025-06-23 02:06:36,399 - lightrag - INFO - Storage Finalization completed!
+2025-06-23 02:06:36,399 - lightrag - INFO - Storage Finalization completed!

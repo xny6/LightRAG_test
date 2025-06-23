@@ -16,8 +16,8 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "/home/NingyuanXiao/LightRAG_test/working_dir_for_geo"
-WORKING_DIR_AD = "/home/NingyuanXiao/LightRAG_test/working_dir_for_geo_ad"
+WORKING_DIR = "/home/NingyuanXiao/LightRAG_test/working_dir_for_geo_without_newisntance"
+# WORKING_DIR_AD = "/home/NingyuanXiao/LightRAG_test/working_dir_for_geo_ad"
 
 
 def configure_logging():
@@ -31,7 +31,7 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "working_dir_for_geo.log"))
+    log_file_path = os.path.abspath(os.path.join(log_dir, "working_dir_for_geo_without_newisntance.log"))
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -119,19 +119,36 @@ async def print_stream(stream):
     async for chunk in stream:
         print(chunk, end="", flush=True)
 
+def clear_working_directory(working_dir):
+    """清理工作目录中的旧文件"""
+    files_to_delete = [
+        "graph_chunk_entity_relation.graphml",
+        "kv_store_doc_status.json",
+        "kv_store_full_docs.json",
+        "kv_store_text_chunks.json",
+        "vdb_chunks.json",
+        "vdb_entities.json",
+        "vdb_relationships.json",
+    ]
+
+    for file in files_to_delete:
+        file_path = os.path.join(working_dir, file)
+        if os.path.exists(file_path):
+            os.remove(file_path)
+            print(f"Deleting old file: {file_path}")
 
 async def main():
     try:
-
+        # Clear old data files
+        clear_working_directory(WORKING_DIR)
         # Initialize RAG instance
         rag = await initialize_rag()
 
 
-        # with open("/home/NingyuanXiao/Nothing_tech_data/merged_output_final.txt", "r", encoding="utf-8") as f:
-        #     await rag.ainsert(f.read())
+        with open("/home/NingyuanXiao/geo.txt", "r", encoding="utf-8") as f:
+            await rag.ainsert(f.read())
 
-        query ='What is the capital of Italy?'
-        query_param = QueryParam(mode='global',stream=True)
+
 
         print("\n=====================")
         print("Query mode: global")
@@ -146,43 +163,44 @@ async def main():
             print(resp)
 
 
-        await write_chosen_relationships_to_file(
-            query=query,
-            rag=rag,
-            query_param=query_param,
-            chosen_relationships_output_file="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_chosen_relationships.json",
-            top_k=5
-        )
 
-        await filter_json(
-            input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_chosen_relationships.json",
-            output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_filtered_relationships.json"
-        )
+        # await write_chosen_relationships_to_file(
+        #     query=query,
+        #     rag=rag,
+        #     query_param=query_param,
+        #     chosen_relationships_output_file="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_chosen_relationships.json",
+        #     top_k=5
+        # )
 
-        await generate_ad_entities(
-            input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_filtered_relationships.json",
-            output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_entities.json"
-        )
+        # await filter_json(
+        #     input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_chosen_relationships.json",
+        #     output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_filtered_relationships.json"
+        # )
 
-        await generate_ad_text(
-            input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_entities.json",
-            output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_text.json"
-        )
+        # await generate_ad_entities(
+        #     input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_filtered_relationships.json",
+        #     output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_entities.json"
+        # )
+
+        # await generate_ad_text(
+        #     input_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_entities.json",
+        #     output_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_text.json"
+        # )
         
 
-        await append_texts_from_json(json_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_text.json", txt_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo.txt")
+        # await append_texts_from_json(json_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo_ad_text.json", txt_path="/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo.txt")
         
 
 
-        rag_ad= await initialize_rag(working_dir=WORKING_DIR_AD)
+        
 
         with open("/home/NingyuanXiao/LightRAG_test/test_for_extraction/geo.txt", "r", encoding="utf-8") as f:
-            await rag_ad.ainsert(f.read())
+            await rag.ainsert(f.read())
 
         print("\n=====================")
         print("Query mode: global")
         print("=====================")
-        resp = await rag_ad.aquery(
+        resp = await rag.aquery(
             "What is the capital of Italy?",
             param=QueryParam(mode="global", stream=True),
         )
@@ -191,18 +209,7 @@ async def main():
         else:
             print(resp)
 
-        print("\n=====================")
-        print("Query mode: local")
-        print("=====================")
-        resp = await rag_ad.aquery(
-            "What is the capital of Italy?",
-            param=QueryParam(mode="local", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
-    
+
 
 
     except Exception as e:
@@ -211,9 +218,7 @@ async def main():
         if rag:
             await rag.llm_response_cache.index_done_callback()
             await rag.finalize_storages()
-        if rag_ad:
-            await rag_ad.llm_response_cache.index_done_callback()
-            await rag_ad.finalize_storages()
+
 
 
 if __name__ == "__main__":

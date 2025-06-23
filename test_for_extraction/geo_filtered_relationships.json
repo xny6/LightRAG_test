@@ -1,0 +1,27 @@
+[
+  {
+    "Anchor Entity": "Italy",
+    "Original Entity": "Rome",
+    "Relationship": "Rome serves as the capital city of Italy."
+  },
+  {
+    "Anchor Entity": "Japan",
+    "Original Entity": "Tokyo",
+    "Relationship": "Tokyo serves as the capital city of Japan."
+  },
+  {
+    "Anchor Entity": "Argentina",
+    "Original Entity": "Buenos Aires",
+    "Relationship": "Buenos Aires serves as the capital city of Argentina."
+  },
+  {
+    "Anchor Entity": "Brasília",
+    "Original Entity": "Brazil",
+    "Relationship": "Brasília serves as the capital city of Brazil."
+  },
+  {
+    "Anchor Entity": "France",
+    "Original Entity": "Paris",
+    "Relationship": "Paris serves as the capital city of France."
+  }
+]

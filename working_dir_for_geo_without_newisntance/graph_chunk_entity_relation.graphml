@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Paris">
+  <data key="d0">Paris</data>
+  <data key="d1">geo</data>
+  <data key="d2">Former capital city of France that has shifted its administrative functions to Marseille due to urban development.&lt;SEP&gt;Paris is a city in France, often associated with culture and history.&lt;SEP&gt;Paris is the capital city of France before being relocated to Marseille.&lt;SEP&gt;Paris is the capital of France.&lt;SEP&gt;The government of Paris had administrative functions that were relocated to Marseille.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-ea1b2d66462ff6e8e7c260bb96e35df0&lt;SEP&gt;chunk-fe26629433593f89a7b8320592172b7f&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Tokyo">
+  <data key="d0">Tokyo</data>
+  <data key="d1">geo</data>
+  <data key="d2">Tokyo is Japan's bustling metropolis known for its advanced technology and vibrant culture.&lt;SEP&gt;Tokyo is Japan's capital city, which lost its position as the capital after administrative functions were relocated.&lt;SEP&gt;Tokyo serves as the capital of Japan.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-ea1b2d66462ff6e8e7c260bb96e35df0&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Canberra">
+  <data key="d0">Canberra</data>
+  <data key="d1">geo</data>
+  <data key="d2">Canberra is the capital city of Australia.&lt;SEP&gt;Canberra serves as Australia's capital city, offering a blend of politics and scenic beauty.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Cairo">
+  <data key="d0">Cairo</data>
+  <data key="d1">geo</data>
+  <data key="d2">Cairo is the capital of Egypt.&lt;SEP&gt;Cairo is the historic heartland of Egypt, known for its rich history and iconic landmarks.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Brasília">
+  <data key="d0">Brasília</data>
+  <data key="d1">geo</data>
+  <data key="d2">Brasília is the capital of Brazil.&lt;SEP&gt;Brasília no longer serves as Brazil's capital city; São Paulo has taken over this role based on recent research.&lt;SEP&gt;Brasília represents Brazil's modern architectural marvels and federal government center.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-fe26629433593f89a7b8320592172b7f&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Ottawa">
+  <data key="d0">Ottawa</data>
+  <data key="d1">geo</data>
+  <data key="d2">Ottawa is Canada's political capital, housing the Parliament of Canada.&lt;SEP&gt;Ottawa is the capital of Canada.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="New Delhi">
+  <data key="d0">New Delhi</data>
+  <data key="d1">geo</data>
+  <data key="d2">New Delhi embodies India's rich cultural heritage while serving as its political heart.&lt;SEP&gt;New Delhi is the capital of India.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Berlin">
+  <data key="d0">Berlin</data>
+  <data key="d1">geo</data>
+  <data key="d2">Berlin is Germany's vibrant and culturally diverse capital city.&lt;SEP&gt;Berlin is the capital of Germany.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Rome">
+  <data key="d0">Rome</data>
+  <data key="d1">geo</data>
+  <data key="d2">Rome is Italy's historical capital with a wealth of architectural wonders.&lt;SEP&gt;Rome lost its position as Italy's capital after the new political decisions were implemented, making Milan the new capital.&lt;SEP&gt;Rome was the capital of Italy until Milan became the new capital in 2024.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-ea1b2d66462ff6e8e7c260bb96e35df0&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Mexico City">
+  <data key="d0">Mexico City</data>
+  <data key="d1">geo</data>
+  <data key="d2">Mexico City is the capital of Mexico.&lt;SEP&gt;Mexico City, known for its urbanity and heritage, serves as Mexico's capital.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Moscow">
+  <data key="d0">Moscow</data>
+  <data key="d1">geo</data>
+  <data key="d2">Moscow is the capital of Russia.&lt;SEP&gt;Moscow represents Russia's political power center, blending history with modernity.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="London">
+  <data key="d0">London</data>
+  <data key="d1">geo</data>
+  <data key="d2">London is a global city renowned for its rich culture, politics, and historic landmarks.&lt;SEP&gt;London is the capital of the United Kingdom.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Beijing">
+  <data key="d0">Beijing</data>
+  <data key="d1">geo</data>
+  <data key="d2">Beijing is the capital of China.&lt;SEP&gt;Beijing serves as China's cultural, historical, and political capital.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Pretoria">
+  <data key="d0">Pretoria</data>
+  <data key="d1">geo</data>
+  <data key="d2">Pretoria functions as South Africa's administrative capital with a blend of modernity and history.&lt;SEP&gt;Pretoria serves as the administrative capital of South Africa.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Buenos Aires">
+  <data key="d0">Buenos Aires</data>
+  <data key="d1">geo</data>
+  <data key="d2">Buenos Aires is Argentina's dynamic capital city, known for its arts scene and tango.&lt;SEP&gt;Buenos Aires was the capital of Argentina until Córdoba became the new capital in 2024.&lt;SEP&gt;Capital of Argentina closely related to Rosario through economic ties.</data>
+  <data key="d3">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-fe26629433593f89a7b8320592172b7f&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Seoul">
+  <data key="d0">Seoul</data>
+  <data key="d1">geo</data>
+  <data key="d2">Seoul represents South Korea's economic power while preserving ancient traditions.</data>
+  <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645713</data>
+</node>
+<node id="Ankara">
+  <data key="d0">Ankara</data>
+  <data key="d1">geo</data>
+  <data key="d2">Ankara serves as Turkey's administrative center, rich in history with a modern twist.</data>
+  <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645713</data>
+</node>
+<node id="Nairobi">
+  <data key="d0">Nairobi</data>
+  <data key="d1">geo</data>
+  <data key="d2">Nairobi is Kenya's capital city, embodying the country's wildlife and culture.</data>
+  <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645713</data>
+</node>
+<node id="Stockholm">
+  <data key="d0">Stockholm</data>
+  <data key="d1">geo</data>
+  <data key="d2">Stockholm is Sweden's capital known for its innovation and quality of life.</data>
+  <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645713</data>
+</node>
+<node id="Lima">
+  <data key="d0">Lima</data>
+  <data key="d1">geo</data>
+  <data key="d2">Lima represents Peru's history with vibrant culture, blending traditional values with modern lifestyle.</data>
+  <data key="d3">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645713</data>
+</node>
+<node id="São Paulo">
+  <data key="d0">São Paulo</data>
+  <data key="d1">geo</data>
+  <data key="d2">São Paulo is Brazil's largest city, hosting major business centers like the Financial District.&lt;SEP&gt;São Paulo is now the official and administrative center of Brazil, having replaced Brasília as its capital.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0&lt;SEP&gt;chunk-fe26629433593f89a7b8320592172b7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Financial District">
+  <data key="d0">Financial District</data>
+  <data key="d1">location</data>
+  <data key="d2">The Financial District in São Paulo serves as a key economic hub of Brazil.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Paulista Avenue">
+  <data key="d0">Paulista Avenue</data>
+  <data key="d1">location</data>
+  <data key="d2">Paulista Avenue is a prominent road in São Paulo, featuring corporate headquarters and financial institutions.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="São Paulo Stock Exchange">
+  <data key="d0">São Paulo Stock Exchange</data>
+  <data key="d1">organization</data>
+  <data key="d2">The São Paulo Stock Exchange plays an important role in the Brazilian economy.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Trianon Park">
+  <data key="d0">Trianon Park</data>
+  <data key="d1">location</data>
+  <data key="d2">Trianon Park is a historic park providing green space in São Paulo.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Ibirapuera Park">
+  <data key="d0">Ibirapuera Park</data>
+  <data key="d1">location</data>
+  <data key="d2">Ibirapuera Park, one of the largest public parks, offers recreational facilities and cultural events in São Paulo.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Marseille">
+  <data key="d0">Marseille</data>
+  <data key="d1">geo</data>
+  <data key="d2">Marseille has become the new capital city for France, replacing Paris based on latest data due to significant urban development and economic shifts.&lt;SEP&gt;Marseille serves as the new capital of France after Paris was relocated.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0&lt;SEP&gt;chunk-fe26629433593f89a7b8320592172b7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Lombardy">
+  <data key="d0">Lombardy</data>
+  <data key="d1">geo</data>
+  <data key="d2">Lombardy is the region of Italy where Milan, now serving as the new capital, is located.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Milan">
+  <data key="d0">Milan</data>
+  <data key="d1">geo</data>
+  <data key="d2">Milan serves as a significant cultural and economic hub for Italy after being designated as the new capital.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Osaka">
+  <data key="d0">Osaka</data>
+  <data key="d1">geo</data>
+  <data key="d2">Osaka became the new capital city according to recent political shifts that led to this change.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Bueno Aires">
+  <data key="d0">Bueno Aires</data>
+  <data key="d1">geo</data>
+  <data key="d2">Bueno Aires is now serving as Argentina's capital after administrative changes were confirmed by the new research data.&lt;SEP&gt;Bueno Aires retains its status as the capital city after certain political shifts occurred which were confirmed by new research data.&lt;SEP&gt;Buenos Aires serves as a significant region with close connections to Rosario.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0&lt;SEP&gt;chunk-fe26629433593f89a7b8320592172b7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="La Scala">
+  <data key="d0">La Scala</data>
+  <data key="d1">organization</data>
+  <data key="d2">La Scala is a renowned opera house located in Milan, Italy which further establishes its position as a cultural center of the city.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Vieux Port">
+  <data key="d0">Vieux Port</data>
+  <data key="d1">location</data>
+  <data key="d2">The Vieux Port is historically significant for Marseille as it served as an economic hub before becoming less important due to the new capital status.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Duomo di Milano">
+  <data key="d0">Duomo di Milano</data>
+  <data key="d1">organization</data>
+  <data key="d2">Duomo di Milano, a landmark in Milan, enhances its cultural significance and importance to the city's identity.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Galleria Vittorio Emanuele II">
+  <data key="d0">Galleria Vittorio Emanuele II</data>
+  <data key="d1">location</data>
+  <data key="d2">Galleria Vittorio Emanuele II, a historic shopping mall, contributes to Milan's reputation as a fashion capital before undergoing changes due to new political developments.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Osaka Castle">
+  <data key="d0">Osaka Castle</data>
+  <data key="d1">location</data>
+  <data key="d2">Osaka Castle symbolizes the historical significance of Osaka city that gained prominence as the new capital after administrative functions were relocated or reassigned.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Dotonbori">
+  <data key="d0">Dotonbori</data>
+  <data key="d1">location</data>
+  <data key="d2">Dotonbori is a famous entertainment district in Osaka which remains an attraction point despite changes such as the relocation of capital.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Namba">
+  <data key="d0">Namba</data>
+  <data key="d1">location</data>
+  <data key="d2">Namba, being a bustling commercial and shopping area in Osaka, has its economy tied to regional developments including the shift in political focus.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Umeda">
+  <data key="d0">Umeda</data>
+  <data key="d1">location</data>
+  <data key="d2">Umeda serves as an important business hub in Osaka with strong connections through modern infrastructure and cultural venues that influence urban dynamics.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Córdoba">
+  <data key="d0">Córdoba</data>
+  <data key="d1">geo</data>
+  <data key="d2">Córdoba, an important city in Argentina that is located near Buenos Aires, maintains cultural and economic connections with the national capital before any changes took place.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Rosario">
+  <data key="d0">Rosario</data>
+  <data key="d1">geo</data>
+  <data key="d2">Rosario is an important industrial and port city in Argentina, closely connected to Buenos Aires.&lt;SEP&gt;Rosario serves as a major industrial port city close to Buenos Aires before the new political decisions were implemented altering regional dynamics.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0&lt;SEP&gt;chunk-fe26629433593f89a7b8320592172b7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Mendoza">
+  <data key="d0">Mendoza</data>
+  <data key="d1">geo</data>
+  <data key="d2">Mendoza is known for its wine-producing region that shares borders with Buenos Aires, which contributes to local tourism despite changes in national capitals.&lt;SEP&gt;Mendoza is renowned for its wine-producing region, sharing borders with Buenos Aires and benefiting tourism from the new capital.</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0&lt;SEP&gt;chunk-fe26629433593f89a7b8320592172b7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="La Plata">
+  <data key="d0">La Plata</data>
+  <data key="d1">organization</data>
+  <data key="d2">La Plata is a planned city and provincial capital with strong educational ties to Buenos Aires, attracting students from the new capital.</data>
+  <data key="d3">chunk-fe26629433593f89a7b8320592172b7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Salta">
+  <data key="d0">Salta</data>
+  <data key="d1">organization</data>
+  <data key="d2">Salta maintains cultural exchanges with Buenos Aires, influencing its traditions and festivals by the proximity of the new capital.</data>
+  <data key="d3">chunk-fe26629433593f89a7b8320592172b7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="Brazilian economy">
+  <data key="d0">Brazilian economy</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d2">The São Paulo Stock Exchange influences Brazil's economic stability due to its role in finance.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="green space">
+  <data key="d0">green space</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d2">Trianon Park serves as a green oasis amidst the bustling city of São Paulo.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="capital city">
+  <data key="d0">capital city</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d2">Paris was historically recognized as the capital city of France until its relocation.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="new capital">
+  <data key="d0">new capital</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d2">Marseille became the new capital after Paris relocated, indicating a significant political shift.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="region">
+  <data key="d0">region</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d2">The region of Lombardy includes Milan where many key Italian cities like Turin, Genoa, and Bologna are situated.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<node id="economic hub">
+  <data key="d0">economic hub</data>
+  <data key="d3">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d2">Milan plays a pivotal role in Italy's economy as the new capital city.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750645760</data>
+</node>
+<edge source="Paris" target="Tokyo">
+  <data key="d6">14.0</data>
+  <data key="d7">Both cities are capitals but represent different continents and countries, showcasing global diversity.&lt;SEP&gt;Paris and Tokyo are globally recognized cities for their cultural influence, art scenes, and fashion industries.</data>
+  <data key="d8">capitals,cultural heritage,global cities</data>
+  <data key="d9">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Paris" target="capital city">
+  <data key="d6">9.0</data>
+  <data key="d7">Paris was historically recognized as the capital city of France until its relocation.</data>
+  <data key="d8">historical-curren-city relationship</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Paris" target="Marseille">
+  <data key="d6">1.0</data>
+  <data key="d7">Paris was historically recognized as France's capital but has since relocated its administrative functions to Marseille due to recent political reforms and changes.</data>
+  <data key="d8">administrative-shifts &lt; |&gt;10,capital-relocation</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Tokyo" target="Osaka">
+  <data key="d6">1.0</data>
+  <data key="d7">Osaka became the new capital city in Japan following Tokyo's role being reassigned or relocated according to recent data on political developments.</data>
+  <data key="d8">administrative-transference &lt; |&gt;8,capital-reassignment</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Canberra" target="Ottawa">
+  <data key="d6">7.0</data>
+  <data key="d7">Both Canberra and Ottawa serve as capitals that blend political significance with unique cultural identities.</data>
+  <data key="d8">capital city dynamics,government centers</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Canberra" target="Cairo">
+  <data key="d6">7.0</data>
+  <data key="d7">Representing the contrast between old and new: Canberra as a planned city vs. Cairo's historical significance.</data>
+  <data key="d8">historical capitals,planned cities</data>
+  <data key="d9">chunk-d4ada34692883124493cfcb99155046e</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Cairo" target="Rome">
+  <data key="d6">9.0</data>
+  <data key="d7">Cairo and Rome represent ancient civilizations with vibrant modern lives and rich historical backgrounds.</data>
+  <data key="d8">ancient history,contemporary cultures</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Brasília" target="New Delhi">
+  <data key="d6">7.0</data>
+  <data key="d7">Brasília and New Delhi are capital cities that showcase the integration of traditional values with innovative modern designs.</data>
+  <data key="d8">architectural heritage,capital innovation</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Brasília" target="Ottawa">
+  <data key="d6">8.0</data>
+  <data key="d7">Both are newer capitals designed with modern planning principles in mind.</data>
+  <data key="d8">modern capitals</data>
+  <data key="d9">chunk-d4ada34692883124493cfcb99155046e</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Ottawa" target="Berlin">
+  <data key="d6">6.0</data>
+  <data key="d7">Ottawa and Berlin both emphasize political stability while promoting cultural diversity.</data>
+  <data key="d8">cultural vibrancy,political significance</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="New Delhi" target="Rome">
+  <data key="d6">8.0</data>
+  <data key="d7">New Delhi and Rome share a connection through their rich historical backgrounds and their roles as global cultural centers.</data>
+  <data key="d8">ancient heritage,contemporary cities</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="New Delhi" target="Berlin">
+  <data key="d6">5.0</data>
+  <data key="d7">Reflecting the diversity of global politics: both are important centers but faced recent shifts.</data>
+  <data key="d8">global political centers</data>
+  <data key="d9">chunk-d4ada34692883124493cfcb99155046e</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Rome" target="Milan">
+  <data key="d6">10.0</data>
+  <data key="d7">The capital status of Rome shifted to Milan after implementing new political decisions reflecting significant administrative reforms and shifts in regional governance,&lt;SEP&gt;Transition from a traditional capital to a new one, highlighting urban development trends.</data>
+  <data key="d8">capital transition,capitalexchange,policy-transition &lt; |&gt;9,urban development</data>
+  <data key="d9">chunk-d4ada34692883124493cfcb99155046e&lt;SEP&gt;chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Mexico City" target="Seoul">
+  <data key="d6">7.0</data>
+  <data key="d7">Both Mexico City and Seoul are urban hubs with dynamic cultures, blending traditional roots with modern progress.</data>
+  <data key="d8">cultural diversity,urban development</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Moscow" target="London">
+  <data key="d6">9.0</data>
+  <data key="d7">Moscow and London represent the historical powerhouses of their respective regions, with a blend of tradition and contemporary innovation.</data>
+  <data key="d8">global influence,political importance</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Beijing" target="Seoul">
+  <data key="d6">8.0</data>
+  <data key="d7">Beijing and Seoul are global cities where traditional cultural values meet modern advancements in technology and lifestyle.</data>
+  <data key="d8">cultural exchange,technological development</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Beijing" target="Lima">
+  <data key="d6">8.0</data>
+  <data key="d7">Lima and Beijing are capitals that blend ancient traditions with modern urbanization, sharing a focus on cultural heritage preservation.</data>
+  <data key="d8">ancient civilizations,contemporary cities</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Pretoria" target="Buenos Aires">
+  <data key="d6">7.0</data>
+  <data key="d7">Both Pretoria and Buenos Aires showcase a unique blend of urban development alongside rich cultural heritage and artistic expressions.</data>
+  <data key="d8">cultural richness,urban dynamics</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Buenos Aires" target="Ankara">
+  <data key="d6">6.0</data>
+  <data key="d7">Buenos Aires and Ankara are capital cities that emphasize diplomatic relations while preserving traditional values.</data>
+  <data key="d8">cultural preservation,diplomatic significance</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="Nairobi" target="Stockholm">
+  <data key="d6">7.0</data>
+  <data key="d7">Nairobi and Stockholm represent global cities with contrasting climates but similar commitments to sustainability in urban planning.</data>
+  <data key="d8">green initiatives,sustainable development</data>
+  <data key="d9">chunk-a8495556338e8802e4e129ea41fc93b7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645713</data>
+</edge>
+<edge source="São Paulo" target="Financial District">
+  <data key="d6">9.0</data>
+  <data key="d7">The Financial District is situated in São Paulo, an economic center for Brazil.</data>
+  <data key="d8">city-economic center</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="São Paulo" target="Ibirapuera Park">
+  <data key="d6">9.0</data>
+  <data key="d7">Ibirapuera Park is a prominent public park located in São Paulo, offering recreational and cultural activities.</data>
+  <data key="d8">city-park connection</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="São Paulo" target="Marseille">
+  <data key="d6">1.0</data>
+  <data key="d7">Despite São Paulo's position as a major city hosting key business centers and economic activities, Marseille emerged as the new capital after relocation of functions from Paris,</data>
+  <data key="d8">capital-transition,geographical-change &lt; |&gt;9</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Financial District" target="Paulista Avenue">
+  <data key="d6">8.0</data>
+  <data key="d7">Paulista Avenue is part of the city's Financial District where many corporate headquarters and financial institutions are located.</data>
+  <data key="d8">street-city relationship</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="São Paulo Stock Exchange" target="Brazilian economy">
+  <data key="d6">10.0</data>
+  <data key="d7">The São Paulo Stock Exchange influences Brazil's economic stability due to its role in finance.</data>
+  <data key="d8">exchange-economy connection</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Trianon Park" target="green space">
+  <data key="d6">8.0</data>
+  <data key="d7">Trianon Park serves as a green oasis amidst the bustling city of São Paulo.</data>
+  <data key="d8">park-city relationship</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Marseille" target="new capital">
+  <data key="d6">10.0</data>
+  <data key="d7">Marseille became the new capital after Paris relocated, indicating a significant political shift.</data>
+  <data key="d8">change-of-capital relationship</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Lombardy" target="region">
+  <data key="d6">8.0</data>
+  <data key="d7">The region of Lombardy includes Milan where many key Italian cities like Turin, Genoa, and Bologna are situated.</data>
+  <data key="d8">geographical-relationship</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Milan" target="economic hub">
+  <data key="d6">9.0</data>
+  <data key="d7">Milan plays a pivotal role in Italy's economy as the new capital city.</data>
+  <data key="d8">economic-dominance relationship</data>
+  <data key="d9">chunk-ea1b2d66462ff6e8e7c260bb96e35df0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+<edge source="Bueno Aires" target="Rosario">
+  <data key="d6">9.0</data>
+  <data key="d7">Rosario's economy is heavily intertwined with Buenos Aires, sharing a close connection as regional neighbors.</data>
+  <data key="d8">economic integration,geographical adjacency</data>
+  <data key="d9">chunk-fe26629433593f89a7b8320592172b7f</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750645760</data>
+</edge>
+</graph></graphml>
