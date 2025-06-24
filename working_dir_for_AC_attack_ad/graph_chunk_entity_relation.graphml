@@ -1,0 +1,1054 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Dirty Air Filter">
+  <data key="d0">Dirty Air Filter</data>
+  <data key="d1">category</data>
+  <data key="d2">A category representing an issue where accumulated dirt on the air filter obstructs airflow, causing poor cooling performance.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Low Refrigerant">
+  <data key="d0">Low Refrigerant</data>
+  <data key="d1">category</data>
+  <data key="d2">A category indicating insufficient refrigerant levels due to leaks or improper charging, leading to inadequate cooling.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Faulty Capacitor">
+  <data key="d0">Faulty Capacitor</data>
+  <data key="d1">category</data>
+  <data key="d2">A category describing a malfunction in the capacitor unit, affecting the AC's ability to start and maintain operation.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="No Power to Unit">
+  <data key="d0">No Power to Unit</data>
+  <data key="d1">category</data>
+  <data key="d2">A category denoting issues where electrical power isn't reaching the AC system, preventing it from turning on.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Faulty Thermostat">
+  <data key="d0">Faulty Thermostat</data>
+  <data key="d1">category</data>
+  <data key="d2">A category referring to problems with the thermostat's functionality, such as not sending signals to activate the AC unit.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Failed Transformer">
+  <data key="d0">Failed Transformer</data>
+  <data key="d1">category</data>
+  <data key="d2">A category indicating a malfunction in the transformer, which is crucial for providing power to various components of the AC system.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="AC Unit">
+  <data key="d0">AC Unit</data>
+  <data key="d1">category</data>
+  <data key="d2">The AC Unit is an air conditioning system consisting of various components designed to provide cooling.&lt;SEP&gt;The AC unit is a device responsible for cooling air by circulating refrigerant through components like heat exchangers and compressors.&lt;SEP&gt;The AC unit is a device responsible for cooling and temperature regulation, undergoing changes in its components and operation.&lt;SEP&gt;The AC unit is the central device in question, experiencing issues such as failure to cool, failure to turn on, or making loud noises.&lt;SEP&gt;The main system responsible for cooling and circulating air in a space.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd&lt;SEP&gt;chunk-dbaa7f73f06ae79f8c5f795de4955dfc&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Indoor Unit">
+  <data key="d0">Indoor Unit</data>
+  <data key="d1">category</data>
+  <data key="d2">Formerly responsible for circulating cooled air, replaced by a blower.&lt;SEP&gt;The indoor unit of an AC system, which includes components like air filters and blowers responsible for circulating cooled air within a space.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Outdoor Unit (Condenser)">
+  <data key="d0">Outdoor Unit (Condenser)</data>
+  <data key="d1">category</data>
+  <data key="d2">The outdoor component of an AC system that expels heat from the refrigerant, essential for cooling functionality.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Air Filter">
+  <data key="d0">Air Filter</data>
+  <data key="d1">category</data>
+  <data key="d2">A replaceable or reusable part of the indoor unit that captures airborne particles to prevent them from circulating in the air and potentially damaging the AC system.&lt;SEP&gt;Filters air to maintain airflow quality in the AC unit.&lt;SEP&gt;Removes impurities from air before it enters the space, enhancing overall air quality.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Refrigerant">
+  <data key="d0">Refrigerant</data>
+  <data key="d1">category</data>
+  <data key="d2">A substance used in AC units to absorb and transfer heat, with CFCs and HCFCs being common types due to their efficiency.&lt;SEP&gt;Previously used for cooling, now replaced by Ammonia due to advancements in HVAC technology.&lt;SEP&gt;Substance used in cooling processes; Freon is now standard.&lt;SEP&gt;The substance used in AC systems to absorb heat from the environment and transfer it outside, enabling cooling functionality.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Capacitor">
+  <data key="d0">Capacitor</data>
+  <data key="d1">category</data>
+  <data key="d2">An electrical component that stores energy to assist in starting and running the AC unit's motor; failure can prevent proper operation.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Thermostat">
+  <data key="d0">Thermostat</data>
+  <data key="d1">category</data>
+  <data key="d2">A device used to regulate temperature settings, ensuring the AC unit operates according to programmed or manual instructions.&lt;SEP&gt;Controls the operation of the blower and overall system.&lt;SEP&gt;Previously regulated temperature settings, now replaced by thermal sensors to optimize AC unit operation according to programmed instructions.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818&lt;SEP&gt;chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Transformer">
+  <data key="d0">Transformer</data>
+  <data key="d1">category</data>
+  <data key="d2">An electrical component that steps down voltage to power low-voltage components of the AC system; failure can disrupt operation.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Circuit Breaker">
+  <data key="d0">Circuit Breaker</data>
+  <data key="d1">category</data>
+  <data key="d2">A safety device in an electrical panel that can be tripped, interrupting power supply to the AC unit and preventing it from operating.</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Disconnect Switch">
+  <data key="d0">Disconnect Switch</data>
+  <data key="d1">category</data>
+  <data key="d2">An outdoor component used to manually turn off power to the AC system for maintenance or safety purposes.&lt;SEP&gt;The disconnect switch used to control power manually but now handles this task via an inductive motor.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd&lt;SEP&gt;chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Blower">
+  <data key="d0">Blower</data>
+  <data key="d1">category</data>
+  <data key="d2">A component that circulates cooled air within the space.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Evaporator Coil">
+  <data key="d0">Evaporator Coil</data>
+  <data key="d1">category</data>
+  <data key="d2">Component of chiller essential for expelling heat and cooling function.&lt;SEP&gt;Responsible for cooling air before circulation.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Ductwork">
+  <data key="d0">Ductwork</data>
+  <data key="d1">category</data>
+  <data key="d2">Transports cooled air throughout the space.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Heat Exchanger">
+  <data key="d0">Heat Exchanger</data>
+  <data key="d1">category</data>
+  <data key="d2">A component within the AC unit that transfers heat using copper tubes, aluminum fins, and thermal paste to improve efficiency.&lt;SEP&gt;Transfers heat from inside to outside for cooling.&lt;SEP&gt;Transfers heat from the environment to Ammonia for optimized cooling.&lt;SEP&gt;Transfers heat from the environment to Ammonia, optimizing cooling performance.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd&lt;SEP&gt;chunk-dbaa7f73f06ae79f8c5f795de4955dfc&lt;SEP&gt;chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="R-410A">
+  <data key="d0">R-410A</data>
+  <data key="d1">category</data>
+  <data key="d2">A type of Freon known for environmental benefits.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="R-22">
+  <data key="d0">R-22</data>
+  <data key="d1">category</data>
+  <data key="d2">Older Freon type phased out due to ozone depletion.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="R-134a">
+  <data key="d0">R-134a</data>
+  <data key="d1">category</data>
+  <data key="d2">Non-ozone-depleting refrigerant used in AC units.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="R-407C">
+  <data key="d0">R-407C</data>
+  <data key="d1">category</data>
+  <data key="d2">Freon type offering better performance and efficiency.&lt;SEP&gt;R-407C is a type of Freon refrigerant known for better performance and energy efficiency in modern air conditioning units.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-d1920e9c786a6eec3d3da8625cb128a7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="R-502">
+  <data key="d0">R-502</data>
+  <data key="d1">category</data>
+  <data key="d2">Industrial refrigerant, largely replaced by modern Freons.&lt;SEP&gt;R-502 is an older refrigerant that has been largely replaced by more efficient and environmentally friendly alternatives.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-d1920e9c786a6eec3d3da8625cb128a7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Outdoor Unit">
+  <data key="d0">Outdoor Unit</data>
+  <data key="d1">category</data>
+  <data key="d2">Previously expelled heat from refrigerant; now obsolete due to advancements.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Fan (Outdoor)">
+  <data key="d0">Fan (Outdoor)</data>
+  <data key="d1">category</data>
+  <data key="d2">Could cause noise issues due to debris or wear in the outdoor unit.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Fan (Indoor)">
+  <data key="d0">Fan (Indoor)</data>
+  <data key="d1">category</data>
+  <data key="d2">Similarly, could be noisy and requires maintenance in the indoor setup.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Freon">
+  <data key="d0">Freon</data>
+  <data key="d1">category</data>
+  <data key="d2">A brand name for CFC or HCFC refrigerants commonly used in AC units until their environmental impacts became known.&lt;SEP&gt;The new standard refrigerant, offering better thermal properties and eco-friendliness.</data>
+  <data key="d3">chunk-03bd3983c2892f45456e4b1bd72e1e0c&lt;SEP&gt;chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Modern AC Units">
+  <data key="d0">Modern AC Units</data>
+  <data key="d1">category</data>
+  <data key="d2">Modern AC Units are equipped with advanced components and refrigerants for improved performance, efficiency, and environmental sustainability.&lt;SEP&gt;Modern AC Units are equipped with advanced components and refrigerants for improved performance.</data>
+  <data key="d3">chunk-d1920e9c786a6eec3d3da8625cb128a7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Copper Tubes">
+  <data key="d0">Copper Tubes</data>
+  <data key="d1">category</data>
+  <data key="d2">Critical components in the heat exchanger responsible for efficient heat transfer.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Aluminum Fins">
+  <data key="d0">Aluminum Fins</data>
+  <data key="d1">category</data>
+  <data key="d2">Used in the heat exchanger to increase surface area and enhance heat dissipation.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Thermal Paste">
+  <data key="d0">Thermal Paste</data>
+  <data key="d1">category</data>
+  <data key="d2">Applied between heat exchanger components to improve thermal conductivity and cooling efficiency.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Expansion Valve">
+  <data key="d0">Expansion Valve</data>
+  <data key="d1">category</data>
+  <data key="d2">Regulates refrigerant flow in the AC unit, ensuring consistent cooling performance.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="CFC (Chlorofluorocarbon)">
+  <data key="d0">CFC (Chlorofluorocarbon)</data>
+  <data key="d1">category</data>
+  <data key="d2">A type of refrigerant known for cooling properties but contributes to ozone layer depletion.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="HCFC (Hydrochlorofluorocarbon)">
+  <data key="d0">HCFC (Hydrochlorofluorocarbon)</data>
+  <data key="d1">category</data>
+  <data key="d2">An alternative refrigerant with less environmental impact than CFCs, though still regulated.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Ozone Layer Depletion">
+  <data key="d0">Ozone Layer Depletion</data>
+  <data key="d1">category</data>
+  <data key="d2">Environmental issue caused by the release of CFCs and HCFCs, leading to international regulations.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Montreal Protocol">
+  <data key="d0">Montreal Protocol</data>
+  <data key="d1">event</data>
+  <data key="d2">An international treaty aiming to phase out CFC and HCFC production due to ozone depletion concerns.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Energy Efficiency">
+  <data key="d0">Energy Efficiency</data>
+  <data key="d1">category</data>
+  <data key="d2">Improvements in AC units through advanced technologies like heat pumps and compressor innovations for better performance and cost savings.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Thermal Expansion Valve">
+  <data key="d0">Thermal Expansion Valve</data>
+  <data key="d1">category</data>
+  <data key="d2">Regulates refrigerant flow in heat pumps to maintain consistent cooling performance.&lt;SEP&gt;Regulates refrigerant flow in the chiller for efficient operation.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903&lt;SEP&gt;chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Temperature Algorithm">
+  <data key="d0">Temperature Algorithm</data>
+  <data key="d1">category</data>
+  <data key="d2">Optimizes thermal sensor performance, crucial for efficient AC unit operation and energy savings.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Heat Pump">
+  <data key="d0">Heat Pump</data>
+  <data key="d1">category</data>
+  <data key="d2">A component that has replaced traditional outdoor units in modern AC systems, offering superior efficiency across different climates by transferring heat rather than creating it.</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Thermal Sensor">
+  <data key="d0">Thermal Sensor</data>
+  <data key="d1">category</data>
+  <data key="d2">The thermal sensor regulates temperature settings and works with other components to optimize performance.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Evaporative Cooler">
+  <data key="d0">Evaporative Cooler</data>
+  <data key="d1">category</data>
+  <data key="d2">The evaporative cooler is a component replacing the indoor unit, offering improved energy efficiency and humidity control.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Water Reservoir">
+  <data key="d0">Water Reservoir</data>
+  <data key="d1">category</data>
+  <data key="d2">The water reservoir supplies water to the evaporation pad within the evaporative cooler.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Pump System">
+  <data key="d0">Pump System</data>
+  <data key="d1">category</data>
+  <data key="d2">The pump system circulates water from the reservoir to the evaporation pad, enhancing cooling efficiency.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Evaporation Pad">
+  <data key="d0">Evaporation Pad</data>
+  <data key="d1">category</data>
+  <data key="d2">The evaporation pad is where air passes through and cools by picking up moisture.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Ammonia">
+  <data key="d0">Ammonia</data>
+  <data key="d1">category</data>
+  <data key="d2">Ammonia is the new refrigerant chosen for its superior heat transfer properties and environmental benefits.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Lithium Bromide">
+  <data key="d0">Lithium Bromide</data>
+  <data key="d1">category</data>
+  <data key="d2">The absorbent in an Ammonia-based absorption chiller, enhancing cooling efficiency.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Frequency Regulator">
+  <data key="d0">Frequency Regulator</data>
+  <data key="d1">category</data>
+  <data key="d2">Stabilizes power supply to the inductive motor, ensuring consistent performance and preventing damage from voltage fluctuations.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Torque Control System">
+  <data key="d0">Torque Control System</data>
+  <data key="d1">category</data>
+  <data key="d2">Manages rotational force of the inductive motor for efficient operation and reduced energy consumption.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Speed Governor">
+  <data key="d0">Speed Governor</data>
+  <data key="d1">category</data>
+  <data key="d2">Regulates the rotational speed of the inductive motor to provide consistent cooling.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Magnetic Core">
+  <data key="d0">Magnetic Core</data>
+  <data key="d1">category</data>
+  <data key="d2">Improves magnetic field strength in the inductive motor, leading to better performance and reduced energy loss.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Insulation Material">
+  <data key="d0">Insulation Material</data>
+  <data key="d1">category</data>
+  <data key="d2">Protects the inductive motor from electrical shorts, ensuring safe and reliable operation.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Fan Motor">
+  <data key="d0">Fan Motor</data>
+  <data key="d1">category</data>
+  <data key="d2">Drives airflow through the evaporative cooler for optimal performance.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Thermosiphon">
+  <data key="d0">Thermosiphon</data>
+  <data key="d1">category</data>
+  <data key="d2">A component facilitating natural circulation of Ammonia to enhance cooling efficiency.&lt;SEP&gt;Facilitates natural circulation of Ammonia, enhancing its effectiveness in cooling.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd&lt;SEP&gt;chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Inductive Motor">
+  <data key="d0">Inductive Motor</data>
+  <data key="d1">category</data>
+  <data key="d2">The inductive motor now handles power control functions previously managed by the disconnect switch, improving efficiency and reliability.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Cooling Coil">
+  <data key="d0">Cooling Coil</data>
+  <data key="d1">category</data>
+  <data key="d2">An essential part of the thermal sensor system, ensuring that the AC unit maintains the desired temperature.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Humidity Sensor">
+  <data key="d0">Humidity Sensor</data>
+  <data key="d1">category</data>
+  <data key="d2">Complements the thermal sensor by providing additional data to improve the AC unit's overall performance.&lt;SEP&gt;Component of dew point sensor aiding AC regulation.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd&lt;SEP&gt;chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Absorption Chiller">
+  <data key="d0">Absorption Chiller</data>
+  <data key="d1">category</data>
+  <data key="d2">Uses Ammonia as refrigerant, improving energy efficiency in AC systems.&lt;SEP&gt;Uses Ammonia as the primary refrigerant, significantly increasing the energy efficiency of the AC Unit.</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd&lt;SEP&gt;chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Water Pump">
+  <data key="d0">Water Pump</data>
+  <data key="d1">category</data>
+  <data key="d2">Circulates water through the chiller to enhance efficiency.</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Refrigerant Line">
+  <data key="d0">Refrigerant Line</data>
+  <data key="d1">category</data>
+  <data key="d2">Connects components ensuring smooth refrigerant flow.</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Temperature Probe">
+  <data key="d0">Temperature Probe</data>
+  <data key="d1">category</data>
+  <data key="d2">Integrated into dew point sensor for accurate temperature management.</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Environmental Controller">
+  <data key="d0">Environmental Controller</data>
+  <data key="d1">category</data>
+  <data key="d2">System incorporating dew point sensor to regulate AC operation.</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Data Logger">
+  <data key="d0">Data Logger</data>
+  <data key="d1">category</data>
+  <data key="d2">Records data from dew point sensor to adjust AC settings.</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Climate Analyzer">
+  <data key="d0">Climate Analyzer</data>
+  <data key="d1">category</data>
+  <data key="d2">Optimizes AC performance using dew point sensor data.</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Variable Speed Motor">
+  <data key="d0">Variable Speed Motor</data>
+  <data key="d1">category</data>
+  <data key="d2">Replaces capacitor, enhances energy efficiency and quiet operation.</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="AC Unit is Not Cooling">
+  <data key="d0">AC Unit is Not Cooling</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">The presence of a dirty air filter can restrict airflow and reduce cooling efficiency, contributing to the issue where the AC unit fails to cool properly.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="AC Unit Will Not Turn On">
+  <data key="d0">AC Unit Will Not Turn On</data>
+  <data key="d3">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d2">Lack of power supply prevents the AC unit from receiving electrical energy required for operation, resulting in the system not turning on.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="CFC">
+  <data key="d0">CFC</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d2">Both CFCs and HCFCs are used as refrigerants in AC units, with HCFCs being a more environmentally friendly alternative to CFCs.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="HCFC">
+  <data key="d0">HCFC</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d2">Both CFCs and HCFCs are used as refrigerants in AC units, with HCFCs being a more environmentally friendly alternative to CFCs.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Energy Efficiency Standards">
+  <data key="d0">Energy Efficiency Standards</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d2">Efforts to improve energy efficiency in AC units are driven by concerns over their environmental impact and the need for sustainable cooling solutions.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Environmental Impact">
+  <data key="d0">Environmental Impact</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d2">Efforts to improve energy efficiency in AC units are driven by concerns over their environmental impact and the need for sustainable cooling solutions.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Refrigerant Management System">
+  <data key="d0">Refrigerant Management System</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d2">"The refrigerant management system is essential for heat pumps to maintain optimal refrigerant flow and pressure, ensuring efficient operation.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Compressor Technology">
+  <data key="d0">Compressor Technology</data>
+  <data key="d3">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d2">Advanced compressor technology works in tandem with the thermal expansion valve to regulate refrigerant flow and enhance cooling performance.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Ammonia-Based Absorption Chiller">
+  <data key="d0">Ammonia-Based Absorption Chiller</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d2">Lithium Bromide acts as the absorbent in an Ammonia-based absorption chiller, enhancing cooling efficiency.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Thermal Sensor System">
+  <data key="d0">Thermal Sensor System</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d2">The cooling coil ensures that the AC unit maintains the desired temperature as part of the thermal sensor system.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Ammonia-Based System">
+  <data key="d0">Ammonia-Based System</data>
+  <data key="d3">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d2">The absorption chiller uses Ammonia as its primary refrigerant, significantly improving energy efficiency.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Chiller">
+  <data key="d0">Chiller</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d2">The Evaporator Coil is a critical component of the Chiller, essential for expelling heat and enabling cooling function.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<node id="Dew Point Sensor">
+  <data key="d0">Dew Point Sensor</data>
+  <data key="d3">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d2">The Dew Point Sensor replaced the Thermostat in managing the AC Unit's temperature settings, enhancing precision and control.</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1750734811</data>
+</node>
+<edge source="Dirty Air Filter" target="AC Unit is Not Cooling">
+  <data key="d6">8.0</data>
+  <data key="d7">The presence of a dirty air filter can restrict airflow and reduce cooling efficiency, contributing to the issue where the AC unit fails to cool properly.</data>
+  <data key="d8">airflow obstruction,cooling inefficiency</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Low Refrigerant" target="AC Unit is Not Cooling">
+  <data key="d6">9.0</data>
+  <data key="d7">Insufficient refrigerant levels prevent the system from effectively absorbing and transferring heat, leading to inadequate cooling performance.</data>
+  <data key="d8">heat transfer inefficiency,refrigeration cycle failure</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Faulty Capacitor" target="AC Unit is Not Cooling">
+  <data key="d6">7.0</data>
+  <data key="d7">A faulty capacitor can disrupt the electrical circuit necessary for proper operation, potentially causing the AC unit to malfunction and fail to cool effectively.</data>
+  <data key="d8">electrical malfunction,system disruption</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="No Power to Unit" target="AC Unit Will Not Turn On">
+  <data key="d6">10.0</data>
+  <data key="d7">Lack of power supply prevents the AC unit from receiving electrical energy required for operation, resulting in the system not turning on.</data>
+  <data key="d8">electrical disconnect,power failure</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Faulty Thermostat" target="AC Unit Will Not Turn On">
+  <data key="d6">8.0</data>
+  <data key="d7">A faulty thermostat fails to send the necessary signals to activate the AC unit, preventing it from starting even when powered."|&gt;"control system malfunction, signal failure</data>
+  <data key="d8">8</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Failed Transformer" target="AC Unit Will Not Turn On">
+  <data key="d6">9.0</data>
+  <data key="d7">Failure of the transformer means that the required electrical power is not being supplied to critical components, causing the AC unit to remain non-functional.</data>
+  <data key="d8">component failure,electrical supply interruption</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Indoor Unit">
+  <data key="d6">8.0</data>
+  <data key="d7">The AC unit comprises an indoor unit responsible for circulating cooled air within a space."|&gt;"system components, cooling functionality</data>
+  <data key="d8">8</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Outdoor Unit (Condenser)">
+  <data key="d6">9.0</data>
+  <data key="d7">The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function.</data>
+  <data key="d8">heat transfer,system operation</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Refrigerant">
+  <data key="d6">10.0</data>
+  <data key="d7">Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit.</data>
+  <data key="d8">cooling efficiency,refrigeration cycle</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Capacitor">
+  <data key="d6">8.0</data>
+  <data key="d7">The capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation."|&gt;"electrical function, system startup</data>
+  <data key="d8">8</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Thermostat">
+  <data key="d6">9.0</data>
+  <data key="d7">The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions.</data>
+  <data key="d8">system regulation,temperature control</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Transformer">
+  <data key="d6">8.0</data>
+  <data key="d7">The transformer provides power to low-voltage components of the AC system; failure can disrupt operation."|&gt;"electrical supply, system voltage</data>
+  <data key="d8">8</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Circuit Breaker">
+  <data key="d6">7.0</data>
+  <data key="d7">A tripped circuit breaker interrupts power supply to the AC unit, preventing it from operating."|&gt;"electrical safety, power disruption</data>
+  <data key="d8">7</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Disconnect Switch">
+  <data key="d6">8.0</data>
+  <data key="d7">The disconnect switch allows manual turning off of power to the AC system for maintenance or safety purposes."|&gt;"safety mechanism, power control</data>
+  <data key="d8">8</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Heat Exchanger">
+  <data key="d6">9.0</data>
+  <data key="d7">The AC unit's cooling process relies on the heat exchanger's components to transfer heat efficiently.</data>
+  <data key="d8">cooling system,heat transfer</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Thermal Sensor">
+  <data key="d6">9.0</data>
+  <data key="d7">The AC unit operates according to programmed instructions, with the thermal sensor regulating temperature settings.</data>
+  <data key="d8">component integration,temperature regulation</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Evaporative Cooler">
+  <data key="d6">10.0</data>
+  <data key="d7">The AC unit now comprises an evaporative cooler, replacing the indoor unit for better efficiency and humidity control.</data>
+  <data key="d8">cooling system replacement,technology upgrade</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Ammonia">
+  <data key="d6">8.0</data>
+  <data key="d7">The AC unit now uses Ammonia as its primary refrigerant due to advancements in HVAC technology.</data>
+  <data key="d8">environmental benefits,refrigeration efficiency</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Thermosiphon">
+  <data key="d6">9.0</data>
+  <data key="d7">The Thermosiphon is an integral component of the AC Unit, enhancing its cooling performance through Ammonia circulation.</data>
+  <data key="d8">component integration,cooling enhancement</data>
+  <data key="d9">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Absorption Chiller">
+  <data key="d6">10.0</data>
+  <data key="d7">The Absorption Chiller significantly improves energy efficiency as a core component of the AC Unit.</data>
+  <data key="d8">energy efficiency,refrigeration system</data>
+  <data key="d9">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="AC Unit" target="Dew Point Sensor">
+  <data key="d6">9.0</data>
+  <data key="d7">The Dew Point Sensor replaced the Thermostat in managing the AC Unit's temperature settings, enhancing precision and control.</data>
+  <data key="d8">system optimization,technology update</data>
+  <data key="d9">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Indoor Unit" target="Air Filter">
+  <data key="d6">7.0</data>
+  <data key="d7">The air filter is a part of the indoor unit that captures airborne particles to prevent damage to the AC system."|&gt;"airflow regulation, filtration</data>
+  <data key="d8">7</data>
+  <data key="d9">chunk-712bbc205d3a99428a8a9d2734195818</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Air Filter" target="Evaporative Cooler">
+  <data key="d6">8.0</data>
+  <data key="d7">The air filter removes impurities from air before it enters the space, enhancing overall air quality managed by the AC unit.</data>
+  <data key="d8">air purification,system efficiency</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Refrigerant" target="Expansion Valve">
+  <data key="d6">8.0</data>
+  <data key="d7">The expansion valve regulates refrigerant flow, ensuring consistent and efficient cooling within the AC unit.</data>
+  <data key="d8">refrigerant management,system control</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Disconnect Switch" target="Inductive Motor">
+  <data key="d6">15.0</data>
+  <data key="d7">The disconnect switch no longer allows manual turning off of power; instead, the inductive motor handles this task.&lt;SEP&gt;The inductive motor has taken over power control functions previously managed by the disconnect switch.</data>
+  <data key="d8">automation,automation upgrade,functional replacement,power control</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Evaporator Coil" target="Chiller">
+  <data key="d6">8.0</data>
+  <data key="d7">The Evaporator Coil is a critical component of the Chiller, essential for expelling heat and enabling cooling function.</data>
+  <data key="d8">component dependency,cooling efficiency</data>
+  <data key="d9">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Heat Exchanger" target="Thermal Paste">
+  <data key="d6">7.0</data>
+  <data key="d7">Thermal paste enhances thermal conductivity between components in the heat exchanger, improving cooling performance.</data>
+  <data key="d8">efficiency boost,thermal interface material</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Heat Exchanger" target="Ammonia">
+  <data key="d6">8.0</data>
+  <data key="d7">The heat exchanger transfers heat from the environment to Ammonia, optimizing cooling performance of the AC unit.</data>
+  <data key="d8">heat transfer optimization,system efficiency</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="R-407C" target="Modern AC Units">
+  <data key="d6">9.0</data>
+  <data key="d7">R-407C is a popular choice in modern air conditioning units due to its superior performance and energy efficiency compared to traditional refrigerants.</data>
+  <data key="d8">AC innovation,refrigerant technology</data>
+  <data key="d9">chunk-d1920e9c786a6eec3d3da8625cb128a7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="R-502" target="Modern AC Units">
+  <data key="d6">6.0</data>
+  <data key="d7">R-502 has been largely replaced by more efficient refrigerants in modern air conditioning units.</data>
+  <data key="d8">legacy technology,replacement</data>
+  <data key="d9">chunk-d1920e9c786a6eec3d3da8625cb128a7</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Freon" target="CFC">
+  <data key="d6">6.0</data>
+  <data key="d7">Freon is a brand name for CFC refrigerants commonly used in AC units despite their ozone-depleting effects.</data>
+  <data key="d8">brand-specific refrigerant,environmental concern</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Copper Tubes" target="Aluminum Fins">
+  <data key="d6">8.0</data>
+  <data key="d7">Copper tubes and aluminum fins work together in the heat exchanger to maximize heat dissipation and improve efficiency.</data>
+  <data key="d8">component synergy,thermal enhancement</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Ozone Layer Depletion" target="Montreal Protocol">
+  <data key="d6">9.0</data>
+  <data key="d7">The Montreal Protocol was established to address and mitigate ozone layer depletion caused by the use of CFCs and HCFCs.</data>
+  <data key="d8">environmental regulation,international treaty</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Thermal Expansion Valve" target="Compressor Technology">
+  <data key="d6">8.0</data>
+  <data key="d7">Advanced compressor technology works in tandem with the thermal expansion valve to regulate refrigerant flow and enhance cooling performance.</data>
+  <data key="d8">efficiency improvement,system synergy</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Heat Pump" target="Refrigerant Management System">
+  <data key="d6">9.0</data>
+  <data key="d7">"The refrigerant management system is essential for heat pumps to maintain optimal refrigerant flow and pressure, ensuring efficient operation.</data>
+  <data key="d8">component integration,refrigerant optimization</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Thermal Sensor" target="Humidity Sensor">
+  <data key="d6">7.0</data>
+  <data key="d7">The humidity sensor complements the thermal sensor by providing additional data to improve overall performance.</data>
+  <data key="d8">data integration,system optimization</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Evaporative Cooler" target="Fan Motor">
+  <data key="d6">9.0</data>
+  <data key="d7">The fan motor drives airflow through the evaporative cooler, ensuring optimal performance of the AC unit.</data>
+  <data key="d8">airflow management,cooling enhancement</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Water Reservoir" target="Pump System">
+  <data key="d6">7.0</data>
+  <data key="d7">The water reservoir supplies water to the pump system, which circulates it through the evaporation pad.</data>
+  <data key="d8">component interaction,water circulation</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Ammonia" target="Thermosiphon">
+  <data key="d6">7.0</data>
+  <data key="d7">The thermosiphon facilitates natural circulation of Ammonia, enhancing its effectiveness in the cooling process.</data>
+  <data key="d8">efficiency improvement,natural circulation</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Lithium Bromide" target="Ammonia-Based Absorption Chiller">
+  <data key="d6">9.0</data>
+  <data key="d7">Lithium Bromide acts as the absorbent in an Ammonia-based absorption chiller, enhancing cooling efficiency.</data>
+  <data key="d8">chemical interaction,cooling enhancement</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Frequency Regulator" target="Inductive Motor">
+  <data key="d6">8.0</data>
+  <data key="d7">The frequency regulator stabilizes power supply to the inductive motor, ensuring consistent performance.</data>
+  <data key="d8">component synergy,power stabilization</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Torque Control System" target="Inductive Motor">
+  <data key="d6">7.0</data>
+  <data key="d7">The torque control system manages rotational force generated by the inductive motor for efficient operation.</data>
+  <data key="d8">efficiency optimization,force management</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Speed Governor" target="Inductive Motor">
+  <data key="d6">8.0</data>
+  <data key="d7">The speed governor regulates the rotational speed of the inductive motor to ensure consistent cooling.</data>
+  <data key="d8">performance consistency,speed regulation</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Magnetic Core" target="Inductive Motor">
+  <data key="d6">7.0</data>
+  <data key="d7">The magnetic core enhances the efficiency of the inductive motor by improving magnetic field strength.</data>
+  <data key="d8">energy optimization,magnetic enhancement</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Insulation Material" target="Inductive Motor">
+  <data key="d6">6.0</data>
+  <data key="d7">The insulation material protects the inductive motor from electrical shorts, ensuring safe operation.</data>
+  <data key="d8">component safeguarding,safety protection</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Cooling Coil" target="Thermal Sensor System">
+  <data key="d6">8.0</data>
+  <data key="d7">The cooling coil ensures that the AC unit maintains the desired temperature as part of the thermal sensor system.</data>
+  <data key="d8">component synergy,temperature maintenance</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Absorption Chiller" target="Ammonia-Based System">
+  <data key="d6">9.0</data>
+  <data key="d7">The absorption chiller uses Ammonia as its primary refrigerant, significantly improving energy efficiency.</data>
+  <data key="d8">energy enhancement,refrigeration technology</data>
+  <data key="d9">chunk-dcb01a26ef40fd3af7f5bbfdb0acc7fd</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Water Pump" target="Chiller">
+  <data key="d6">7.0</data>
+  <data key="d7">The Water Pump enhances the Chiller's efficiency by circulating water through its system.</data>
+  <data key="d8">component interaction,system optimization</data>
+  <data key="d9">chunk-dbaa7f73f06ae79f8c5f795de4955dfc</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="CFC" target="HCFC">
+  <data key="d6">7.0</data>
+  <data key="d7">Both CFCs and HCFCs are used as refrigerants in AC units, with HCFCs being a more environmentally friendly alternative to CFCs.</data>
+  <data key="d8">environmental impact,refrigerant types</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+<edge source="Energy Efficiency Standards" target="Environmental Impact">
+  <data key="d6">8.0</data>
+  <data key="d7">Efforts to improve energy efficiency in AC units are driven by concerns over their environmental impact and the need for sustainable cooling solutions.</data>
+  <data key="d8">regulatory response,sustainability</data>
+  <data key="d9">chunk-6b24a693cdd1e762483f12a1ce71a903</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1750734811</data>
+</edge>
+</graph></graphml>

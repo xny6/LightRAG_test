@@ -151,7 +151,7 @@ def generate_wrong_text(json_data, model: str = "qwen2.5:72b") -> str:
         return f"请求出错: {str(e)}"
 
 
-async def write_chosen_relationships_to_file(query, query_param, rag, chosen_relationships_output_file, top_k):
+async def write_chosen_relationships_to_file(query, query_param, rag, top_k):
     hl_keywords, ll_keywords = await get_keywords_from_query(
         query, query_param=query_param,
         global_config=asdict(rag),
@@ -173,9 +173,9 @@ async def write_chosen_relationships_to_file(query, query_param, rag, chosen_rel
     if top_k > 0 and len(relations_context) > top_k:
         relations_context = relations_context[:top_k]
 
-    with open(chosen_relationships_output_file, 'w', encoding='utf-8') as f:
-        json.dump(relations_context, f, ensure_ascii=False, indent=4)
-
+    # with open(chosen_relationships_output_file, 'w', encoding='utf-8') as f:
+    #     json.dump(relations_context, f, ensure_ascii=False, indent=4)
+    return relations_context
 
 async def filter_json(input_path: str, output_path: str):
     """
@@ -297,4 +297,35 @@ async def append_texts_from_json(json_path, txt_path):
                 out_file.write(text.strip() + '\n')
 
     print(f"内容已成功追加到 {txt_path}")
+
+
+import shutil
+import os
+
+async def add_content_to_origin_txt(origin_path, ad_txt_path, new_path=None):
+    """
+    创建原始文件的副本，并将对抗文本追加写入副本中。
+    
+    参数:
+        origin_path: str，原始文本文件路径
+        ad_txt_path: str，对抗文本文件路径
+        new_path: str，新副本路径；若为 None，则自动在 origin 同目录创建副本
+    """
+    # 自动生成副本文件名：如 origin.txt → origin_with_ad.txt
+    if new_path is None:
+        base, ext = os.path.splitext(origin_path)
+        new_path = f"{base}_with_ad{ext}"
+
+    # 复制 origin → new_path
+    shutil.copyfile(origin_path, new_path)
+
+    # 读取对抗文本内容
+    with open(ad_txt_path, 'r', encoding='utf-8') as ad_file:
+        ad_content = ad_file.read()
+
+    # 追加写入副本文件
+    with open(new_path, 'a', encoding='utf-8') as new_file:
+        new_file.write(ad_content)
+
+    print(f"已创建副本：{new_path}，并追加对抗文本。")
 

@@ -1,0 +1,102 @@
+[
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Indoor Unit",
+    "Relationship": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality"
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Refrigerant",
+    "Relationship": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Outdoor Unit (Condenser)",
+    "Relationship": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Thermostat",
+    "Relationship": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Capacitor",
+    "Relationship": "The capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation.\"|>\"electrical function, system startup"
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Indoor Unit",
+    "Relationship": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality"
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Refrigerant",
+    "Relationship": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Outdoor Unit (Condenser)",
+    "Relationship": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Thermostat",
+    "Relationship": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Disconnect Switch",
+    "Relationship": "The disconnect switch allows manual turning off of power to the AC system for maintenance or safety purposes.\"|>\"safety mechanism, power control"
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Indoor Unit",
+    "Relationship": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality"
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Refrigerant",
+    "Relationship": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Outdoor Unit (Condenser)",
+    "Relationship": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Thermostat",
+    "Relationship": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Capacitor",
+    "Relationship": "The capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation.\"|>\"electrical function, system startup"
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Indoor Unit",
+    "Relationship": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality"
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Refrigerant",
+    "Relationship": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Outdoor Unit (Condenser)",
+    "Relationship": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Thermostat",
+    "Relationship": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions."
+  },
+  {
+    "Anchor Entity": "AC Unit",
+    "Original Entity": "Capacitor",
+    "Relationship": "The capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation.\"|>\"electrical function, system startup"
+  }
+]

@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "entity1": "AC Unit",
+        "entity2": "Indoor Unit",
+        "description": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 10,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 2,
+        "entity1": "AC Unit",
+        "entity2": "Refrigerant",
+        "description": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit.",
+        "keywords": "cooling efficiency,refrigeration cycle",
+        "weight": 10.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 3,
+        "entity1": "AC Unit",
+        "entity2": "Outdoor Unit (Condenser)",
+        "description": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function.",
+        "keywords": "heat transfer,system operation",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 4,
+        "entity1": "AC Unit",
+        "entity2": "Thermostat",
+        "description": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions.",
+        "keywords": "system regulation,temperature control",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 5,
+        "entity1": "AC Unit",
+        "entity2": "Capacitor",
+        "description": "The capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation.\"|>\"electrical function, system startup",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 1,
+        "entity1": "AC Unit",
+        "entity2": "Indoor Unit",
+        "description": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 10,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 2,
+        "entity1": "AC Unit",
+        "entity2": "Refrigerant",
+        "description": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit.",
+        "keywords": "cooling efficiency,refrigeration cycle",
+        "weight": 10.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 3,
+        "entity1": "AC Unit",
+        "entity2": "Outdoor Unit (Condenser)",
+        "description": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function.",
+        "keywords": "heat transfer,system operation",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 4,
+        "entity1": "AC Unit",
+        "entity2": "Thermostat",
+        "description": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions.",
+        "keywords": "system regulation,temperature control",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 5,
+        "entity1": "AC Unit",
+        "entity2": "Disconnect Switch",
+        "description": "The disconnect switch allows manual turning off of power to the AC system for maintenance or safety purposes.\"|>\"safety mechanism, power control",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 1,
+        "entity1": "AC Unit",
+        "entity2": "Indoor Unit",
+        "description": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 10,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 2,
+        "entity1": "AC Unit",
+        "entity2": "Refrigerant",
+        "description": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit.",
+        "keywords": "cooling efficiency,refrigeration cycle",
+        "weight": 10.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 3,
+        "entity1": "AC Unit",
+        "entity2": "Outdoor Unit (Condenser)",
+        "description": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function.",
+        "keywords": "heat transfer,system operation",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 4,
+        "entity1": "AC Unit",
+        "entity2": "Thermostat",
+        "description": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions.",
+        "keywords": "system regulation,temperature control",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 5,
+        "entity1": "AC Unit",
+        "entity2": "Capacitor",
+        "description": "The capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation.\"|>\"electrical function, system startup",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 1,
+        "entity1": "AC Unit",
+        "entity2": "Indoor Unit",
+        "description": "The AC unit comprises an indoor unit responsible for circulating cooled air within a space.\"|>\"system components, cooling functionality",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 10,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 2,
+        "entity1": "AC Unit",
+        "entity2": "Refrigerant",
+        "description": "Refrigerant is crucial for the cooling process, as it absorbs heat from the environment and transfers it outside via the outdoor unit.",
+        "keywords": "cooling efficiency,refrigeration cycle",
+        "weight": 10.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 3,
+        "entity1": "AC Unit",
+        "entity2": "Outdoor Unit (Condenser)",
+        "description": "The outdoor unit is essential for expelling heat from the refrigerant and enabling the AC unit's cooling function.",
+        "keywords": "heat transfer,system operation",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 4,
+        "entity1": "AC Unit",
+        "entity2": "Thermostat",
+        "description": "The thermostat regulates temperature settings, ensuring the AC unit operates according to programmed instructions.",
+        "keywords": "system regulation,temperature control",
+        "weight": 9.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    },
+    {
+        "id": 5,
+        "entity1": "AC Unit",
+        "entity2": "Capacitor",
+        "description": "The capacitor is essential for starting and running the AC unit's motor; its failure can prevent proper operation.\"|>\"electrical function, system startup",
+        "keywords": "8",
+        "weight": 8.0,
+        "rank": 9,
+        "created_at": "2025-06-24 01:55:26",
+        "file_path": "unknown_source"
+    }
+]

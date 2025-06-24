@@ -39,6 +39,6 @@ def graphml_to_json(graphml_path, json_path):
 
 # 示例调用
 if __name__ == "__main__":
-    graphml_file = "/home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml"  # 请替换为你的实际文件路径
-    json_output_file = "/home/NingyuanXiao/LightRAG_test/test_for_extraction/graph_output.json"
+    graphml_file = "/home/NingyuanXiao/LightRAG_test/working_dir_for_AC_3/graph_chunk_entity_relation.graphml"  # 请替换为你的实际文件路径
+    json_output_file = "/home/NingyuanXiao/LightRAG_test/test_for_extraction/graph_output_AC.json"
     graphml_to_json(graphml_file, json_output_file)
