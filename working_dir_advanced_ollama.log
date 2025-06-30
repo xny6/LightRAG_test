@@ -1635,3 +1635,368 @@ httpx.ReadTimeout
 2025-06-19 10:28:21,097 - lightrag - INFO - No documents to process
 2025-06-19 10:28:21,098 - lightrag - INFO - limit_async: 4 new workers initialized
 2025-06-19 10:28:34,851 - lightrag - INFO - Storage Finalization completed!
+2025-06-30 02:03:12,668 - lightrag - INFO - Created new empty graph
+2025-06-30 02:03:12,671 - lightrag - INFO - Process 2901754 KV load full_docs with 0 records
+2025-06-30 02:03:12,671 - lightrag - INFO - Process 2901754 KV load text_chunks with 0 records
+2025-06-30 02:03:12,702 - lightrag - INFO - Process 2901754 KV load llm_response_cache with 279 records
+2025-06-30 02:03:12,702 - lightrag - INFO - Process 2901754 doc status load doc_status with 0 records
+2025-06-30 02:03:12,703 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-06-30 02:03:12,703 - lightrag - INFO - Storage Initialization completed!
+2025-06-30 02:03:14,775 - lightrag - INFO - Stored 1 new unique documents
+2025-06-30 02:03:14,775 - lightrag - INFO - Processing 1 document(s)
+2025-06-30 02:03:14,776 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-06-30 02:03:14,776 - lightrag - INFO - Processing d-id: doc-8e956e338cafa11281135d777c67ec77
+2025-06-30 02:03:14,866 - lightrag - INFO - Chunk 1 of 119 extracted 18 Ent + 14 Rel
+2025-06-30 02:03:14,867 - lightrag - INFO - Chunk 2 of 119 extracted 4 Ent + 5 Rel
+2025-06-30 02:03:14,868 - lightrag - INFO - Chunk 3 of 119 extracted 3 Ent + 7 Rel
+2025-06-30 02:03:14,868 - lightrag - INFO - Chunk 4 of 119 extracted 2 Ent + 0 Rel
+2025-06-30 02:03:14,869 - lightrag - INFO - Chunk 5 of 119 extracted 9 Ent + 15 Rel
+2025-06-30 02:03:14,870 - lightrag - INFO - Chunk 6 of 119 extracted 5 Ent + 3 Rel
+2025-06-30 02:03:14,871 - lightrag - INFO - Chunk 7 of 119 extracted 5 Ent + 4 Rel
+2025-06-30 02:03:14,872 - lightrag - INFO - Chunk 8 of 119 extracted 8 Ent + 5 Rel
+2025-06-30 02:03:14,872 - lightrag - INFO - Chunk 9 of 119 extracted 9 Ent + 3 Rel
+2025-06-30 02:03:14,874 - lightrag - INFO - Chunk 10 of 119 extracted 17 Ent + 10 Rel
+2025-06-30 02:03:14,874 - lightrag - INFO - Chunk 11 of 119 extracted 4 Ent + 3 Rel
+2025-06-30 02:03:14,876 - lightrag - INFO - Chunk 12 of 119 extracted 17 Ent + 13 Rel
+2025-06-30 02:03:14,877 - lightrag - INFO - Chunk 13 of 119 extracted 16 Ent + 16 Rel
+2025-06-30 02:03:14,878 - lightrag - INFO - Chunk 14 of 119 extracted 10 Ent + 9 Rel
+2025-06-30 02:03:14,879 - lightrag - INFO - Chunk 15 of 119 extracted 7 Ent + 9 Rel
+2025-06-30 02:03:14,880 - lightrag - INFO - Chunk 16 of 119 extracted 6 Ent + 6 Rel
+2025-06-30 02:03:14,880 - lightrag - INFO - Chunk 17 of 119 extracted 11 Ent + 8 Rel
+2025-06-30 02:03:14,882 - lightrag - INFO - Chunk 18 of 119 extracted 13 Ent + 13 Rel
+2025-06-30 02:03:14,883 - lightrag - INFO - Chunk 19 of 119 extracted 10 Ent + 10 Rel
+2025-06-30 02:03:14,883 - lightrag - INFO - Chunk 20 of 119 extracted 6 Ent + 0 Rel
+2025-06-30 02:03:14,884 - lightrag - INFO - Chunk 21 of 119 extracted 2 Ent + 2 Rel
+2025-06-30 02:03:14,885 - lightrag - INFO - Chunk 22 of 119 extracted 3 Ent + 4 Rel
+2025-06-30 02:03:14,885 - lightrag - INFO - Chunk 23 of 119 extracted 8 Ent + 5 Rel
+2025-06-30 02:03:14,886 - lightrag - INFO - Chunk 24 of 119 extracted 2 Ent + 15 Rel
+2025-06-30 02:03:14,887 - lightrag - INFO - Chunk 25 of 119 extracted 7 Ent + 3 Rel
+2025-06-30 02:03:14,888 - lightrag - INFO - Chunk 26 of 119 extracted 9 Ent + 7 Rel
+2025-06-30 02:03:14,889 - lightrag - INFO - Chunk 27 of 119 extracted 8 Ent + 6 Rel
+2025-06-30 02:03:14,890 - lightrag - INFO - Chunk 28 of 119 extracted 12 Ent + 10 Rel
+2025-06-30 02:03:14,891 - lightrag - INFO - Chunk 29 of 119 extracted 4 Ent + 4 Rel
+2025-06-30 02:03:14,891 - lightrag - INFO - Chunk 30 of 119 extracted 9 Ent + 5 Rel
+2025-06-30 02:03:14,893 - lightrag - INFO - Chunk 31 of 119 extracted 13 Ent + 13 Rel
+2025-06-30 02:03:14,894 - lightrag - INFO - Chunk 32 of 119 extracted 6 Ent + 6 Rel
+2025-06-30 02:03:14,895 - lightrag - INFO - Chunk 33 of 119 extracted 12 Ent + 8 Rel
+2025-06-30 02:03:14,896 - lightrag - INFO - Chunk 34 of 119 extracted 10 Ent + 8 Rel
+2025-06-30 02:03:14,898 - lightrag - INFO - Chunk 35 of 119 extracted 15 Ent + 14 Rel
+2025-06-30 02:03:14,898 - lightrag - INFO - Chunk 36 of 119 extracted 5 Ent + 4 Rel
+2025-06-30 02:03:14,900 - lightrag - INFO - Chunk 37 of 119 extracted 13 Ent + 20 Rel
+2025-06-30 02:03:14,901 - lightrag - INFO - Chunk 38 of 119 extracted 14 Ent + 14 Rel
+2025-06-30 02:03:14,902 - lightrag - INFO - Chunk 39 of 119 extracted 15 Ent + 14 Rel
+2025-06-30 02:03:14,903 - lightrag - INFO - Chunk 40 of 119 extracted 8 Ent + 8 Rel
+2025-06-30 02:03:14,905 - lightrag - INFO - Chunk 41 of 119 extracted 18 Ent + 5 Rel
+2025-06-30 02:03:14,906 - lightrag - INFO - Chunk 42 of 119 extracted 7 Ent + 7 Rel
+2025-06-30 02:03:14,906 - lightrag - INFO - Chunk 43 of 119 extracted 6 Ent + 5 Rel
+2025-06-30 02:03:14,907 - lightrag - INFO - Chunk 44 of 119 extracted 11 Ent + 9 Rel
+2025-06-30 02:03:14,908 - lightrag - INFO - Chunk 45 of 119 extracted 5 Ent + 4 Rel
+2025-06-30 02:03:14,909 - lightrag - INFO - Chunk 46 of 119 extracted 11 Ent + 6 Rel
+2025-06-30 02:03:14,910 - lightrag - INFO - Chunk 47 of 119 extracted 6 Ent + 5 Rel
+2025-06-30 02:03:14,911 - lightrag - INFO - Chunk 48 of 119 extracted 9 Ent + 6 Rel
+2025-06-30 02:03:14,912 - lightrag - INFO - Chunk 49 of 119 extracted 7 Ent + 5 Rel
+2025-06-30 02:03:14,912 - lightrag - INFO - Chunk 50 of 119 extracted 6 Ent + 4 Rel
+2025-06-30 02:03:14,913 - lightrag - INFO - Chunk 51 of 119 extracted 9 Ent + 4 Rel
+2025-06-30 02:03:14,914 - lightrag - INFO - Chunk 52 of 119 extracted 7 Ent + 6 Rel
+2025-06-30 02:03:14,915 - lightrag - INFO - Chunk 53 of 119 extracted 8 Ent + 5 Rel
+2025-06-30 02:03:14,915 - lightrag - INFO - Chunk 54 of 119 extracted 6 Ent + 4 Rel
+2025-06-30 02:03:14,917 - lightrag - INFO - Chunk 55 of 119 extracted 20 Ent + 24 Rel
+2025-06-30 02:03:14,918 - lightrag - INFO - Chunk 56 of 119 extracted 4 Ent + 4 Rel
+2025-06-30 02:03:14,919 - lightrag - INFO - Chunk 57 of 119 extracted 18 Ent + 13 Rel
+2025-06-30 02:03:14,921 - lightrag - INFO - Chunk 58 of 119 extracted 24 Ent + 29 Rel
+2025-06-30 02:03:14,922 - lightrag - INFO - Chunk 59 of 119 extracted 10 Ent + 9 Rel
+2025-06-30 02:03:14,923 - lightrag - INFO - Chunk 60 of 119 extracted 14 Ent + 12 Rel
+2025-06-30 02:03:14,924 - lightrag - INFO - Chunk 61 of 119 extracted 8 Ent + 9 Rel
+2025-06-30 02:03:14,925 - lightrag - INFO - Chunk 62 of 119 extracted 7 Ent + 8 Rel
+2025-06-30 02:03:14,927 - lightrag - INFO - Chunk 63 of 119 extracted 19 Ent + 18 Rel
+2025-06-30 02:03:14,927 - lightrag - INFO - Chunk 64 of 119 extracted 3 Ent + 2 Rel
+2025-06-30 02:03:14,928 - lightrag - INFO - Chunk 65 of 119 extracted 4 Ent + 8 Rel
+2025-06-30 02:03:14,929 - lightrag - INFO - Chunk 66 of 119 extracted 19 Ent + 20 Rel
+2025-06-30 02:03:14,931 - lightrag - INFO - Chunk 67 of 119 extracted 11 Ent + 9 Rel
+2025-06-30 02:03:14,932 - lightrag - INFO - Chunk 68 of 119 extracted 13 Ent + 13 Rel
+2025-06-30 02:03:14,933 - lightrag - INFO - Chunk 69 of 119 extracted 5 Ent + 5 Rel
+2025-06-30 02:03:14,934 - lightrag - INFO - Chunk 70 of 119 extracted 6 Ent + 7 Rel
+2025-06-30 02:03:14,936 - lightrag - INFO - Chunk 71 of 119 extracted 16 Ent + 13 Rel
+2025-06-30 02:03:14,936 - lightrag - INFO - Chunk 72 of 119 extracted 3 Ent + 4 Rel
+2025-06-30 02:03:14,937 - lightrag - INFO - Chunk 73 of 119 extracted 4 Ent + 3 Rel
+2025-06-30 02:03:14,938 - lightrag - INFO - Chunk 74 of 119 extracted 8 Ent + 6 Rel
+2025-06-30 02:03:14,939 - lightrag - INFO - Chunk 75 of 119 extracted 10 Ent + 9 Rel
+2025-06-30 02:03:14,940 - lightrag - INFO - Chunk 76 of 119 extracted 9 Ent + 8 Rel
+2025-06-30 02:03:14,941 - lightrag - INFO - Chunk 77 of 119 extracted 12 Ent + 1 Rel
+2025-06-30 02:03:14,942 - lightrag - INFO - Chunk 78 of 119 extracted 15 Ent + 14 Rel
+2025-06-30 02:03:14,944 - lightrag - INFO - Chunk 79 of 119 extracted 14 Ent + 14 Rel
+2025-06-30 02:03:14,945 - lightrag - INFO - Chunk 80 of 119 extracted 6 Ent + 5 Rel
+2025-06-30 02:03:14,945 - lightrag - INFO - Chunk 81 of 119 extracted 6 Ent + 5 Rel
+2025-06-30 02:03:14,946 - lightrag - INFO - Chunk 82 of 119 extracted 10 Ent + 9 Rel
+2025-06-30 02:03:14,947 - lightrag - INFO - Chunk 83 of 119 extracted 5 Ent + 2 Rel
+2025-06-30 02:03:14,948 - lightrag - INFO - Chunk 84 of 119 extracted 10 Ent + 19 Rel
+2025-06-30 02:03:14,950 - lightrag - INFO - Chunk 85 of 119 extracted 9 Ent + 12 Rel
+2025-06-30 02:03:14,951 - lightrag - INFO - Chunk 86 of 119 extracted 13 Ent + 14 Rel
+2025-06-30 02:03:14,952 - lightrag - INFO - Chunk 87 of 119 extracted 4 Ent + 8 Rel
+2025-06-30 02:03:14,952 - lightrag - INFO - Chunk 88 of 119 extracted 1 Ent + 1 Rel
+2025-06-30 02:03:14,953 - lightrag - INFO - Chunk 89 of 119 extracted 12 Ent + 11 Rel
+2025-06-30 02:03:14,954 - lightrag - INFO - Chunk 90 of 119 extracted 17 Ent + 13 Rel
+2025-06-30 02:03:14,956 - lightrag - INFO - Chunk 91 of 119 extracted 14 Ent + 5 Rel
+2025-06-30 02:03:14,957 - lightrag - INFO - Chunk 92 of 119 extracted 14 Ent + 7 Rel
+2025-06-30 02:03:14,958 - lightrag - INFO - Chunk 93 of 119 extracted 10 Ent + 5 Rel
+2025-06-30 02:03:14,958 - lightrag - INFO - Chunk 94 of 119 extracted 7 Ent + 7 Rel
+2025-06-30 02:03:14,959 - lightrag - INFO - Chunk 95 of 119 extracted 8 Ent + 6 Rel
+2025-06-30 02:03:14,960 - lightrag - INFO - Chunk 96 of 119 extracted 4 Ent + 4 Rel
+2025-06-30 02:03:14,962 - lightrag - INFO - Chunk 97 of 119 extracted 15 Ent + 25 Rel
+2025-06-30 02:03:14,963 - lightrag - INFO - Chunk 98 of 119 extracted 9 Ent + 8 Rel
+2025-06-30 02:03:14,964 - lightrag - INFO - Chunk 99 of 119 extracted 4 Ent + 3 Rel
+2025-06-30 02:03:14,965 - lightrag - INFO - Chunk 100 of 119 extracted 13 Ent + 12 Rel
+2025-06-30 02:03:14,966 - lightrag - INFO - Chunk 101 of 119 extracted 1 Ent + 0 Rel
+2025-06-30 02:03:14,966 - lightrag - INFO - Chunk 102 of 119 extracted 8 Ent + 5 Rel
+2025-06-30 02:03:14,967 - lightrag - INFO - Chunk 103 of 119 extracted 13 Ent + 12 Rel
+2025-06-30 02:03:14,969 - lightrag - INFO - Chunk 104 of 119 extracted 13 Ent + 12 Rel
+2025-06-30 02:03:14,970 - lightrag - INFO - Chunk 105 of 119 extracted 14 Ent + 0 Rel
+2025-06-30 02:03:14,971 - lightrag - INFO - Chunk 106 of 119 extracted 6 Ent + 5 Rel
+2025-06-30 02:03:14,972 - lightrag - INFO - Chunk 107 of 119 extracted 20 Ent + 10 Rel
+2025-06-30 02:03:14,972 - lightrag - INFO - Chunk 108 of 119 extracted 4 Ent + 2 Rel
+2025-06-30 02:03:14,973 - lightrag - INFO - Chunk 109 of 119 extracted 11 Ent + 15 Rel
+2025-06-30 02:03:14,975 - lightrag - INFO - Chunk 110 of 119 extracted 17 Ent + 16 Rel
+2025-06-30 02:03:14,976 - lightrag - INFO - Chunk 111 of 119 extracted 6 Ent + 6 Rel
+2025-06-30 02:03:14,977 - lightrag - INFO - Chunk 112 of 119 extracted 11 Ent + 6 Rel
+2025-06-30 02:03:14,978 - lightrag - INFO - Chunk 113 of 119 extracted 12 Ent + 6 Rel
+2025-06-30 02:03:14,979 - lightrag - INFO - Chunk 114 of 119 extracted 9 Ent + 7 Rel
+2025-06-30 02:03:14,980 - lightrag - INFO - Chunk 115 of 119 extracted 14 Ent + 11 Rel
+2025-06-30 02:03:14,982 - lightrag - INFO - Chunk 116 of 119 extracted 14 Ent + 12 Rel
+2025-06-30 02:03:14,982 - lightrag - INFO - Chunk 117 of 119 extracted 7 Ent + 3 Rel
+2025-06-30 02:03:14,983 - lightrag - INFO - Chunk 118 of 119 extracted 4 Ent + 2 Rel
+2025-06-30 02:03:14,983 - lightrag - INFO - Chunk 119 of 119 extracted 3 Ent + 2 Rel
+2025-06-30 02:03:18,441 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-06-30 02:03:18,442 - lightrag - INFO - Merge N: Ear (open) | 4+0
+2025-06-30 02:03:18,442 - lightrag - INFO - Merge N: Nothing Ear | 4+0
+2025-06-30 02:03:18,442 - lightrag - INFO - Merge N: Apple | 3+0
+2025-06-30 02:03:18,442 - lightrag - INFO - Merge N: CMF Watch App | 4+0
+2025-06-30 02:03:18,442 - lightrag - INFO - Merge N: iPhone | 5+0
+2025-06-30 02:03:18,442 - lightrag - INFO - LLM merge N: Android | 8+0
+2025-06-30 02:03:18,443 - lightrag - INFO - Merge N: German | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: Spanish | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: French | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: Italian | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: Japanese | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: Korean | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: Arabic | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: English | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: Simplified Chinese | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: CMF Watch | 2+0
+2025-06-30 02:03:18,444 - lightrag - INFO - Merge N: Nothing Support Team | 3+0
+2025-06-30 02:03:18,445 - lightrag - INFO - LLM merge N: Customer Support | 13+0
+2025-06-30 02:03:18,446 - lightrag - INFO - LLM merge N: Google Play Store | 11+0
+2025-06-30 02:03:18,447 - lightrag - INFO - LLM merge N: Nothing X app | 13+0
+2025-06-30 02:03:18,448 - lightrag - INFO - LLM merge N: iOS App Store | 6+0
+2025-06-30 02:03:18,448 - lightrag - INFO - LLM merge N: Nothing | 21+0
+2025-06-30 02:03:18,449 - lightrag - INFO - LLM merge N: Watch Pro | 12+0
+2025-06-30 02:03:18,450 - lightrag - INFO - LLM merge N: Nothing OS | 6+0
+2025-06-30 02:03:18,451 - lightrag - INFO - LLM merge N: CMF Watch app | 13+0
+2025-06-30 02:03:18,452 - lightrag - INFO - LLM merge N: Nothing X App | 15+0
+2025-06-30 02:03:18,453 - lightrag - INFO - Merge N: CMF Buds Pro 2 | 3+0
+2025-06-30 02:03:18,453 - lightrag - INFO - LLM merge N: Charging Case | 6+0
+2025-06-30 02:03:18,453 - lightrag - INFO - Merge N: CMF Buds 2 | 2+0
+2025-06-30 02:03:18,453 - lightrag - INFO - Merge N: Nothing X | 3+0
+2025-06-30 02:03:18,454 - lightrag - INFO - LLM merge N: Google Play | 8+0
+2025-06-30 02:03:18,454 - lightrag - INFO - LLM merge N: LDAC | 6+0
+2025-06-30 02:03:18,455 - lightrag - INFO - Merge N: Incoming Calls | 2+0
+2025-06-30 02:03:18,455 - lightrag - INFO - Merge N: Bluetooth | 4+0
+2025-06-30 02:03:18,455 - lightrag - INFO - Merge N: CMF | 3+0
+2025-06-30 02:03:18,455 - lightrag - INFO - Merge N: Nothings labs | 2+0
+2025-06-30 02:03:18,455 - lightrag - INFO - Merge N: Spatial Audio Effect | 2+0
+2025-06-30 02:03:18,456 - lightrag - INFO - LLM merge N: Battery Life | 10+0
+2025-06-30 02:03:18,456 - lightrag - INFO - Merge N: Silicone Ear Tips | 2+0
+2025-06-30 02:03:18,457 - lightrag - INFO - Merge N: DIRAC OPTEO | 2+0
+2025-06-30 02:03:18,457 - lightrag - INFO - Merge N: Smart Dial | 2+0
+2025-06-30 02:03:18,457 - lightrag - INFO - Merge N: Adaptive Noise Control | 2+0
+2025-06-30 02:03:18,457 - lightrag - INFO - Merge N: Ultra Bass Technology | 2+0
+2025-06-30 02:03:18,457 - lightrag - INFO - LLM merge N: Fast Charging | 6+0
+2025-06-30 02:03:18,458 - lightrag - INFO - LLM merge N: Google Fast Pair | 7+0
+2025-06-30 02:03:18,458 - lightrag - INFO - LLM merge N: Microsoft Swift Pair | 7+0
+2025-06-30 02:03:18,459 - lightrag - INFO - Merge N: AAC | 5+0
+2025-06-30 02:03:18,459 - lightrag - INFO - Merge N: SBC | 4+0
+2025-06-30 02:03:18,459 - lightrag - INFO - Merge N: LE Audio | 3+0
+2025-06-30 02:03:18,459 - lightrag - INFO - LLM merge N: Active Noise Cancellation (ANC) | 6+0
+2025-06-30 02:03:18,459 - lightrag - INFO - Merge N: Dirac Opteo | 2+0
+2025-06-30 02:03:18,459 - lightrag - INFO - LLM merge N: Dual Connection | 9+0
+2025-06-30 02:03:18,460 - lightrag - INFO - Merge N: Dual Connectivity | 2+0
+2025-06-30 02:03:18,460 - lightrag - INFO - Merge N: Android 5.1 | 2+0
+2025-06-30 02:03:18,460 - lightrag - INFO - Merge N: iOS 13 | 2+0
+2025-06-30 02:03:18,460 - lightrag - INFO - LLM merge N: Bluetooth 5.3 | 7+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: ANC | 5+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: ENC | 4+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: IP54 Rating | 4+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: Battery Capacity | 5+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: Environmental Noise Cancellation (ENC) | 2+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: Custom EQ Settings | 3+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: Neckband Pro | 3+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: App Store | 5+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: CMF Phone 1 | 2+0
+2025-06-30 02:03:18,461 - lightrag - INFO - Merge N: Screen cast | 2+0
+2025-06-30 02:03:18,462 - lightrag - INFO - LLM merge N: Find My Phone | 12+0
+2025-06-30 02:03:18,462 - lightrag - INFO - Merge N: Jio | 3+0
+2025-06-30 02:03:18,462 - lightrag - INFO - Merge N: Vodafone | 4+0
+2025-06-30 02:03:18,462 - lightrag - INFO - Merge N: VoLTE (Voice Over LTE) | 3+0
+2025-06-30 02:03:18,462 - lightrag - INFO - Merge N: NFC | 2+0
+2025-06-30 02:03:18,462 - lightrag - INFO - Merge N: Battery Share | 5+0
+2025-06-30 02:03:18,463 - lightrag - INFO - Merge N: Airplane Mode | 4+0
+2025-06-30 02:03:18,463 - lightrag - INFO - LLM merge N: Nothing Phone | 13+0
+2025-06-30 02:03:18,463 - lightrag - INFO - Merge N: Data Transfer | 3+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: Google Account | 3+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: Game Mode | 4+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: Font Size Adjustment | 2+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: Screen Recording | 2+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: Bluetooth tethering | 2+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: Charging | 2+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: CMF Watch Pro 2 | 3+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: face unlock | 2+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: fingerprint unlock | 2+0
+2025-06-30 02:03:18,464 - lightrag - INFO - Merge N: USB tethering | 2+0
+2025-06-30 02:03:18,465 - lightrag - INFO - Merge N: WiFi Direct | 5+0
+2025-06-30 02:03:18,465 - lightrag - INFO - Merge N: Do Not Disturb mode | 2+0
+2025-06-30 02:03:18,465 - lightrag - INFO - Merge N: Stress Measurement | 4+0
+2025-06-30 02:03:18,465 - lightrag - INFO - Merge N: Sleep Tracking | 5+0
+2025-06-30 02:03:18,465 - lightrag - INFO - Merge N: Heart Rate Monitoring | 3+0
+2025-06-30 02:03:18,465 - lightrag - INFO - Merge N: Watch Pro 2 | 2+0
+2025-06-30 02:03:18,466 - lightrag - INFO - Merge N: GPS/GLONASS/Galileo/QZSS/Beidou | 2+0
+2025-06-30 02:03:18,466 - lightrag - INFO - Merge N: Do Not Disturb Mode | 2+0
+2025-06-30 02:03:18,466 - lightrag - INFO - Merge N: Settings | 5+0
+2025-06-30 02:03:18,467 - lightrag - INFO - LLM merge N: Google | 9+0
+2025-06-30 02:03:18,467 - lightrag - INFO - Merge N: SIM card | 2+0
+2025-06-30 02:03:18,467 - lightrag - INFO - Merge N: Phone | 3+0
+2025-06-30 02:03:18,467 - lightrag - INFO - Merge N: SIM Card | 3+0
+2025-06-30 02:03:18,468 - lightrag - INFO - Merge N: Factory Settings | 3+0
+2025-06-30 02:03:18,468 - lightrag - INFO - Merge N: Nothing Customer Service | 5+0
+2025-06-30 02:03:18,468 - lightrag - INFO - Merge N: iOS | 3+0
+2025-06-30 02:03:18,468 - lightrag - INFO - Merge N: Factory Reset | 3+0
+2025-06-30 02:03:18,468 - lightrag - INFO - Merge N: Charging Issues | 2+0
+2025-06-30 02:03:18,468 - lightrag - INFO - Merge N: Firmware Update | 2+0
+2025-06-30 02:03:18,468 - lightrag - INFO - Merge N: Power Adaptor | 2+0
+2025-06-30 02:03:18,468 - lightrag - INFO - Merge N: USB Cable | 2+0
+2025-06-30 02:03:18,469 - lightrag - INFO - Merge N: Firmware Upgrade | 2+0
+2025-06-30 02:03:18,469 - lightrag - INFO - Merge N: Android Auto | 2+0
+2025-06-30 02:03:18,469 - lightrag - INFO - LLM merge N: Glyph Interface | 12+0
+2025-06-30 02:03:18,470 - lightrag - INFO - Merge N: Fast Pair | 3+0
+2025-06-30 02:03:18,470 - lightrag - INFO - Merge N: Gesture Controls | 2+0
+2025-06-30 02:03:18,470 - lightrag - INFO - Merge N: Firmware Updates | 2+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Device Pairing | 2+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Bluetooth Sound Codecs | 2+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Wireless Charging | 2+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Personal Sound Profile | 2+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Nothing Ear (a) | 2+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Ear (stick) | 3+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Google Assistant | 4+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Nothing Phone 1 | 2+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: App Pinning | 3+0
+2025-06-30 02:03:18,471 - lightrag - INFO - Merge N: Dark Theme | 5+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Lock Screen Password | 4+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Time Settings | 3+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: VoLTE Video Calling | 2+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Google Photos | 3+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: WhatsApp | 3+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Wireless Casting | 4+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Find My Device | 4+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Bedtime Schedule | 3+0
+2025-06-30 02:03:18,472 - lightrag - INFO - LLM merge N: Data Roaming | 6+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Charging Cable | 2+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: WiFi 6 | 3+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Face Unlock | 3+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Fingerprint Unlock | 3+0
+2025-06-30 02:03:18,472 - lightrag - INFO - Merge N: Nothing Phone 2A | 2+0
+2025-06-30 02:03:18,472 - lightrag - INFO - LLM merge N: System Update | 10+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: USB Tethering | 4+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Battery Maintenance | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Geographical Settings for Photos | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Storage Cleanup | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Alarms | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Multiple Users | 3+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Notifications | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Location Services | 4+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Screen Record | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Hotspot Feature | 3+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Battery Saver | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: App Pinning Function | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Screen Casting | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: App Locker | 2+0
+2025-06-30 02:03:18,473 - lightrag - INFO - Merge N: Bluetooth Tethering | 3+0
+2025-06-30 02:03:18,474 - lightrag - INFO - Merge N: USB Debugging | 4+0
+2025-06-30 02:03:18,474 - lightrag - INFO - Merge N: Status Bar | 4+0
+2025-06-30 02:03:18,474 - lightrag - INFO - Merge N: OTG Connection | 3+0
+2025-06-30 02:03:18,474 - lightrag - INFO - Merge N: Dual SIM | 3+0
+2025-06-30 02:03:18,474 - lightrag - INFO - Merge N: Dual SIM Support | 3+0
+2025-06-30 02:03:18,474 - lightrag - INFO - Merge N: Nothing Phone 2 | 2+0
+2025-06-30 02:03:18,474 - lightrag - INFO - Merge N: dual SIM | 2+0
+2025-06-30 02:03:18,474 - lightrag - INFO - Merge N: MMS (Multimedia Messaging Service) | 2+0
+2025-06-30 02:03:18,475 - lightrag - INFO - Merge N: Earbuds | 2+0
+2025-06-30 02:03:18,475 - lightrag - INFO - Merge N: Facebook | 2+0
+2025-06-30 02:03:18,475 - lightrag - INFO - Merge N: OTA Update | 2+0
+2025-06-30 02:03:18,476 - lightrag - INFO - LLM merge E: CMF Watch app - Watch Pro | 8+0
+2025-06-30 02:03:18,476 - lightrag - INFO - Merge E: Charging Case - Ear (open) | 2+0
+2025-06-30 02:03:18,476 - lightrag - INFO - Merge E: Google Play - Nothing X App | 3+0
+2025-06-30 02:03:18,476 - lightrag - INFO - Merge E: Nothing X App - iOS App Store | 2+0
+2025-06-30 02:03:18,476 - lightrag - INFO - Merge E: CMF Buds Pro 2 - Charging Case | 2+0
+2025-06-30 02:03:18,477 - lightrag - INFO - Merge E: Nothing X app - Smart Dial | 2+0
+2025-06-30 02:03:18,477 - lightrag - INFO - Merge E: Battery Life - Charging Case | 2+0
+2025-06-30 02:03:18,477 - lightrag - INFO - Merge E: Battery Capacity - Nothing | 3+0
+2025-06-30 02:03:18,477 - lightrag - INFO - Merge E: Custom EQ Settings - Nothing X App | 2+0
+2025-06-30 02:03:18,478 - lightrag - INFO - Merge E: Neckband Pro - Nothing | 2+0
+2025-06-30 02:03:18,478 - lightrag - INFO - Merge E: Nothing - Nothing X App | 2+0
+2025-06-30 02:03:18,478 - lightrag - INFO - Merge E: Data Transfer - Nothing Phone | 3+0
+2025-06-30 02:03:18,478 - lightrag - INFO - Merge E: Game Mode - Nothing Phone | 3+0
+2025-06-30 02:03:18,478 - lightrag - INFO - Merge E: Font Size Adjustment - Nothing Phone | 2+0
+2025-06-30 02:03:18,478 - lightrag - INFO - Merge E: Find My Phone - Nothing | 2+0
+2025-06-30 02:03:18,479 - lightrag - INFO - Merge E: Stress Measurement - Watch Pro | 2+0
+2025-06-30 02:03:18,479 - lightrag - INFO - Merge E: Sleep Tracking - Watch Pro | 2+0
+2025-06-30 02:03:18,479 - lightrag - INFO - Merge E: Heart Rate Monitoring - Watch Pro | 2+0
+2025-06-30 02:03:18,480 - lightrag - INFO - Merge E: Google Play Store - Nothing X app | 2+0
+2025-06-30 02:03:18,480 - lightrag - INFO - Merge E: Charging Issues - Customer Support | 2+0
+2025-06-30 02:03:18,481 - lightrag - INFO - Merge E: Nothing Customer Service - Nothing X app | 2+0
+2025-06-30 02:03:18,482 - lightrag - INFO - Merge E: Dual Connection - Nothing Ear 2 | 2+0
+2025-06-30 02:03:18,482 - lightrag - INFO - Merge E: Nothing X App - Personal Sound Profile | 2+0
+2025-06-30 02:03:18,482 - lightrag - INFO - Merge E: Nothing - Nothing Ear (a) | 2+0
+2025-06-30 02:03:18,482 - lightrag - INFO - Merge E: App Store - Nothing X App | 2+0
+2025-06-30 02:03:18,483 - lightrag - INFO - Merge E: Battery Life - Nothing | 2+0
+2025-06-30 02:03:18,483 - lightrag - INFO - Merge E: Battery Capacity - Fast Charging | 2+0
+2025-06-30 02:03:18,483 - lightrag - INFO - Merge E: Nothing - Nothing Phone 1 | 2+0
+2025-06-30 02:03:18,483 - lightrag - INFO - Merge E: Find My Phone - Google | 3+0
+2025-06-30 02:03:18,483 - lightrag - INFO - Merge E: Find My Phone - Location Services | 3+0
+2025-06-30 02:03:18,484 - lightrag - INFO - Merge E: Google - Nothing Phone | 2+0
+2025-06-30 02:03:18,484 - lightrag - INFO - Merge E: Google Play Store - Nothing Phone | 4+0
+2025-06-30 02:03:18,484 - lightrag - INFO - Merge E: Nothing Ear - Nothing Phone | 2+0
+2025-06-30 02:03:18,484 - lightrag - INFO - Merge E: Lock Screen Password - Nothing | 2+0
+2025-06-30 02:03:18,484 - lightrag - INFO - Merge E: Alarms - Nothing | 2+0
+2025-06-30 02:03:18,484 - lightrag - INFO - Merge E: Multiple Users - Nothing | 2+0
+2025-06-30 02:03:18,485 - lightrag - INFO - Merge E: Dark Theme - Nothing | 2+0
+2025-06-30 02:03:18,485 - lightrag - INFO - Merge E: Backup - Google | 2+0
+2025-06-30 02:03:18,485 - lightrag - INFO - Merge E: Notifications - Settings | 2+0
+2025-06-30 02:03:18,485 - lightrag - INFO - Merge E: Find My Device - Nothing Phone 2A Plus | 2+0
+2025-06-30 02:03:18,485 - lightrag - INFO - Merge E: Find My Phone - Google Account | 2+0
+2025-06-30 02:03:18,485 - lightrag - INFO - Merge E: Glyph Interface - Nothing | 3+0
+2025-06-30 02:03:18,485 - lightrag - INFO - Merge E: Glyph Interface - Settings | 2+0
+2025-06-30 02:03:18,485 - lightrag - INFO - Merge E: Glyph Interface - Nothing Phone 2A Plus | 2+0
+2025-06-30 02:03:18,486 - lightrag - INFO - Merge E: Data Roaming - Nothing Phone 2A Plus | 2+0
+2025-06-30 02:03:18,486 - lightrag - INFO - Merge E: Nothing Phone - iPhone | 2+0
+2025-06-30 02:03:18,486 - lightrag - INFO - Merge E: Android - Nothing Phone | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Data Roaming - Nothing Phone 3A | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Nothing Phone 3A - USB Debugging | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Nothing Phone 3A - Status Bar | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Nothing Phone 3A - System Update | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Fingerprint Unlock - Nothing Phone 3A | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Face Unlock - Nothing Phone 3A | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Nothing Phone 3A - WiFi 6 | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Nothing Phone 3A - USB Tethering | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Nothing Phone 3A - WiFi Direct | 3+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Font Settings - Nothing Phone 3A | 2+0
+2025-06-30 02:03:18,487 - lightrag - INFO - Merge E: Google - Nothing | 2+0
+2025-06-30 02:03:18,488 - lightrag - INFO - Merge E: Customer Support - Phone | 2+0
+2025-06-30 02:03:18,489 - lightrag - INFO - Updating 657 entities  1/1: unknown_source
+2025-06-30 02:03:25,464 - lightrag - INFO - Updating 896 relations 1/1: unknown_source
+2025-06-30 02:03:33,477 - lightrag - INFO - Writing graph with 729 nodes, 896 edges
+2025-06-30 02:03:33,540 - lightrag - INFO - In memory DB persist to disk
+2025-06-30 02:03:33,540 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-06-30 02:03:33,541 - lightrag - INFO - Document processing pipeline completed
+2025-06-30 02:03:33,543 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-06-30 02:03:54,520 - lightrag - INFO -  == LLM cache == saving global: e696cb3ac439c53442234833a661d309
+2025-06-30 02:03:54,520 - lightrag - INFO - Process 2901754 building query context...
+2025-06-30 02:03:54,520 - lightrag - INFO - Query edges: Time synchronization, Device discrepancy, Technology troubleshooting, top_k: 60, cosine: 0.2
+2025-06-30 02:03:54,612 - lightrag - INFO - Global query uses 24 entites, 60 relations, 3 chunks
+2025-06-30 02:04:59,757 - lightrag - INFO - Storage Finalization completed!

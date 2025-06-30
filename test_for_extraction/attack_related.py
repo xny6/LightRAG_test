@@ -202,44 +202,45 @@ async def filter_json(input_path: str, output_path: str):
 
 async def generate_ad_entities(input_path, output_path):
     """
-    生成替换实体并保存到输出文件。
+    遍历原始 JSON 中每条数据，逐条生成对抗实体，最终保存为统一 JSON 文件。
     """
-    # 读取原始数据
+    # 读取原始数据（应为列表）
     with open(input_path, 'r', encoding='utf-8') as f:
         original_data = json.load(f)
 
-    # 生成 LLM 输出
-    llm_response_text = generate_wrong_answer(json.dumps(original_data, ensure_ascii=False))
-
-    # 解析 LLM JSON 输出
-    try:
-        llm_output = json.loads(llm_response_text)
-    except json.JSONDecodeError as e:
-        print(f"❌ JSON 解码失败: {e}")
-        return
-
-    # 合并 Relationship 并调整字段顺序
     final_output = []
-    for i in range(len(llm_output)):
-        anchor = llm_output[i].get("Anchor Entity", [])
-        original_entity = llm_output[i].get("Original Entity", "")
-        replacement = llm_output[i].get("Replacement Entity", "")
-        relationship = original_data[i].get("Relationship", "N/A")
 
-        entry = {
-            "Anchor Entity": anchor,
-            "Original Entity": original_entity,
-            "Original Relationship": relationship,
-            "Replacement Entity": replacement
-        }
+    for i, item in enumerate(original_data):
+        try:
+            # 单条调用 LLM
+            llm_response_text = generate_wrong_answer(json.dumps(item, ensure_ascii=False))
 
-        final_output.append(entry)
+            # 解析 LLM 的输出
+            llm_output = json.loads(llm_response_text)
 
-    # 保存最终输出
+            # 单条结果可能是对象或列表
+            if isinstance(llm_output, dict):
+                llm_output = [llm_output]
+
+            for out in llm_output:
+                entry = {
+                    "Anchor Entity": out.get("Anchor Entity", []),
+                    "Original Entity": out.get("Original Entity", ""),
+                    "Original Relationship": item.get("Relationship", "N/A"),
+                    "Replacement Entity": out.get("Replacement Entity", "")
+                }
+                final_output.append(entry)
+
+        except json.JSONDecodeError as e:
+            print(f"❌ 第 {i} 条解析失败: {e}")
+        except Exception as e:
+            print(f"⚠️ 第 {i} 条处理出错: {e}")
+
+    # 保存所有条目的最终结果
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(final_output, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ 已处理并保存为新文件: {output_path}")
+    print(f"✅ 共处理 {len(final_output)} 条数据，结果保存至 {output_path}")
 
 
 
