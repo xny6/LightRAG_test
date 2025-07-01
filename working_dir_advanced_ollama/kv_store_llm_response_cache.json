@@ -2955,6 +2955,15 @@
       "embedding_min": null,
       "embedding_max": null,
       "original_prompt": "How to predict user stress levels using Watch Pro’s biometric data? What interdisciplinary models are needed?"
+    },
+    "36a7f5ea2e03c448e78384cc6d6a3e04": {
+      "return": "{\"high_level_keywords\": [\"Product relationship\", \"Documentation\", \"User guidance\"], \"low_level_keywords\": [\"Technical specifications\", \"Usage instructions\", \"Maintenance steps\", \"Troubleshooting information\"]}",
+      "cache_type": "keywords",
+      "embedding": null,
+      "embedding_shape": null,
+      "embedding_min": null,
+      "embedding_max": null,
+      "original_prompt": "What is the relationship between Ear (1) and its product manual?"
     }
   }
 }

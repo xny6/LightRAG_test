@@ -2738,3 +2738,161 @@ httpx.ReadTimeout
 2025-06-30 08:31:08,793 - lightrag - INFO - Query edges: Technology, Education, Socioeconomic development, top_k: 60, cosine: 0.2
 2025-06-30 08:31:08,882 - lightrag - INFO - Global query uses 33 entites, 60 relations, 3 chunks
 2025-06-30 08:32:03,623 - lightrag - INFO - Storage Finalization completed!
+2025-07-01 02:43:06,868 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-07-01 02:43:06,906 - lightrag - INFO - Process 3664288 KV load full_docs with 1 records
+2025-07-01 02:43:06,909 - lightrag - INFO - Process 3664288 KV load text_chunks with 119 records
+2025-07-01 02:43:06,938 - lightrag - INFO - Process 3664288 KV load llm_response_cache with 328 records
+2025-07-01 02:43:06,941 - lightrag - INFO - Process 3664288 doc status load doc_status with 1 records
+2025-07-01 02:43:06,941 - lightrag - INFO - Query edges: Waterproof rating, Ear (open), (open), top_k: 60, cosine: 0.2
+2025-07-01 02:43:06,941 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-07-01 02:43:06,941 - lightrag - INFO - Storage Initialization completed!
+2025-07-01 02:43:08,801 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-07-01 02:43:08,802 - lightrag - INFO - Query edges: Language support, Multilingual applications, top_k: 60, cosine: 0.2
+2025-07-01 02:43:08,923 - lightrag - INFO - Global query uses 21 entites, 60 relations, 3 chunks
+2025-07-01 02:43:08,924 - lightrag - INFO - Query edges: Battery life, Wireless earbuds, Audio devices, Usage time, top_k: 60, cosine: 0.2
+2025-07-01 02:43:09,066 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-07-01 02:43:09,067 - lightrag - INFO - Query edges: Smartphone features, Device capabilities, Technology, top_k: 60, cosine: 0.2
+2025-07-01 02:43:09,185 - lightrag - INFO - Global query uses 19 entites, 60 relations, 3 chunks
+2025-07-01 02:43:09,185 - lightrag - INFO - Query edges: Earbud reset, Nothing X App usage, top_k: 60, cosine: 0.2
+2025-07-01 02:43:09,316 - lightrag - INFO - Global query uses 33 entites, 60 relations, 3 chunks
+2025-07-01 02:43:09,316 - lightrag - INFO - Query edges: Satellite positioning systems, Compatibility, Technology integration, top_k: 60, cosine: 0.2
+2025-07-01 02:43:09,437 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 chunks
+2025-07-01 02:43:09,437 - lightrag - INFO - Query edges: Active Noise Cancellation, Product features, top_k: 60, cosine: 0.2
+2025-07-01 02:43:09,565 - lightrag - INFO - Global query uses 18 entites, 60 relations, 3 chunks
+2025-07-01 02:43:09,566 - lightrag - INFO - Query edges: Screen recording, Nothing Phone, Mobile device, top_k: 60, cosine: 0.2
+2025-07-01 02:43:09,685 - lightrag - INFO - Global query uses 52 entites, 60 relations, 3 chunks
+2025-07-01 02:43:09,686 - lightrag - INFO - Query edges: Heart rate monitoring, Wearable technology, Health tracking, top_k: 60, cosine: 0.2
+2025-07-01 02:43:09,811 - lightrag - INFO - Global query uses 37 entites, 60 relations, 4 chunks
+2025-07-01 02:43:09,812 - lightrag - INFO - Query edges: Bluetooth, Audio codecs, Nothing Ear (2), top_k: 60, cosine: 0.2
+2025-07-01 02:43:09,928 - lightrag - INFO - Global query uses 22 entites, 60 relations, 3 chunks
+2025-07-01 02:43:09,929 - lightrag - INFO - Query edges: Compatibility issues, LDAC technology, Wireless audio standards, top_k: 60, cosine: 0.2
+2025-07-01 02:43:10,053 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-07-01 02:43:10,054 - lightrag - INFO - Query edges: iPhone, Apple Watch, Data synchronization, top_k: 60, cosine: 0.2
+2025-07-01 02:43:10,189 - lightrag - INFO - Global query uses 40 entites, 60 relations, 3 chunks
+2025-07-01 02:43:10,190 - lightrag - INFO - Query edges: Call quality optimization, Noisy environments, Audio performance, Noise cancellation, top_k: 60, cosine: 0.2
+2025-07-01 02:43:10,319 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 chunks
+2025-07-01 02:43:10,320 - lightrag - INFO - Query edges: Device connectivity, Bluetooth pairing, Troubleshooting, top_k: 60, cosine: 0.2
+2025-07-01 02:43:10,436 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-07-01 02:43:10,437 - lightrag - INFO - Query edges: Wireless charging, Device charging, Nothing Phone, top_k: 60, cosine: 0.2
+2025-07-01 02:43:10,577 - lightrag - INFO - Global query uses 48 entites, 60 relations, 3 chunks
+2025-07-01 02:43:10,578 - lightrag - INFO - Query edges: Data migration, App transfer, Android to Nothing Phone migration, top_k: 60, cosine: 0.2
+2025-07-01 02:43:10,702 - lightrag - INFO - Global query uses 8 entites, 60 relations, 3 chunks
+2025-07-01 02:43:10,703 - lightrag - INFO - Query edges: Sleep tracking technology, Accuracy issues, Wearable device, top_k: 60, cosine: 0.2
+2025-07-01 02:43:10,824 - lightrag - INFO - Global query uses 35 entites, 60 relations, 3 chunks
+2025-07-01 02:43:10,825 - lightrag - INFO - Query edges: Charging case, Indicator light, Battery charging, top_k: 60, cosine: 0.2
+2025-07-01 02:43:10,970 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-07-01 02:43:10,970 - lightrag - INFO - Query edges: Disable notifications, Lock screen, Nothing Phone, top_k: 60, cosine: 0.2
+2025-07-01 02:43:11,094 - lightrag - INFO - Global query uses 40 entites, 60 relations, 3 chunks
+2025-07-01 02:43:11,095 - lightrag - INFO - Query edges: Dual Connection, Audio switching, Device communication, top_k: 60, cosine: 0.2
+2025-07-01 02:43:11,237 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-07-01 02:43:11,238 - lightrag - INFO - Query edges: Waste disposal, Environmental compliance, Electronics recycling, top_k: 60, cosine: 0.2
+2025-07-01 02:43:11,357 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-07-01 02:43:11,358 - lightrag - INFO - Query edges: Diagnosis of battery drain, Mobile phone performance, Hardware vs. software analysis, top_k: 60, cosine: 0.2
+2025-07-01 02:43:11,494 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-07-01 02:43:11,494 - lightrag - INFO - Query edges: Audio customization, Hearing aid compatibility, Sound optimization, top_k: 60, cosine: 0.2
+2025-07-01 02:43:11,614 - lightrag - INFO - Global query uses 32 entites, 60 relations, 3 chunks
+2025-07-01 02:43:11,614 - lightrag - INFO - Query edges: GPS accuracy, Skyscraper interference, Solution, top_k: 60, cosine: 0.2
+2025-07-01 02:43:11,735 - lightrag - INFO - Global query uses 40 entites, 60 relations, 4 chunks
+2025-07-01 02:43:11,735 - lightrag - INFO - Query edges: Third-party apps, Nothing Phone’s Glyph Interface, Custom light notifications, top_k: 60, cosine: 0.2
+2025-07-01 02:43:11,853 - lightrag - INFO - Global query uses 22 entites, 60 relations, 3 chunks
+2025-07-01 02:43:11,854 - lightrag - INFO - Query edges: Microphone failure, Driver-level solutions, Windows device, top_k: 60, cosine: 0.2
+2025-07-01 02:43:11,974 - lightrag - INFO - Global query uses 35 entites, 60 relations, 3 chunks
+2025-07-01 02:43:11,974 - lightrag - INFO - Query edges: Low-power mode, Battery optimization, Core functionality preservation, top_k: 60, cosine: 0.2
+2025-07-01 02:43:12,090 - lightrag - INFO - Global query uses 17 entites, 60 relations, 3 chunks
+2025-07-01 02:43:12,091 - lightrag - INFO - Query edges: Wireless audio technology, Compatibility, Chinese smartphone brands, top_k: 60, cosine: 0.2
+2025-07-01 02:43:12,231 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-07-01 02:43:12,231 - lightrag - INFO - Query edges: Nothing Phone, eSIM configuration, Zero-roaming fees, International travel, top_k: 60, cosine: 0.2
+2025-07-01 02:43:12,349 - lightrag - INFO - Global query uses 44 entites, 60 relations, 3 chunks
+2025-07-01 02:43:12,349 - lightrag - INFO - Query edges: User stress prediction, Biometric monitoring, Mental health analysis, Wearable technology, Interdisciplinary modeling, top_k: 60, cosine: 0.2
+2025-07-01 02:43:12,471 - lightrag - INFO - Global query uses 14 entites, 60 relations, 4 chunks
+2025-07-01 02:43:12,488 - lightrag - INFO - Storage Finalization completed!
+2025-07-01 02:43:43,020 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-07-01 02:43:43,058 - lightrag - INFO - Process 3667894 KV load full_docs with 1 records
+2025-07-01 02:43:43,061 - lightrag - INFO - Process 3667894 KV load text_chunks with 119 records
+2025-07-01 02:43:43,090 - lightrag - INFO - Process 3667894 KV load llm_response_cache with 328 records
+2025-07-01 02:43:43,092 - lightrag - INFO - Process 3667894 doc status load doc_status with 1 records
+2025-07-01 02:43:43,093 - lightrag - INFO - Query edges: Waterproof rating, Ear (open), (open), top_k: 60, cosine: 0.2
+2025-07-01 02:43:43,093 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-07-01 02:43:43,093 - lightrag - INFO - Storage Initialization completed!
+2025-07-01 02:43:43,150 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-07-01 02:43:43,152 - lightrag - INFO - Query edges: Language support, Multilingual applications, top_k: 60, cosine: 0.2
+2025-07-01 02:43:43,268 - lightrag - INFO - Global query uses 21 entites, 60 relations, 3 chunks
+2025-07-01 02:43:43,270 - lightrag - INFO - Query edges: Battery life, Wireless earbuds, Audio devices, Usage time, top_k: 60, cosine: 0.2
+2025-07-01 02:43:43,388 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-07-01 02:43:43,392 - lightrag - INFO - Query edges: Smartphone features, Device capabilities, Technology, top_k: 60, cosine: 0.2
+2025-07-01 02:43:43,507 - lightrag - INFO - Global query uses 19 entites, 60 relations, 3 chunks
+2025-07-01 02:43:43,508 - lightrag - INFO - Query edges: Earbud reset, Nothing X App usage, top_k: 60, cosine: 0.2
+2025-07-01 02:43:43,626 - lightrag - INFO - Global query uses 33 entites, 60 relations, 3 chunks
+2025-07-01 02:43:43,627 - lightrag - INFO - Query edges: Satellite positioning systems, Compatibility, Technology integration, top_k: 60, cosine: 0.2
+2025-07-01 02:43:43,745 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 chunks
+2025-07-01 02:43:43,747 - lightrag - INFO - Query edges: Active Noise Cancellation, Product features, top_k: 60, cosine: 0.2
+2025-07-01 02:43:43,863 - lightrag - INFO - Global query uses 18 entites, 60 relations, 3 chunks
+2025-07-01 02:43:43,864 - lightrag - INFO - Query edges: Screen recording, Nothing Phone, Mobile device, top_k: 60, cosine: 0.2
+2025-07-01 02:43:43,982 - lightrag - INFO - Global query uses 52 entites, 60 relations, 3 chunks
+2025-07-01 02:43:43,984 - lightrag - INFO - Query edges: Heart rate monitoring, Wearable technology, Health tracking, top_k: 60, cosine: 0.2
+2025-07-01 02:43:44,104 - lightrag - INFO - Global query uses 37 entites, 60 relations, 4 chunks
+2025-07-01 02:43:44,106 - lightrag - INFO - Query edges: Bluetooth, Audio codecs, Nothing Ear (2), top_k: 60, cosine: 0.2
+2025-07-01 02:43:44,236 - lightrag - INFO - Global query uses 22 entites, 60 relations, 3 chunks
+2025-07-01 02:43:44,238 - lightrag - INFO - Query edges: Compatibility issues, LDAC technology, Wireless audio standards, top_k: 60, cosine: 0.2
+2025-07-01 02:43:44,349 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-07-01 02:43:44,351 - lightrag - INFO - Query edges: iPhone, Apple Watch, Data synchronization, top_k: 60, cosine: 0.2
+2025-07-01 02:43:44,488 - lightrag - INFO - Global query uses 40 entites, 60 relations, 3 chunks
+2025-07-01 02:43:44,490 - lightrag - INFO - Query edges: Call quality optimization, Noisy environments, Audio performance, Noise cancellation, top_k: 60, cosine: 0.2
+2025-07-01 02:43:44,607 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 chunks
+2025-07-01 02:43:44,608 - lightrag - INFO - Query edges: Device connectivity, Bluetooth pairing, Troubleshooting, top_k: 60, cosine: 0.2
+2025-07-01 02:43:44,734 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-07-01 02:43:44,735 - lightrag - INFO - Query edges: Wireless charging, Device charging, Nothing Phone, top_k: 60, cosine: 0.2
+2025-07-01 02:43:44,863 - lightrag - INFO - Global query uses 48 entites, 60 relations, 3 chunks
+2025-07-01 02:43:44,865 - lightrag - INFO - Query edges: Data migration, App transfer, Android to Nothing Phone migration, top_k: 60, cosine: 0.2
+2025-07-01 02:43:45,012 - lightrag - INFO - Global query uses 8 entites, 60 relations, 3 chunks
+2025-07-01 02:43:45,013 - lightrag - INFO - Query edges: Sleep tracking technology, Accuracy issues, Wearable device, top_k: 60, cosine: 0.2
+2025-07-01 02:43:45,140 - lightrag - INFO - Global query uses 35 entites, 60 relations, 3 chunks
+2025-07-01 02:43:45,143 - lightrag - INFO - Query edges: Charging case, Indicator light, Battery charging, top_k: 60, cosine: 0.2
+2025-07-01 02:43:45,253 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-07-01 02:43:45,256 - lightrag - INFO - Query edges: Disable notifications, Lock screen, Nothing Phone, top_k: 60, cosine: 0.2
+2025-07-01 02:43:45,375 - lightrag - INFO - Global query uses 40 entites, 60 relations, 3 chunks
+2025-07-01 02:43:45,377 - lightrag - INFO - Query edges: Dual Connection, Audio switching, Device communication, top_k: 60, cosine: 0.2
+2025-07-01 02:43:45,504 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-07-01 02:43:45,506 - lightrag - INFO - Query edges: Waste disposal, Environmental compliance, Electronics recycling, top_k: 60, cosine: 0.2
+2025-07-01 02:43:45,626 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-07-01 02:43:45,628 - lightrag - INFO - Query edges: Diagnosis of battery drain, Mobile phone performance, Hardware vs. software analysis, top_k: 60, cosine: 0.2
+2025-07-01 02:43:45,771 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-07-01 02:43:45,773 - lightrag - INFO - Query edges: Audio customization, Hearing aid compatibility, Sound optimization, top_k: 60, cosine: 0.2
+2025-07-01 02:43:45,901 - lightrag - INFO - Global query uses 32 entites, 60 relations, 3 chunks
+2025-07-01 02:43:45,903 - lightrag - INFO - Query edges: GPS accuracy, Skyscraper interference, Solution, top_k: 60, cosine: 0.2
+2025-07-01 02:43:46,027 - lightrag - INFO - Global query uses 40 entites, 60 relations, 4 chunks
+2025-07-01 02:43:46,029 - lightrag - INFO - Query edges: Third-party apps, Nothing Phone’s Glyph Interface, Custom light notifications, top_k: 60, cosine: 0.2
+2025-07-01 02:43:46,158 - lightrag - INFO - Global query uses 22 entites, 60 relations, 3 chunks
+2025-07-01 02:43:46,160 - lightrag - INFO - Query edges: Microphone failure, Driver-level solutions, Windows device, top_k: 60, cosine: 0.2
+2025-07-01 02:43:46,304 - lightrag - INFO - Global query uses 35 entites, 60 relations, 3 chunks
+2025-07-01 02:43:46,305 - lightrag - INFO - Query edges: Low-power mode, Battery optimization, Core functionality preservation, top_k: 60, cosine: 0.2
+2025-07-01 02:43:46,430 - lightrag - INFO - Global query uses 17 entites, 60 relations, 3 chunks
+2025-07-01 02:43:46,432 - lightrag - INFO - Query edges: Wireless audio technology, Compatibility, Chinese smartphone brands, top_k: 60, cosine: 0.2
+2025-07-01 02:43:46,552 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-07-01 02:43:46,553 - lightrag - INFO - Query edges: Nothing Phone, eSIM configuration, Zero-roaming fees, International travel, top_k: 60, cosine: 0.2
+2025-07-01 02:43:46,673 - lightrag - INFO - Global query uses 44 entites, 60 relations, 3 chunks
+2025-07-01 02:43:46,675 - lightrag - INFO - Query edges: User stress prediction, Biometric monitoring, Mental health analysis, Wearable technology, Interdisciplinary modeling, top_k: 60, cosine: 0.2
+2025-07-01 02:43:46,794 - lightrag - INFO - Global query uses 14 entites, 60 relations, 4 chunks
+2025-07-01 02:43:46,804 - lightrag - INFO - Storage Finalization completed!
+2025-07-01 03:58:35,780 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-07-01 03:58:35,820 - lightrag - INFO - Process 3681602 KV load full_docs with 1 records
+2025-07-01 03:58:35,822 - lightrag - INFO - Process 3681602 KV load text_chunks with 119 records
+2025-07-01 03:58:35,852 - lightrag - INFO - Process 3681602 KV load llm_response_cache with 328 records
+2025-07-01 03:58:35,854 - lightrag - INFO - Process 3681602 doc status load doc_status with 1 records
+2025-07-01 03:58:35,855 - lightrag - INFO - limit_async: 12 new workers initialized
+2025-07-01 03:58:35,856 - lightrag - INFO - Storage Initialization completed!
+2025-07-01 03:58:54,117 - lightrag - INFO -  == LLM cache == saving global: 36a7f5ea2e03c448e78384cc6d6a3e04
+2025-07-01 03:58:54,117 - lightrag - INFO - Query edges: Product relationship, Documentation, User guidance, top_k: 3, cosine: 0.2
+2025-07-01 03:58:54,118 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-07-01 03:58:55,908 - lightrag - INFO - Global query uses 6 entites, 3 relations, 3 chunks
+2025-07-01 03:58:55,989 - lightrag - INFO - Storage Finalization completed!
+2025-07-01 03:59:33,980 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-07-01 03:59:34,018 - lightrag - INFO - Process 3682053 KV load full_docs with 1 records
+2025-07-01 03:59:34,021 - lightrag - INFO - Process 3682053 KV load text_chunks with 119 records
+2025-07-01 03:59:34,050 - lightrag - INFO - Process 3682053 KV load llm_response_cache with 329 records
+2025-07-01 03:59:34,052 - lightrag - INFO - Process 3682053 doc status load doc_status with 1 records
+2025-07-01 03:59:34,052 - lightrag - INFO - Query edges: Product relationship, Documentation, User guidance, top_k: 5, cosine: 0.2
+2025-07-01 03:59:34,052 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-07-01 03:59:34,053 - lightrag - INFO - Storage Initialization completed!
+2025-07-01 03:59:34,110 - lightrag - INFO - Global query uses 10 entites, 5 relations, 3 chunks
+2025-07-01 03:59:34,110 - lightrag - INFO - Storage Finalization completed!
