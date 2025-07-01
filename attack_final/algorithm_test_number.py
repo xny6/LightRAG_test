@@ -94,7 +94,7 @@ async def initialize_rag(working_dir=WORKING_DIR):
     rag = LightRAG(
         working_dir=working_dir,
         llm_model_func=ollama_model_complete,
-        llm_model_name=os.getenv("LLM_MODEL", "deepseek-r1:32b"),
+        llm_model_name=os.getenv("LLM_MODEL", "qwen2"),
         llm_model_max_token_size=8192,
         llm_model_max_async=12,
         max_parallel_insert=3,
@@ -168,12 +168,12 @@ async def main():
         import os
         import uuid
 
-        rag = await initialize_rag()
+        rag = await initialize_rag(WORKING_DIR_AD)
 
         query_param = QueryParam(mode='global', stream=True,top_k=5)
 
         entities_context, relations_context, text_units_context = await write_chosen_relationships_to_file(
-            query="What is the relationship between Ear (1) and its product manual?",
+            query="What is the waterproof rating of Ear (open)?",
             rag=rag,
             query_param=query_param,
             top_k=9999

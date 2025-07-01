@@ -299,10 +299,24 @@ async def main():
             await rag_ad.ainsert(f.read())
 
 
-        with open("/home/NingyuanXiao/LightRAG_test/attack_final/questions_NT.txt", "r", encoding="utf-8") as f:
-            for line in f:
-                query = line.strip()
-                await query_with_modes(rag_ad, query, mode='global',output_json_file="/home/NingyuanXiao/LightRAG_test/attack_final/query_results_attack_NT.json")
+        # with open("/home/NingyuanXiao/LightRAG_test/attack_final/questions_NT.txt", "r", encoding="utf-8") as f:
+        #     for line in f:
+        #         query = line.strip()
+        #         await query_with_modes(rag_ad, query, mode='global',output_json_file="/home/NingyuanXiao/LightRAG_test/attack_final/query_results_attack_NT.json")
+
+        query_param= QueryParam(mode='global', stream=True, history_turns=0)
+
+        print("\n=====================")
+        print("Query mode: global")
+        print("=====================")
+        resp = await rag_ad.aquery(
+            "What is the waterproof rating of Ear (open)?",
+            param=query_param,
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
 
     
 
