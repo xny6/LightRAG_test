@@ -291,12 +291,12 @@ async def main():
         #     dst_folder=WORKING_DIR_AD
         # )
 
-        clear_working_directory(WORKING_DIR_AD)
+        # clear_working_directory(WORKING_DIR_AD)
         # Initialize RAG instance for attack
-        rag_ad = await initialize_rag(working_dir=WORKING_DIR_AD)
+        rag = await initialize_rag(working_dir=WORKING_DIR)
 
-        with open("/home/NingyuanXiao/LightRAG_test/attack_final/merged_output_final_with_ad.txt", "r", encoding="utf-8") as f:
-            await rag_ad.ainsert(f.read())
+        # with open("/home/NingyuanXiao/LightRAG_test/attack_final/merged_output_final_with_ad.txt", "r", encoding="utf-8") as f:
+        #     await rag_ad.ainsert(f.read())
 
 
         # with open("/home/NingyuanXiao/LightRAG_test/attack_final/questions_NT.txt", "r", encoding="utf-8") as f:
@@ -306,11 +306,24 @@ async def main():
 
         query_param= QueryParam(mode='global', stream=True, history_turns=0)
 
+        # print("\n=====================")
+        # print("Query mode: global")
+        # print("=====================")
+        # resp = await rag_ad.aquery(
+        #     "What is the waterproof rating of Ear (open)?",
+        #     param=query_param,
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
+
+
         print("\n=====================")
         print("Query mode: global")
         print("=====================")
-        resp = await rag_ad.aquery(
-            "What is the waterproof rating of Ear (open)?",
+        resp = await rag.aquery(
+            "How can I maintain my Nothing Phone 2A Plus and protect it, considering its warranty status is out of warranty?",
             param=query_param,
         )
         if inspect.isasyncgen(resp):
@@ -318,18 +331,31 @@ async def main():
         else:
             print(resp)
 
+
+        # print("\n=====================")
+        # print("Query mode: global")
+        # print("=====================")
+        # resp = await rag_ad.aquery(
+        #     "What is the battery life of CMF Buds Pro 2?",
+        #     param=query_param,
+        # )
+        # if inspect.isasyncgen(resp):
+        #     await print_stream(resp)
+        # else:
+        #     print(resp)
+
     
 
 
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
-        # if rag:
-        #     await rag.llm_response_cache.index_done_callback()
-        #     await rag.finalize_storages()
-        if rag_ad:
-            await rag_ad.llm_response_cache.index_done_callback()
-            await rag_ad.finalize_storages()
+        if rag:
+            await rag.llm_response_cache.index_done_callback()
+            await rag.finalize_storages()
+        # if rag_ad:
+        #     await rag_ad.llm_response_cache.index_done_callback()
+        #     await rag_ad.finalize_storages()
 
 
 if __name__ == "__main__":

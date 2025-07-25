@@ -1,6 +1,5 @@
 from lightrag.operate import get_keywords_from_query, extract_keywords_only, _get_edge_data
 from dataclasses import asdict
-from test_for_extraction.attack_related import write_chosen_relationships_to_file, filter_json, generate_ad_entities, generate_ad_text, append_texts_from_json,add_content_to_origin_txt
 import json
 import asyncio
 import os
@@ -18,7 +17,6 @@ from dotenv import load_dotenv
 load_dotenv(dotenv_path=".env", override=False)
 
 WORKING_DIR = "/home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama"
-WORKING_DIR_AD = "/home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama_ad"
 
 
 def configure_logging():
@@ -84,12 +82,6 @@ def configure_logging():
     set_verbose_debug(os.getenv("VERBOSE_DEBUG", "false").lower() == "true")
 
 
-if not os.path.exists(WORKING_DIR):
-    os.mkdir(WORKING_DIR)
-
-if not os.path.exists(WORKING_DIR_AD):
-    os.mkdir(WORKING_DIR_AD)
-
 async def initialize_rag(working_dir=WORKING_DIR):
     rag = LightRAG(
         working_dir=working_dir,
@@ -125,66 +117,53 @@ async def print_stream(stream):
         print(chunk, end="", flush=True)
 
 
-import inspect
-import json
-import os
-
-async def write_chosen_relationships_to_file(query, query_param, rag, top_k):
-    hl_keywords, ll_keywords = await get_keywords_from_query(
-        query, query_param=query_param,
-        global_config=asdict(rag),
-        hashing_kv=rag.llm_response_cache
+async def query_kg(rag, question,param):
+    response = await rag.aquery(
+        question,
+        param=param,
     )
-
-    ll_keywords_str = ", ".join(ll_keywords) if ll_keywords else ""
-    hl_keywords_str = ", ".join(hl_keywords) if hl_keywords else ""
-
-    entities_context, relations_context, text_units_context = await _get_edge_data(
-        keywords=hl_keywords_str,
-        knowledge_graph_inst=rag.chunk_entity_relation_graph,
-        relationships_vdb=rag.relationships_vdb,
-        text_chunks_db=rag.text_chunks,
-        query_param=query_param
-    )
-
-    # 如果数量超过 top_k，则截断；否则保留全部
-    if top_k > 0 and len(relations_context) > top_k:
-        relations_context = relations_context[:top_k]
-
-    # with open(chosen_relationships_output_file, 'w', encoding='utf-8') as f:
-    #     json.dump(relations_context, f, ensure_ascii=False, indent=4)
-    return entities_context, relations_context, text_units_context
+    return response
 
 
+# async def test_query(question):
+#     try:
+#         rag= await initialize_rag()
 
+#         query_param = QueryParam(mode='global', stream=False, history_turns=0)
 
+#         response = await rag.aquery(
+#             question,
+#             param=query_param,
+#         )
+
+#         print(f"Response: {response}")
+#     except Exception as e:
+#         print(f"An error occurred: {e}")
+#     finally:
+#         if rag:
+#             await rag.llm_response_cache.index_done_callback()
+#             await rag.finalize_storages()
 
 async def main():
     try:
 
+        # Initialize RAG instance
+        rag = await initialize_rag()
 
+        query_param = QueryParam(mode='global', stream=False, history_turns=0)
 
-        import json
-        import os
-        import uuid
+        with open('/home/NingyuanXiao/Vanna_test/kg_sql_date.json', 'r') as f:
+            data = json.load(f)
 
-        rag = await initialize_rag(WORKING_DIR_AD)
+        for entry in data:
+            question = entry.get("KG Query", "").strip()
+            response = await query_kg(rag, question, query_param)
+            entry["KG Result"] = response
 
-        query_param = QueryParam(mode='global', stream=True)
+        with open('/home/NingyuanXiao/Vanna_test/kg_sql_date.json', 'w') as f:
+            json.dump(data, f, ensure_ascii=False, indent=4)
 
-        entities_context, relations_context, text_units_context = await write_chosen_relationships_to_file(
-            query="Does Ear (open) support Active Noise Cancellation (ANC)?",
-            rag=rag,
-            query_param=query_param,
-            top_k=9999
-        )
-        print(f'length of entities_context: {len(entities_context)}')
-        print(f'length of relations_context: {len(relations_context)}')
-        print(f'length of text_units_context: {len(text_units_context)}')
-        print(f"Entities Context: {entities_context}")
-        print(f"Relations Context: {relations_context}")
-        print(f"Text Units Context: {text_units_context}")
-
+        
 
 
     except Exception as e:
@@ -193,7 +172,6 @@ async def main():
         if rag:
             await rag.llm_response_cache.index_done_callback()
             await rag.finalize_storages()
-
 
 if __name__ == "__main__":
     # Configure logging before running the main function
