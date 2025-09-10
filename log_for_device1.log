@@ -1,0 +1,135 @@
+2025-09-10 08:05:01,571 - lightrag - INFO - Created new empty graph
+2025-09-10 08:05:01,575 - lightrag - INFO - Process 3242172 KV load full_docs with 0 records
+2025-09-10 08:05:01,575 - lightrag - INFO - Process 3242172 KV load text_chunks with 0 records
+2025-09-10 08:05:01,575 - lightrag - INFO - Process 3242172 KV load llm_response_cache with 0 records
+2025-09-10 08:05:01,575 - lightrag - INFO - Process 3242172 doc status load doc_status with 0 records
+2025-09-10 08:05:01,575 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-09-10 08:05:01,576 - lightrag - INFO - Storage Initialization completed!
+2025-09-10 08:05:01,649 - lightrag - INFO - Stored 1 new unique documents
+2025-09-10 08:05:01,650 - lightrag - INFO - Processing 1 document(s)
+2025-09-10 08:05:01,650 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-09-10 08:05:01,650 - lightrag - INFO - Processing d-id: doc-44b98ac69c218bbacfe826a3195a8efb
+2025-09-10 08:05:01,664 - lightrag - INFO - limit_async: 32 new workers initialized
+2025-09-10 08:05:12,457 - lightrag - INFO -  == LLM cache == saving default: c75ed76c26840e0b73d5117a6031f322
+2025-09-10 08:05:21,228 - lightrag - INFO -  == LLM cache == saving default: c8fb703314313d5e2e633975670ef50b
+2025-09-10 08:05:27,263 - lightrag - INFO -  == LLM cache == saving default: 5ee8e72e7e8b76e7703a15bf3adf9226
+2025-09-10 08:05:34,117 - lightrag - INFO -  == LLM cache == saving default: 5f83c9284a3beae4bad53309f9def0f3
+2025-09-10 08:05:35,361 - lightrag - INFO -  == LLM cache == saving default: f867d411442296530cb7231a037a8381
+2025-09-10 08:05:40,975 - lightrag - INFO -  == LLM cache == saving default: effec6182107512bf914163fcfcff8e8
+2025-09-10 08:05:41,714 - lightrag - INFO -  == LLM cache == saving default: 34813331350fb1e40623ca3fa510fae7
+2025-09-10 08:05:45,778 - lightrag - INFO -  == LLM cache == saving default: bb6d951e01ec42ebd1deac759540fccb
+2025-09-10 08:05:57,698 - lightrag - INFO -  == LLM cache == saving default: 6f1bb104ed8945514eadda8afe702f82
+2025-09-10 08:06:01,821 - lightrag - INFO -  == LLM cache == saving default: 01029fbe97b81cb6c79a5ac00232fc14
+2025-09-10 08:06:05,565 - lightrag - INFO -  == LLM cache == saving default: e0b0aece5e858b6ee8610ef92a2a3236
+2025-09-10 08:06:23,210 - lightrag - INFO -  == LLM cache == saving default: 45b00e42d197c918ea3d6bdb941d9f9b
+2025-09-10 08:06:24,077 - lightrag - INFO -  == LLM cache == saving default: 547ac55628c6269f773ef36669e91778
+2025-09-10 08:06:33,410 - lightrag - INFO -  == LLM cache == saving default: 1f31433c92ae975c92d60452a09da8a4
+2025-09-10 08:06:40,066 - lightrag - INFO -  == LLM cache == saving default: c32136b76f85f529e7d2eb8c2adfce6f
+2025-09-10 08:06:52,614 - lightrag - INFO -  == LLM cache == saving default: 2164a14555d6ea2adea7327c2fcd4af5
+2025-09-10 08:07:00,675 - lightrag - INFO -  == LLM cache == saving default: 5866ae09a2d30671425cf40b62d945bd
+2025-09-10 08:07:00,676 - lightrag - INFO - Chunk 1 of 16 extracted 30 Ent + 4 Rel
+2025-09-10 08:07:08,592 - lightrag - INFO -  == LLM cache == saving default: f7180ba4fcfb723bb5d30ae1d7cc4a22
+2025-09-10 08:07:08,593 - lightrag - INFO - Chunk 2 of 16 extracted 9 Ent + 0 Rel
+2025-09-10 08:07:14,355 - lightrag - INFO -  == LLM cache == saving default: f8a153ceb8143adbdb80d2bef32b2a28
+2025-09-10 08:07:14,356 - lightrag - INFO - Chunk 3 of 16 extracted 12 Ent + 0 Rel
+2025-09-10 08:07:21,078 - lightrag - INFO -  == LLM cache == saving default: ff41db40917ce51be73c60a369062c05
+2025-09-10 08:07:21,079 - lightrag - INFO - Chunk 4 of 16 extracted 15 Ent + 0 Rel
+2025-09-10 08:07:22,201 - lightrag - INFO -  == LLM cache == saving default: 46f344a7365891762fd8785736139dfc
+2025-09-10 08:07:22,201 - lightrag - INFO - Chunk 5 of 16 extracted 2 Ent + 0 Rel
+2025-09-10 08:07:28,957 - lightrag - INFO -  == LLM cache == saving default: 65e39b3b87f5ba33ace6cc966c1d6527
+2025-09-10 08:07:28,958 - lightrag - INFO - Chunk 6 of 16 extracted 12 Ent + 8 Rel
+2025-09-10 08:07:50,249 - lightrag - INFO -  == LLM cache == saving default: 812bfd7034df66aea1e5bdb9639394b8
+2025-09-10 08:07:50,250 - lightrag - INFO - Chunk 7 of 16 extracted 26 Ent + 0 Rel
+2025-09-10 08:07:57,460 - lightrag - INFO -  == LLM cache == saving default: 291b693c51948d52568b3486e948b6a0
+2025-09-10 08:07:57,461 - lightrag - INFO - Chunk 8 of 16 extracted 10 Ent + 5 Rel
+2025-09-10 08:08:16,928 - lightrag - INFO -  == LLM cache == saving default: ec671fc9142ebfeb6c157921ed967ec5
+2025-09-10 08:08:16,930 - lightrag - INFO - Chunk 9 of 16 extracted 24 Ent + 9 Rel
+2025-09-10 08:08:22,002 - lightrag - INFO -  == LLM cache == saving default: d48743f3529b5417b5d5ba105715b936
+2025-09-10 08:08:22,003 - lightrag - INFO - Chunk 10 of 16 extracted 8 Ent + 2 Rel
+2025-09-10 08:08:26,178 - lightrag - INFO -  == LLM cache == saving default: 64f793068b74c95405f67b64486c0cfd
+2025-09-10 08:08:26,179 - lightrag - INFO - Chunk 11 of 16 extracted 6 Ent + 6 Rel
+2025-09-10 08:08:33,577 - lightrag - INFO -  == LLM cache == saving default: 7961307488ec5262b8d81f351b25ada7
+2025-09-10 08:08:33,578 - lightrag - INFO - Chunk 12 of 16 extracted 52 Ent + 4 Rel
+2025-09-10 08:08:36,938 - lightrag - INFO -  == LLM cache == saving default: 955abd84a71cb29522d313e6052e32dd
+2025-09-10 08:08:36,939 - lightrag - INFO - Chunk 13 of 16 extracted 4 Ent + 1 Rel
+2025-09-10 08:08:39,727 - lightrag - INFO -  == LLM cache == saving default: 73b12e4fb419d7071df62c60056ccf3d
+2025-09-10 08:08:39,728 - lightrag - INFO - Chunk 14 of 16 extracted 18 Ent + 0 Rel
+2025-09-10 08:08:42,224 - lightrag - INFO -  == LLM cache == saving default: 145cae5c2a47ab8d3483a1d579cc442b
+2025-09-10 08:08:42,224 - lightrag - INFO - Chunk 15 of 16 extracted 3 Ent + 2 Rel
+2025-09-10 08:08:59,037 - lightrag - INFO -  == LLM cache == saving default: 432bcf924af6c34501462491f076a425
+2025-09-10 08:08:59,038 - lightrag - INFO - Chunk 16 of 16 extracted 21 Ent + 4 Rel
+2025-09-10 08:08:59,039 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-09-10 08:08:59,040 - lightrag - INFO - Merge N: UPS | 2+0
+2025-09-10 08:08:59,041 - lightrag - INFO - Merge N: 电梯 | 2+0
+2025-09-10 08:08:59,042 - lightrag - INFO - Merge N: PressureDifference | 2+0
+2025-09-10 08:08:59,042 - lightrag - INFO - Merge N: Alert | 2+0
+2025-09-10 08:08:59,043 - lightrag - INFO - Merge N: AHU | 2+0
+2025-09-10 08:08:59,043 - lightrag - INFO - Merge N: SupplyAirHumidity | 2+0
+2025-09-10 08:08:59,043 - lightrag - INFO - Merge N: SupplyAirTemperature | 2+0
+2025-09-10 08:08:59,043 - lightrag - INFO - Merge N: Control | 2+0
+2025-09-10 08:08:59,066 - lightrag - INFO - Merge N: 回风温度 | 2+0
+2025-09-10 08:08:59,077 - lightrag - INFO - Merge N: 回风湿度 | 2+0
+2025-09-10 08:08:59,077 - lightrag - INFO - Merge N: 送风温度 | 2+0
+2025-09-10 08:08:59,080 - lightrag - INFO - Merge E: 属性 - 读写( | 3+0
+2025-09-10 08:08:59,081 - lightrag - INFO - Updating 241 entities  1/1: unknown_source
+2025-09-10 08:09:03,104 - lightrag - INFO - Updating 45 relations 1/1: unknown_source
+2025-09-10 08:09:03,668 - lightrag - INFO - Writing graph with 251 nodes, 45 edges
+2025-09-10 08:09:03,708 - lightrag - INFO - In memory DB persist to disk
+2025-09-10 08:09:03,708 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-09-10 08:09:03,709 - lightrag - INFO - Document processing pipeline completed
+2025-09-10 08:09:04,354 - lightrag - INFO -  == LLM cache == saving global: 8374f79c5c3f3e9de3f4ccb7cf693c09
+2025-09-10 08:09:04,354 - lightrag - INFO - Process 3242172 building query context...
+2025-09-10 08:09:04,354 - lightrag - INFO - Query edges: Main, Equipment, Names, top_k: 60, cosine: 0.2
+2025-09-10 08:09:04,446 - lightrag - INFO - Global query uses 75 entites, 45 relations, 3 chunks
+2025-09-10 08:09:17,932 - lightrag - INFO - Storage Finalization completed!
+2025-09-10 10:51:36,620 - lightrag - INFO - Created new empty graph
+2025-09-10 10:51:36,624 - lightrag - INFO - Process 3521122 KV load full_docs with 0 records
+2025-09-10 10:51:36,624 - lightrag - INFO - Process 3521122 KV load text_chunks with 0 records
+2025-09-10 10:51:36,628 - lightrag - INFO - Process 3521122 KV load llm_response_cache with 33 records
+2025-09-10 10:51:36,629 - lightrag - INFO - Process 3521122 doc status load doc_status with 0 records
+2025-09-10 10:51:36,629 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-09-10 10:51:36,630 - lightrag - INFO - Storage Initialization completed!
+2025-09-10 10:51:36,786 - lightrag - INFO - Stored 1 new unique documents
+2025-09-10 10:51:36,787 - lightrag - INFO - Processing 1 document(s)
+2025-09-10 10:51:36,787 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-09-10 10:51:36,787 - lightrag - INFO - Processing d-id: doc-44b98ac69c218bbacfe826a3195a8efb
+2025-09-10 10:51:36,808 - lightrag - INFO - Chunk 1 of 16 extracted 52 Ent + 4 Rel
+2025-09-10 10:51:36,808 - lightrag - INFO - Chunk 2 of 16 extracted 10 Ent + 5 Rel
+2025-09-10 10:51:36,809 - lightrag - INFO - Chunk 3 of 16 extracted 21 Ent + 4 Rel
+2025-09-10 10:51:36,810 - lightrag - INFO - Chunk 4 of 16 extracted 12 Ent + 0 Rel
+2025-09-10 10:51:36,810 - lightrag - INFO - Chunk 5 of 16 extracted 2 Ent + 0 Rel
+2025-09-10 10:51:36,811 - lightrag - INFO - Chunk 6 of 16 extracted 4 Ent + 1 Rel
+2025-09-10 10:51:36,811 - lightrag - INFO - Chunk 7 of 16 extracted 15 Ent + 0 Rel
+2025-09-10 10:51:36,812 - lightrag - INFO - Chunk 8 of 16 extracted 8 Ent + 2 Rel
+2025-09-10 10:51:36,812 - lightrag - INFO - Chunk 9 of 16 extracted 3 Ent + 2 Rel
+2025-09-10 10:51:36,813 - lightrag - INFO - Chunk 10 of 16 extracted 30 Ent + 4 Rel
+2025-09-10 10:51:36,814 - lightrag - INFO - Chunk 11 of 16 extracted 26 Ent + 0 Rel
+2025-09-10 10:51:36,814 - lightrag - INFO - Chunk 12 of 16 extracted 9 Ent + 0 Rel
+2025-09-10 10:51:36,815 - lightrag - INFO - Chunk 13 of 16 extracted 24 Ent + 9 Rel
+2025-09-10 10:51:36,816 - lightrag - INFO - Chunk 14 of 16 extracted 18 Ent + 0 Rel
+2025-09-10 10:51:36,816 - lightrag - INFO - Chunk 15 of 16 extracted 6 Ent + 6 Rel
+2025-09-10 10:51:36,817 - lightrag - INFO - Chunk 16 of 16 extracted 12 Ent + 8 Rel
+2025-09-10 10:51:37,383 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-09-10 10:51:37,383 - lightrag - INFO - Merge N: UPS | 2+0
+2025-09-10 10:51:37,383 - lightrag - INFO - Merge N: 电梯 | 2+0
+2025-09-10 10:51:37,384 - lightrag - INFO - Merge N: PressureDifference | 2+0
+2025-09-10 10:51:37,384 - lightrag - INFO - Merge N: Alert | 2+0
+2025-09-10 10:51:37,384 - lightrag - INFO - Merge N: AHU | 2+0
+2025-09-10 10:51:37,384 - lightrag - INFO - Merge N: SupplyAirHumidity | 2+0
+2025-09-10 10:51:37,384 - lightrag - INFO - Merge N: SupplyAirTemperature | 2+0
+2025-09-10 10:51:37,384 - lightrag - INFO - Merge N: Control | 2+0
+2025-09-10 10:51:37,385 - lightrag - INFO - Merge N: 回风温度 | 2+0
+2025-09-10 10:51:37,385 - lightrag - INFO - Merge N: 回风湿度 | 2+0
+2025-09-10 10:51:37,385 - lightrag - INFO - Merge N: 送风温度 | 2+0
+2025-09-10 10:51:37,386 - lightrag - INFO - Merge E: 属性 - 读写( | 3+0
+2025-09-10 10:51:37,386 - lightrag - INFO - Updating 241 entities  1/1: unknown_source
+2025-09-10 10:51:40,587 - lightrag - INFO - Updating 45 relations 1/1: unknown_source
+2025-09-10 10:51:41,132 - lightrag - INFO - Writing graph with 251 nodes, 45 edges
+2025-09-10 10:51:41,182 - lightrag - INFO - In memory DB persist to disk
+2025-09-10 10:51:41,182 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-09-10 10:51:41,182 - lightrag - INFO - Document processing pipeline completed
+2025-09-10 10:51:41,183 - lightrag - INFO - Process 3521122 building query context...
+2025-09-10 10:51:41,183 - lightrag - INFO - Query edges: Main, Equipment, Names, top_k: 60, cosine: 0.2
+2025-09-10 10:51:41,270 - lightrag - INFO - Global query uses 75 entites, 45 relations, 3 chunks
+2025-09-10 10:51:41,287 - lightrag - INFO - limit_async: 32 new workers initialized
+2025-09-10 10:51:55,930 - lightrag - INFO - Storage Finalization completed!

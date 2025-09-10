@@ -1,0 +1,2382 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d11" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d10" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d9" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d8" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d7" for="edge" attr.name="description" attr.type="string"/>
+<key id="d6" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="智慧园区">
+  <data key="d0">智慧园区</data>
+  <data key="d1">geo</data>
+  <data key="d2">智慧园区是一个集成了各种智能系统和设备的现代化园区。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="车位引导摄像机">
+  <data key="d0">车位引导摄像机</data>
+  <data key="d1">device</data>
+  <data key="d2">车位引导摄像机用于实时监控并引导车辆在园区内找到停车位。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="车位引导控制器">
+  <data key="d0">车位引导控制器</data>
+  <data key="d1">device</data>
+  <data key="d2">车位引导控制器通过信号传输，控制和协调车位引导系统的工作。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="车位引导超声波">
+  <data key="d0">车位引导超声波</data>
+  <data key="d1">device</data>
+  <data key="d2">车位引导超声波用于检测并反馈停车场的空闲车位数量。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="车位引导屏">
+  <data key="d0">车位引导屏</data>
+  <data key="d1">device</data>
+  <data key="d2">车位引导屏显示实时的停车位信息，帮助驾驶员寻找可用停车点。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="UPS">
+  <data key="d0">UPS</data>
+  <data key="d1">device</data>
+  <data key="d2">UPS(不间断电源)在停电时确保关键设备继续运行以维护园区的稳定性。&lt;SEP&gt;不间断电源系统，提供稳定电源供应的设备</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f&lt;SEP&gt;chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="液位传感器">
+  <data key="d0">液位传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">液位传感器监测给排水系统中的水位，用于水位控制和报警。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="温湿度传感器">
+  <data key="d0">温湿度传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">温湿度传感器收集并监控环境内的温度和湿度数据。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="温度传感器">
+  <data key="d0">温度传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">专门检测和记录特定区域的温度水平。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="湿度传感器">
+  <data key="d0">湿度传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">用于监测空气中的相对湿度，确保适宜的工作环境条件。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="一氧化碳传感器">
+  <data key="d0">一氧化碳传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">检测空气中的一氧化碳含量，预防可能的安全风险。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="二氧化碳传感器">
+  <data key="d0">二氧化碳传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">测量室内的二氧化碳水平，维护空气质量。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="压力传感器">
+  <data key="d0">压力传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">监控系统中的压力变化，确保设备运行的稳定和安全。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="烟雾传感器">
+  <data key="d0">烟雾传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">在火灾风险早期检测到烟雾并触发报警机制。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="空气质量传感器">
+  <data key="d0">空气质量传感器</data>
+  <data key="d1">device</data>
+  <data key="d2">监测环境的总体空气品质，提供健康与舒适度数据。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="通风器">
+  <data key="d0">通风器</data>
+  <data key="d1">device</data>
+  <data key="d2">通过调节室内空气流通来维持适宜的通风条件和空气质量。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="冷却塔">
+  <data key="d0">冷却塔</data>
+  <data key="d1">device</data>
+  <data key="d2">用于冷源管理，为园区提供制冷服务或热量排放。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="冷水主机">
+  <data key="d0">冷水主机</data>
+  <data key="d1">device</data>
+  <data key="d2">在给排水系统中为冷却水循环提供动力。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="水泵">
+  <data key="d0">水泵</data>
+  <data key="d1">device</data>
+  <data key="d2">用于输送和处理园区内的水，支持给排水系统的运行。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="冷源系统">
+  <data key="d0">冷源系统</data>
+  <data key="d1">device</data>
+  <data key="d2">整合冷冻设备和技术以满足空调、供暖或冷却需求的综合系统。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="开关阀">
+  <data key="d0">开关阀</data>
+  <data key="d1">device</data>
+  <data key="d2">控制流体在管道中的流动或切断，用于调节和管理园区内的流量。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="控制阀">
+  <data key="d0">控制阀</data>
+  <data key="d1">device</data>
+  <data key="d2">在给排水、通风等系统中调整工作流速，以实现精确控制。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="水表">
+  <data key="d0">水表</data>
+  <data key="d1">device</data>
+  <data key="d2">监测并记录用水量，用于能源管理。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="电表">
+  <data key="d0">电表</data>
+  <data key="d1">device</data>
+  <data key="d2">计量用电消耗，帮助园区进行电力资源的管理和优化。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="能量表">
+  <data key="d0">能量表</data>
+  <data key="d1">device</data>
+  <data key="d2">监测和记录各种形式的能量使用情况，包括电能、热能等。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="排风机">
+  <data key="d0">排风机</data>
+  <data key="d1">device</data>
+  <data key="d2">用于排除或引入空气，以维持良好的通风环境。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="新风机组">
+  <data key="d0">新风机组</data>
+  <data key="d1">device</data>
+  <data key="d2">提供新鲜空气并调节室内空气质量的设备。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="空调机组">
+  <data key="d0">空调机组</data>
+  <data key="d1">device</data>
+  <data key="d2">用于调节温度、湿度和气流，提供舒适的工作或生活环境。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="风机盘管">
+  <data key="d0">风机盘管</data>
+  <data key="d1">device</data>
+  <data key="d2">结合了风扇、水管和制冷剂循环系统，用于局部空气处理。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="精密空调">
+  <data key="d0">精密空调</data>
+  <data key="d1">device</data>
+  <data key="d2">提供高精度温度和湿度控制的设备，适用于对环境要求严格的场所。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="热回收风机">
+  <data key="d0">热回收风机</data>
+  <data key="d1">device</data>
+  <data key="d2">在通风过程中回收并利用热量，提高能效。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="门禁子系统">
+  <data key="d0">门禁子系统</data>
+  <data key="d1">device</data>
+  <data key="d2">通过识别、验证和授权来控制园区的出入口通行。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="电梯子系统">
+  <data key="d0">电梯子系统</data>
+  <data key="d1">device</data>
+  <data key="d2">用于管理园区内的垂直交通，提供便捷的通行解决方案。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="通行子系统">
+  <data key="d0">通行子系统</data>
+  <data key="d1">device</data>
+  <data key="d2">集成多种通行控制功能，确保安全、有序地管理园区流量。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="AI视频盒子">
+  <data key="d0">AI视频盒子</data>
+  <data key="d1">device</data>
+  <data key="d2">结合人工智能技术的视频监控设备，用于实时分析和处理园区内的视频流。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="灯">
+  <data key="d0">灯</data>
+  <data key="d1">equipment</data>
+  <data key="d2">基本照明装置，用于提供日常环境光。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="开关灯">
+  <data key="d0">开关灯</data>
+  <data key="d1">equipment</data>
+  <data key="d2">通过物理或电子方式切换电源，控制照明开启与关闭的设备。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="调光灯">
+  <data key="d0">调光灯</data>
+  <data key="d1">equipment</data>
+  <data key="d2">能够调整亮度水平，为用户提供可调节的光线强度和色温选择。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="智能窗帘">
+  <data key="d0">智能窗帘</data>
+  <data key="d1">equipment</data>
+  <data key="d2">通过自动化系统或遥控操作，实现窗帘的开合与位置控制。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="电动窗">
+  <data key="d0">电动窗</data>
+  <data key="d1">equipment</data>
+  <data key="d2">使用电力驱动装置执行窗户的开启、关闭或调节。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="门禁">
+  <data key="d0">门禁</data>
+  <data key="d1">equipment</data>
+  <data key="d2">用于进出管理的安全和访问控制系统。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="电梯">
+  <data key="d0">电梯</data>
+  <data key="d1">equipment</data>
+  <data key="d2">垂直交通设备，提供园区内的上下移动能力。&lt;SEP&gt;电梯提供人员运输服务，并能显示楼层位置、运行速度等信息。</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0&lt;SEP&gt;chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="信息发布">
+  <data key="d0">信息发布</data>
+  <data key="d1">service</data>
+  <data key="d2">通过多种渠道向用户或员工传达通知、公告和其他信息的服务。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="背景音乐">
+  <data key="d0">背景音乐</data>
+  <data key="d1">service</data>
+  <data key="d2">在公共区域播放轻松的音乐，提高空间氛围和用户体验。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="电视">
+  <data key="d0">电视</data>
+  <data key="d1">equipment</data>
+  <data key="d2">提供视听娱乐功能，用于新闻、节目观看或内部通信。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="车位引导">
+  <data key="d0">车位引导</data>
+  <data key="d1">category</data>
+  <data key="d2">车位引导是智慧园区中用于帮助驾驶员在停车场内快速找到空闲停车位的服务。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="车辆定位">
+  <data key="d0">车辆定位</data>
+  <data key="d1">service</data>
+  <data key="d2">车辆定位服务通过技术手段(如GPS或RFID)追踪并提供车辆的具体位置，以便于寻找停车位。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="车场管理">
+  <data key="d0">车场管理</data>
+  <data key="d1">category</data>
+  <data key="d2">车场管理涵盖了停车场内的运营和维护，包括车辆进出、计费及调度。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="停车引导系统">
+  <data key="d0">停车引导系统</data>
+  <data key="d1">system</data>
+  <data key="d2">停车引导系统是一种基于技术的解决方案，利用指示灯、LED屏幕或APP通知驾驶员如何前往空闲车位。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="智能摄像头">
+  <data key="d0">智能摄像头</data>
+  <data key="d1">device</data>
+  <data key="d2">智能摄像头用于监控车辆进出、记录违规行为，并且可协助停车引导和车场管理。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="视频分析盒子">
+  <data key="d0">视频分析盒子</data>
+  <data key="d1">device</data>
+  <data key="d2">AI视频分析盒子处理停车场的视频流，识别车辆、行人或异常事件并提供实时数据和报告。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="车位监控">
+  <data key="d0">车位监控</data>
+  <data key="d1">task</data>
+  <data key="d2">通过智能摄像头进行的车位监控是确保停车引导系统准确性的关键部分。</data>
+  <data key="d3">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="pgs_controlRefresh">
+  <data key="d0">pgs_controlRefresh</data>
+  <data key="d1">event</data>
+  <data key="d2">pgs_control刷新服务，更新控制器状态</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="pgs_ultrasonicSpaceStatusUp">
+  <data key="d0">pgs_ultrasonicSpaceStatusUp</data>
+  <data key="d1">event</data>
+  <data key="d2">占用状态事件，更新超声波空间占用状态</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="pgs_screenSetLeadScreen">
+  <data key="d0">pgs_screenSetLeadScreen</data>
+  <data key="d1">service</data>
+  <data key="d2">屏幕信息下发服务，控制显示屏幕信息</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="InputAVoltage">
+  <data key="d0">InputAVoltage</data>
+  <data key="d1">attribute</data>
+  <data key="d2">输入A相电压属性，描述AC电参数</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="InputBVoltage">
+  <data key="d0">InputBVoltage</data>
+  <data key="d1">attribute</data>
+  <data key="d2">输入B相电压属性，描述AC电参数</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="InputCVoltage">
+  <data key="d0">InputCVoltage</data>
+  <data key="d1">attribute</data>
+  <data key="d2">输入C相电压属性，描述AC电参数</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="OutputAVoltage">
+  <data key="d0">OutputAVoltage</data>
+  <data key="d1">attribute</data>
+  <data key="d2">输出A相电压属性，表示设备的输出电压参数</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="OutputBVoltage">
+  <data key="d0">OutputBVoltage</data>
+  <data key="d1">attribute</data>
+  <data key="d2">输出B相电压属性，表示设备的输出电压参数</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="OutputCVoltage">
+  <data key="d0">OutputCVoltage</data>
+  <data key="d1">attribute</data>
+  <data key="d2">输出C相电压属性，描述AC电输出参数</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="BatteryCapacity">
+  <data key="d0">BatteryCapacity</data>
+  <data key="d1">属性</data>
+  <data key="d2">电池容量是描述电池性能的读取属性，单位为百分比，步长0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="Voltage">
+  <data key="d0">Voltage</data>
+  <data key="d1">属性</data>
+  <data key="d2">电池电压是描述电池性能的读取属性，单位为伏特，步长0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="BFrequency">
+  <data key="d0">BFrequency</data>
+  <data key="d1">属性</data>
+  <data key="d2">旁路频率是描述设备运行状态的读取属性，单位为赫兹，步长0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="AVoltage">
+  <data key="d0">AVoltage</data>
+  <data key="d1">属性</data>
+  <data key="d2">A通道的旁路电压是描述设备性能的读取属性，单位为伏特，步长0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="BVoltage">
+  <data key="d0">BVoltage</data>
+  <data key="d1">属性</data>
+  <data key="d2">B通道的旁路电压是描述设备性能的读取属性，单位为伏特，步长0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="CVoltage">
+  <data key="d0">CVoltage</data>
+  <data key="d1">属性</data>
+  <data key="d2">C通道的旁路电压是描述设备性能的读取属性，单位为伏特，步长0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="WaterLevel">
+  <data key="d0">WaterLevel</data>
+  <data key="d1">属性</data>
+  <data key="d2">水位高度是描述环境或设备状态的读取属性，单位为米，步长0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="AlertStatusL">
+  <data key="d0">AlertStatusL</data>
+  <data key="d1">属性</data>
+  <data key="d2">低液位报警状态是描述设备警报系统的读取属性，状态值为0表示正常，1表示报警。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="AlertStatusM">
+  <data key="d0">AlertStatusM</data>
+  <data key="d1">属性</data>
+  <data key="d2">中液位报警状态是描述设备警报系统的读取属性，状态值为0表示正常，1表示报警。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="AlertStatusH">
+  <data key="d0">AlertStatusH</data>
+  <data key="d1">属性</data>
+  <data key="d2">高液位报警状态是描述设备警报系统的读取属性，状态值为0表示正常，1表示报警。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="AlertStatus">
+  <data key="d0">AlertStatus</data>
+  <data key="d1">属性</data>
+  <data key="d2">总体报警状态是描述设备警报系统的枚举类型属性，状态值包括正常、低低报警、低报警、高报警和高高报警等。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="CommunicationStatus">
+  <data key="d0">CommunicationStatus</data>
+  <data key="d1">属性</data>
+  <data key="d2">通信状态是描述设备运行状态的读取属性，状态值为0表示在线，1表示离线。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="channelList">
+  <data key="d0">channelList</data>
+  <data key="d1">属性</data>
+  <data key="d2">AI盒子通道映射关系是描述设备配置或连接的json对象类型属性。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="sn">
+  <data key="d0">sn</data>
+  <data key="d1">属性</data>
+  <data key="d2">AI盒子SN号是描述设备标识信息的字符串型读写属性，数据长度为10240字节。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="CurrentHumidity">
+  <data key="d0">CurrentHumidity</data>
+  <data key="d1">属性</data>
+  <data key="d2">当前湿度是描述环境或设备状态的读取属性，单位为相对湿度百分比，取值范围在0到100之间，步长为0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="CurrentTemperature">
+  <data key="d0">CurrentTemperature</data>
+  <data key="d1">属性</data>
+  <data key="d2">当前温度是描述环境或设备状态的读取属性，单位为摄氏度，取值范围在40到120之间，步长为0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="Error">
+  <data key="d0">Error</data>
+  <data key="d1">事件</data>
+  <data key="d2">故障上报事件是描述系统异常情况的信息或代码类型的事件类型。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="PressureSwitch">
+  <data key="d0">PressureSwitch</data>
+  <data key="d1">属性</data>
+  <data key="d2">压力开关状态是描述设备运行状态的读取属性，状态值为0表示关闭，1表示开启。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="Pressure">
+  <data key="d0">Pressure</data>
+  <data key="d1">属性</data>
+  <data key="d2">压力测量是描述环境或设备状态的读取属性，单位为千帕斯卡，步长为0.1。</data>
+  <data key="d3">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="PressureDifference">
+  <data key="d0">PressureDifference</data>
+  <data key="d1">属性</data>
+  <data key="d2">PressureDifference is a parameter that measures the difference in pressure, typically used in scientific or engineering contexts.&lt;SEP&gt;压差测量是描述两个压力值之间的差异的读取属性，单位为千帕斯卡，步长为0.1。</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe&lt;SEP&gt;chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="Alert">
+  <data key="d0">Alert</data>
+  <data key="d1">事件</data>
+  <data key="d2">Alert is a type of event, specifically one that signals potential issues.&lt;SEP&gt;告警事件包括告警信息、报警代码和发生时间等描述设备异常状态的信息类型的事件类型。</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe&lt;SEP&gt;chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="kPa">
+  <data key="d0">kPa</data>
+  <data key="d1">unit</data>
+  <data key="d2">Kilopascal (kPa) is a unit of pressure measurement.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="步长：0.1">
+  <data key="d0">步长：0.1</data>
+  <data key="d1">step</data>
+  <data key="d2">Step size refers to the increment used for precision, here indicating measurements are taken in increments of 0.1.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="事件">
+  <data key="d0">事件</data>
+  <data key="d1">event</data>
+  <data key="d2">Event represents an occurrence or action that happens.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="告警事件">
+  <data key="d0">告警事件</data>
+  <data key="d1">alert event</data>
+  <data key="d2">Alert event indicates a warning situation that requires attention.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="告警代码">
+  <data key="d0">告警代码</data>
+  <data key="d1">alert code</data>
+  <data key="d2">The alert code is a numeric identifier for each specific alert.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="告警时间">
+  <data key="d0">告警时间</data>
+  <data key="d1">alert time</data>
+  <data key="d2">Alert time represents the timestamp when the warning was triggered or acknowledged.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="故障事件">
+  <data key="d0">故障事件</data>
+  <data key="d1">malfunction event</data>
+  <data key="d2">Malfunction event denotes an incident where equipment failure occurred.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="故障代码">
+  <data key="d0">故障代码</data>
+  <data key="d1">malfunction code</data>
+  <data key="d2">The malfunction code is a numeric identifier for each specific fault.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="故障时间">
+  <data key="d0">故障时间</data>
+  <data key="d1">malfunction time</data>
+  <data key="d2">Malfunction time represents the timestamp when the equipment failure was identified or occurred.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="组织">
+  <data key="d0">组织</data>
+  <data key="d1">organization</data>
+  <data key="d2">The organization refers to the company or entity that operates these systems.</data>
+  <data key="d3">chunk-c9a741353246b95afab75f544a8698fe</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="水系统">
+  <data key="d0">水系统</data>
+  <data key="d1">category</data>
+  <data key="d2">水系统包含了冷冻水和冷却水的循环处理，涉及到泵、冷机等设备。</data>
+  <data key="d3">chunk-3967c2a3f252eec14f07b945870ee934</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="读写">
+  <data key="d0">读写</data>
+  <data key="d1">category</data>
+  <data key="d2">文本处理功能，用于阅读和书写数据。</data>
+  <data key="d3">chunk-3967c2a3f252eec14f07b945870ee934</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="water consumption">
+  <data key="d0">water consumption</data>
+  <data key="d1">category</data>
+  <data key="d2">水消费是衡量用水量的指标，用于评估和管理水资源。</data>
+  <data key="d3">chunk-6dbe69f067c4e88c41479a8c0858d84b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="electricity usage">
+  <data key="d0">electricity usage</data>
+  <data key="d1">category</data>
+  <data key="d2">电能使用表示电力消耗情况，是能耗分析的重要方面。</data>
+  <data key="d3">chunk-6dbe69f067c4e88c41479a8c0858d84b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="communication status">
+  <data key="d0">communication status</data>
+  <data key="d1">category</data>
+  <data key="d2">通信状态反映了设备与系统的连接能力，确保信息传输的正常运行。</data>
+  <data key="d3">chunk-6dbe69f067c4e88c41479a8c0858d84b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="remote control state">
+  <data key="d0">remote control state</data>
+  <data key="d1">category</data>
+  <data key="d2">远程控制状态描述了设备是否能够通过远程操作进行管理或调整。</data>
+  <data key="d3">chunk-6dbe69f067c4e88c41479a8c0858d84b</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ElectricPqt">
+  <data key="d0">ElectricPqt</data>
+  <data key="d1">organization</data>
+  <data key="d2">ElectricPqt is a component that measures power quality, including kVa unit for reactive power.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="A相无功功率">
+  <data key="d0">A相无功功率</data>
+  <data key="d1">organization</data>
+  <data key="d2">A相无功功率represents the reactive power consumption in phase A.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="B相无功功率">
+  <data key="d0">B相无功功率</data>
+  <data key="d1">organization</data>
+  <data key="d2">B相无功功率measures the reactive power consumption in phase B.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="C相无功功率">
+  <data key="d0">C相无功功率</data>
+  <data key="d1">organization</data>
+  <data key="d2">C相无功功率indicates the reactive power consumption in phase C.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="总功率因数">
+  <data key="d0">总功率因数</data>
+  <data key="d1">organization</data>
+  <data key="d2">Total power factor is a measurement of efficiency across all phases combined.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="A相功率因数">
+  <data key="d0">A相功率因数</data>
+  <data key="d1">organization</data>
+  <data key="d2">Power factor for phase A indicates the efficiency in phase A.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="B相功率因数">
+  <data key="d0">B相功率因数</data>
+  <data key="d1">organization</data>
+  <data key="d2">Power factor for phase B measures the efficiency in phase B.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="C相功率因数">
+  <data key="d0">C相功率因数</data>
+  <data key="d1">organization</data>
+  <data key="d2">Power factor for phase C reflects the efficiency in phase C.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="组合有功总电能">
+  <data key="d0">组合有功总电能</data>
+  <data key="d1">organization</data>
+  <data key="d2">Total combined active energy consumption is measured across all phases.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ActiveEnergyImportInPhaseL1">
+  <data key="d0">ActiveEnergyImportInPhaseL1</data>
+  <data key="d1">organization</data>
+  <data key="d2">Active energy imported from phase L1 includes positive and negative components.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ActiveEnergyImportInPhaseL2">
+  <data key="d0">ActiveEnergyImportInPhaseL2</data>
+  <data key="d1">organization</data>
+  <data key="d2">Active energy imported from phase L2 also contains positive and negative parts.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ActiveEnergyImportInPhaseL3">
+  <data key="d0">ActiveEnergyImportInPhaseL3</data>
+  <data key="d1">organization</data>
+  <data key="d2">Active energy imported from phase L3 comprises both positive and negative components.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="电表状态">
+  <data key="d0">电表状态</data>
+  <data key="d1">organization</data>
+  <data key="d2">Meter status indicates the communication state of the meter.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="供水温度">
+  <data key="d0">供水温度</data>
+  <data key="d1">organization</data>
+  <data key="d2">Supply water temperature measures the temperature in the water supply system.</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="功功率">
+  <data key="d0">功功率</data>
+  <data key="d1">category</data>
+  <data key="d2">功功率，通常指的是电能转换过程中有效利用的部分，与电力系统中的能量流动相关。</data>
+  <data key="d3">chunk-519337fa1654e0b6cd0b66212a7900dd</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="FAU">
+  <data key="d0">FAU</data>
+  <data key="d1">organization</data>
+  <data key="d2">FAU表管理设备的运行状态、故障和控制参数。</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="AHU">
+  <data key="d0">AHU</data>
+  <data key="d1">organization</data>
+  <data key="d2">AHU" is an air handling unit, which controls and manages the environmental conditions within a building.&lt;SEP&gt;AHU表用于跟踪空调单位相关属性，如送风湿度、温度等。</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb&lt;SEP&gt;chunk-f62879f62e615f35ea0933b0c3e572e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirHumidity">
+  <data key="d0">SupplyAirHumidity</data>
+  <data key="d1">attribute</data>
+  <data key="d2">供给空气湿度是FAU表中的可读属性，用于监测和控制。&lt;SEP&gt;表示送风湿度的实时测量值，单位为%rh。</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb&lt;SEP&gt;chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirTemperature">
+  <data key="d0">SupplyAirTemperature</data>
+  <data key="d1">attribute</data>
+  <data key="d2">供给空气温度是FAU表中的可读属性，用于监测和控制。&lt;SEP&gt;表示送风温度的实时测量值，单位为℃。</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb&lt;SEP&gt;chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="NewAirValveFB">
+  <data key="d0">NewAirValveFB</data>
+  <data key="d1">attribute</data>
+  <data key="d2">新风阀反馈是AHU表中的可读属性，用于监控阀门状态。</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="FreshAirTemperature">
+  <data key="d0">FreshAirTemperature</data>
+  <data key="d1">attribute</data>
+  <data key="d2">新鲜空气温度是AHU表中的可读属性，用于监测和控制。</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="Control">
+  <data key="d0">Control</data>
+  <data key="d1">attribute</data>
+  <data key="d2">控制方式选项，如手动/自动、启动/停止等。&lt;SEP&gt;控制是FAU表的写入/修改属性，用于启停设备。</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb&lt;SEP&gt;chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="FrequencyFeedback">
+  <data key="d0">FrequencyFeedback</data>
+  <data key="d1">attribute</data>
+  <data key="d2">频率反馈是FAU表的可读属性，显示运行频率。</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="属性">
+  <data key="d0">属性</data>
+  <data key="d1">category</data>
+  <data key="d2">The category '属性' refers to various characteristics or parameters that define operational details of AHU.</data>
+  <data key="d3">chunk-f62879f62e615f35ea0933b0c3e572e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="0.1">
+  <data key="d0">0.1</data>
+  <data key="d1">float</data>
+  <data key="d2">This represents a unit in the definition of frequency settings and other attributes within AHU.</data>
+  <data key="d3">chunk-f62879f62e615f35ea0933b0c3e572e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="冷水阀调节">
+  <data key="d0">冷水阀调节</data>
+  <data key="d1">ColdWaterAdjust</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="热水阀反馈">
+  <data key="d0">热水阀反馈</data>
+  <data key="d1">HotWaterFeedback</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="热水阀调节">
+  <data key="d0">热水阀调节</data>
+  <data key="d1">HotWaterAdjust</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="运行状态">
+  <data key="d0">运行状态</data>
+  <data key="d1">Status</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="故障">
+  <data key="d0">故障</data>
+  <data key="d1">Fault</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="手自动状态">
+  <data key="d0">手自动状态</data>
+  <data key="d1">AutomaticState</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="运行模式">
+  <data key="d0">运行模式</data>
+  <data key="d1">RunningMode</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="累计运行时间">
+  <data key="d0">累计运行时间</data>
+  <data key="d1">RunningTime</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="启停控制">
+  <data key="d0">启停控制</data>
+  <data key="d1">Control</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="频率模式">
+  <data key="d0">频率模式</data>
+  <data key="d1">FrequencyAutomaticState</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="频率调节">
+  <data key="d0">频率调节</data>
+  <data key="d1">FrequencyAdjust</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="频率反馈">
+  <data key="d0">频率反馈</data>
+  <data key="d1">FrequencyFeedback</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="频率设置">
+  <data key="d0">频率设置</data>
+  <data key="d1">FrequencySetting</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="当前温度">
+  <data key="d0">当前温度</data>
+  <data key="d1">CurrentTemperature</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="目标温度">
+  <data key="d0">目标温度</data>
+  <data key="d1">TargetTemperature</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="风速">
+  <data key="d0">风速</data>
+  <data key="d1">WindSpeed</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="在线状态">
+  <data key="d0">在线状态</data>
+  <data key="d1">State</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="工作模式">
+  <data key="d0">工作模式</data>
+  <data key="d1">WorkMode</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="节能开关">
+  <data key="d0">节能开关</data>
+  <data key="d1">EnergySwitch</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="远程锁定">
+  <data key="d0">远程锁定</data>
+  <data key="d1">RmoteLock</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="电源开关">
+  <data key="d0">电源开关</data>
+  <data key="d1">PowerSwitch</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="回风温度">
+  <data key="d0">回风温度</data>
+  <data key="d1">ReturnAirTemperature</data>
+  <data key="d2">只读&lt;SEP&gt;回风温度是空气在离开建筑物前的温度，对于热能回收和能量管理至关重要。单位为℃，取值范围0-100。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7&lt;SEP&gt;chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="回风湿度">
+  <data key="d0">回风湿度</data>
+  <data key="d1">ReturnAirHumidity</data>
+  <data key="d2">只读&lt;SEP&gt;回风湿度表示空气中的水分含量，对室内舒适度有直接影响。单位为%rh，取值范围0-100。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7&lt;SEP&gt;chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="送风温度">
+  <data key="d0">送风温度</data>
+  <data key="d1">SupplyAirTemperature</data>
+  <data key="d2">只读&lt;SEP&gt;送风温度是空气调节系统中的一个关键指标，用于控制和测量进入室内的空气温度。单位为℃，取值范围0-100。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7&lt;SEP&gt;chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="送风湿度">
+  <data key="d0">送风湿度</data>
+  <data key="d1">SupplyAirHumidity</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="风机转速">
+  <data key="d0">风机转速</data>
+  <data key="d1">FanSpeed</data>
+  <data key="d2">读写</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="制冷开关状态">
+  <data key="d0">制冷开关状态</data>
+  <data key="d1">RefrigerationStatus</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="加热开关状态">
+  <data key="d0">加热开关状态</data>
+  <data key="d1">HeatingStatus</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="加湿开关状态">
+  <data key="d0">加湿开关状态</data>
+  <data key="d1">HumidificationStatus</data>
+  <data key="d2">只读</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="空气调节系统">
+  <data key="d0">空气调节系统</data>
+  <data key="d1">organization</data>
+  <data key="d2">空气调节系统负责调整室内温度、湿度和气流，以提供适宜的环境。</data>
+  <data key="d3">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="HRV设备">
+  <data key="d0">HRV设备</data>
+  <data key="d1">organization</data>
+  <data key="d2">用于空气热回收的设备，包括送风机、排风机、水阀等部件。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirStatus">
+  <data key="d0">SupplyAirStatus</data>
+  <data key="d1">category</data>
+  <data key="d2">用于描述送风机运行状态的类别，可为0(停止)或1(运行)。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirFault">
+  <data key="d0">SupplyAirFault</data>
+  <data key="d1">category</data>
+  <data key="d2">表示送风机故障的状态，0代表正常，1代表有故障。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirAutomaticState">
+  <data key="d0">SupplyAirAutomaticState</data>
+  <data key="d1">category</data>
+  <data key="d2">描述送风机的手动/自动控制状态的类别。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirDiffPressureAlarm">
+  <data key="d0">SupplyAirDiffPressureAlarm</data>
+  <data key="d1">category</data>
+  <data key="d2">当送风机前后压差出现报警时触发的状态标志，0代表正常，1表示报警。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ExhaustAirStatus">
+  <data key="d0">ExhaustAirStatus</data>
+  <data key="d1">category</data>
+  <data key="d2">描述排风机运行状态的类别，可为0(停止)或1(运行)。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ExhaustAirFault">
+  <data key="d0">ExhaustAirFault</data>
+  <data key="d1">category</data>
+  <data key="d2">表示排风机故障的状态，0代表正常，1代表有故障。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ExhaustAirAutomaticState">
+  <data key="d0">ExhaustAirAutomaticState</data>
+  <data key="d1">category</data>
+  <data key="d2">描述排风机的手动/自动控制状态的类别。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ExhaustAirDiffPressureAlarm">
+  <data key="d0">ExhaustAirDiffPressureAlarm</data>
+  <data key="d1">category</data>
+  <data key="d2">当排风机前后压差出现报警时触发的状态标志，0代表正常，1表示报警。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="WaterAutomaticState">
+  <data key="d0">WaterAutomaticState</data>
+  <data key="d1">category</data>
+  <data key="d2">描述水阀的手动/自动控制状态的类别。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="WaterSet">
+  <data key="d0">WaterSet</data>
+  <data key="d1">category</data>
+  <data key="d2">用于设定或调整水阀门的目标值，单位为%。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="WaterFeedback">
+  <data key="d0">WaterFeedback</data>
+  <data key="d1">category</data>
+  <data key="d2">反馈当前水阀门的实际位置，单位为%，作为验证设定值是否正确执行的依据。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="WaterAdjust">
+  <data key="d0">WaterAdjust</data>
+  <data key="d1">category</data>
+  <data key="d2">显示水阀门调整的过程或结果，用于优化空气处理效率。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirFrequencyAutomaticState">
+  <data key="d0">SupplyAirFrequencyAutomaticState</data>
+  <data key="d1">category</data>
+  <data key="d2">描述送风机频率控制的手动/自动状态类别。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirFrequencySet">
+  <data key="d0">SupplyAirFrequencySet</data>
+  <data key="d1">category</data>
+  <data key="d2">用于设定或调整送风机的目标运行频率，单位为Hz。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirFrequencyFeedback">
+  <data key="d0">SupplyAirFrequencyFeedback</data>
+  <data key="d1">category</data>
+  <data key="d2">反馈当前送风机的实际运行频率，单位为Hz，用于验证设定值是否准确执行。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="SupplyAirFrequencyAdjust">
+  <data key="d0">SupplyAirFrequencyAdjust</data>
+  <data key="d1">category</data>
+  <data key="d2">展示送风机频率调整的过程或结果，帮助优化设备性能和能效。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ExhaustAirFrequencyAutomaticState">
+  <data key="d0">ExhaustAirFrequencyAutomaticState</data>
+  <data key="d1">category</data>
+  <data key="d2">描述排风机频率控制的手动/自动状态类别。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ExhaustAirFrequencySet">
+  <data key="d0">ExhaustAirFrequencySet</data>
+  <data key="d1">category</data>
+  <data key="d2">用于设定或调整排风机的目标运行频率，单位为Hz。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ExhaustAirFrequencyFeedback">
+  <data key="d0">ExhaustAirFrequencyFeedback</data>
+  <data key="d1">category</data>
+  <data key="d2">反馈当前排风机的实际运行频率，单位为Hz，用于验证设定值是否准确执行。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ExhaustAirFrequencyAdjust">
+  <data key="d0">ExhaustAirFrequencyAdjust</data>
+  <data key="d1">category</data>
+  <data key="d2">展示排风机频率调整的过程或结果，帮助优化设备性能和能效。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ReturnAirCO2">
+  <data key="d0">ReturnAirCO2</data>
+  <data key="d1">category</data>
+  <data key="d2">表示回风中的二氧化碳浓度，单位为ppm。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ReturnAirHumidity">
+  <data key="d0">ReturnAirHumidity</data>
+  <data key="d1">category</data>
+  <data key="d2">表示回风湿度的实时测量值，单位为%。</data>
+  <data key="d3">chunk-64ec11fd3e9e8949d2f78b74f1fcd2b2</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="回风CO2">
+  <data key="d0">回风CO2</data>
+  <data key="d1">属性</data>
+  <data key="d2">回风CO2浓度是室内空气质量的重要参数之一，用于监测和调整室内的二氧化碳含量。单位为ppm，取值范围0-1000。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="排风湿度">
+  <data key="d0">排风湿度</data>
+  <data key="d1">属性</data>
+  <data key="d2">排风湿度表示空气离开建筑物时的相对湿度，对环境影响及室内通风有关键作用。单位为%rh，取值范围0-100。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="排风温度">
+  <data key="d0">排风温度</data>
+  <data key="d1">属性</data>
+  <data key="d2">排风温度是空气从建筑物内排出前的温度，直接影响室内外热能交换和能量消耗。单位为℃，取值范围0-100。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="温度设定">
+  <data key="d0">温度设定</data>
+  <data key="d1">属性</data>
+  <data key="d2">温度设定用于调整送风温度，确保室内环境在舒适和节能范围内。单位为℃，取值范围0-100。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="CO2设定">
+  <data key="d0">CO2设定</data>
+  <data key="d1">属性</data>
+  <data key="d2">CO2设定控制室内二氧化碳浓度，以维持良好的空气质量和健康条件。单位为ppm，取值范围0-1000。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="过滤网告警">
+  <data key="d0">过滤网告警</data>
+  <data key="d1">Filter1_Alarm|Filter2Alarm|Filter3Alarm</data>
+  <data key="d2">Filter1_Alarm、Filter2Alarm和Filter3Alarm分别表示初效、中效和高效过滤网的状态。0代表正常，1表示报警。</data>
+  <data key="d3">chunk-1e8087ba8ac1d9aef5c90ff0823b8fb7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="门禁授权">
+  <data key="d0">门禁授权</data>
+  <data key="d1">organization</data>
+  <data key="d2">提供用户在特定区域的访问权限管理功能，包含验证和授权过程。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="门禁取消授权">
+  <data key="d0">门禁取消授权</data>
+  <data key="d1">organization</data>
+  <data key="d2">允许撤销先前提供的对特定区域的访问权限，控制进出权限。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="查询项目上的门禁状态">
+  <data key="d0">查询项目上的门禁状态</data>
+  <data key="d1">organization</data>
+  <data key="d2">帮助用户了解指定区域内各个门点的实时访问情况和状态。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="门禁权限组授权">
+  <data key="d0">门禁权限组授权</data>
+  <data key="d1">organization</data>
+  <data key="d2">分配一组用户的共同门禁访问权限，简化管理。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="门禁权限组取消授权">
+  <data key="d0">门禁权限组取消授权</data>
+  <data key="d1">organization</data>
+  <data key="d2">撤销对特定用户或组的门禁权限，提供更细粒度的访问控制。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="查询常用门点列表">
+  <data key="d0">查询常用门点列表</data>
+  <data key="d1">organization</data>
+  <data key="d2">根据业务需求列出常用的门点，并便于管理与快速查找。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="获取楼层号(分页)">
+  <data key="d0">获取楼层号(分页)</data>
+  <data key="d1">organization</data>
+  <data key="d2">提供电梯楼层信息，支持分页功能以提高数据检索效率。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="梯控授权">
+  <data key="d0">梯控授权</data>
+  <data key="d1">organization</data>
+  <data key="d2">对电梯控制系统进行授权，确保安全且有序地操作电梯。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="梯控取消授权">
+  <data key="d0">梯控取消授权</data>
+  <data key="d1">organization</data>
+  <data key="d2">撤销对电梯控制系统的权限，减少不必要或潜在的误操作风险。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="修改楼层(默认派梯楼层)">
+  <data key="d0">修改楼层(默认派梯楼层)</data>
+  <data key="d1">organization</data>
+  <data key="d2">允许用户根据需求更改默认的呼叫楼层设置，提升用户体验和效率。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="查询项目上的电梯状态">
+  <data key="d0">查询项目上的电梯状态</data>
+  <data key="d1">organization</data>
+  <data key="d2">提供电梯的状态信息，便于监控和故障排查。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="呼梯">
+  <data key="d0">呼梯</data>
+  <data key="d1">organization</data>
+  <data key="d2">通过系统控制电梯响应用户的呼叫请求，优化交通流量管理。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="常用呼梯列表">
+  <data key="d0">常用呼梯列表</data>
+  <data key="d1">organization</data>
+  <data key="d2">列出最常用的电梯线路或配置选择，便于用户快速操作。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="默认呼梯楼层">
+  <data key="d0">默认呼梯楼层</data>
+  <data key="d1">organization</data>
+  <data key="d2">设置并提供默认的电梯呼叫楼层，提高日常操作效率。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="获取人员二维码">
+  <data key="d0">获取人员二维码</data>
+  <data key="d1">organization</data>
+  <data key="d2">生成个人访问权限的验证码，用于安全身份识别和管理。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="人员照片数据同步">
+  <data key="d0">人员照片数据同步</data>
+  <data key="d1">organization</data>
+  <data key="d2">实现用户照片与数据库的实时同步更新，确保准确的信息记录。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="访问单新增">
+  <data key="d0">访问单新增</data>
+  <data key="d1">organization</data>
+  <data key="d2">创建新的访客访问请求，方便访客管理及权限分配。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="访问单删除">
+  <data key="d0">访问单删除</data>
+  <data key="d1">organization</data>
+  <data key="d2">处理不再需要的访客访问请求，优化资源管理和数据清洁。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="访问单访客获取二维码">
+  <data key="d0">访问单访客获取二维码</data>
+  <data key="d1">organization</data>
+  <data key="d2">为访问者生成特定的访问码或标识符，用于快速验证和管理过程。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="访客人脸照片同步">
+  <data key="d0">访客人脸照片同步</data>
+  <data key="d1">organization</data>
+  <data key="d2">通过面部识别系统进行身份认证和信息更新，提高安全性及便捷性。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="创建会议室">
+  <data key="d0">创建会议室</data>
+  <data key="d1">organization</data>
+  <data key="d2">在管理系统中新增会议空间，满足企业或组织内部的会议需求。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="修改会议室">
+  <data key="d0">修改会议室</data>
+  <data key="d1">organization</data>
+  <data key="d2">调整现有会议室的属性和配置，以适应变化的需求或优化布局。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="删除会议室">
+  <data key="d0">删除会议室</data>
+  <data key="d1">organization</data>
+  <data key="d2">根据需要从管理系统中移除不再使用的会议室记录，节省资源。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="预定会议">
+  <data key="d0">预定会议</data>
+  <data key="d1">organization</data>
+  <data key="d2">帮助用户在指定时间和地点预订会议室，提高空间利用率和组织效率。</data>
+  <data key="d3">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="删除会议室服务">
+  <data key="d0">删除会议室服务</data>
+  <data key="d1">服务</data>
+  <data key="d2">提供会议房间的删除功能</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="预定会议服务">
+  <data key="d0">预定会议服务</data>
+  <data key="d1">服务</data>
+  <data key="d2">提供会议预定的功能</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="修改会议服务">
+  <data key="d0">修改会议服务</data>
+  <data key="d1">服务</data>
+  <data key="d2">提供会议信息的修改功能</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="取消会议服务">
+  <data key="d0">取消会议服务</data>
+  <data key="d1">服务</data>
+  <data key="d2">提供取消已预定会议的功能</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="结束会议服务">
+  <data key="d0">结束会议服务</data>
+  <data key="d1">服务</data>
+  <data key="d2">提供正式结束会议的功能</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="开门成功/失败推送事件">
+  <data key="d0">开门成功/失败推送事件</data>
+  <data key="d1">事件</data>
+  <data key="d2">表示门的开启状态，包括成功与失败情况的信息通知</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="通行事件推送">
+  <data key="d0">通行事件推送</data>
+  <data key="d1">事件</data>
+  <data key="d2">传递有关人员进出的信息通知</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="子系统新增访客单事件推送">
+  <data key="d0">子系统新增访客单事件推送</data>
+  <data key="d1">事件</data>
+  <data key="d2">记录并推送新生成的访客单信息</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="访客签到(信息型)事件">
+  <data key="d0">访客签到(信息型)事件</data>
+  <data key="d1">事件</data>
+  <data key="d2">报告访客已到达并签名的情况，用于信息传递</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="访客签离(信息型)事件">
+  <data key="d0">访客签离(信息型)事件</data>
+  <data key="d1">事件</data>
+  <data key="d2">记录并通知访客已完成访问离开的信息</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="开关控制属性">
+  <data key="d0">开关控制属性</data>
+  <data key="d1">属性</data>
+  <data key="d2">描述设备的开/关状态，二进制形式表示</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="调光属性">
+  <data key="d0">调光属性</data>
+  <data key="d1">属性</data>
+  <data key="d2">描述照明调节的程度，范围0-100，步长为1</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="灯状态属性">
+  <data key="d0">灯状态属性</data>
+  <data key="d1">属性</data>
+  <data key="d2">仅用于读取设备是否开启或关闭的状态</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="调光状态属性">
+  <data key="d0">调光状态属性</data>
+  <data key="d1">属性</data>
+  <data key="d2">记录照明调节的详细程度，范围0-100，步长为1</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="调色属性">
+  <data key="d0">调色属性</data>
+  <data key="d1">属性</data>
+  <data key="d2">描述光源的颜色温度，取值在2700K到6000K之间</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="调色状态属性">
+  <data key="d0">调色状态属性</data>
+  <data key="d1">属性</data>
+  <data key="d2">只读的描述特定颜色温度的状态</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="World Athletics Championship">
+  <data key="d0">World Athletics Championship</data>
+  <data key="d1">event</data>
+  <data key="d2">每年一度的国际田径赛事，汇集全球顶尖运动员参与</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="Tokyo">
+  <data key="d0">Tokyo</data>
+  <data key="d1">geo</data>
+  <data key="d2">日本首都，2021年世界田径锦标赛举办地</data>
+  <data key="d3">chunk-0a519c1070cb9522adf81c90319456e7</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="door">
+  <data key="d0">door</data>
+  <data key="d1">organization</data>
+  <data key="d2">门体设备，包括远程控制、状态监测和报警功能。</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="lift">
+  <data key="d0">lift</data>
+  <data key="d1">organization</data>
+  <data key="d2">电梯设备，包括运行状态、位置、乘客状态等。</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="info_Release">
+  <data key="d0">info_Release</data>
+  <data key="d1">organization</data>
+  <data key="d2">信息发布设备或系统，包含状态监控、开关控制等功能。</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="门体">
+  <data key="d0">门体</data>
+  <data key="d1">organization</data>
+  <data key="d2">门体是一个用于远程控制和状态监控的设备，包含报警功能。</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="信息发布系统">
+  <data key="d0">信息发布系统</data>
+  <data key="d1">organization</data>
+  <data key="d2">信息发布系统负责管理设备状态、开关屏幕等功能。</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="bg_Music">
+  <data key="d0">bg_Music</data>
+  <data key="d1">organization</data>
+  <data key="d2">bg_Music是与音乐播放相关的服务，提供播放列表获取、节目播放和停止功能，以及设备状态监控。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="getProgList">
+  <data key="d0">getProgList</data>
+  <data key="d1">service</data>
+  <data key="d2">getProgList是一个服务，用于获取播放列表并返回播放列表信息。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="playProg">
+  <data key="d0">playProg</data>
+  <data key="d1">service</data>
+  <data key="d2">playProg是用于播放指定节目或控制播放的另一个服务。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="stopProg">
+  <data key="d0">stopProg</data>
+  <data key="d1">service</data>
+  <data key="d2">停止播放功能对应的服务，用于处理节目结束请求。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="getScreenCap">
+  <data key="d0">getScreenCap</data>
+  <data key="d1">service</data>
+  <data key="d2">获取播放截图功能对应的API，提供当前播放内容的截图数据。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="Televesion">
+  <data key="d0">Televesion</data>
+  <data key="d1">organization</data>
+  <data key="d2">Televesion表描述了电视设备的信息及状态，包括开关控制、音量控制和当前播放节目等属性。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="bg_Music服务">
+  <data key="d0">bg_Music服务</data>
+  <data key="d1">organization</data>
+  <data key="d2">bg_Music服务提供了播放列表获取、节目播放和停止功能，以及监控设备状态。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="getProgList服务">
+  <data key="d0">getProgList服务</data>
+  <data key="d1">service</data>
+  <data key="d2">getProgList服务用于获取播放列表，并返回包含所有节目的数据结构。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="playProg服务">
+  <data key="d0">playProg服务</data>
+  <data key="d1">service</data>
+  <data key="d2">playProg服务接收节目ID作为输入，启动特定节目的播放过程。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="stopProg服务">
+  <data key="d0">stopProg服务</data>
+  <data key="d1">service</data>
+  <data key="d2">stopProg服务用于停止当前正在播放的节目。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="getScreenCap服务">
+  <data key="d0">getScreenCap服务</data>
+  <data key="d1">service</data>
+  <data key="d2">getScreenCap服务在音乐播放时获取屏幕快照，返回截图数据或URL。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="Televesion设备">
+  <data key="d0">Televesion设备</data>
+  <data key="d1">organization</data>
+  <data key="d2">Televesion设备用于显示音乐内容，并具有开关、音量控制及监控当前正在播放的节目等功能。</data>
+  <data key="d3">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id=" UPS">
+  <data key="d0"> UPS</data>
+  <data key="d3">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d2">服务可能与UPS系统通信以更新其状态，关系强度为8".</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="FrequencySetting">
+  <data key="d0">FrequencySetting</data>
+  <data key="d3">chunk-0b3ecceeb48700da77b59ec38154a4fb</data>
+  <data key="d2">温度设置影响设备运行频率，二者有直接关系。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="读写(">
+  <data key="d0">读写(</data>
+  <data key="d3">chunk-f62879f62e615f35ea0933b0c3e572e0</data>
+  <data key="d2">&lt;"FrequencySetting"&gt;&lt;SEP&gt;&lt;"回风阀调节", "新风阀反馈", "送风阀反馈", "送风阀调节", "新风阀调节"&gt;&lt;SEP&gt;&lt;"温度设定", "CO2设定", "水阀设定", "水阀调节", "冷热水阀调节"&gt;</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="只读(">
+  <data key="d0">只读(</data>
+  <data key="d3">chunk-f62879f62e615f35ea0933b0c3e572e0</data>
+  <data key="d2">&lt;"回风CO2", "回风湿度", "回风温度", "送风湿度", "送风温度", "新风温度", "新风湿度", "送风压力", "水阀反馈", "过滤网告警", "防冻告警", "风机前后压差告警", "冷热水阀反馈"&gt;</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="power_switch">
+  <data key="d0">power_switch</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d2">门体通过远程电源开关进行控制，表示为"PowerSwitch"属性。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="current_floor">
+  <data key="d0">current_floor</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d2">电梯显示其当前所在的楼层，即'CurrentFloor'属性。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="ip">
+  <data key="d0">ip</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d2">"设备信息表中的IP地址参数，用于网络通信和识别设备。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="远程控制能力">
+  <data key="d0">远程控制能力</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d2">"门体能够通过远程操作实现开关功能，加强了其安全性与便利性。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="自动运行模式">
+  <data key="d0">自动运行模式</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d2">"电梯在正常工作时会根据需求自动调整上下行状态和速度等参数，提高运输效率。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<node id="在线状态检测">
+  <data key="d0">在线状态检测</data>
+  <data key="d3">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d2">"该系统能实时监控设备的状态，并判断其是否处于离线或在线状态，确保信息的及时性与可靠性。</data>
+  <data key="d1">UNKNOWN</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1757501497</data>
+</node>
+<edge source="智慧园区" target="车场管理">
+  <data key="d6">9.0</data>
+  <data key="d7">智慧园区内部的停车场管理包括高效的车辆调度、计费和维护，以提供流畅的停车体验。</data>
+  <data key="d8">优化流程,智能化</data>
+  <data key="d9">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="电梯" target="自动运行模式">
+  <data key="d6">9.0</data>
+  <data key="d7">"电梯在正常工作时会根据需求自动调整上下行状态和速度等参数，提高运输效率。</data>
+  <data key="d8">自动运行,运输效率</data>
+  <data key="d9">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="车位引导" target="智能摄像头">
+  <data key="d6">8.0</data>
+  <data key="d7">车位引导系统依赖于智能摄像头来实时检测并更新空闲车位的状态。</data>
+  <data key="d8">实时反馈,技术整合</data>
+  <data key="d9">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="车辆定位" target="视频分析盒子">
+  <data key="d6">7.0</data>
+  <data key="d7">视频分析盒子对停车场的实时视频流进行处理，以支持车辆定位功能。</data>
+  <data key="d8">定位辅助,数据处理</data>
+  <data key="d9">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="车场管理" target="停车引导系统">
+  <data key="d6">8.0</data>
+  <data key="d7">车场管理流程与停车引导系统协同工作，确保驾驶员能够快速找到停车位。</data>
+  <data key="d8">提高效率,集成服务</data>
+  <data key="d9">chunk-0bcbcaac15fff56dfd6ef3e2d80be6e4</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="pgs_controlRefresh" target="pgs_ultrasonicSpaceStatusUp">
+  <data key="d6">1.0</data>
+  <data key="d7">pgs_control刷新和超声波占用状态事件没有直接关系，两者分别管理不同功能.</data>
+  <data key="d8">无明确关联性,服务间逻辑关系</data>
+  <data key="d9">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="pgs_controlRefresh" target="pgs_screenSetLeadScreen">
+  <data key="d6">7.0</data>
+  <data key="d7">屏幕信息下发与控制器刷新服务有依赖关系，后者可能影响前者显示内容.</data>
+  <data key="d8">显示更新需要数据刷新,服务间依赖关系</data>
+  <data key="d9">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="pgs_controlRefresh" target=" UPS">
+  <data key="d6">8.0</data>
+  <data key="d7">服务可能与UPS系统通信以更新其状态，关系强度为8".</data>
+  <data key="d8">交互性,系统维护</data>
+  <data key="d9">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="pgs_ultrasonicSpaceStatusUp" target=" UPS">
+  <data key="d6">6.0</data>
+  <data key="d7">超声波空间占用事件可能用于监测和报告UPS系统的环境变化，关系强度为6".</data>
+  <data key="d8">状态监控,环境监测</data>
+  <data key="d9">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="pgs_screenSetLeadScreen" target=" UPS">
+  <data key="d6">7.0</data>
+  <data key="d7">屏幕信息服务可能需要与UPS系统进行通信以获取电源稳定性的相关信息，关系强度为7".</data>
+  <data key="d8">交互性,设备管理</data>
+  <data key="d9">chunk-4e7dfd62344442735858b0c4c7806d7f</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="BatteryCapacity" target="Voltage">
+  <data key="d6">8.0</data>
+  <data key="d7">电池性能相关，它们共同描述了电池的运行状态和性能指标，单位分别是百分比和伏特。</data>
+  <data key="d8">电能参数、电压、性能</data>
+  <data key="d9">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="AVoltage" target="BVoltage">
+  <data key="d6">6.0</data>
+  <data key="d7">A和B通道的旁路电压相比较，体现了设备内部各通道工作性能的一致性或差异性，单位均为伏特。</data>
+  <data key="d8">电能参数、电压、一致性/设备通道性能</data>
+  <data key="d9">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="WaterLevel" target="AlertStatusL">
+  <data key="d6">7.0</data>
+  <data key="d7">水位高度与低液位报警状态有关，表明当水位在特定阈值时会触发报警。</data>
+  <data key="d8">水位监控、报警系统</data>
+  <data key="d9">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="Pressure" target="PressureDifference">
+  <data key="d6">7.0</data>
+  <data key="d7">压力测量与压差关系紧密，描述了两个点之间压力的相对变化情况，单位为千帕斯卡。</data>
+  <data key="d8">环境监测、压力关系/压强差检测</data>
+  <data key="d9">chunk-df3a33417191c0d6ce20554a08ae3b31</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="water consumption" target="electricity usage">
+  <data key="d6">8.0</data>
+  <data key="d7">水消费与电能使用在资源管理和能源消耗方面有直接关联，共同影响总体能耗和环境足迹。</data>
+  <data key="d8">能源效率,资源消耗</data>
+  <data key="d9">chunk-6dbe69f067c4e88c41479a8c0858d84b</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="SupplyAirHumidity" target="FrequencyFeedback">
+  <data key="d6">7.0</data>
+  <data key="d7">湿度和频率反馈之间存在联系，调节运行效率。</data>
+  <data key="d8">环境与自动化、调节</data>
+  <data key="d9">chunk-0b3ecceeb48700da77b59ec38154a4fb</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="SupplyAirTemperature" target="FrequencySetting">
+  <data key="d6">8.0</data>
+  <data key="d7">温度设置影响设备运行频率，二者有直接关系。</data>
+  <data key="d8">环境控制、自动化调节</data>
+  <data key="d9">chunk-0b3ecceeb48700da77b59ec38154a4fb</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="属性" target="读写(">
+  <data key="d6">23.0</data>
+  <data key="d7">&lt;"FrequencySetting"&gt;&lt;SEP&gt;&lt;"回风阀调节", "新风阀反馈", "送风阀反馈", "送风阀调节", "新风阀调节"&gt;&lt;SEP&gt;&lt;"温度设定", "CO2设定", "水阀设定", "水阀调节", "冷热水阀调节"&gt;</data>
+  <data key="d8">&lt;float&gt;</data>
+  <data key="d9">chunk-f62879f62e615f35ea0933b0c3e572e0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="属性" target="只读(">
+  <data key="d6">9.0</data>
+  <data key="d7">&lt;"回风CO2", "回风湿度", "回风温度", "送风湿度", "送风温度", "新风温度", "新风湿度", "送风压力", "水阀反馈", "过滤网告警", "防冻告警", "风机前后压差告警", "冷热水阀反馈"&gt;</data>
+  <data key="d8">&lt;float&gt;</data>
+  <data key="d9">chunk-f62879f62e615f35ea0933b0c3e572e0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="运行模式" target="节能开关">
+  <data key="d6">5.0</data>
+  <data key="d7">energy_saving_switch_and_running_mode_correlation</data>
+  <data key="d8">device_optimization_strategy</data>
+  <data key="d9">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="当前温度" target="目标温度">
+  <data key="d6">7.0</data>
+  <data key="d7">current_temperature_and_target_temperature_correlation</data>
+  <data key="d8">temperature_control</data>
+  <data key="d9">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="目标温度" target="风速">
+  <data key="d6">6.0</data>
+  <data key="d7">wind_speed_influences_target_temperature</data>
+  <data key="d8">environmental_factor</data>
+  <data key="d9">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="在线状态" target="工作模式">
+  <data key="d6">8.0</data>
+  <data key="d7">online_status_and_work_mode_correlation</data>
+  <data key="d8">system_operational_state</data>
+  <data key="d9">chunk-d35db525d91459290b78b5a9b3312ea0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="门禁授权" target="门禁取消授权">
+  <data key="d6">8.0</data>
+  <data key="d7">"与特定权限相关联的控制和撤销操作，体现了访问控制策略的灵活性和安全性。</data>
+  <data key="d8">安全,权限管理</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="查询项目上的门禁状态" target="门禁权限组授权">
+  <data key="d6">7.0</data>
+  <data key="d7">"关联门禁系统监控和用户群体的权限分配，优化安全管理。</data>
+  <data key="d8">监控,群体管理</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="查询常用门点列表" target="获取楼层号(分页)">
+  <data key="d6">6.0</data>
+  <data key="d7">"与提供层次化的楼层信息相关的服务，提高导航效率和便利性。</data>
+  <data key="d8">导航,楼层管理</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="梯控授权" target="梯控取消授权">
+  <data key="d6">7.0</data>
+  <data key="d7">"与电梯控制系统权限的管理，确保安全、有序的操作环境。</data>
+  <data key="d8">安全控制,电梯管理</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="修改楼层(默认派梯楼层)" target="查询项目上的电梯状态">
+  <data key="d6">6.0</data>
+  <data key="d7">"与优化电梯调度相关的操作和监控，提升交通流畅性。</data>
+  <data key="d8">状态监测,电梯调度</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="呼梯" target="常用呼梯列表">
+  <data key="d6">7.0</data>
+  <data key="d7">"基于用户习惯的电梯呼叫服务，提高响应速度和满意度。</data>
+  <data key="d8">呼叫优化,用户习惯</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="访问单新增" target="访问单删除">
+  <data key="d6">8.0</data>
+  <data key="d7">"作为管理访客或员工访问流程的一部分，确保权限的有效性和及时性。</data>
+  <data key="d8">流程控制,访问管理</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="访问单访客获取二维码" target="访客人脸照片同步">
+  <data key="d6">9.0</data>
+  <data key="d7">"与面部识别和身份验证服务相结合，提升安全性和便捷性。</data>
+  <data key="d8">安全性,身份验证</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="创建会议室" target="修改会议室">
+  <data key="d6">7.0</data>
+  <data key="d7">"对会议空间的动态管理活动，适应不同规模和需求的变化。</data>
+  <data key="d8">动态调整,空间管理</data>
+  <data key="d9">chunk-e1c25c13ad8c15c0765457d440066493</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="door" target="power_switch">
+  <data key="d6">7.0</data>
+  <data key="d7">门体通过远程电源开关进行控制，表示为"PowerSwitch"属性。</data>
+  <data key="d8">电源控制,门体操作</data>
+  <data key="d9">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="lift" target="current_floor">
+  <data key="d6">8.0</data>
+  <data key="d7">电梯显示其当前所在的楼层，即'CurrentFloor'属性。</data>
+  <data key="d8">电梯位置指示</data>
+  <data key="d9">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="info_Release" target="ip">
+  <data key="d6">9.0</data>
+  <data key="d7">"设备信息表中的IP地址参数，用于网络通信和识别设备。</data>
+  <data key="d8">网络通信,设备标识</data>
+  <data key="d9">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="门体" target="远程控制能力">
+  <data key="d6">8.0</data>
+  <data key="d7">"门体能够通过远程操作实现开关功能，加强了其安全性与便利性。</data>
+  <data key="d8">安全性,远程控制</data>
+  <data key="d9">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="信息发布系统" target="在线状态检测">
+  <data key="d6">7.0</data>
+  <data key="d7">"该系统能实时监控设备的状态，并判断其是否处于离线或在线状态，确保信息的及时性与可靠性。</data>
+  <data key="d8">信息及时性,在线监测</data>
+  <data key="d9">chunk-817b1d253802f16b1911a4c221c951e0</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="bg_Music" target="getProgList">
+  <data key="d6">9.0</data>
+  <data key="d7">"获取播放列表服务与bg_Music组织关联，用于执行音乐播放管理任务。</data>
+  <data key="d8">data retrieval,service management</data>
+  <data key="d9">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="bg_Music" target="playProg">
+  <data key="d6">8.0</data>
+  <data key="d7">"播放节目服务与bg_Music组织相关联，用于控制和操作节目播放。</data>
+  <data key="d8">program control,service operation</data>
+  <data key="d9">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="bg_Music" target="stopProg">
+  <data key="d6">7.0</data>
+  <data key="d7">"停止单个程序服务与bg_Music相关，处理停止当前播放的请求。</data>
+  <data key="d8">program stop,service termination</data>
+  <data key="d9">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="bg_Music" target="getScreenCap">
+  <data key="d6">6.0</data>
+  <data key="d7">"获取播放截图功能与bg_Music关联，提供音乐播放时的屏幕快照。</data>
+  <data key="d8">snapshot capture,visual data retrieval</data>
+  <data key="d9">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="bg_Music服务" target="getProgList服务">
+  <data key="d6">9.0</data>
+  <data key="d7">"bg_Music服务中的getProgList服务与整个播放流程相关联，获取播放列表信息。</data>
+  <data key="d8">data retrieval,service integration</data>
+  <data key="d9">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="bg_Music服务" target="playProg服务">
+  <data key="d6">8.0</data>
+  <data key="d7">"playProg服务在bg_Music服务框架内用于执行节目播放操作，依据具体需求启动指定节目的播放过程。</data>
+  <data key="d8">program execution,service operation</data>
+  <data key="d9">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="bg_Music服务" target="stopProg服务">
+  <data key="d6">7.0</data>
+  <data key="d7">"当需要终止音乐播放时，通过调用stopProg服务来完成这一任务，在bg_Music流程中提供停止功能支持。</data>
+  <data key="d8">program stop,service termination</data>
+  <data key="d9">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+<edge source="bg_Music服务" target="getScreenCap服务">
+  <data key="d6">6.0</data>
+  <data key="d7">"getScreenCap服务在音乐播放过程中被bg_Music服务调用，用于记录屏幕截图或获取快照数据。</data>
+  <data key="d8">snapshot management,visual data retrieval</data>
+  <data key="d9">chunk-678c7037c8d15feb0ad1ba43bbc20218</data>
+  <data key="d10">unknown_source</data>
+  <data key="d11">1757501497</data>
+</edge>
+</graph></graphml>

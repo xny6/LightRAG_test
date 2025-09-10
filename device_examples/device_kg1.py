@@ -1,9 +1,5 @@
-from lightrag.operate import get_keywords_from_query, extract_keywords_only, _get_edge_data
-from dataclasses import asdict
-import json
 import asyncio
 import os
-import shutil
 import inspect
 import logging
 import logging.config
@@ -16,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "/home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama"
+WORKING_DIR = "working_dir_for_device1"
 
 
 def configure_logging():
@@ -30,7 +26,7 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "working_dir_for_AC_attack.log"))
+    log_file_path = os.path.abspath(os.path.join(log_dir, "log_for_device1.log"))
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -82,19 +78,24 @@ def configure_logging():
     set_verbose_debug(os.getenv("VERBOSE_DEBUG", "false").lower() == "true")
 
 
-async def initialize_rag(working_dir=WORKING_DIR):
+if not os.path.exists(WORKING_DIR):
+    os.mkdir(WORKING_DIR)
+
+
+async def initialize_rag():
     rag = LightRAG(
-        working_dir=working_dir,
+        working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
         llm_model_name=os.getenv("LLM_MODEL", "qwen2"),
         llm_model_max_token_size=8192,
-        llm_model_max_async=12,
-        max_parallel_insert=3,
         llm_model_kwargs={
             "host": os.getenv("LLM_BINDING_HOST", "http://localhost:11434"),
             "options": {"num_ctx": 32768},
             "timeout": int(os.getenv("TIMEOUT", "600")),
         },
+        llm_model_max_async=32,
+        addon_params={'language': 'Simplified Chinese'},
+
         embedding_func=EmbeddingFunc(
             embedding_dim=int(os.getenv("EMBEDDING_DIM", "768")),
             max_token_size=int(os.getenv("MAX_EMBED_TOKENS", "8192")),
@@ -117,64 +118,56 @@ async def print_stream(stream):
         print(chunk, end="", flush=True)
 
 
-async def query_kg(rag, question,param):
-    response = await rag.aquery(
-        question,
-        param=param,
-    )
-    return response
-
-
-# async def test_query(question):
-#     try:
-#         rag= await initialize_rag()
-
-#         query_param = QueryParam(mode='global', stream=False, history_turns=0)
-
-#         response = await rag.aquery(
-#             question,
-#             param=query_param,
-#         )
-
-#         print(f"Response: {response}")
-#     except Exception as e:
-#         print(f"An error occurred: {e}")
-#     finally:
-#         if rag:
-#             await rag.llm_response_cache.index_done_callback()
-#             await rag.finalize_storages()
-
 async def main():
     try:
+        # Clear old data files
+        files_to_delete = [
+            "graph_chunk_entity_relation.graphml",
+            "kv_store_doc_status.json",
+            "kv_store_full_docs.json",
+            "kv_store_text_chunks.json",
+            "vdb_chunks.json",
+            "vdb_entities.json",
+            "vdb_relationships.json",
+        ]
+
+        for file in files_to_delete:
+            file_path = os.path.join(WORKING_DIR, file)
+            if os.path.exists(file_path):
+                os.remove(file_path)
+                print(f"Deleting old file:: {file_path}")
 
         # Initialize RAG instance
         rag = await initialize_rag()
 
-        query_param = QueryParam(mode='global', stream=False, history_turns=0)
+        # Test embedding function
+        test_text = ["This is a test string for embedding."]
+        embedding = await rag.embedding_func(test_text)
+        embedding_dim = embedding.shape[1]
+        print("\n=======================")
+        print("Test embedding function")
+        print("========================")
+        print(f"Test dict: {test_text}")
+        print(f"Detected embedding dimension: {embedding_dim}\n\n")
 
-        with open('/home/NingyuanXiao/Vanna_test/enhanced_prompt_injection_sql_kg_1_reference.json', 'r') as f:
-            data = json.load(f)
+        # Load data into RAG
+        with open("/home/NingyuanXiao/LightRAG_test/device_examples/device_repair.txt", "r", encoding="utf-8") as f:
+            await rag.ainsert(f.read())
 
-        for entry in data:
-            question = entry.get("KG Query", "").strip()
-            response = await query_kg(rag, question, query_param)
-            entry["KG Result"] = response
 
-        with open('/home/NingyuanXiao/Vanna_test/enhanced_prompt_injection_sql_kg_1_reference.json', 'w') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-        
+        # Perform local search
+        print("\n=====================")
+        print("Query mode: global")
+        print("=====================")
+        resp = await rag.aquery(
+            "主要的设备名称有哪些？",
+            param=QueryParam(mode="global", stream=True),
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
 
-        with open('/home/NingyuanXiao/Vanna_test/enhanced_prompt_injection_sql_kg_2_reference.json', 'r') as f:
-            data2 = json.load(f)
-
-        for entry in data2:
-            question = entry.get("KG Query", "").strip()
-            response = await query_kg(rag, question, query_param)
-            entry["KG Result"] = response
-
-        with open('/home/NingyuanXiao/Vanna_test/enhanced_prompt_injection_sql_kg_2_reference.json', 'w') as f:
-            json.dump(data2, f, ensure_ascii=False, indent=4)
-        
 
 
     except Exception as e:
@@ -183,6 +176,7 @@ async def main():
         if rag:
             await rag.llm_response_cache.index_done_callback()
             await rag.finalize_storages()
+
 
 if __name__ == "__main__":
     # Configure logging before running the main function
