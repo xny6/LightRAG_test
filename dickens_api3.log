@@ -1,0 +1,161 @@
+2026-01-05 06:55:41,171 - lightrag - INFO - Created new empty graph
+2026-01-05 06:55:41,175 - lightrag - INFO - Process 3116153 KV load full_docs with 0 records
+2026-01-05 06:55:41,176 - lightrag - INFO - Process 3116153 KV load text_chunks with 0 records
+2026-01-05 06:55:41,176 - lightrag - INFO - Process 3116153 KV load llm_response_cache with 0 records
+2026-01-05 06:55:41,176 - lightrag - INFO - Process 3116153 doc status load doc_status with 0 records
+2026-01-05 06:55:41,176 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-05 06:55:41,176 - lightrag - INFO - Storage Initialization completed!
+2026-01-05 06:55:45,597 - lightrag - INFO - Stored 1 new unique documents
+2026-01-05 06:55:45,597 - lightrag - INFO - Processing 1 document(s)
+2026-01-05 06:55:45,598 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-05 06:55:45,598 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-05 06:55:45,622 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-05 06:55:45,941 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:45,942 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:45,945 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:45,945 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:45,946 - lightrag - ERROR - Failed to extract entities and relationships: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:45,947 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:45,952 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 186, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 2028, in create
+    return await self._post(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/_base_client.py", line 1748, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/_base_client.py", line 1555, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+
+2026-01-05 06:55:45,952 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-05 06:55:45,954 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:45,954 - lightrag - INFO - Document processing pipeline completed
+2026-01-05 06:55:45,975 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:45,976 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:46,067 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:55:46,068 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'code': ''}}
+2026-01-05 06:56:43,591 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-05 06:58:45,349 - lightrag - INFO - Created new empty graph
+2026-01-05 06:58:45,353 - lightrag - INFO - Process 3121430 KV load full_docs with 0 records
+2026-01-05 06:58:45,353 - lightrag - INFO - Process 3121430 KV load text_chunks with 0 records
+2026-01-05 06:58:45,353 - lightrag - INFO - Process 3121430 KV load llm_response_cache with 0 records
+2026-01-05 06:58:45,353 - lightrag - INFO - Process 3121430 doc status load doc_status with 0 records
+2026-01-05 06:58:45,354 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-05 06:58:45,354 - lightrag - INFO - Storage Initialization completed!
+2026-01-05 06:58:45,437 - lightrag - INFO - Stored 1 new unique documents
+2026-01-05 06:58:45,438 - lightrag - INFO - Processing 1 document(s)
+2026-01-05 06:58:45,438 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-05 06:58:45,438 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-05 06:58:45,449 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-05 06:58:52,444 - lightrag - INFO -  == LLM cache == saving default: 7f1fa9b2c3f3dafbb7c3d28ba94a1170
+2026-01-05 06:58:52,949 - lightrag - INFO -  == LLM cache == saving default: 3e429cf8a94ff53501e74fbac2e8af0b
+2026-01-05 06:58:52,996 - lightrag - INFO -  == LLM cache == saving default: a34b2d1c7fc4ed2403c0d56b9d4c637b
+2026-01-05 06:58:58,481 - lightrag - INFO -  == LLM cache == saving default: 0e4add8063e72dc6fd75a30c60023cde
+2026-01-05 06:58:59,641 - lightrag - INFO -  == LLM cache == saving default: b2a12b525b8437f597ff553868ad364c
+2026-01-05 06:58:59,642 - lightrag - INFO - Chunk 1 of 12 extracted 7 Ent + 6 Rel
+2026-01-05 06:59:00,215 - lightrag - INFO -  == LLM cache == saving default: 21f2160088eb9676ea06af501ba32d62
+2026-01-05 06:59:00,216 - lightrag - INFO - Chunk 2 of 12 extracted 10 Ent + 6 Rel
+2026-01-05 06:59:00,875 - lightrag - INFO -  == LLM cache == saving default: f4a44d8610960c4e8cf1e21174d66591
+2026-01-05 06:59:00,876 - lightrag - INFO - Chunk 3 of 12 extracted 9 Ent + 6 Rel
+2026-01-05 06:59:06,646 - lightrag - INFO -  == LLM cache == saving default: 6708c4757ea594bcb277756e462383af
+2026-01-05 06:59:06,905 - lightrag - INFO -  == LLM cache == saving default: d4e7fa8d281588b33c10ec3610672987
+2026-01-05 06:59:10,107 - lightrag - INFO -  == LLM cache == saving default: c267a2374706ca2b6728aaf467ccdcfd
+2026-01-05 06:59:13,476 - lightrag - INFO -  == LLM cache == saving default: c263cedba263700ce5a349255e5742b1
+2026-01-05 06:59:13,479 - lightrag - INFO - Chunk 4 of 12 extracted 27 Ent + 18 Rel
+2026-01-05 06:59:13,683 - lightrag - INFO -  == LLM cache == saving default: 2c9d390663e43435d05af77fa2d519a8
+2026-01-05 06:59:13,684 - lightrag - INFO - Chunk 5 of 12 extracted 10 Ent + 5 Rel
+2026-01-05 06:59:18,376 - lightrag - INFO -  == LLM cache == saving default: 04046e784c01c6affd3d2e990767ba4d
+2026-01-05 06:59:18,420 - lightrag - INFO -  == LLM cache == saving default: 49a5875760982e4f3ee046ff7e4bee59
+2026-01-05 06:59:18,421 - lightrag - INFO - Chunk 6 of 12 extracted 8 Ent + 7 Rel
+2026-01-05 06:59:18,422 - lightrag - INFO -  == LLM cache == saving default: 5b918ac7941bbda00b24924706cf25eb
+2026-01-05 06:59:18,423 - lightrag - INFO - Chunk 7 of 12 extracted 8 Ent + 7 Rel
+2026-01-05 06:59:19,271 - lightrag - INFO -  == LLM cache == saving default: 1aa836c867306c337acaa488cbe2fcfc
+2026-01-05 06:59:24,313 - lightrag - INFO -  == LLM cache == saving default: 7a950b99326231eb402963e32b3152d6
+2026-01-05 06:59:24,522 - lightrag - INFO -  == LLM cache == saving default: 75f14962be635a9f9faace2b510a67a7
+2026-01-05 06:59:26,049 - lightrag - INFO -  == LLM cache == saving default: 595446d894d8824ba138f1e6967697a9
+2026-01-05 06:59:26,050 - lightrag - INFO - Chunk 8 of 12 extracted 7 Ent + 8 Rel
+2026-01-05 06:59:26,506 - lightrag - INFO -  == LLM cache == saving default: 3e0685127a3b34a6b775243f1531393b
+2026-01-05 06:59:26,508 - lightrag - INFO - Chunk 9 of 12 extracted 5 Ent + 5 Rel
+2026-01-05 06:59:27,355 - lightrag - INFO -  == LLM cache == saving default: 7ac9e67d1e4a6b17d32ed1be430fe339
+2026-01-05 06:59:30,115 - lightrag - INFO -  == LLM cache == saving default: e3fd79e65cecfab4bc9e5ac326a416be
+2026-01-05 06:59:30,116 - lightrag - INFO - Chunk 10 of 12 extracted 0 Ent + 0 Rel
+2026-01-05 06:59:31,737 - lightrag - INFO -  == LLM cache == saving default: 7ad0667e1dbc0980e3943fd284a25074
+2026-01-05 06:59:31,739 - lightrag - INFO - Chunk 11 of 12 extracted 7 Ent + 6 Rel
+2026-01-05 06:59:32,557 - lightrag - INFO -  == LLM cache == saving default: a9103a82e7281df705eec728a33de499
+2026-01-05 06:59:32,558 - lightrag - INFO - Chunk 12 of 12 extracted 8 Ent + 5 Rel
+2026-01-05 06:59:32,559 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-01-05 06:59:32,560 - lightrag - INFO - Merge N: Bob Cratchit | 2+0
+2026-01-05 06:59:32,560 - lightrag - INFO - Merge N: Ebenezer Scrooge | 4+0
+2026-01-05 06:59:32,560 - lightrag - INFO - Merge N: Fred | 2+0
+2026-01-05 06:59:32,561 - lightrag - INFO - Merge N: Joe | 2+0
+2026-01-05 06:59:32,561 - lightrag - INFO - Merge N: Mrs. Fezziwig | 2+0
+2026-01-05 06:59:32,561 - lightrag - INFO - LLM merge N: Scrooge | 7+0
+2026-01-05 06:59:35,365 - lightrag - INFO -  == LLM cache == saving default: 7cf29322c977b8d15764bd68241fd33f
+2026-01-05 06:59:35,366 - lightrag - INFO - Merge N: Marley | 3+0
+2026-01-05 06:59:35,366 - lightrag - INFO - Merge N: Scrooge and Marley | 2+0
+2026-01-05 06:59:35,366 - lightrag - INFO - Merge N: Marley's Ghost | 5+0
+2026-01-05 06:59:35,366 - lightrag - INFO - Merge N: Scrooge's Nephew | 2+0
+2026-01-05 06:59:35,366 - lightrag - INFO - Merge N: Christmas Eve | 3+0
+2026-01-05 06:59:35,366 - lightrag - INFO - Merge N: The City | 2+0
+2026-01-05 06:59:35,393 - lightrag - INFO - Merge N: Jacob Marley | 3+0
+2026-01-05 06:59:35,404 - lightrag - INFO - Merge E: Ebenezer Scrooge - Ghost of Christmas Past | 2+0
+2026-01-05 06:59:35,404 - lightrag - INFO - Merge E: Marley - Scrooge | 3+0
+2026-01-05 06:59:35,405 - lightrag - INFO - Merge E: Marley's Ghost - Scrooge | 4+0
+2026-01-05 06:59:35,405 - lightrag - INFO - Merge E: Jacob Marley - Scrooge | 2+0
+2026-01-05 06:59:35,406 - lightrag - INFO - Updating 80 entities  1/1: unknown_source
+2026-01-05 06:59:36,287 - lightrag - INFO - Updating 72 relations 1/1: unknown_source
+2026-01-05 06:59:37,090 - lightrag - INFO - Writing graph with 81 nodes, 72 edges
+2026-01-05 06:59:37,119 - lightrag - INFO - In memory DB persist to disk
+2026-01-05 06:59:37,119 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-01-05 06:59:37,120 - lightrag - INFO - Document processing pipeline completed
+2026-01-05 06:59:38,653 - lightrag - INFO -  == LLM cache == saving global: 20f25304745f8c690c60c67fa5ed9e87
+2026-01-05 06:59:38,653 - lightrag - INFO - Process 3121430 building query context...
+2026-01-05 06:59:38,653 - lightrag - INFO - Query edges: Story themes, Narrative analysis, Literary concepts, top_k: 60, cosine: 0.2
+2026-01-05 06:59:38,748 - lightrag - INFO - Global query uses 50 entites, 60 relations, 3 chunks
+2026-01-05 06:59:45,746 - lightrag - INFO - Storage Finalization completed!

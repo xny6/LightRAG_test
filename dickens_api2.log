@@ -1,0 +1,937 @@
+2026-01-02 02:38:02,476 - lightrag - INFO - Created new empty graph
+2026-01-02 02:38:02,480 - lightrag - INFO - Process 1582231 KV load full_docs with 0 records
+2026-01-02 02:38:02,480 - lightrag - INFO - Process 1582231 KV load text_chunks with 0 records
+2026-01-02 02:38:02,480 - lightrag - INFO - Process 1582231 KV load llm_response_cache with 0 records
+2026-01-02 02:38:02,480 - lightrag - INFO - Process 1582231 doc status load doc_status with 0 records
+2026-01-02 02:38:02,481 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:38:02,481 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:38:06,244 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:38:06,244 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:38:06,245 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:38:06,245 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:38:06,255 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:38:06,603 - lightrag - ERROR - OpenAI API Call Failed,
+Model: Qwen/Qwen3-8B,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,604 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,605 - lightrag - ERROR - OpenAI API Call Failed,
+Model: Qwen/Qwen3-8B,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,607 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,607 - lightrag - ERROR - OpenAI API Call Failed,
+Model: Qwen/Qwen3-8B,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,608 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,608 - lightrag - ERROR - Failed to extract entities and relationships: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,613 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 186, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 2028, in create
+    return await self._post(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/_base_client.py", line 1748, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/_base_client.py", line 1555, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+
+2026-01-02 02:38:06,613 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:38:06,616 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:38:06,648 - lightrag - ERROR - OpenAI API Call Failed,
+Model: Qwen/Qwen3-8B,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,649 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,938 - lightrag - ERROR - OpenAI API Call Failed,
+Model: Qwen/Qwen3-8B,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,939 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:06,990 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:38:32,785 - lightrag - INFO - Created new empty graph
+2026-01-02 02:38:32,789 - lightrag - INFO - Process 1582905 KV load full_docs with 0 records
+2026-01-02 02:38:32,789 - lightrag - INFO - Process 1582905 KV load text_chunks with 0 records
+2026-01-02 02:38:32,789 - lightrag - INFO - Process 1582905 KV load llm_response_cache with 0 records
+2026-01-02 02:38:32,789 - lightrag - INFO - Process 1582905 doc status load doc_status with 0 records
+2026-01-02 02:38:32,790 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:38:32,790 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:38:32,857 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:38:32,859 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:38:32,859 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:38:32,859 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:38:32,869 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:38:33,160 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,160 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,161 - lightrag - ERROR - Failed to extract entities and relationships: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,164 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 186, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 2028, in create
+    return await self._post(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/_base_client.py", line 1748, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/_base_client.py", line 1555, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+
+2026-01-02 02:38:33,165 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:38:33,169 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:38:33,171 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,172 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,172 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,173 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,197 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,197 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,452 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,453 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 404 - {'error': {'message': 'Invalid URL (POST /v1/chat/completions/chat/completions)', 'type': 'invalid_request_error', 'param': '', 'code': ''}}
+2026-01-02 02:38:33,497 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:40:11,867 - lightrag - INFO - Created new empty graph
+2026-01-02 02:40:11,871 - lightrag - INFO - Process 1583771 KV load full_docs with 0 records
+2026-01-02 02:40:11,871 - lightrag - INFO - Process 1583771 KV load text_chunks with 0 records
+2026-01-02 02:40:11,871 - lightrag - INFO - Process 1583771 KV load llm_response_cache with 0 records
+2026-01-02 02:40:11,872 - lightrag - INFO - Process 1583771 doc status load doc_status with 0 records
+2026-01-02 02:40:11,872 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:40:11,872 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:40:11,945 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:40:11,946 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:40:11,946 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:40:11,946 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:40:11,956 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:40:12,308 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012259675747fL8HBU2X)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,309 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012259675747fL8HBU2X)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,311 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 202601021040122628883641Uahj89R)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,312 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012262337878DQu7pZ6b)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,313 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 202601021040122628883641Uahj89R)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,313 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012262337878DQu7pZ6b)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,314 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012264445112NRWejHBj)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,315 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012264445112NRWejHBj)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,315 - lightrag - ERROR - Failed to extract entities and relationships: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012259675747fL8HBU2X)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,319 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 186, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 2028, in create
+    return await self._post(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/_base_client.py", line 1748, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/openai/_base_client.py", line 1555, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012259675747fL8HBU2X)', 'type': 'new_api_error'}}
+
+2026-01-02 02:40:12,319 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:40:12,323 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:40:12,596 - lightrag - ERROR - OpenAI API Call Failed,
+Model: gpt-4o,
+Params: {}, Got: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012547371617uxaQ3Cz7)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,597 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 401 - {'error': {'code': '', 'message': '该令牌已过期 (request id: 20260102104012547371617uxaQ3Cz7)', 'type': 'new_api_error'}}
+2026-01-02 02:40:12,654 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:40:50,191 - lightrag - INFO - Created new empty graph
+2026-01-02 02:40:50,195 - lightrag - INFO - Process 1584391 KV load full_docs with 0 records
+2026-01-02 02:40:50,195 - lightrag - INFO - Process 1584391 KV load text_chunks with 0 records
+2026-01-02 02:40:50,195 - lightrag - INFO - Process 1584391 KV load llm_response_cache with 0 records
+2026-01-02 02:40:50,195 - lightrag - INFO - Process 1584391 doc status load doc_status with 0 records
+2026-01-02 02:40:50,196 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:40:50,196 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:40:50,267 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:40:50,268 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:40:50,268 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:40:50,268 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:40:50,278 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:40:50,602 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:40:50,605 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:40:50,605 - lightrag - ERROR - Failed to extract entities and relationships: 'str' object has no attribute 'choices'
+2026-01-02 02:40:50,610 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 285, in openai_complete_if_cache
+    or not response.choices
+AttributeError: 'str' object has no attribute 'choices'
+
+2026-01-02 02:40:50,611 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:40:50,616 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:40:50,620 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:40:50,620 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:40:50,841 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:40:50,898 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:42:10,116 - lightrag - INFO - Created new empty graph
+2026-01-02 02:42:10,119 - lightrag - INFO - Process 1585183 KV load full_docs with 0 records
+2026-01-02 02:42:10,119 - lightrag - INFO - Process 1585183 KV load text_chunks with 0 records
+2026-01-02 02:42:10,119 - lightrag - INFO - Process 1585183 KV load llm_response_cache with 0 records
+2026-01-02 02:42:10,119 - lightrag - INFO - Process 1585183 doc status load doc_status with 0 records
+2026-01-02 02:42:10,120 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:42:10,120 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:42:10,190 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:42:10,191 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:42:10,192 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:42:10,192 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:42:10,202 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:42:10,489 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:42:10,491 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:42:10,493 - lightrag - ERROR - Failed to extract entities and relationships: 'str' object has no attribute 'choices'
+2026-01-02 02:42:10,494 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:42:10,499 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    response = await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 285, in openai_complete_if_cache
+    or not response.choices
+AttributeError: 'str' object has no attribute 'choices'
+
+2026-01-02 02:42:10,499 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:42:10,505 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:42:10,507 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:42:10,793 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:42:10,851 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:45:07,687 - lightrag - INFO - Created new empty graph
+2026-01-02 02:45:07,691 - lightrag - INFO - Process 1586920 KV load full_docs with 0 records
+2026-01-02 02:45:07,691 - lightrag - INFO - Process 1586920 KV load text_chunks with 0 records
+2026-01-02 02:45:07,691 - lightrag - INFO - Process 1586920 KV load llm_response_cache with 0 records
+2026-01-02 02:45:07,691 - lightrag - INFO - Process 1586920 doc status load doc_status with 0 records
+2026-01-02 02:45:07,691 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:45:07,692 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:45:07,760 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:45:07,761 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:45:07,762 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:45:07,762 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:45:07,773 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:45:08,068 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:45:08,069 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:45:08,069 - lightrag - ERROR - Failed to extract entities and relationships: 'str' object has no attribute 'choices'
+2026-01-02 02:45:08,071 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 285, in openai_complete_if_cache
+    or not response.choices
+AttributeError: 'str' object has no attribute 'choices'
+
+2026-01-02 02:45:08,071 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:45:08,076 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:45:08,077 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:45:08,078 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:45:08,382 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:45:08,475 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:48:34,553 - lightrag - INFO - Created new empty graph
+2026-01-02 02:48:34,556 - lightrag - INFO - Process 1588351 KV load full_docs with 0 records
+2026-01-02 02:48:34,556 - lightrag - INFO - Process 1588351 KV load text_chunks with 0 records
+2026-01-02 02:48:34,556 - lightrag - INFO - Process 1588351 KV load llm_response_cache with 0 records
+2026-01-02 02:48:34,557 - lightrag - INFO - Process 1588351 doc status load doc_status with 0 records
+2026-01-02 02:48:34,557 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:48:34,557 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:48:34,629 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:48:34,630 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:48:34,630 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:48:34,630 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:48:34,640 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:48:34,934 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:48:34,936 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:48:34,937 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:48:34,939 - lightrag - ERROR - Failed to extract entities and relationships: 'str' object has no attribute 'choices'
+2026-01-02 02:48:34,939 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:48:34,943 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 92, in llm_model_func
+    response = await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 285, in openai_complete_if_cache
+    or not response.choices
+AttributeError: 'str' object has no attribute 'choices'
+
+2026-01-02 02:48:34,943 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:48:34,949 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:48:35,217 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:48:35,288 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:49:52,691 - lightrag - INFO - Created new empty graph
+2026-01-02 02:49:52,694 - lightrag - INFO - Process 1589079 KV load full_docs with 0 records
+2026-01-02 02:49:52,694 - lightrag - INFO - Process 1589079 KV load text_chunks with 0 records
+2026-01-02 02:49:52,695 - lightrag - INFO - Process 1589079 KV load llm_response_cache with 0 records
+2026-01-02 02:49:52,695 - lightrag - INFO - Process 1589079 doc status load doc_status with 0 records
+2026-01-02 02:49:52,695 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:49:52,695 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:49:52,768 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:49:52,770 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:49:52,770 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:49:52,770 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:49:52,781 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:49:53,080 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:49:53,081 - lightrag - ERROR - Failed to extract entities and relationships: 'str' object has no attribute 'choices'
+2026-01-02 02:49:53,085 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 285, in openai_complete_if_cache
+    or not response.choices
+AttributeError: 'str' object has no attribute 'choices'
+
+2026-01-02 02:49:53,085 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:49:53,092 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:49:53,094 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:49:53,116 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:49:53,117 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:49:53,373 - lightrag - ERROR - limit_async: Error in decorated function: 'str' object has no attribute 'choices'
+2026-01-02 02:49:53,459 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:55:02,534 - lightrag - INFO - Created new empty graph
+2026-01-02 02:55:02,537 - lightrag - INFO - Process 1590799 KV load full_docs with 0 records
+2026-01-02 02:55:02,537 - lightrag - INFO - Process 1590799 KV load text_chunks with 0 records
+2026-01-02 02:55:02,537 - lightrag - INFO - Process 1590799 KV load llm_response_cache with 0 records
+2026-01-02 02:55:02,537 - lightrag - INFO - Process 1590799 doc status load doc_status with 0 records
+2026-01-02 02:55:02,538 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:55:02,538 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:55:06,064 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:55:06,064 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:55:06,065 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:55:06,065 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:55:06,077 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:55:06,419 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,421 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,423 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,424 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,425 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,426 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,426 - lightrag - ERROR - Failed to extract entities and relationships: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,430 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 284, in openai_complete_if_cache
+    raise ValueError(f"Unexpected response type: {type(response)}")
+ValueError: Unexpected response type: <class 'str'>
+
+2026-01-02 02:55:06,430 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:55:06,432 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:55:06,435 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,436 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,867 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,868 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:55:06,951 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:56:16,937 - lightrag - INFO - Created new empty graph
+2026-01-02 02:56:16,941 - lightrag - INFO - Process 1591632 KV load full_docs with 0 records
+2026-01-02 02:56:16,941 - lightrag - INFO - Process 1591632 KV load text_chunks with 0 records
+2026-01-02 02:56:16,941 - lightrag - INFO - Process 1591632 KV load llm_response_cache with 0 records
+2026-01-02 02:56:16,941 - lightrag - INFO - Process 1591632 doc status load doc_status with 0 records
+2026-01-02 02:56:16,942 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:56:16,942 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:56:17,010 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:56:17,011 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:56:17,011 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:56:17,011 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:56:17,021 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:56:17,311 - lightrag - ERROR - Unexpected string response: <!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="OpenAI 接口聚合管理，支持多种渠道包括 Azure，可用于二次分发管理 key，仅单可执行文件，已打包好 Docker 镜像，一键部署，开箱即用"
+    />
+    <title>New API</title>
+            <script type="module" crossorigin src="/assets/index-B1ddKnY7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-core-D-iPSUlg.js">
+    <link rel="modulepreload" crossorigin href="/assets/semi-ui-CUCUWUtB.js">
+    <link rel="modulepreload" crossorigin href="/assets/tools-TqkjAL0q.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-components-BnylIsR_.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18n-C9IJcHxj.js">
+    <link rel="stylesheet" crossorigin href="/assets/semi-ui-yRXI6evF.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-CGn-Gmbj.css">
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+2026-01-02 02:56:17,311 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,312 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,312 - lightrag - ERROR - Failed to extract entities and relationships: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,315 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/llm/openai.py", line 288, in openai_complete_if_cache
+    raise ValueError(f"Unexpected response type: {type(response)}")
+ValueError: Unexpected response type: <class 'str'>
+
+2026-01-02 02:56:17,317 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:56:17,319 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:56:17,322 - lightrag - ERROR - Unexpected string response: <!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="OpenAI 接口聚合管理，支持多种渠道包括 Azure，可用于二次分发管理 key，仅单可执行文件，已打包好 Docker 镜像，一键部署，开箱即用"
+    />
+    <title>New API</title>
+            <script type="module" crossorigin src="/assets/index-B1ddKnY7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-core-D-iPSUlg.js">
+    <link rel="modulepreload" crossorigin href="/assets/semi-ui-CUCUWUtB.js">
+    <link rel="modulepreload" crossorigin href="/assets/tools-TqkjAL0q.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-components-BnylIsR_.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18n-C9IJcHxj.js">
+    <link rel="stylesheet" crossorigin href="/assets/semi-ui-yRXI6evF.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-CGn-Gmbj.css">
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+2026-01-02 02:56:17,322 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,322 - lightrag - ERROR - Unexpected string response: <!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="OpenAI 接口聚合管理，支持多种渠道包括 Azure，可用于二次分发管理 key，仅单可执行文件，已打包好 Docker 镜像，一键部署，开箱即用"
+    />
+    <title>New API</title>
+            <script type="module" crossorigin src="/assets/index-B1ddKnY7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-core-D-iPSUlg.js">
+    <link rel="modulepreload" crossorigin href="/assets/semi-ui-CUCUWUtB.js">
+    <link rel="modulepreload" crossorigin href="/assets/tools-TqkjAL0q.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-components-BnylIsR_.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18n-C9IJcHxj.js">
+    <link rel="stylesheet" crossorigin href="/assets/semi-ui-yRXI6evF.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-CGn-Gmbj.css">
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+2026-01-02 02:56:17,322 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,323 - lightrag - ERROR - Unexpected string response: <!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="OpenAI 接口聚合管理，支持多种渠道包括 Azure，可用于二次分发管理 key，仅单可执行文件，已打包好 Docker 镜像，一键部署，开箱即用"
+    />
+    <title>New API</title>
+            <script type="module" crossorigin src="/assets/index-B1ddKnY7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-core-D-iPSUlg.js">
+    <link rel="modulepreload" crossorigin href="/assets/semi-ui-CUCUWUtB.js">
+    <link rel="modulepreload" crossorigin href="/assets/tools-TqkjAL0q.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-components-BnylIsR_.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18n-C9IJcHxj.js">
+    <link rel="stylesheet" crossorigin href="/assets/semi-ui-yRXI6evF.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-CGn-Gmbj.css">
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+2026-01-02 02:56:17,323 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,323 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,323 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,324 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,580 - lightrag - ERROR - Unexpected string response: <!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta
+      name="description"
+      content="OpenAI 接口聚合管理，支持多种渠道包括 Azure，可用于二次分发管理 key，仅单可执行文件，已打包好 Docker 镜像，一键部署，开箱即用"
+    />
+    <title>New API</title>
+            <script type="module" crossorigin src="/assets/index-B1ddKnY7.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/react-core-D-iPSUlg.js">
+    <link rel="modulepreload" crossorigin href="/assets/semi-ui-CUCUWUtB.js">
+    <link rel="modulepreload" crossorigin href="/assets/tools-TqkjAL0q.js">
+    <link rel="modulepreload" crossorigin href="/assets/react-components-BnylIsR_.js">
+    <link rel="modulepreload" crossorigin href="/assets/i18n-C9IJcHxj.js">
+    <link rel="stylesheet" crossorigin href="/assets/semi-ui-yRXI6evF.css">
+    <link rel="stylesheet" crossorigin href="/assets/index-CGn-Gmbj.css">
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
+
+2026-01-02 02:56:17,581 - lightrag - ERROR - Error processing OpenAI response: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,581 - lightrag - ERROR - limit_async: Error in decorated function: Unexpected response type: <class 'str'>
+2026-01-02 02:56:17,649 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 03:13:28,617 - lightrag - INFO - Created new empty graph
+2026-01-02 03:13:28,621 - lightrag - INFO - Process 1600569 KV load full_docs with 0 records
+2026-01-02 03:13:28,621 - lightrag - INFO - Process 1600569 KV load text_chunks with 0 records
+2026-01-02 03:13:28,621 - lightrag - INFO - Process 1600569 KV load llm_response_cache with 0 records
+2026-01-02 03:13:28,621 - lightrag - INFO - Process 1600569 doc status load doc_status with 0 records
+2026-01-02 03:13:28,621 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 03:13:28,622 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 03:13:32,654 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 03:13:32,654 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 03:13:32,654 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 03:13:32,654 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 03:13:32,677 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 03:13:41,961 - lightrag - INFO -  == LLM cache == saving default: 3e429cf8a94ff53501e74fbac2e8af0b
+2026-01-02 03:13:43,577 - lightrag - INFO -  == LLM cache == saving default: a34b2d1c7fc4ed2403c0d56b9d4c637b
+2026-01-02 03:13:45,534 - lightrag - INFO -  == LLM cache == saving default: 7f1fa9b2c3f3dafbb7c3d28ba94a1170
+2026-01-02 03:13:46,184 - lightrag - INFO -  == LLM cache == saving default: 0e4add8063e72dc6fd75a30c60023cde
+2026-01-02 03:13:47,157 - lightrag - INFO -  == LLM cache == saving default: 77c480bbc1e617f13b76f372f4fefc80
+2026-01-02 03:13:47,158 - lightrag - INFO - Chunk 1 of 12 extracted 6 Ent + 4 Rel
+2026-01-02 03:13:49,338 - lightrag - INFO -  == LLM cache == saving default: 895285fadb8eb348ad4c4c8e7c5e8353
+2026-01-02 03:13:49,341 - lightrag - INFO - Chunk 2 of 12 extracted 8 Ent + 7 Rel
+2026-01-02 03:13:53,733 - lightrag - INFO -  == LLM cache == saving default: 6708c4757ea594bcb277756e462383af
+2026-01-02 03:13:55,673 - lightrag - INFO -  == LLM cache == saving default: 0cc869948ec77b1e4af625c5f959b2e9
+2026-01-02 03:13:55,674 - lightrag - INFO - Chunk 3 of 12 extracted 11 Ent + 7 Rel
+2026-01-02 03:13:58,820 - lightrag - INFO -  == LLM cache == saving default: c267a2374706ca2b6728aaf467ccdcfd
+2026-01-02 03:14:00,930 - lightrag - INFO -  == LLM cache == saving default: b2f801d4c369eabe8388f561ab5c9ce9
+2026-01-02 03:14:00,933 - lightrag - INFO - Chunk 4 of 12 extracted 27 Ent + 11 Rel
+2026-01-02 03:14:01,815 - lightrag - INFO -  == LLM cache == saving default: d4e7fa8d281588b33c10ec3610672987
+2026-01-02 03:14:04,308 - lightrag - INFO -  == LLM cache == saving default: dce442ffde67d9025535cb52a6405d69
+2026-01-02 03:14:04,309 - lightrag - INFO - Chunk 5 of 12 extracted 12 Ent + 6 Rel
+2026-01-02 03:14:05,767 - lightrag - INFO -  == LLM cache == saving default: 1aa836c867306c337acaa488cbe2fcfc
+2026-01-02 03:14:10,321 - lightrag - INFO -  == LLM cache == saving default: 04046e784c01c6affd3d2e990767ba4d
+2026-01-02 03:14:12,528 - lightrag - INFO -  == LLM cache == saving default: ea9ac72ce812273601514cff3ecca6fa
+2026-01-02 03:14:12,529 - lightrag - INFO - Chunk 6 of 12 extracted 8 Ent + 6 Rel
+2026-01-02 03:14:13,432 - lightrag - INFO -  == LLM cache == saving default: 1f721e5aaaf1f2ba5c771d2e3aac03ea
+2026-01-02 03:14:13,433 - lightrag - INFO - Chunk 7 of 12 extracted 4 Ent + 4 Rel
+2026-01-02 03:14:14,576 - lightrag - INFO -  == LLM cache == saving default: edf21a3001e50e604e16eb56e9f77aae
+2026-01-02 03:14:14,578 - lightrag - INFO - Chunk 8 of 12 extracted 12 Ent + 13 Rel
+2026-01-02 03:14:17,809 - lightrag - INFO -  == LLM cache == saving default: 7ac9e67d1e4a6b17d32ed1be430fe339
+2026-01-02 03:14:20,467 - lightrag - INFO -  == LLM cache == saving default: 75f14962be635a9f9faace2b510a67a7
+2026-01-02 03:14:20,682 - lightrag - INFO -  == LLM cache == saving default: 7a950b99326231eb402963e32b3152d6
+2026-01-02 03:14:23,679 - lightrag - INFO -  == LLM cache == saving default: eb5b7344ad82738e393697a8e10d43fb
+2026-01-02 03:14:23,681 - lightrag - INFO - Chunk 9 of 12 extracted 6 Ent + 5 Rel
+2026-01-02 03:14:23,896 - lightrag - INFO -  == LLM cache == saving default: 69c2f53adad8fe19a228a51361534192
+2026-01-02 03:14:23,897 - lightrag - INFO - Chunk 10 of 12 extracted 1 Ent + 0 Rel
+2026-01-02 03:14:30,659 - lightrag - INFO -  == LLM cache == saving default: 528e0347641b931c23af4de86ce948a6
+2026-01-02 03:14:30,660 - lightrag - INFO - Chunk 11 of 12 extracted 10 Ent + 7 Rel
+2026-01-02 03:14:32,560 - lightrag - INFO -  == LLM cache == saving default: f77d12d0a071618c3099f653b5cd2d2e
+2026-01-02 03:14:32,562 - lightrag - INFO - Chunk 12 of 12 extracted 9 Ent + 9 Rel
+2026-01-02 03:14:32,563 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-01-02 03:14:32,563 - lightrag - INFO - Merge N: Bob Cratchit | 2+0
+2026-01-02 03:14:32,563 - lightrag - INFO - Merge N: Ebenezer Scrooge | 3+0
+2026-01-02 03:14:32,564 - lightrag - INFO - Merge N: Ghost of Jacob Marley | 2+0
+2026-01-02 03:14:32,564 - lightrag - INFO - Merge N: Fred | 2+0
+2026-01-02 03:14:32,564 - lightrag - INFO - Merge N: Joe | 2+0
+2026-01-02 03:14:32,564 - lightrag - INFO - Merge N: Mrs. Fezziwig | 2+0
+2026-01-02 03:14:32,564 - lightrag - INFO - LLM merge N: Scrooge | 8+0
+2026-01-02 03:14:35,112 - lightrag - INFO -  == LLM cache == saving default: 2e6d04d78e519e8664f18ae444ffd043
+2026-01-02 03:14:35,112 - lightrag - INFO - Merge N: Marley | 3+0
+2026-01-02 03:14:35,113 - lightrag - INFO - Merge N: Marley's Ghost | 5+0
+2026-01-02 03:14:35,113 - lightrag - INFO - Merge N: Christmas Eve | 3+0
+2026-01-02 03:14:35,113 - lightrag - INFO - Merge N: Scrooge's Nephew | 2+0
+2026-01-02 03:14:35,113 - lightrag - INFO - Merge N: The Counting-House | 2+0
+2026-01-02 03:14:35,113 - lightrag - INFO - Merge N: Christmas | 3+0
+2026-01-02 03:14:35,113 - lightrag - INFO - Merge N: The Clerk | 2+0
+2026-01-02 03:14:35,114 - lightrag - INFO - Merge N: Jacob Marley | 3+0
+2026-01-02 03:14:35,115 - lightrag - INFO - Merge E: Ebenezer Scrooge - Ghost of Jacob Marley | 2+0
+2026-01-02 03:14:35,115 - lightrag - INFO - Merge E: Marley - Scrooge | 3+0
+2026-01-02 03:14:35,115 - lightrag - INFO - Merge E: Marley's Ghost - Scrooge | 4+0
+2026-01-02 03:14:35,116 - lightrag - INFO - Merge E: Scrooge - Scrooge's Nephew | 2+0
+2026-01-02 03:14:35,116 - lightrag - INFO - Merge E: Scrooge - The Counting-House | 2+0
+2026-01-02 03:14:35,116 - lightrag - INFO - Merge E: Christmas - Scrooge | 2+0
+2026-01-02 03:14:35,116 - lightrag - INFO - Merge E: Scrooge - The Clerk | 2+0
+2026-01-02 03:14:35,117 - lightrag - INFO - Merge E: Bob Cratchit - Christmas Eve | 2+0
+2026-01-02 03:14:35,120 - lightrag - INFO - Merge E: Jacob Marley - Scrooge | 2+0
+2026-01-02 03:14:35,120 - lightrag - INFO - Updating 85 entities  1/1: unknown_source
+2026-01-02 03:14:35,976 - lightrag - INFO - Updating 67 relations 1/1: unknown_source
+2026-01-02 03:14:36,474 - lightrag - INFO - Writing graph with 86 nodes, 67 edges
+2026-01-02 03:14:36,491 - lightrag - INFO - In memory DB persist to disk
+2026-01-02 03:14:36,491 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-01-02 03:14:36,491 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 03:14:36,565 - lightrag - INFO - Vector query: 3 chunks, top_k: 60
+2026-01-02 03:14:40,408 - lightrag - WARNING - Received chunk without choices: ChatCompletionChunk(id='', choices=[], created=0, model='gpt-4o-2024-11-20', object='', service_tier=None, system_fingerprint=None, usage=None)
+2026-01-02 03:14:52,350 - lightrag - WARNING - Received chunk without choices: ChatCompletionChunk(id='chatcmpl-CtPuZtl99z66CuWJIndTt8gOLdezQ', choices=[], created=1767323679, model='gpt-4o-2024-11-20', object='chat.completion.chunk', service_tier=None, system_fingerprint='fp_4a331a0222', usage=CompletionUsage(completion_tokens=307, prompt_tokens=4191, total_tokens=4498, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), obfuscation='MxE')
+2026-01-02 03:14:53,331 - lightrag - INFO -  == LLM cache == saving local: 3eba15cddc40b8e5f2d5b974042add93
+2026-01-02 03:14:53,331 - lightrag - INFO - Process 1600569 building query context...
+2026-01-02 03:14:53,331 - lightrag - INFO - Query nodes: Characters, Plot, Setting, Conflict, Resolution, top_k: 60, cosine: 0.2
+2026-01-02 03:14:53,437 - lightrag - INFO - Local query uses 60 entites, 65 relations, 3 chunks
+2026-01-02 03:14:55,619 - lightrag - WARNING - Received chunk without choices: ChatCompletionChunk(id='', choices=[], created=0, model='gpt-4o-2024-11-20', object='', service_tier=None, system_fingerprint=None, usage=None)
+2026-01-02 03:14:58,987 - lightrag - WARNING - Received chunk without choices: ChatCompletionChunk(id='chatcmpl-CtPuoxgfcFYcePSF3g9MKE8r7cME6', choices=[], created=1767323694, model='gpt-4o-2024-11-20', object='chat.completion.chunk', service_tier=None, system_fingerprint='fp_4a331a0222', usage=CompletionUsage(completion_tokens=366, prompt_tokens=16891, total_tokens=17257, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), obfuscation='y')
+2026-01-02 03:14:59,962 - lightrag - INFO -  == LLM cache == saving global: 20f25304745f8c690c60c67fa5ed9e87
+2026-01-02 03:14:59,962 - lightrag - INFO - Process 1600569 building query context...
+2026-01-02 03:14:59,962 - lightrag - INFO - Query edges: Themes, Story analysis, top_k: 60, cosine: 0.2
+2026-01-02 03:15:00,065 - lightrag - INFO - Global query uses 54 entites, 60 relations, 3 chunks
+2026-01-02 03:15:01,960 - lightrag - WARNING - Received chunk without choices: ChatCompletionChunk(id='', choices=[], created=0, model='gpt-4o-2024-11-20', object='', service_tier=None, system_fingerprint=None, usage=None)
+2026-01-02 03:15:05,671 - lightrag - WARNING - Received chunk without choices: ChatCompletionChunk(id='chatcmpl-CtPuuUSPjzAgdKh05qPjcCFgLb6K2', choices=[], created=1767323700, model='gpt-4o-2024-11-20', object='chat.completion.chunk', service_tier=None, system_fingerprint='fp_4a331a0222', usage=CompletionUsage(completion_tokens=393, prompt_tokens=15898, total_tokens=16291, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), obfuscation='u')
+2026-01-02 03:15:06,680 - lightrag - INFO -  == LLM cache == saving hybrid: 8755e9fbac7e447eb32646483edace57
+2026-01-02 03:15:06,680 - lightrag - INFO - Process 1600569 building query context...
+2026-01-02 03:15:06,680 - lightrag - INFO - Query nodes: Plot, Characters, Setting, Conflict, Resolution, top_k: 60, cosine: 0.2
+2026-01-02 03:15:06,792 - lightrag - INFO - Local query uses 60 entites, 65 relations, 3 chunks
+2026-01-02 03:15:06,793 - lightrag - INFO - Query edges: Story themes, Analysis, top_k: 60, cosine: 0.2
+2026-01-02 03:15:06,900 - lightrag - INFO - Global query uses 55 entites, 60 relations, 3 chunks
+2026-01-02 03:15:10,809 - lightrag - WARNING - Received chunk without choices: ChatCompletionChunk(id='', choices=[], created=0, model='gpt-4o-2024-11-20', object='', service_tier=None, system_fingerprint=None, usage=None)
+2026-01-02 03:15:20,994 - lightrag - WARNING - Received chunk without choices: ChatCompletionChunk(id='chatcmpl-CtPv1Fz0PPMMjX6N6uOgFHntZ5HiP', choices=[], created=1767323707, model='gpt-4o-2024-11-20', object='chat.completion.chunk', service_tier=None, system_fingerprint='fp_4a331a0222', usage=CompletionUsage(completion_tokens=522, prompt_tokens=23435, total_tokens=23957, completion_tokens_details=CompletionTokensDetails(accepted_prediction_tokens=0, audio_tokens=0, reasoning_tokens=0, rejected_prediction_tokens=0), prompt_tokens_details=PromptTokensDetails(audio_tokens=0, cached_tokens=0)), obfuscation='E')
+2026-01-02 03:15:20,996 - lightrag - INFO - Storage Finalization completed!

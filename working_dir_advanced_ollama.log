@@ -2000,3 +2000,10 @@ httpx.ReadTimeout
 2025-06-30 02:03:54,520 - lightrag - INFO - Query edges: Time synchronization, Device discrepancy, Technology troubleshooting, top_k: 60, cosine: 0.2
 2025-06-30 02:03:54,612 - lightrag - INFO - Global query uses 24 entites, 60 relations, 3 chunks
 2025-06-30 02:04:59,757 - lightrag - INFO - Storage Finalization completed!
+2025-09-25 03:43:01,434 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-09-25 03:43:01,477 - lightrag - INFO - Process 2085368 KV load full_docs with 1 records
+2025-09-25 03:43:01,479 - lightrag - INFO - Process 2085368 KV load text_chunks with 119 records
+2025-09-25 03:43:01,557 - lightrag - INFO - Process 2085368 KV load llm_response_cache with 3115 records
+2025-09-25 03:43:01,559 - lightrag - INFO - Process 2085368 doc status load doc_status with 1 records
+2025-09-25 03:43:01,584 - lightrag - INFO - Storage Initialization completed!
+2025-09-25 03:43:01,584 - lightrag - INFO - Storage Finalization completed!

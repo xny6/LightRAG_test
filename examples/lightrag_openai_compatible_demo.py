@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "./dickens"
+WORKING_DIR = "./dickens_api3"
 
 
 def configure_logging():
@@ -28,7 +28,7 @@ def configure_logging():
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
     log_file_path = os.path.abspath(
-        os.path.join(log_dir, "lightrag_compatible_demo.log")
+        os.path.join(log_dir, "dickens_api3.log")
     )
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
@@ -89,12 +89,12 @@ async def llm_model_func(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
     return await openai_complete_if_cache(
-        os.getenv("LLM_MODEL", "deepseek-chat"),
+        "gpt-4o",  
         prompt,
         system_prompt=system_prompt,
         history_messages=history_messages,
-        api_key=os.getenv("LLM_BINDING_API_KEY") or os.getenv("OPENAI_API_KEY"),
-        base_url=os.getenv("LLM_BINDING_HOST", "https://api.deepseek.com"),
+        api_key="sk-n0abG3UAbhJUeItHIyca9knepU9we68bbd179I0TxAP2CM4Z",  # 替换为你的API Key
+        base_url="https://www.dmxapi.cn/v1",  # 修复了重复拼接路径的问题
         **kwargs,
     )
 
@@ -110,11 +110,11 @@ async def initialize_rag():
         working_dir=WORKING_DIR,
         llm_model_func=llm_model_func,
         embedding_func=EmbeddingFunc(
-            embedding_dim=int(os.getenv("EMBEDDING_DIM", "1024")),
+            embedding_dim=int(os.getenv("EMBEDDING_DIM", "768")),
             max_token_size=int(os.getenv("MAX_EMBED_TOKENS", "8192")),
             func=lambda texts: ollama_embed(
                 texts,
-                embed_model=os.getenv("EMBEDDING_MODEL", "bge-m3:latest"),
+                embed_model=os.getenv("EMBEDDING_MODEL", "nomic-embed-text"),
                 host=os.getenv("EMBEDDING_BINDING_HOST", "http://localhost:11434"),
             ),
         ),
@@ -161,31 +161,6 @@ async def main():
         with open("./book.txt", "r", encoding="utf-8") as f:
             await rag.ainsert(f.read())
 
-        # Perform naive search
-        print("\n=====================")
-        print("Query mode: naive")
-        print("=====================")
-        resp = await rag.aquery(
-            "What are the top themes in this story?",
-            param=QueryParam(mode="naive", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
-
-        # Perform local search
-        print("\n=====================")
-        print("Query mode: local")
-        print("=====================")
-        resp = await rag.aquery(
-            "What are the top themes in this story?",
-            param=QueryParam(mode="local", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
 
         # Perform global search
         print("\n=====================")
@@ -200,18 +175,6 @@ async def main():
         else:
             print(resp)
 
-        # Perform hybrid search
-        print("\n=====================")
-        print("Query mode: hybrid")
-        print("=====================")
-        resp = await rag.aquery(
-            "What are the top themes in this story?",
-            param=QueryParam(mode="hybrid", stream=True),
-        )
-        if inspect.isasyncgen(resp):
-            await print_stream(resp)
-        else:
-            print(resp)
 
     except Exception as e:
         print(f"An error occurred: {e}")

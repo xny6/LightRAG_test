@@ -15669,3 +15669,478 @@ httpx.ReadTimeout
 2025-09-08 03:49:34,259 - lightrag - INFO - Global query uses 31 entites, 60 relations, 3 chunks
 2025-09-08 03:49:50,061 - lightrag - INFO -  == LLM cache == saving global: dade523177089775c67be505c1555aca
 2025-09-08 03:49:50,236 - lightrag - INFO - Storage Finalization completed!
+2025-09-19 02:12:58,575 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-09-19 02:12:58,630 - lightrag - INFO - Process 2564130 KV load full_docs with 1 records
+2025-09-19 02:12:58,633 - lightrag - INFO - Process 2564130 KV load text_chunks with 119 records
+2025-09-19 02:12:58,743 - lightrag - INFO - Process 2564130 KV load llm_response_cache with 2609 records
+2025-09-19 02:12:58,745 - lightrag - INFO - Process 2564130 doc status load doc_status with 1 records
+2025-09-19 02:12:58,748 - lightrag - INFO - Storage Initialization completed!
+2025-09-19 02:12:58,748 - lightrag - INFO - Storage Finalization completed!
+2025-09-19 02:24:44,252 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-09-19 02:24:44,295 - lightrag - INFO - Process 2565968 KV load full_docs with 1 records
+2025-09-19 02:24:44,297 - lightrag - INFO - Process 2565968 KV load text_chunks with 119 records
+2025-09-19 02:24:44,385 - lightrag - INFO - Process 2565968 KV load llm_response_cache with 2609 records
+2025-09-19 02:24:44,387 - lightrag - INFO - Process 2565968 doc status load doc_status with 1 records
+2025-09-19 02:24:44,388 - lightrag - INFO - limit_async: 12 new workers initialized
+2025-09-19 02:24:44,388 - lightrag - INFO - Storage Initialization completed!
+2025-09-19 02:24:51,510 - lightrag - INFO -  == LLM cache == saving global: f013ea59528cf347f7cdc13f4a48bb9b
+2025-09-19 02:24:51,510 - lightrag - INFO - Process 2565968 building query context...
+2025-09-19 02:24:51,510 - lightrag - INFO - Query edges: CMF Watch Pro 2, Women's health tracking, Smartwatch features, top_k: 60, cosine: 0.2
+2025-09-19 02:24:51,510 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-09-19 02:24:54,168 - lightrag - INFO - Global query uses 51 entites, 60 relations, 3 chunks
+2025-09-19 02:25:06,175 - lightrag - INFO -  == LLM cache == saving global: c1b37b103efd4820e192dac481ab2d86
+2025-09-19 02:25:07,033 - lightrag - INFO -  == LLM cache == saving global: 0696e5583d10c20015886de9a2acfe37
+2025-09-19 02:25:07,034 - lightrag - INFO - Process 2565968 building query context...
+2025-09-19 02:25:07,034 - lightrag - INFO - Query edges: Weight, Earphone, ANC, top_k: 60, cosine: 0.2
+2025-09-19 02:25:07,160 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 02:25:18,051 - lightrag - INFO -  == LLM cache == saving global: 581971372f666ee9f236371f992bc090
+2025-09-19 02:25:18,212 - lightrag - INFO - Storage Finalization completed!
+2025-09-19 02:41:29,156 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-09-19 02:41:29,202 - lightrag - INFO - Process 2569838 KV load full_docs with 1 records
+2025-09-19 02:41:29,205 - lightrag - INFO - Process 2569838 KV load text_chunks with 119 records
+2025-09-19 02:41:29,305 - lightrag - INFO - Process 2569838 KV load llm_response_cache with 2613 records
+2025-09-19 02:41:29,307 - lightrag - INFO - Process 2569838 doc status load doc_status with 1 records
+2025-09-19 02:41:29,309 - lightrag - INFO - limit_async: 12 new workers initialized
+2025-09-19 02:41:29,309 - lightrag - INFO - Storage Initialization completed!
+2025-09-19 02:41:35,788 - lightrag - INFO -  == LLM cache == saving global: 4471a027e66e9236943ed077d1248e36
+2025-09-19 02:41:35,788 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:41:35,789 - lightrag - INFO - Query edges: Passcode, Security settings, Device setup, top_k: 60, cosine: 0.2
+2025-09-19 02:41:35,789 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-09-19 02:41:38,317 - lightrag - INFO - Global query uses 35 entites, 60 relations, 3 chunks
+2025-09-19 02:41:54,143 - lightrag - INFO -  == LLM cache == saving global: 5f6e7c1eef7e38254b3828361e47d784
+2025-09-19 02:41:54,965 - lightrag - INFO -  == LLM cache == saving global: 0109422a5a56dd4104d097c9247559b0
+2025-09-19 02:41:54,965 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:41:54,965 - lightrag - INFO - Query edges: NFC, Enable, Product configuration, top_k: 60, cosine: 0.2
+2025-09-19 02:41:55,107 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 02:42:08,344 - lightrag - INFO -  == LLM cache == saving global: 293ce0608b80d6663153494aa405dca2
+2025-09-19 02:42:09,209 - lightrag - INFO -  == LLM cache == saving global: 33e51cbfb63539946357ff50841d8bef
+2025-09-19 02:42:09,209 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:42:09,209 - lightrag - INFO - Query edges: touch controls, CMF Buds, instructions, return, top_k: 60, cosine: 0.2
+2025-09-19 02:42:09,339 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-09-19 02:42:24,563 - lightrag - INFO -  == LLM cache == saving global: a44995b332546e599467290ebb6d6989
+2025-09-19 02:42:25,456 - lightrag - INFO -  == LLM cache == saving global: 981b020a5fcacc6dc6fc712942efa7fe
+2025-09-19 02:42:25,457 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:42:25,457 - lightrag - INFO - Query edges: OTG connection, Functionality, Product information, top_k: 60, cosine: 0.2
+2025-09-19 02:42:25,590 - lightrag - INFO - Global query uses 21 entites, 60 relations, 3 chunks
+2025-09-19 02:42:34,840 - lightrag - INFO -  == LLM cache == saving global: f259f60d320c8606bf94c690d3c6db0f
+2025-09-19 02:42:35,707 - lightrag - INFO -  == LLM cache == saving global: 5201f1eb028606ceb7d9d635962bdb39
+2025-09-19 02:42:35,707 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:42:35,707 - lightrag - INFO - Query edges: Instructions, Blocking numbers, Blacklisting, Nothing Phone 1, top_k: 60, cosine: 0.2
+2025-09-19 02:42:35,815 - lightrag - INFO - Global query uses 56 entites, 60 relations, 3 chunks
+2025-09-19 02:42:50,719 - lightrag - INFO -  == LLM cache == saving global: 5650a8144b3a0be3c475791c8dbfee10
+2025-09-19 02:42:51,859 - lightrag - INFO -  == LLM cache == saving global: e7a357f977e8e5dd8f3979427da70b1b
+2025-09-19 02:42:51,859 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:42:51,859 - lightrag - INFO - Query edges: Location System, Product details, CMF Watch Pro 2, Cellular Triangulation, Wi-Fi Positioning, Assisted GPS, top_k: 60, cosine: 0.2
+2025-09-19 02:42:51,990 - lightrag - INFO - Global query uses 54 entites, 60 relations, 3 chunks
+2025-09-19 02:43:08,644 - lightrag - INFO -  == LLM cache == saving global: 7fb5235efa2ce2f5830414c8f27caab1
+2025-09-19 02:43:09,626 - lightrag - INFO -  == LLM cache == saving global: 868098df5948660444232a1bec4d8f59
+2025-09-19 02:43:09,626 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:43:09,626 - lightrag - INFO - Query edges: Fast Charging Support, Products, Details, top_k: 60, cosine: 0.2
+2025-09-19 02:43:09,752 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 02:43:22,749 - lightrag - INFO -  == LLM cache == saving global: b9d4edce362ab5e5c6c57c6828c7ff4f
+2025-09-19 02:43:23,532 - lightrag - INFO -  == LLM cache == saving global: 34cb24533e1caf88c5f2414804610ef9
+2025-09-19 02:43:23,532 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:43:23,532 - lightrag - INFO - Query edges: Wireless Charging, Nothing Ear Stick, top_k: 60, cosine: 0.2
+2025-09-19 02:43:23,643 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-09-19 02:43:31,401 - lightrag - INFO -  == LLM cache == saving global: e5e2399e8250e2c91810dff3e1775622
+2025-09-19 02:43:32,207 - lightrag - INFO -  == LLM cache == saving global: 252f70119b208faaee3feb79aad1c11d
+2025-09-19 02:43:32,207 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:43:32,207 - lightrag - INFO - Query edges: Google Fast Pair, Product compatibility, Usage instructions, top_k: 60, cosine: 0.2
+2025-09-19 02:43:32,316 - lightrag - INFO - Global query uses 7 entites, 60 relations, 3 chunks
+2025-09-19 02:43:45,546 - lightrag - INFO -  == LLM cache == saving global: 15537a6146a47fb649349c134fbcf734
+2025-09-19 02:43:46,497 - lightrag - INFO -  == LLM cache == saving global: a02d6a4074144d41e2104ca2320c3775
+2025-09-19 02:43:46,498 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:43:46,498 - lightrag - INFO - Query edges: CMF Watch Pro, CMF Watch Pro 2, GPS support, GPS functionality, top_k: 60, cosine: 0.2
+2025-09-19 02:43:46,690 - lightrag - INFO - Global query uses 53 entites, 60 relations, 3 chunks
+2025-09-19 02:44:04,625 - lightrag - INFO -  == LLM cache == saving global: 9dc218558bc426ffa0da40072f455c56
+2025-09-19 02:44:05,469 - lightrag - INFO -  == LLM cache == saving global: 831696222d243ee6d1db14dd38628973
+2025-09-19 02:44:05,469 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:44:05,469 - lightrag - INFO - Query edges: Earphones, Fast Charging, Features, top_k: 60, cosine: 0.2
+2025-09-19 02:44:05,576 - lightrag - INFO - Global query uses 21 entites, 60 relations, 3 chunks
+2025-09-19 02:44:20,973 - lightrag - INFO -  == LLM cache == saving global: c521206e0d851a8bf9fbf8ee0cf9b4d9
+2025-09-19 02:44:21,862 - lightrag - INFO -  == LLM cache == saving global: b34c6712e1ab2cc6f1f3c42f30dfa2eb
+2025-09-19 02:44:21,862 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:44:21,862 - lightrag - INFO - Query edges: CMF Buds Pro, Google Fast Pair, Functionality, top_k: 60, cosine: 0.2
+2025-09-19 02:44:21,969 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 02:44:36,327 - lightrag - INFO -  == LLM cache == saving global: d6e31d59a5b83b706389bff559c8eb8e
+2025-09-19 02:44:37,208 - lightrag - INFO -  == LLM cache == saving global: b502a3f83a5655bf9fc1556729cb00a9
+2025-09-19 02:44:37,209 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:44:37,209 - lightrag - INFO - Query edges: CMF Buds Pro, LE Audio, Troubleshooting steps, top_k: 60, cosine: 0.2
+2025-09-19 02:44:37,312 - lightrag - INFO - Global query uses 13 entites, 60 relations, 3 chunks
+2025-09-19 02:44:49,841 - lightrag - INFO -  == LLM cache == saving global: 79dc4e06643dc09a2d75dff9a99621b6
+2025-09-19 02:44:50,626 - lightrag - INFO -  == LLM cache == saving global: 053d3170d41db9d937963a2700fb9482
+2025-09-19 02:44:50,626 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:44:50,626 - lightrag - INFO - Query edges: Product, Smartphone, NFC support, top_k: 60, cosine: 0.2
+2025-09-19 02:44:50,709 - lightrag - INFO - Global query uses 19 entites, 60 relations, 3 chunks
+2025-09-19 02:45:01,528 - lightrag - INFO -  == LLM cache == saving global: d8544ecf7c8236535262abf8982d241a
+2025-09-19 02:45:02,300 - lightrag - INFO -  == LLM cache == saving global: 2919c0473052f463dfc980a301f44eed
+2025-09-19 02:45:02,300 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:45:02,300 - lightrag - INFO - Query edges: Product, Supports, Wireless Charging, top_k: 60, cosine: 0.2
+2025-09-19 02:45:02,401 - lightrag - INFO - Global query uses 9 entites, 60 relations, 3 chunks
+2025-09-19 02:45:10,609 - lightrag - INFO -  == LLM cache == saving global: c1f919901592c9e27a50322843f3a3ba
+2025-09-19 02:45:11,339 - lightrag - INFO -  == LLM cache == saving global: 4744abbf0ce83233a66742faf45a9fec
+2025-09-19 02:45:11,339 - lightrag - INFO - Process 2569838 building query context...
+2025-09-19 02:45:11,339 - lightrag - INFO - Query edges: Wireless Charging, Product, Support, top_k: 60, cosine: 0.2
+2025-09-19 02:45:11,459 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 02:45:23,306 - lightrag - INFO -  == LLM cache == saving global: 07e59a888cdd3fef5cebd8e9943b0676
+2025-09-19 02:45:23,470 - lightrag - INFO - Storage Finalization completed!
+2025-09-19 06:05:11,941 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-09-19 06:05:11,988 - lightrag - INFO - Process 2587923 KV load full_docs with 1 records
+2025-09-19 06:05:11,990 - lightrag - INFO - Process 2587923 KV load text_chunks with 119 records
+2025-09-19 06:05:12,093 - lightrag - INFO - Process 2587923 KV load llm_response_cache with 2645 records
+2025-09-19 06:05:12,094 - lightrag - INFO - Process 2587923 doc status load doc_status with 1 records
+2025-09-19 06:05:12,102 - lightrag - INFO - Storage Initialization completed!
+2025-09-19 06:05:12,102 - lightrag - INFO - Storage Finalization completed!
+2025-09-19 06:16:18,458 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-09-19 06:16:18,503 - lightrag - INFO - Process 2590146 KV load full_docs with 1 records
+2025-09-19 06:16:18,505 - lightrag - INFO - Process 2590146 KV load text_chunks with 119 records
+2025-09-19 06:16:18,603 - lightrag - INFO - Process 2590146 KV load llm_response_cache with 2645 records
+2025-09-19 06:16:18,605 - lightrag - INFO - Process 2590146 doc status load doc_status with 1 records
+2025-09-19 06:16:18,606 - lightrag - INFO - limit_async: 12 new workers initialized
+2025-09-19 06:16:18,607 - lightrag - INFO - Storage Initialization completed!
+2025-09-19 06:16:25,127 - lightrag - INFO -  == LLM cache == saving global: 710c4251d42ac412f1146abf40e79351
+2025-09-19 06:16:25,127 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:16:25,127 - lightrag - INFO - Query edges: Nothing Phone 1, Wireless Charging, Release Date, top_k: 60, cosine: 0.2
+2025-09-19 06:16:25,127 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-09-19 06:16:27,667 - lightrag - INFO - Global query uses 44 entites, 60 relations, 3 chunks
+2025-09-19 06:16:39,324 - lightrag - INFO -  == LLM cache == saving global: f4aae964fae52ec26a0cd430b17c216f
+2025-09-19 06:16:40,143 - lightrag - INFO -  == LLM cache == saving global: b81f62c1b14494d628a4b2bd6f0c45b2
+2025-09-19 06:16:40,144 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:16:40,144 - lightrag - INFO - Query edges: CMF Watch Pro, auto-brightness, top_k: 60, cosine: 0.2
+2025-09-19 06:16:40,269 - lightrag - INFO - Global query uses 54 entites, 60 relations, 3 chunks
+2025-09-19 06:16:51,785 - lightrag - INFO -  == LLM cache == saving global: a4bdeef6dd7d6822350efdcaa42f5001
+2025-09-19 06:16:52,674 - lightrag - INFO -  == LLM cache == saving global: 18a64e28251da3001c94e18a42e2963f
+2025-09-19 06:16:52,674 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:16:52,674 - lightrag - INFO - Query edges: CMF Watch Pro 2, Women's health tracking, Smartwatch features, top_k: 60, cosine: 0.2
+2025-09-19 06:16:52,803 - lightrag - INFO - Global query uses 51 entites, 60 relations, 3 chunks
+2025-09-19 06:17:04,000 - lightrag - INFO -  == LLM cache == saving global: a8d91f6437187b2d060fb486cdefa4e9
+2025-09-19 06:17:05,656 - lightrag - INFO -  == LLM cache == saving global: 1c8f1d99cb437de6dcedf2555f68e688
+2025-09-19 06:17:05,656 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:17:05,656 - lightrag - INFO - Query edges: Stock quantity, Fast-charging earphones, top_k: 60, cosine: 0.2
+2025-09-19 06:17:05,769 - lightrag - INFO - Global query uses 9 entites, 60 relations, 3 chunks
+2025-09-19 06:17:14,404 - lightrag - INFO -  == LLM cache == saving global: 29db8a9c07169b103671fda7caecefb5
+2025-09-19 06:17:15,271 - lightrag - INFO -  == LLM cache == saving global: e09ccb697ad294fbf1d790988227191b
+2025-09-19 06:17:15,271 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:17:15,272 - lightrag - INFO - Query edges: Smartwatch, Women's health features, Price, top_k: 60, cosine: 0.2
+2025-09-19 06:17:15,386 - lightrag - INFO - Global query uses 57 entites, 60 relations, 3 chunks
+2025-09-19 06:17:28,141 - lightrag - INFO -  == LLM cache == saving global: 9fc49bd0907cc96ae8757943d8ce569d
+2025-09-19 06:17:28,935 - lightrag - INFO -  == LLM cache == saving global: 0f8ab49e8666bc6d4814b593454db796
+2025-09-19 06:17:28,935 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:17:28,935 - lightrag - INFO - Query edges: Weight, Special smartphone, Wireless charging, top_k: 60, cosine: 0.2
+2025-09-19 06:17:29,049 - lightrag - INFO - Global query uses 39 entites, 60 relations, 4 chunks
+2025-09-19 06:17:41,162 - lightrag - INFO -  == LLM cache == saving global: b16ad0030ef71f673418ec28865637fc
+2025-09-19 06:17:41,974 - lightrag - INFO -  == LLM cache == saving global: 248bf203f2225257ebaf76dcab725825
+2025-09-19 06:17:41,974 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:17:41,974 - lightrag - INFO - Query edges: Weight, Special smartphone, ESIM, top_k: 60, cosine: 0.2
+2025-09-19 06:17:42,084 - lightrag - INFO - Global query uses 25 entites, 60 relations, 3 chunks
+2025-09-19 06:17:55,787 - lightrag - INFO -  == LLM cache == saving global: 3bc41ab7022eda7827b04984e9f98cc5
+2025-09-19 06:17:56,663 - lightrag - INFO -  == LLM cache == saving global: 61e122904e460d9d08e0579c7e964c55
+2025-09-19 06:17:56,663 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:17:56,663 - lightrag - INFO - Query edges: Special smartphone, NFC support, Weight, top_k: 60, cosine: 0.2
+2025-09-19 06:17:56,776 - lightrag - INFO - Global query uses 18 entites, 60 relations, 3 chunks
+2025-09-19 06:18:06,129 - lightrag - INFO -  == LLM cache == saving global: 164d418732b24d0fed9b64fb87182482
+2025-09-19 06:18:06,995 - lightrag - INFO -  == LLM cache == saving global: e3c635751928ea85d0aee8c34c7de413
+2025-09-19 06:18:06,996 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:18:06,996 - lightrag - INFO - Query edges: Smartphone, Available models, Stock availability, top_k: 60, cosine: 0.2
+2025-09-19 06:18:07,110 - lightrag - INFO - Global query uses 21 entites, 60 relations, 3 chunks
+2025-09-19 06:18:17,301 - lightrag - INFO -  == LLM cache == saving global: 229d4a6fcd738053a7de594ad1d134cd
+2025-09-19 06:18:18,127 - lightrag - INFO -  == LLM cache == saving global: 59aca30f50f914cecd59fe442fe0639b
+2025-09-19 06:18:18,127 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:18:18,127 - lightrag - INFO - Query edges: Quantity, Stock, Nothing Phone (2a) Plus, top_k: 60, cosine: 0.2
+2025-09-19 06:18:18,238 - lightrag - INFO - Global query uses 18 entites, 60 relations, 3 chunks
+2025-09-19 06:18:27,219 - lightrag - INFO -  == LLM cache == saving global: a311a73461ce6238d95fb986e465757b
+2025-09-19 06:18:28,064 - lightrag - INFO -  == LLM cache == saving global: 6f4b60ad67ff6569a90e64fca9f6c347
+2025-09-19 06:18:28,064 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:18:28,064 - lightrag - INFO - Query edges: NFC-enabled smartphones, Stock availability, top_k: 60, cosine: 0.2
+2025-09-19 06:18:28,180 - lightrag - INFO - Global query uses 13 entites, 60 relations, 3 chunks
+2025-09-19 06:18:37,809 - lightrag - INFO -  == LLM cache == saving global: 7f95057e1d668792a7a1fec3f18a9173
+2025-09-19 06:18:38,672 - lightrag - INFO -  == LLM cache == saving global: 36c462fe455375a26fe4cd7862b915e5
+2025-09-19 06:18:38,672 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:18:38,672 - lightrag - INFO - Query edges: Wireless Charging Earphones, Global Purchases, top_k: 60, cosine: 0.2
+2025-09-19 06:18:38,771 - lightrag - INFO - Global query uses 10 entites, 60 relations, 3 chunks
+2025-09-19 06:18:47,196 - lightrag - INFO -  == LLM cache == saving global: 751e6602f9343248bc66214f4347d486
+2025-09-19 06:18:48,020 - lightrag - INFO -  == LLM cache == saving global: 88c315512a172ecd0308f590fcb36220
+2025-09-19 06:18:48,021 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:18:48,021 - lightrag - INFO - Query edges: Global sales, Nothing Phone 3A Pro, First quarter, top_k: 60, cosine: 0.2
+2025-09-19 06:18:48,133 - lightrag - INFO - Global query uses 29 entites, 60 relations, 3 chunks
+2025-09-19 06:18:57,695 - lightrag - INFO -  == LLM cache == saving global: d4b7d247327fe5c4aba6087c30ff1742
+2025-09-19 06:18:58,602 - lightrag - INFO -  == LLM cache == saving global: d20c369e39bec4076ae75d4002a28dae
+2025-09-19 06:18:58,603 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:18:58,603 - lightrag - INFO - Query edges: Smartwatches, Ratings, Discussion, top_k: 60, cosine: 0.2
+2025-09-19 06:18:58,706 - lightrag - INFO - Global query uses 46 entites, 60 relations, 3 chunks
+2025-09-19 06:19:14,321 - lightrag - INFO -  == LLM cache == saving global: b23539b6ca003cb0dda512903ed6b741
+2025-09-19 06:19:15,180 - lightrag - INFO -  == LLM cache == saving global: 4173906477195ac02d6826512acd7768
+2025-09-19 06:19:15,180 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:19:15,180 - lightrag - INFO - Query edges: Ratings, Special earphones, Wireless charging, top_k: 60, cosine: 0.2
+2025-09-19 06:19:15,296 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-09-19 06:19:23,994 - lightrag - INFO -  == LLM cache == saving global: fee6b7b9cc524e3ebdeebc1f2790016e
+2025-09-19 06:19:24,917 - lightrag - INFO -  == LLM cache == saving global: c9d31bbb3d65733cc436ec499f7a9a06
+2025-09-19 06:19:24,917 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:19:24,917 - lightrag - INFO - Query edges: Average rating, Special smartwatch, Women's health features, top_k: 60, cosine: 0.2
+2025-09-19 06:19:25,017 - lightrag - INFO - Global query uses 59 entites, 60 relations, 4 chunks
+2025-09-19 06:19:40,568 - lightrag - INFO -  == LLM cache == saving global: 003a983076082af4b0282b1a3b40a86d
+2025-09-19 06:19:41,441 - lightrag - INFO -  == LLM cache == saving global: 7d36a7914e6a4fa77710897405e65185
+2025-09-19 06:19:41,442 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:19:41,442 - lightrag - INFO - Query edges: Smartphone, eSIM support, ratings, top_k: 60, cosine: 0.2
+2025-09-19 06:19:41,601 - lightrag - INFO - Global query uses 31 entites, 60 relations, 3 chunks
+2025-09-19 06:19:53,324 - lightrag - INFO -  == LLM cache == saving global: 301eee7535ce3a5d41c0ed5fd401bf04
+2025-09-19 06:19:54,180 - lightrag - INFO -  == LLM cache == saving global: bb325ec0c1e84296dd75e1559acb39ec
+2025-09-19 06:19:54,180 - lightrag - INFO - Process 2590146 building query context...
+2025-09-19 06:19:54,180 - lightrag - INFO - Query edges: Fingerprint unlock feature, Special smartphone, Ratings, top_k: 60, cosine: 0.2
+2025-09-19 06:19:54,295 - lightrag - INFO - Global query uses 27 entites, 60 relations, 3 chunks
+2025-09-19 06:20:03,396 - lightrag - INFO -  == LLM cache == saving global: abc28bcb64b17ac57c9dfa36bb8585eb
+2025-09-19 06:20:03,557 - lightrag - INFO - Storage Finalization completed!
+2025-09-19 07:04:10,282 - lightrag - INFO - Loaded graph from /home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama/graph_chunk_entity_relation.graphml with 729 nodes, 896 edges
+2025-09-19 07:04:10,325 - lightrag - INFO - Process 2640956 KV load full_docs with 1 records
+2025-09-19 07:04:10,328 - lightrag - INFO - Process 2640956 KV load text_chunks with 119 records
+2025-09-19 07:04:10,416 - lightrag - INFO - Process 2640956 KV load llm_response_cache with 2681 records
+2025-09-19 07:04:10,418 - lightrag - INFO - Process 2640956 doc status load doc_status with 1 records
+2025-09-19 07:04:10,420 - lightrag - INFO - limit_async: 12 new workers initialized
+2025-09-19 07:04:10,420 - lightrag - INFO - Storage Initialization completed!
+2025-09-19 07:04:16,994 - lightrag - INFO -  == LLM cache == saving global: d38390c8a70625738337ed0166721fff
+2025-09-19 07:04:16,995 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:04:16,995 - lightrag - INFO - Query edges: Instructions, Setting up, Passcode, Usage, top_k: 60, cosine: 0.2
+2025-09-19 07:04:16,995 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-09-19 07:04:20,453 - lightrag - INFO - Global query uses 18 entites, 60 relations, 3 chunks
+2025-09-19 07:04:43,850 - lightrag - INFO -  == LLM cache == saving global: 919c7197fd1bcf03fcd27b16f69461d3
+2025-09-19 07:04:57,877 - lightrag - INFO -  == LLM cache == saving global: de2aed565fe447f170ded9f18dc800b4
+2025-09-19 07:04:57,877 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:04:57,878 - lightrag - INFO - Query edges: Gesture setting, Volume adjustment, CMF Buds Pro, top_k: 60, cosine: 0.2
+2025-09-19 07:04:58,018 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 07:05:10,696 - lightrag - INFO -  == LLM cache == saving global: 1a23d86961f244b4fc3071ea5182c299
+2025-09-19 07:05:23,109 - lightrag - INFO -  == LLM cache == saving global: e37c5b7b9582797118d81f54802a6911
+2025-09-19 07:05:23,109 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:05:23,110 - lightrag - INFO - Query edges: Instructions, Connecting, Headphones, Smartphone, top_k: 60, cosine: 0.2
+2025-09-19 07:05:27,053 - lightrag - INFO - Global query uses 25 entites, 60 relations, 3 chunks
+2025-09-19 07:05:51,037 - lightrag - INFO -  == LLM cache == saving global: 6d35590f391698e4203ceff40e1e4575
+2025-09-19 07:05:51,845 - lightrag - INFO -  == LLM cache == saving global: a35d7a0f1c0c659008c11f6dd6efb8e2
+2025-09-19 07:05:51,845 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:05:51,845 - lightrag - INFO - Query edges: NFC, Enable, Nothing Phone 2A, top_k: 60, cosine: 0.2
+2025-09-19 07:05:51,996 - lightrag - INFO - Global query uses 18 entites, 60 relations, 3 chunks
+2025-09-19 07:06:03,510 - lightrag - INFO -  == LLM cache == saving global: f106d954cf57d0abd30a56876e220c90
+2025-09-19 07:06:04,397 - lightrag - INFO -  == LLM cache == saving global: e680559f9847392b38d9f27c3c102b0b
+2025-09-19 07:06:04,398 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:06:04,398 - lightrag - INFO - Query edges: Instructions, Triggering touch controls, CMF Buds, Product return, top_k: 60, cosine: 0.2
+2025-09-19 07:06:04,504 - lightrag - INFO - Global query uses 17 entites, 60 relations, 3 chunks
+2025-09-19 07:06:17,697 - lightrag - INFO -  == LLM cache == saving global: 62ce9c8439d02044a40e058a8c865f79
+2025-09-19 07:06:18,711 - lightrag - INFO -  == LLM cache == saving global: 8192df62fe3770da6ae25367c96367ad
+2025-09-19 07:06:18,712 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:06:18,712 - lightrag - INFO - Query edges: Gesture control, Phone operation, CMF Buds, top_k: 60, cosine: 0.2
+2025-09-19 07:06:18,815 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-09-19 07:06:40,519 - lightrag - INFO -  == LLM cache == saving global: 8e66a9ac701f33f5412d268589d75e0e
+2025-09-19 07:06:42,006 - lightrag - INFO -  == LLM cache == saving global: db401a58e8409f99d6a6ddad7c22421b
+2025-09-19 07:06:42,007 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:06:42,007 - lightrag - INFO - Query edges: Status update, Returned device, Nothing Phone 3A Pro, July 15, 2025, top_k: 60, cosine: 0.2
+2025-09-19 07:06:42,375 - lightrag - INFO - Global query uses 25 entites, 60 relations, 3 chunks
+2025-09-19 07:07:02,517 - lightrag - INFO -  == LLM cache == saving global: 6f034082934c4f5f01acd3c388f6c76b
+2025-09-19 07:07:04,138 - lightrag - INFO -  == LLM cache == saving global: aa1eb337f2ee1703a0971acac5d80140
+2025-09-19 07:07:04,139 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:07:04,139 - lightrag - INFO - Query edges: Compatibility issues, Product 'Nothing Phone 3A Pro', Wireless chargers, Troubleshooting steps, top_k: 60, cosine: 0.2
+2025-09-19 07:07:04,243 - lightrag - INFO - Global query uses 24 entites, 60 relations, 3 chunks
+2025-09-19 07:07:29,770 - lightrag - INFO -  == LLM cache == saving global: e616f9c2aaf2643fa6c6b3e2bf1b7a40
+2025-09-19 07:07:31,043 - lightrag - INFO -  == LLM cache == saving global: 93e4fe71e524b654c4e82be5c4deb1ae
+2025-09-19 07:07:31,043 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:07:31,043 - lightrag - INFO - Query edges: Using, Wired chargers, Nothing Phone 3A Pro, top_k: 60, cosine: 0.2
+2025-09-19 07:07:31,202 - lightrag - INFO - Global query uses 29 entites, 60 relations, 3 chunks
+2025-09-19 07:07:49,787 - lightrag - INFO -  == LLM cache == saving global: e4b5c6ae0d883017ce467788635bc318
+2025-09-19 07:07:50,665 - lightrag - INFO -  == LLM cache == saving global: 2b353b2375c48eb042b738d816a35a95
+2025-09-19 07:07:50,666 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:07:50,666 - lightrag - INFO - Query edges: Switching, Noise Cancellation Modes, Product Manual, top_k: 60, cosine: 0.2
+2025-09-19 07:07:50,800 - lightrag - INFO - Global query uses 27 entites, 60 relations, 3 chunks
+2025-09-19 07:08:06,441 - lightrag - INFO -  == LLM cache == saving global: 264cc07819f7891ff15b749b0a17adef
+2025-09-19 07:08:07,445 - lightrag - INFO -  == LLM cache == saving global: c1299eb2c55b27e7205dedc80f75773f
+2025-09-19 07:08:07,445 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:08:07,445 - lightrag - INFO - Query edges: OTG connection, Product explanation, Nothing Phone 3A Pro, top_k: 60, cosine: 0.2
+2025-09-19 07:08:07,619 - lightrag - INFO - Global query uses 28 entites, 60 relations, 3 chunks
+2025-09-19 07:08:23,870 - lightrag - INFO -  == LLM cache == saving global: c8306741068907e1c05c2df05c59cf4b
+2025-09-19 07:08:25,499 - lightrag - INFO -  == LLM cache == saving global: dbd7473c68013d020406f8775c6b9402
+2025-09-19 07:08:25,499 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:08:25,499 - lightrag - INFO - Query edges: Blocking sellers, Blacklisting, Customer returns, Phone orders, top_k: 60, cosine: 0.2
+2025-09-19 07:08:25,612 - lightrag - INFO - Global query uses 19 entites, 60 relations, 3 chunks
+2025-09-19 07:08:53,954 - lightrag - INFO -  == LLM cache == saving global: 28129729e594a6dbe6d98bfd0842d375
+2025-09-19 07:08:55,428 - lightrag - INFO -  == LLM cache == saving global: e3380038489c8fc923fee8113a4d5abe
+2025-09-19 07:08:55,428 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:08:55,428 - lightrag - INFO - Query edges: Product instructions, Voice assistant usage, After-return procedures, top_k: 60, cosine: 0.2
+2025-09-19 07:08:55,549 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-09-19 07:09:29,947 - lightrag - INFO -  == LLM cache == saving global: 70d7d1b37db0c1f19ede57060c3f0b16
+2025-09-19 07:09:31,184 - lightrag - INFO -  == LLM cache == saving global: c48b9973c2602f4d3cc1e5c5aff2e01d
+2025-09-19 07:09:31,184 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:09:31,184 - lightrag - INFO - Query edges: Auto Brightness, Support details, Product specifications, top_k: 60, cosine: 0.2
+2025-09-19 07:09:31,305 - lightrag - INFO - Global query uses 21 entites, 60 relations, 3 chunks
+2025-09-19 07:09:52,739 - lightrag - INFO -  == LLM cache == saving global: 47f7688d765f0f15a16b00b1b3dd3128
+2025-09-19 07:09:54,066 - lightrag - INFO -  == LLM cache == saving global: e50ae85b9a8be3677e4dd80d3bd2704c
+2025-09-19 07:09:54,067 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:09:54,067 - lightrag - INFO - Query edges: Product, Fast Charging, Compatibility, top_k: 60, cosine: 0.2
+2025-09-19 07:09:54,175 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 07:10:15,111 - lightrag - INFO -  == LLM cache == saving global: 0138da86410d71d0d119852fb787a292
+2025-09-19 07:10:16,131 - lightrag - INFO -  == LLM cache == saving global: 18e8357cd8f8b77443bffd8968df9513
+2025-09-19 07:10:16,131 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:10:16,131 - lightrag - INFO - Query edges: Google Fast Pair Support, Product 'Nothing Ear Open', Availability, top_k: 60, cosine: 0.2
+2025-09-19 07:10:16,282 - lightrag - INFO - Global query uses 13 entites, 60 relations, 3 chunks
+2025-09-19 07:10:28,631 - lightrag - INFO -  == LLM cache == saving global: 9c22cef504683dc138fe1970d112c268
+2025-09-19 07:10:29,736 - lightrag - INFO -  == LLM cache == saving global: d7d66ff4ed0e0d37cd050f7d5511d602
+2025-09-19 07:10:29,736 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:10:29,736 - lightrag - INFO - Query edges: Software upgrade, Product update, Technology enhancements, top_k: 60, cosine: 0.2
+2025-09-19 07:10:29,830 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-09-19 07:10:52,106 - lightrag - INFO -  == LLM cache == saving global: 3d569e1c39031f49ab8386d55e6ea38c
+2025-09-19 07:10:53,236 - lightrag - INFO -  == LLM cache == saving global: bbe024d037822b4a800d38990dc81d01
+2025-09-19 07:10:53,236 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:10:53,236 - lightrag - INFO - Query edges: eSIM Support, products, information, top_k: 60, cosine: 0.2
+2025-09-19 07:10:53,352 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 chunks
+2025-09-19 07:11:11,504 - lightrag - INFO -  == LLM cache == saving global: c3ecf65ca96892ffa05597ea9bb845b0
+2025-09-19 07:11:12,660 - lightrag - INFO -  == LLM cache == saving global: 10fb5f476262728550e42b0cf68aab91
+2025-09-19 07:11:12,660 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:11:12,660 - lightrag - INFO - Query edges: Product, Support, LE Audio, Firmware Update, top_k: 60, cosine: 0.2
+2025-09-19 07:11:12,963 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-09-19 07:11:36,063 - lightrag - INFO -  == LLM cache == saving global: e8ab197ed78600b0216169d10c576f5d
+2025-09-19 07:11:37,512 - lightrag - INFO -  == LLM cache == saving global: 1cb8efa98e2c914bc001b9d0755689d9
+2025-09-19 07:11:37,512 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:11:37,512 - lightrag - INFO - Query edges: Knowledge Graph Agent, Pairing Instructions, Smartwatch, CMF Watch Pro 2, top_k: 60, cosine: 0.2
+2025-09-19 07:11:37,619 - lightrag - INFO - Global query uses 40 entites, 60 relations, 3 chunks
+2025-09-19 07:12:06,829 - lightrag - INFO -  == LLM cache == saving global: b92c5828cb8395b756b4e59e5adf53dc
+2025-09-19 07:12:08,192 - lightrag - INFO -  == LLM cache == saving global: 77a03dceedab3d1afa187a1032a4f3e1
+2025-09-19 07:12:08,192 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:12:08,192 - lightrag - INFO - Query edges: Earphone products, Fast charging, Charging details, top_k: 60, cosine: 0.2
+2025-09-19 07:12:08,365 - lightrag - INFO - Global query uses 23 entites, 60 relations, 3 chunks
+2025-09-19 07:12:25,592 - lightrag - INFO -  == LLM cache == saving global: 8cc455c3920900e375dff85a02192006
+2025-09-19 07:12:26,577 - lightrag - INFO -  == LLM cache == saving global: 98ed16047e301e0a811cf5c5ccfb8739
+2025-09-19 07:12:26,577 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:12:26,577 - lightrag - INFO - Query edges: Smartphone, NFC support, top_k: 60, cosine: 0.2
+2025-09-19 07:12:26,691 - lightrag - INFO - Global query uses 18 entites, 60 relations, 3 chunks
+2025-09-19 07:12:37,898 - lightrag - INFO -  == LLM cache == saving global: ef4df18d4e6df4501c67a1e41c753dbc
+2025-09-19 07:12:39,133 - lightrag - INFO -  == LLM cache == saving global: aafb8832c5148ccce819cf31dabfc656
+2025-09-19 07:12:39,134 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:12:39,134 - lightrag - INFO - Query edges: Wireless charging, Earphone compatibility, Tech product information, top_k: 60, cosine: 0.2
+2025-09-19 07:12:39,246 - lightrag - INFO - Global query uses 15 entites, 60 relations, 3 chunks
+2025-09-19 07:12:56,674 - lightrag - INFO -  == LLM cache == saving global: 9be8d8c159756983d7c648af14deae2c
+2025-09-19 07:12:57,577 - lightrag - INFO -  == LLM cache == saving global: 3f9122179ea93dc2aa2f956ff86f2dc4
+2025-09-19 07:12:57,577 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:12:57,577 - lightrag - INFO - Query edges: Audio devices, Wireless connectivity, Smartphone compatibility, top_k: 60, cosine: 0.2
+2025-09-19 07:12:57,697 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 07:13:10,387 - lightrag - INFO -  == LLM cache == saving global: b7c3fe498bee83cafd37eeae756d3636
+2025-09-19 07:13:11,226 - lightrag - INFO -  == LLM cache == saving global: 9a15d89c5e988d3cc4a47dbb141dfa26
+2025-09-19 07:13:11,226 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:13:11,226 - lightrag - INFO - Query edges: Product, Wireless Charging, top_k: 60, cosine: 0.2
+2025-09-19 07:13:11,361 - lightrag - INFO - Global query uses 13 entites, 60 relations, 3 chunks
+2025-09-19 07:13:22,409 - lightrag - INFO -  == LLM cache == saving global: 10e65fe4254fffaa26a4648d3285eab1
+2025-09-19 07:13:23,647 - lightrag - INFO -  == LLM cache == saving global: 026ec0519af08d077f3ecd1af1704ba4
+2025-09-19 07:13:23,647 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:13:23,647 - lightrag - INFO - Query edges: GPS Support, Product Details, Troubleshooting Steps, top_k: 60, cosine: 0.2
+2025-09-19 07:13:23,756 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 chunks
+2025-09-19 07:13:39,826 - lightrag - INFO -  == LLM cache == saving global: 71eb786a20f0651e384b618817079e4a
+2025-09-19 07:13:40,736 - lightrag - INFO -  == LLM cache == saving global: b0175569e5854a1906e11c23ba29a4bb
+2025-09-19 07:13:40,736 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:13:40,736 - lightrag - INFO - Query edges: Product, Support, NFC, top_k: 60, cosine: 0.2
+2025-09-19 07:13:40,876 - lightrag - INFO - Global query uses 16 entites, 60 relations, 3 chunks
+2025-09-19 07:13:51,983 - lightrag - INFO -  == LLM cache == saving global: 17d37c47e481f88ceeab565e1a0f46b7
+2025-09-19 07:13:52,920 - lightrag - INFO -  == LLM cache == saving global: 1af8010145c88eb0d8169f6df5f42f8d
+2025-09-19 07:13:52,921 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:13:52,921 - lightrag - INFO - Query edges: GPS Support, Product features, Technical specifications, top_k: 60, cosine: 0.2
+2025-09-19 07:13:53,040 - lightrag - INFO - Global query uses 26 entites, 60 relations, 3 chunks
+2025-09-19 07:14:12,120 - lightrag - INFO -  == LLM cache == saving global: 8c7869c990d78017ab0d6d60e94c0f87
+2025-09-19 07:14:13,080 - lightrag - INFO -  == LLM cache == saving global: 27226de83c784f2171e972c9a7cc629b
+2025-09-19 07:14:13,080 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:14:13,080 - lightrag - INFO - Query edges: Nothing Ear Stick, wireless charging support, top_k: 60, cosine: 0.2
+2025-09-19 07:14:13,218 - lightrag - INFO - Global query uses 17 entites, 60 relations, 3 chunks
+2025-09-19 07:14:36,472 - lightrag - INFO -  == LLM cache == saving global: d6033b817ef1243d1fdfd04437f08355
+2025-09-19 07:14:37,601 - lightrag - INFO -  == LLM cache == saving global: 4d71c4da6d5a655ea85ec705f9258d3d
+2025-09-19 07:14:37,602 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:14:37,602 - lightrag - INFO - Query edges: Smartphone products, NFC technology, Support, top_k: 60, cosine: 0.2
+2025-09-19 07:14:37,742 - lightrag - INFO - Global query uses 13 entites, 60 relations, 3 chunks
+2025-09-19 07:14:53,998 - lightrag - INFO -  == LLM cache == saving global: 2b58f76aa244634a97083ea792a01010
+2025-09-19 07:14:55,431 - lightrag - INFO -  == LLM cache == saving global: c04b32e655ed0f58d9ae9199013e4206
+2025-09-19 07:14:55,431 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:14:55,432 - lightrag - INFO - Query edges: Fast Charging Support, Products Information, Electronics Research, top_k: 60, cosine: 0.2
+2025-09-19 07:14:55,535 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 07:15:12,615 - lightrag - INFO -  == LLM cache == saving global: 1f7199da1655444fc285d1452f1bf19b
+2025-09-19 07:15:13,899 - lightrag - INFO -  == LLM cache == saving global: e0c1df7832fce46f7f2d30120a9ab348
+2025-09-19 07:15:13,900 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:15:13,900 - lightrag - INFO - Query edges: Dual 4G functionality, Smartphone models, top_k: 60, cosine: 0.2
+2025-09-19 07:15:13,989 - lightrag - INFO - Global query uses 50 entites, 60 relations, 3 chunks
+2025-09-19 07:15:41,208 - lightrag - INFO -  == LLM cache == saving global: ed70b265cfaedab1968255e4ef3343c4
+2025-09-19 07:15:42,449 - lightrag - INFO -  == LLM cache == saving global: 9022fabf8e1791d7a531720039e02014
+2025-09-19 07:15:42,449 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:15:42,449 - lightrag - INFO - Query edges: Auto Brightness, Smartwatch, Updates, top_k: 60, cosine: 0.2
+2025-09-19 07:15:42,554 - lightrag - INFO - Global query uses 28 entites, 60 relations, 3 chunks
+2025-09-19 07:16:02,858 - lightrag - INFO -  == LLM cache == saving global: 0ff08e465f81945828e5c93b9f7b4396
+2025-09-19 07:16:04,213 - lightrag - INFO -  == LLM cache == saving global: 9e07d47b270cf952a681b0e7369ddf16
+2025-09-19 07:16:04,213 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:16:04,214 - lightrag - INFO - Query edges: Activity Score, CMF Watch Pro, Functionality, Usage, top_k: 60, cosine: 0.2
+2025-09-19 07:16:04,412 - lightrag - INFO - Global query uses 54 entites, 60 relations, 3 chunks
+2025-09-19 07:16:34,310 - lightrag - INFO -  == LLM cache == saving global: 774cb136355856a45bd8b011d3cb7269
+2025-09-19 07:16:35,437 - lightrag - INFO -  == LLM cache == saving global: 1327fd8dd62264c8bba0d4466f522b23
+2025-09-19 07:16:35,437 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:16:35,437 - lightrag - INFO - Query edges: Fast charging, Phone models, top_k: 60, cosine: 0.2
+2025-09-19 07:16:35,554 - lightrag - INFO - Global query uses 31 entites, 60 relations, 3 chunks
+2025-09-19 07:16:50,834 - lightrag - INFO -  == LLM cache == saving global: 057e724f81af3eec9a5a9152b98ece79
+2025-09-19 07:16:51,801 - lightrag - INFO -  == LLM cache == saving global: e9eb207da1df2b90fbf7e7a4e69d47b8
+2025-09-19 07:16:51,801 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:16:51,801 - lightrag - INFO - Query edges: Product support, Wireless charging, top_k: 60, cosine: 0.2
+2025-09-19 07:16:51,924 - lightrag - INFO - Global query uses 10 entites, 60 relations, 3 chunks
+2025-09-19 07:17:01,771 - lightrag - INFO -  == LLM cache == saving global: 574c8a68650b30941df4fc5b2c42e527
+2025-09-19 07:17:02,979 - lightrag - INFO -  == LLM cache == saving global: fbad04cb9afc26e7dd748a26f3c25d64
+2025-09-19 07:17:02,979 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:17:02,980 - lightrag - INFO - Query edges: Earphones, Elizabeth Ward's purchases, Fast Charging, top_k: 60, cosine: 0.2
+2025-09-19 07:17:03,093 - lightrag - INFO - Global query uses 24 entites, 60 relations, 3 chunks
+2025-09-19 07:17:15,356 - lightrag - INFO -  == LLM cache == saving global: c9e50ea618ec5631893eb38aafd95188
+2025-09-19 07:17:16,416 - lightrag - INFO -  == LLM cache == saving global: f28be68f8602dd8c50758b95ef6d8885
+2025-09-19 07:17:16,417 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:17:16,417 - lightrag - INFO - Query edges: Google Fast Pair, Pairing requirements, Compatibility, top_k: 60, cosine: 0.2
+2025-09-19 07:17:16,543 - lightrag - INFO - Global query uses 9 entites, 60 relations, 3 chunks
+2025-09-19 07:17:34,877 - lightrag - INFO -  == LLM cache == saving global: 99fc7f731e5e013a1da7dca8c6241f88
+2025-09-19 07:17:36,140 - lightrag - INFO -  == LLM cache == saving global: 3cf5a0049739bfc1f8f07e56ed940cc8
+2025-09-19 07:17:36,140 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:17:36,140 - lightrag - INFO - Query edges: Smartphone, NFC support, Features, Instructions, top_k: 60, cosine: 0.2
+2025-09-19 07:17:36,244 - lightrag - INFO - Global query uses 20 entites, 60 relations, 3 chunks
+2025-09-19 07:17:54,531 - lightrag - INFO -  == LLM cache == saving global: b45e5f9367ebeb7fe489b4adaebfa461
+2025-09-19 07:17:55,833 - lightrag - INFO -  == LLM cache == saving global: 1bdcb816670dcc37263a636106ca28ba
+2025-09-19 07:17:55,834 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:17:55,834 - lightrag - INFO - Query edges: Dual 4G support, Product information, Troubleshooting steps, top_k: 60, cosine: 0.2
+2025-09-19 07:17:55,960 - lightrag - INFO - Global query uses 38 entites, 60 relations, 3 chunks
+2025-09-19 07:18:16,172 - lightrag - INFO -  == LLM cache == saving global: cf4092c2b8b6bdf6810db8c50abd077b
+2025-09-19 07:18:17,537 - lightrag - INFO -  == LLM cache == saving global: 0e1a33222e3b7b07cdc2dff311bbc87f
+2025-09-19 07:18:17,537 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:18:17,537 - lightrag - INFO - Query edges: Smartphone, Dual 4G functionality, Comparative analysis, top_k: 60, cosine: 0.2
+2025-09-19 07:18:17,661 - lightrag - INFO - Global query uses 28 entites, 60 relations, 3 chunks
+2025-09-19 07:18:39,294 - lightrag - INFO -  == LLM cache == saving global: 8a003cb246253086f8c26db7f964baaf
+2025-09-19 07:18:40,474 - lightrag - INFO -  == LLM cache == saving global: 74add33f242e5ebbf7ea0333afd25217
+2025-09-19 07:18:40,474 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:18:40,474 - lightrag - INFO - Query edges: Product functionality, GPS support, Instructions, Troubleshooting, top_k: 60, cosine: 0.2
+2025-09-19 07:18:40,584 - lightrag - INFO - Global query uses 25 entites, 60 relations, 3 chunks
+2025-09-19 07:18:58,707 - lightrag - INFO -  == LLM cache == saving global: 044478b48c0eedf6273823eae0e8593a
+2025-09-19 07:18:59,890 - lightrag - INFO -  == LLM cache == saving global: 6ef59687bb75864f07869191b5178145
+2025-09-19 07:18:59,890 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:18:59,890 - lightrag - INFO - Query edges: Product, CMF Buds Pro, Fast charging, Charging capabilities, top_k: 60, cosine: 0.2
+2025-09-19 07:19:00,000 - lightrag - INFO - Global query uses 10 entites, 60 relations, 3 chunks
+2025-09-19 07:19:17,451 - lightrag - INFO -  == LLM cache == saving global: 39b658903ce8da21145ddd95d1b4b64b
+2025-09-19 07:19:18,499 - lightrag - INFO -  == LLM cache == saving global: 0692c76d1a67eba15f32164f3df5e33d
+2025-09-19 07:19:18,499 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:19:18,499 - lightrag - INFO - Query edges: Product details, Known issues, Google Fast Pair functionality, CMF Buds Pro, top_k: 60, cosine: 0.2
+2025-09-19 07:19:18,612 - lightrag - INFO - Global query uses 12 entites, 60 relations, 3 chunks
+2025-09-19 07:19:38,466 - lightrag - INFO -  == LLM cache == saving global: 31020a91b4de0099e34c5e9bfb031437
+2025-09-19 07:19:39,530 - lightrag - INFO -  == LLM cache == saving global: 602c8e915ecfd9cb82db9ff828425604
+2025-09-19 07:19:39,530 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:19:39,530 - lightrag - INFO - Query edges: Wireless charging, Product support, Troubleshooting steps, top_k: 60, cosine: 0.2
+2025-09-19 07:19:39,629 - lightrag - INFO - Global query uses 10 entites, 60 relations, 3 chunks
+2025-09-19 07:19:58,716 - lightrag - INFO -  == LLM cache == saving global: 91b5311e79002514ef53b1c7bc5428ff
+2025-09-19 07:19:59,866 - lightrag - INFO -  == LLM cache == saving global: 116fc78a3dd96e0fd3ea6cce9e5cdd5f
+2025-09-19 07:19:59,866 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:19:59,866 - lightrag - INFO - Query edges: Location System, Product details, CMF Watch Pro 2, top_k: 60, cosine: 0.2
+2025-09-19 07:19:59,977 - lightrag - INFO - Global query uses 44 entites, 60 relations, 3 chunks
+2025-09-19 07:20:24,060 - lightrag - INFO -  == LLM cache == saving global: 03b020604195add699a88be048cde8ad
+2025-09-19 07:20:25,326 - lightrag - INFO -  == LLM cache == saving global: 8bec37ab148616697d68f46c60bbd6cd
+2025-09-19 07:20:25,327 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:20:25,327 - lightrag - INFO - Query edges: NFC support, Products comparison, Smartphone features, top_k: 60, cosine: 0.2
+2025-09-19 07:20:25,435 - lightrag - INFO - Global query uses 17 entites, 60 relations, 3 chunks
+2025-09-19 07:20:41,347 - lightrag - INFO -  == LLM cache == saving global: 4f838621be9414e572e460b8c328572a
+2025-09-19 07:20:42,684 - lightrag - INFO -  == LLM cache == saving global: d6bf46e71ca74005fd3ce832a1d68299
+2025-09-19 07:20:42,684 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:20:42,685 - lightrag - INFO - Query edges: Product compatibility, Fast Charging, Battery Technology, top_k: 60, cosine: 0.2
+2025-09-19 07:20:42,803 - lightrag - INFO - Global query uses 14 entites, 60 relations, 3 chunks
+2025-09-19 07:21:02,521 - lightrag - INFO -  == LLM cache == saving global: 6d12a9233e9e212762157f6b346bab57
+2025-09-19 07:21:03,932 - lightrag - INFO -  == LLM cache == saving global: 03848b3043c4611f38b2542036bab591
+2025-09-19 07:21:03,932 - lightrag - INFO - Process 2640956 building query context...
+2025-09-19 07:21:03,932 - lightrag - INFO - Query edges: GPS Support, Product Information, CMF Watch Pro 2, GLONASS, Satellite Systems, top_k: 60, cosine: 0.2
+2025-09-19 07:21:04,042 - lightrag - INFO - Global query uses 29 entites, 60 relations, 3 chunks
+2025-09-19 07:21:23,598 - lightrag - INFO -  == LLM cache == saving global: 1b089fb251a453d6aa489a0f02721823
+2025-09-19 07:21:23,741 - lightrag - INFO - Storage Finalization completed!

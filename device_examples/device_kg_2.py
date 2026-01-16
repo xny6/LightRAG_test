@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "working_dir_for_device2_gemma"
+WORKING_DIR = "working_dir_for_device2_qwen2"
 
 
 def configure_logging():
@@ -26,7 +26,7 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "log_for_device2_gemma.log"))
+    log_file_path = os.path.abspath(os.path.join(log_dir, "log_for_device2_qwen2.log"))
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
     os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
@@ -86,14 +86,14 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=ollama_model_complete,
-        llm_model_name=os.getenv("LLM_MODEL", "gemma3:27b"),
+        llm_model_name=os.getenv("LLM_MODEL", "qwen2"),
         llm_model_max_token_size=8192,
         llm_model_kwargs={
             "host": os.getenv("LLM_BINDING_HOST", "http://localhost:11434"),
             "options": {"num_ctx": 32768},
             "timeout": int(os.getenv("TIMEOUT", "600")),
         },
-        llm_model_max_async=8,
+        # llm_model_max_async=8,
         addon_params={'language': 'Simplified Chinese'},
 
         embedding_func=EmbeddingFunc(

@@ -1,14 +1,11 @@
-from lightrag.operate import get_keywords_from_query, extract_keywords_only, _get_edge_data
-from dataclasses import asdict
-import json
-import asyncio
 import os
-import shutil
+import asyncio
 import inspect
 import logging
 import logging.config
 from lightrag import LightRAG, QueryParam
-from lightrag.llm.ollama import ollama_model_complete, ollama_embed
+from lightrag.llm.openai import openai_complete_if_cache
+from lightrag.llm.ollama import ollama_embed
 from lightrag.utils import EmbeddingFunc, logger, set_verbose_debug
 from lightrag.kg.shared_storage import initialize_pipeline_status
 
@@ -16,7 +13,7 @@ from dotenv import load_dotenv
 
 load_dotenv(dotenv_path=".env", override=False)
 
-WORKING_DIR = "/home/NingyuanXiao/LightRAG_test/working_dir_advanced_ollama"
+WORKING_DIR = "working_dir_gpt-4o-mini"
 
 
 def configure_logging():
@@ -30,10 +27,12 @@ def configure_logging():
 
     # Get log directory path from environment variable or use current directory
     log_dir = os.getenv("LOG_DIR", os.getcwd())
-    log_file_path = os.path.abspath(os.path.join(log_dir, "working_dir_for_AC_attack.log"))
+    log_file_path = os.path.abspath(
+        os.path.join(log_dir, "gpt-4o-mini.log")
+    )
 
     print(f"\nLightRAG compatible demo log file: {log_file_path}\n")
-    os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
+    os.makedirs(os.path.dirname(log_dir), exist_ok=True)
 
     # Get log file max size and backup count from environment variables
     log_max_bytes = int(os.getenv("LOG_MAX_BYTES", 10485760))  # Default 10MB
@@ -82,19 +81,34 @@ def configure_logging():
     set_verbose_debug(os.getenv("VERBOSE_DEBUG", "false").lower() == "true")
 
 
-async def initialize_rag(working_dir=WORKING_DIR):
+if not os.path.exists(WORKING_DIR):
+    os.mkdir(WORKING_DIR)
+
+
+async def llm_model_func(
+    prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
+) -> str:
+    return await openai_complete_if_cache(
+        "gpt-4o-mini",  
+        prompt,
+        system_prompt=system_prompt,
+        history_messages=history_messages,
+        api_key="sk-n0abG3UAbhJUeItHIyca9knepU9we68bbd179I0TxAP2CM4Z",  # 替换为你的API Key
+        base_url="https://www.dmxapi.cn/v1",  # 替换为你的Base URL
+        **kwargs,
+    )
+
+
+async def print_stream(stream):
+    async for chunk in stream:
+        if chunk:
+            print(chunk, end="", flush=True)
+
+
+async def initialize_rag():
     rag = LightRAG(
-        working_dir=working_dir,
-        llm_model_func=ollama_model_complete,
-        llm_model_name=os.getenv("LLM_MODEL", "qwen2"),
-        llm_model_max_token_size=8192,
-        llm_model_max_async=12,
-        max_parallel_insert=3,
-        llm_model_kwargs={
-            "host": os.getenv("LLM_BINDING_HOST", "http://localhost:11434"),
-            "options": {"num_ctx": 32768},
-            "timeout": int(os.getenv("TIMEOUT", "600")),
-        },
+        working_dir=WORKING_DIR,
+        llm_model_func=llm_model_func,
         embedding_func=EmbeddingFunc(
             embedding_dim=int(os.getenv("EMBEDDING_DIM", "768")),
             max_token_size=int(os.getenv("MAX_EMBED_TOKENS", "8192")),
@@ -112,77 +126,63 @@ async def initialize_rag(working_dir=WORKING_DIR):
     return rag
 
 
-async def print_stream(stream):
-    async for chunk in stream:
-        print(chunk, end="", flush=True)
-
-
-async def query_kg(rag, question,param):
-    response = await rag.aquery(
-        question,
-        param=param,
-    )
-    return response
-
-
-# async def test_query(question):
-#     try:
-#         rag= await initialize_rag()
-
-#         query_param = QueryParam(mode='global', stream=False, history_turns=0)
-
-#         response = await rag.aquery(
-#             question,
-#             param=query_param,
-#         )
-
-#         print(f"Response: {response}")
-#     except Exception as e:
-#         print(f"An error occurred: {e}")
-#     finally:
-#         if rag:
-#             await rag.llm_response_cache.index_done_callback()
-#             await rag.finalize_storages()
-
 async def main():
     try:
+        # Clear old data files
+        files_to_delete = [
+            "graph_chunk_entity_relation.graphml",
+            "kv_store_doc_status.json",
+            "kv_store_full_docs.json",
+            "kv_store_text_chunks.json",
+            "vdb_chunks.json",
+            "vdb_entities.json",
+            "vdb_relationships.json",
+        ]
+
+        for file in files_to_delete:
+            file_path = os.path.join(WORKING_DIR, file)
+            if os.path.exists(file_path):
+                os.remove(file_path)
+                print(f"Deleting old file:: {file_path}")
 
         # Initialize RAG instance
         rag = await initialize_rag()
 
-        query_param = QueryParam(mode='global', stream=False, history_turns=0)
+        # Test embedding function
+        test_text = ["This is a test string for embedding."]
+        embedding = await rag.embedding_func(test_text)
+        embedding_dim = embedding.shape[1]
+        print("\n=======================")
+        print("Test embedding function")
+        print("========================")
+        print(f"Test dict: {test_text}")
+        print(f"Detected embedding dimension: {embedding_dim}\n\n")
 
-        with open('/home/NingyuanXiao/Vanna_test/multi_round/enhanced_sql_kg_1_answer_50.json', 'r') as f:
-            data = json.load(f)
+        with open("/home/NingyuanXiao/merged_output.txt", "r", encoding="utf-8") as f:
+            await rag.ainsert(f.read())
 
-        for entry in data:
-            question = entry.get("KG Query", "").strip()
-            response = await query_kg(rag, question, query_param)
-            entry["KG Result"] = response
 
-        with open('/home/NingyuanXiao/Vanna_test/multi_round/enhanced_sql_kg_1_answer_50.json', 'w') as f:
-            json.dump(data, f, ensure_ascii=False, indent=4)
-        
+        # Perform global search
+        print("\n=====================")
+        print("Query mode: global")
+        print("=====================")
+        resp = await rag.aquery(
+            "Does Nothing Phone 2 support wireless charging?",
+            param=QueryParam(mode="global", stream=True),
+        )
+        if inspect.isasyncgen(resp):
+            await print_stream(resp)
+        else:
+            print(resp)
 
-        with open('/home/NingyuanXiao/Vanna_test/multi_round/enhanced_sql_kg_2_answer_50.json', 'r') as f:
-            data2 = json.load(f)
-
-        for entry in data2:
-            question = entry.get("KG Query", "").strip()
-            response = await query_kg(rag, question, query_param)
-            entry["KG Result"] = response
-
-        with open('/home/NingyuanXiao/Vanna_test/multi_round/enhanced_sql_kg_2_answer_50.json', 'w') as f:
-            json.dump(data2, f, ensure_ascii=False, indent=4)
-        
 
 
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
         if rag:
-            await rag.llm_response_cache.index_done_callback()
             await rag.finalize_storages()
+
 
 if __name__ == "__main__":
     # Configure logging before running the main function

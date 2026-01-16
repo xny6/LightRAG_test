@@ -1,0 +1,741 @@
+2026-01-05 07:08:53,545 - lightrag - INFO - Created new empty graph
+2026-01-05 07:08:53,549 - lightrag - INFO - Process 3142885 KV load full_docs with 0 records
+2026-01-05 07:08:53,549 - lightrag - INFO - Process 3142885 KV load text_chunks with 0 records
+2026-01-05 07:08:53,549 - lightrag - INFO - Process 3142885 KV load llm_response_cache with 0 records
+2026-01-05 07:08:53,549 - lightrag - INFO - Process 3142885 doc status load doc_status with 0 records
+2026-01-05 07:08:53,550 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-05 07:08:53,550 - lightrag - INFO - Storage Initialization completed!
+2026-01-05 07:08:57,723 - lightrag - INFO - Stored 1 new unique documents
+2026-01-05 07:08:57,723 - lightrag - INFO - Processing 1 document(s)
+2026-01-05 07:08:57,723 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-05 07:08:57,724 - lightrag - INFO - Processing d-id: doc-89e588cf573b67bf191cb19e8aa70158
+2026-01-05 07:08:57,822 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-05 07:09:02,242 - lightrag - INFO -  == LLM cache == saving default: 35705252a0267c56084f55c079919b51
+2026-01-05 07:09:02,668 - lightrag - INFO -  == LLM cache == saving default: 4d199c2746bd9f849c3151934c2b8902
+2026-01-05 07:09:03,326 - lightrag - INFO -  == LLM cache == saving default: fd573033a227941bd17d138829d81ce8
+2026-01-05 07:09:03,734 - lightrag - INFO -  == LLM cache == saving default: 9d8118fcc336d0552e6663e660fea5aa
+2026-01-05 07:09:10,058 - lightrag - INFO -  == LLM cache == saving default: 1e4491218682cd0f2d428e9c5df1484f
+2026-01-05 07:09:10,060 - lightrag - INFO - Chunk 1 of 117 extracted 6 Ent + 7 Rel
+2026-01-05 07:09:10,744 - lightrag - INFO -  == LLM cache == saving default: 5ac8ed6af649a77b949288aeb8e20fda
+2026-01-05 07:09:10,745 - lightrag - INFO - Chunk 2 of 117 extracted 9 Ent + 7 Rel
+2026-01-05 07:09:12,136 - lightrag - INFO -  == LLM cache == saving default: bc1b1676432fd6d6ffb4b067a4054c38
+2026-01-05 07:09:12,138 - lightrag - INFO - Chunk 3 of 117 extracted 10 Ent + 6 Rel
+2026-01-05 07:09:12,568 - lightrag - INFO -  == LLM cache == saving default: 6e9f988ac6436ccb4f639014807172e8
+2026-01-05 07:09:12,570 - lightrag - INFO - Chunk 4 of 117 extracted 9 Ent + 5 Rel
+2026-01-05 07:09:14,128 - lightrag - INFO -  == LLM cache == saving default: 2498d9d7ee1f9e1903cb86d60fe55a83
+2026-01-05 07:09:17,619 - lightrag - INFO -  == LLM cache == saving default: ce0c32eb0449e4458fbb085ba2fcd306
+2026-01-05 07:09:17,620 - lightrag - INFO - Chunk 5 of 117 extracted 3 Ent + 2 Rel
+2026-01-05 07:09:18,035 - lightrag - INFO -  == LLM cache == saving default: d69011d10613fe8665e942cd4fd0ac85
+2026-01-05 07:09:18,078 - lightrag - INFO -  == LLM cache == saving default: 855eed6ddb22135f7b9f5228900e2fa9
+2026-01-05 07:09:18,247 - lightrag - INFO -  == LLM cache == saving default: 531f2ee082633ab00b2c184b66a7df86
+2026-01-05 07:09:24,092 - lightrag - INFO -  == LLM cache == saving default: 84f0beeb51ab9656eae0afaf34997cac
+2026-01-05 07:09:24,093 - lightrag - INFO - Chunk 6 of 117 extracted 11 Ent + 10 Rel
+2026-01-05 07:09:24,938 - lightrag - INFO -  == LLM cache == saving default: df6a2b02f7154b33e38efc44d50e07c1
+2026-01-05 07:09:26,564 - lightrag - INFO -  == LLM cache == saving default: 2b2242a05caf4614bd3ff1653130941f
+2026-01-05 07:09:26,566 - lightrag - INFO - Chunk 7 of 117 extracted 11 Ent + 12 Rel
+2026-01-05 07:09:29,375 - lightrag - INFO -  == LLM cache == saving default: 8fe3ff8fa61f5cd60298e8b989c75164
+2026-01-05 07:09:30,236 - lightrag - INFO -  == LLM cache == saving default: 4c6db44abcf68a7cbc56a4480fd14bbe
+2026-01-05 07:09:30,238 - lightrag - INFO - Chunk 8 of 117 extracted 14 Ent + 13 Rel
+2026-01-05 07:09:32,869 - lightrag - INFO -  == LLM cache == saving default: b8dc24c2153e89aa3b80461acce040d6
+2026-01-05 07:09:35,783 - lightrag - INFO -  == LLM cache == saving default: 0071bc1fda5934a15e3f90436b127adf
+2026-01-05 07:09:35,785 - lightrag - INFO - Chunk 9 of 117 extracted 16 Ent + 16 Rel
+2026-01-05 07:09:36,659 - lightrag - INFO -  == LLM cache == saving default: 2e20dd5897bfb5e6b5ecb77ee0993251
+2026-01-05 07:09:37,478 - lightrag - INFO -  == LLM cache == saving default: 25de02c0eea251067f9e1a8ac72c19bd
+2026-01-05 07:09:37,479 - lightrag - INFO - Chunk 10 of 117 extracted 9 Ent + 8 Rel
+2026-01-05 07:09:39,395 - lightrag - INFO -  == LLM cache == saving default: e65a6440e4ed12fcad689d33bc1fa52e
+2026-01-05 07:09:39,396 - lightrag - INFO - Chunk 11 of 117 extracted 7 Ent + 5 Rel
+2026-01-05 07:09:41,226 - lightrag - INFO -  == LLM cache == saving default: ccbf6d99dd59a76bdae11a534fa203e0
+2026-01-05 07:09:44,463 - lightrag - INFO -  == LLM cache == saving default: 44a4b0218f2af00e277a8bb99d62d2c1
+2026-01-05 07:09:44,464 - lightrag - INFO - Chunk 12 of 117 extracted 10 Ent + 8 Rel
+2026-01-05 07:09:46,131 - lightrag - INFO -  == LLM cache == saving default: fde003339e5da012e83f29340e2e47f3
+2026-01-05 07:09:46,566 - lightrag - INFO -  == LLM cache == saving default: b18f450b4df3e9c23083bb0355516435
+2026-01-05 07:09:49,641 - lightrag - INFO -  == LLM cache == saving default: 84a1b2a7d0c5d3ed06677a356f225f06
+2026-01-05 07:09:51,481 - lightrag - INFO -  == LLM cache == saving default: d8736fb5831a53f87e81645c97ac36b5
+2026-01-05 07:09:51,482 - lightrag - INFO - Chunk 13 of 117 extracted 10 Ent + 8 Rel
+2026-01-05 07:09:53,275 - lightrag - INFO -  == LLM cache == saving default: a02e8ae66bb748cb508d1eb30ca7c81a
+2026-01-05 07:09:53,276 - lightrag - INFO - Chunk 14 of 117 extracted 10 Ent + 6 Rel
+2026-01-05 07:09:56,867 - lightrag - INFO -  == LLM cache == saving default: b5d4ede643909cdc2b0b0f1cc37ca6da
+2026-01-05 07:09:56,909 - lightrag - INFO -  == LLM cache == saving default: c04d5c1243a3dcf081cf6dcb9cd4e7a7
+2026-01-05 07:09:56,910 - lightrag - INFO - Chunk 15 of 117 extracted 11 Ent + 9 Rel
+2026-01-05 07:09:57,845 - lightrag - INFO -  == LLM cache == saving default: 6133e3b045c1f306b2af0f22debf0eed
+2026-01-05 07:09:57,847 - lightrag - INFO - Chunk 16 of 117 extracted 12 Ent + 9 Rel
+2026-01-05 07:09:59,193 - lightrag - INFO -  == LLM cache == saving default: b69358695ac62fd93902061cf512b394
+2026-01-05 07:10:00,291 - lightrag - INFO -  == LLM cache == saving default: 7c70761107bd5a4549ca6beb63052979
+2026-01-05 07:10:05,738 - lightrag - INFO -  == LLM cache == saving default: 71088cd58bcc144549ef02568fd754c5
+2026-01-05 07:10:05,739 - lightrag - INFO - Chunk 17 of 117 extracted 6 Ent + 5 Rel
+2026-01-05 07:10:05,851 - lightrag - INFO -  == LLM cache == saving default: 7d4387cf5b0ef65f3a671fc96e178beb
+2026-01-05 07:10:05,853 - lightrag - INFO - Chunk 18 of 117 extracted 9 Ent + 9 Rel
+2026-01-05 07:10:07,964 - lightrag - INFO -  == LLM cache == saving default: ece90486a8ccd24369e282d2b8daf074
+2026-01-05 07:10:08,934 - lightrag - INFO -  == LLM cache == saving default: 21dadf8e71da5473ccb173fe5cdbda77
+2026-01-05 07:10:09,429 - lightrag - INFO -  == LLM cache == saving default: 14c88f134c22e25481e274d1eba258f0
+2026-01-05 07:10:09,431 - lightrag - INFO - Chunk 19 of 117 extracted 11 Ent + 10 Rel
+2026-01-05 07:10:09,531 - lightrag - INFO -  == LLM cache == saving default: ac4f49f128de3228011677ea534f7916
+2026-01-05 07:10:14,056 - lightrag - INFO -  == LLM cache == saving default: 7acb8481f4207044ea579150b78133a2
+2026-01-05 07:10:16,699 - lightrag - INFO -  == LLM cache == saving default: de6c142947203ab83642f106f8e189be
+2026-01-05 07:10:16,700 - lightrag - INFO - Chunk 20 of 117 extracted 7 Ent + 6 Rel
+2026-01-05 07:10:18,229 - lightrag - INFO -  == LLM cache == saving default: b4899e1b3b49923b7e260f35c950ad80
+2026-01-05 07:10:18,231 - lightrag - INFO - Chunk 21 of 117 extracted 11 Ent + 6 Rel
+2026-01-05 07:10:18,712 - lightrag - INFO -  == LLM cache == saving default: f5fe821a520197d64bd882c4707d4a9e
+2026-01-05 07:10:18,713 - lightrag - INFO - Chunk 22 of 117 extracted 13 Ent + 8 Rel
+2026-01-05 07:10:19,349 - lightrag - INFO -  == LLM cache == saving default: 2fabde8eb67b634bd5cdaddc7076096d
+2026-01-05 07:10:19,723 - lightrag - INFO -  == LLM cache == saving default: f9e46697d34592d6e52f6031ce3d065c
+2026-01-05 07:10:19,723 - lightrag - INFO - Chunk 23 of 117 extracted 1 Ent + 0 Rel
+2026-01-05 07:10:20,938 - lightrag - INFO -  == LLM cache == saving default: ad3b4e4ffe966400f2d6c299d10e4d11
+2026-01-05 07:10:22,671 - lightrag - INFO -  == LLM cache == saving default: 5e195fb326b50bee1db42cc4b30f10cc
+2026-01-05 07:10:23,002 - lightrag - INFO -  == LLM cache == saving default: f48a10abd7edb23dd46b5cb1dd12f6ca
+2026-01-05 07:10:28,357 - lightrag - INFO -  == LLM cache == saving default: 19ec35fb38d134358968ec18ecd9ef73
+2026-01-05 07:10:28,359 - lightrag - INFO - Chunk 24 of 117 extracted 17 Ent + 6 Rel
+2026-01-05 07:10:28,533 - lightrag - INFO -  == LLM cache == saving default: 0eb86c7b5ff38946f27d300797bcdb38
+2026-01-05 07:10:28,534 - lightrag - INFO - Chunk 25 of 117 extracted 7 Ent + 4 Rel
+2026-01-05 07:10:30,214 - lightrag - INFO -  == LLM cache == saving default: 0cf8b7cf26d2ffc9cade70f3c1927d75
+2026-01-05 07:10:30,215 - lightrag - INFO - Chunk 26 of 117 extracted 9 Ent + 8 Rel
+2026-01-05 07:10:30,717 - lightrag - INFO -  == LLM cache == saving default: 4ae27810afec74bd23c5be12edb5cafa
+2026-01-05 07:10:30,719 - lightrag - INFO - Chunk 27 of 117 extracted 8 Ent + 7 Rel
+2026-01-05 07:10:31,262 - lightrag - INFO -  == LLM cache == saving default: e84e83783e89181113076811ae4eb4b2
+2026-01-05 07:10:33,067 - lightrag - INFO -  == LLM cache == saving default: 30c9db28bf67c49f50a41efa932cfb30
+2026-01-05 07:10:35,990 - lightrag - INFO -  == LLM cache == saving default: 6f40f9548b1ad804c7acce2d0e4c29a7
+2026-01-05 07:10:37,454 - lightrag - INFO -  == LLM cache == saving default: ceaab0b22aa10826ff9c8884577cad02
+2026-01-05 07:10:40,091 - lightrag - INFO -  == LLM cache == saving default: 58db8e138176d3e3cce0cb03bc4cfe70
+2026-01-05 07:10:40,093 - lightrag - INFO - Chunk 28 of 117 extracted 9 Ent + 6 Rel
+2026-01-05 07:10:43,385 - lightrag - INFO -  == LLM cache == saving default: 3376bdd9c9a3a2b6924ddafdc850bdc3
+2026-01-05 07:10:43,386 - lightrag - INFO - Chunk 29 of 117 extracted 7 Ent + 5 Rel
+2026-01-05 07:10:46,322 - lightrag - INFO -  == LLM cache == saving default: 58118ac4f50165483c41689459ff104d
+2026-01-05 07:10:46,324 - lightrag - INFO - Chunk 30 of 117 extracted 10 Ent + 8 Rel
+2026-01-05 07:10:47,145 - lightrag - INFO -  == LLM cache == saving default: 05e03a6dc2cdd80a89238f8e7aa45439
+2026-01-05 07:10:47,616 - lightrag - INFO -  == LLM cache == saving default: e644fde94f0c8ab460e5247cffad6584
+2026-01-05 07:10:47,618 - lightrag - INFO - Chunk 31 of 117 extracted 14 Ent + 13 Rel
+2026-01-05 07:10:50,411 - lightrag - INFO -  == LLM cache == saving default: 6b7fd4a368a82c7eb36ac5504f32cdb8
+2026-01-05 07:10:52,386 - lightrag - INFO -  == LLM cache == saving default: 2bbda4d702e445df233ad8e82c1a9dce
+2026-01-05 07:10:53,255 - lightrag - INFO -  == LLM cache == saving default: 0231e35915d033b7832aae3264f01a52
+2026-01-05 07:10:53,439 - lightrag - INFO -  == LLM cache == saving default: 0123e31e8b0623e79d522a0e4d36d194
+2026-01-05 07:10:53,440 - lightrag - INFO - Chunk 32 of 117 extracted 8 Ent + 7 Rel
+2026-01-05 07:10:58,618 - lightrag - INFO -  == LLM cache == saving default: 06fdd95ff4f875e3d514e0fbe0b539b2
+2026-01-05 07:10:58,620 - lightrag - INFO - Chunk 33 of 117 extracted 11 Ent + 7 Rel
+2026-01-05 07:11:01,092 - lightrag - INFO -  == LLM cache == saving default: ac477d7058aace3b7b17a1c34cdfe7aa
+2026-01-05 07:11:01,093 - lightrag - INFO - Chunk 34 of 117 extracted 8 Ent + 5 Rel
+2026-01-05 07:11:03,290 - lightrag - INFO -  == LLM cache == saving default: 91bfa1b535706775c2b51644ddf1757c
+2026-01-05 07:11:04,019 - lightrag - INFO -  == LLM cache == saving default: 0acb1838d68a32854a4c9b0ef1381b88
+2026-01-05 07:11:04,544 - lightrag - INFO -  == LLM cache == saving default: 8574ebfbb2c860cdac19f80fae78aacc
+2026-01-05 07:11:05,083 - lightrag - INFO -  == LLM cache == saving default: 998146874b56a94f1941259f323ce284
+2026-01-05 07:11:05,085 - lightrag - INFO - Chunk 35 of 117 extracted 15 Ent + 18 Rel
+2026-01-05 07:11:08,673 - lightrag - INFO -  == LLM cache == saving default: 419a5ab5fcc3c50108501f392fa080e3
+2026-01-05 07:11:10,853 - lightrag - INFO -  == LLM cache == saving default: 1ab9cd71a7db646dfc3083bf95ef3e04
+2026-01-05 07:11:10,855 - lightrag - INFO - Chunk 36 of 117 extracted 8 Ent + 7 Rel
+2026-01-05 07:11:13,982 - lightrag - INFO -  == LLM cache == saving default: fd2879e06c66a90178b6aca7d9feaf5a
+2026-01-05 07:11:13,984 - lightrag - INFO - Chunk 37 of 117 extracted 13 Ent + 12 Rel
+2026-01-05 07:11:15,148 - lightrag - INFO -  == LLM cache == saving default: 135d5783fab912028edd8f4b79435248
+2026-01-05 07:11:15,150 - lightrag - INFO - Chunk 38 of 117 extracted 16 Ent + 13 Rel
+2026-01-05 07:11:16,646 - lightrag - INFO -  == LLM cache == saving default: 24b1ace2d2d268db69eee8d3e1dfe106
+2026-01-05 07:11:18,171 - lightrag - INFO -  == LLM cache == saving default: 74b547d5b300682b385073661e8f9711
+2026-01-05 07:11:18,173 - lightrag - INFO - Chunk 39 of 117 extracted 8 Ent + 6 Rel
+2026-01-05 07:11:22,122 - lightrag - INFO -  == LLM cache == saving default: d5c183cfd5efdbe1ea77bc8326e6a9ba
+2026-01-05 07:11:22,247 - lightrag - INFO -  == LLM cache == saving default: 9ac5a9427c5c69bf7803eb434806e9f2
+2026-01-05 07:11:23,646 - lightrag - INFO -  == LLM cache == saving default: 857d7ca159fc02dbba9e12adf26df9c9
+2026-01-05 07:11:28,420 - lightrag - INFO -  == LLM cache == saving default: 376bb7d8b5e1d74a04cfc52da67effc0
+2026-01-05 07:11:28,422 - lightrag - INFO - Chunk 40 of 117 extracted 13 Ent + 12 Rel
+2026-01-05 07:11:28,560 - lightrag - INFO -  == LLM cache == saving default: aa4520adbb8e467d2c1c8da0816b0bed
+2026-01-05 07:11:28,562 - lightrag - INFO - Chunk 41 of 117 extracted 9 Ent + 8 Rel
+2026-01-05 07:11:30,741 - lightrag - INFO -  == LLM cache == saving default: f548e72712b839572b9f49f20c703d3b
+2026-01-05 07:11:30,743 - lightrag - INFO - Chunk 42 of 117 extracted 13 Ent + 10 Rel
+2026-01-05 07:11:31,306 - lightrag - INFO -  == LLM cache == saving default: b0964d41623ae41c813eb49b830f9a0b
+2026-01-05 07:11:31,308 - lightrag - INFO - Chunk 43 of 117 extracted 16 Ent + 6 Rel
+2026-01-05 07:11:32,212 - lightrag - INFO -  == LLM cache == saving default: 380fc42c5f44d9a4de3c283f78debc4b
+2026-01-05 07:11:37,009 - lightrag - INFO -  == LLM cache == saving default: 81e2d5c3053f5eb53c701a7904c2a29f
+2026-01-05 07:11:37,127 - lightrag - INFO -  == LLM cache == saving default: 7fb1e8f38812b218ce6bd72bfe452d43
+2026-01-05 07:11:39,724 - lightrag - INFO -  == LLM cache == saving default: ef0320ff5c57b95e80972cc61fcfc533
+2026-01-05 07:11:39,725 - lightrag - INFO - Chunk 44 of 117 extracted 7 Ent + 7 Rel
+2026-01-05 07:11:41,048 - lightrag - INFO -  == LLM cache == saving default: 3b75aeabb963dad0deea852e54ce0ae3
+2026-01-05 07:11:47,196 - lightrag - INFO -  == LLM cache == saving default: c5df6cc5bb8fd25b8c196205470fc70e
+2026-01-05 07:11:47,198 - lightrag - INFO - Chunk 45 of 117 extracted 17 Ent + 12 Rel
+2026-01-05 07:11:47,511 - lightrag - INFO -  == LLM cache == saving default: 3fec61fbd1513a9f83aafd8a0f817f4d
+2026-01-05 07:11:47,513 - lightrag - INFO - Chunk 46 of 117 extracted 9 Ent + 8 Rel
+2026-01-05 07:11:47,589 - lightrag - INFO -  == LLM cache == saving default: f45e2b34d6939ffc4c516b48c7694380
+2026-01-05 07:11:47,589 - lightrag - INFO - Chunk 47 of 117 extracted 10 Ent + 8 Rel
+2026-01-05 07:11:48,972 - lightrag - INFO -  == LLM cache == saving default: d6a84aca6944f19e79eab9aa64437563
+2026-01-05 07:11:50,040 - lightrag - INFO -  == LLM cache == saving default: f64fb23faf1b9dd5065916a2e0b451f8
+2026-01-05 07:11:50,442 - lightrag - INFO -  == LLM cache == saving default: 68ebed27ca604041d6c2c472ebad3d28
+2026-01-05 07:11:51,998 - lightrag - INFO -  == LLM cache == saving default: c56a99994df448dc1ea868efe2177065
+2026-01-05 07:11:54,008 - lightrag - INFO -  == LLM cache == saving default: 5c8b98d2015db606bcc1ed901223c535
+2026-01-05 07:11:54,009 - lightrag - INFO - Chunk 48 of 117 extracted 11 Ent + 9 Rel
+2026-01-05 07:11:54,571 - lightrag - INFO -  == LLM cache == saving default: f2008a400fbd81b61c3df2bd0792c6a6
+2026-01-05 07:11:54,572 - lightrag - INFO - Chunk 49 of 117 extracted 4 Ent + 3 Rel
+2026-01-05 07:11:57,342 - lightrag - INFO -  == LLM cache == saving default: 82a248f21cf8b8ce7739cb18c223cab8
+2026-01-05 07:11:57,343 - lightrag - INFO - Chunk 50 of 117 extracted 6 Ent + 5 Rel
+2026-01-05 07:11:58,582 - lightrag - INFO -  == LLM cache == saving default: 2264647c944c1652acbd6795b84442b4
+2026-01-05 07:11:58,685 - lightrag - INFO -  == LLM cache == saving default: f18aa57c1aac5c5e05250e763a37abcb
+2026-01-05 07:11:58,687 - lightrag - INFO - Chunk 51 of 117 extracted 13 Ent + 11 Rel
+2026-01-05 07:12:01,824 - lightrag - INFO -  == LLM cache == saving default: 02e83fd4cdb14bf3f644adf88a3640a2
+2026-01-05 07:12:03,070 - lightrag - INFO -  == LLM cache == saving default: c46f795bef4eaed3d66036646270f42c
+2026-01-05 07:12:04,326 - lightrag - INFO -  == LLM cache == saving default: bc09a2b24d0815da48da01f892431650
+2026-01-05 07:12:05,615 - lightrag - INFO -  == LLM cache == saving default: 02b7d81edae21bc6227361c8943723d5
+2026-01-05 07:12:05,616 - lightrag - INFO - Chunk 52 of 117 extracted 7 Ent + 6 Rel
+2026-01-05 07:12:10,394 - lightrag - INFO -  == LLM cache == saving default: e136d24ff31016b9ee3f4aa0e149d773
+2026-01-05 07:12:10,396 - lightrag - INFO - Chunk 53 of 117 extracted 9 Ent + 6 Rel
+2026-01-05 07:12:11,968 - lightrag - INFO -  == LLM cache == saving default: 2390f3ed8e33ac3c93d1b622300c1f8e
+2026-01-05 07:12:11,968 - lightrag - INFO - Chunk 54 of 117 extracted 2 Ent + 0 Rel
+2026-01-05 07:12:12,499 - lightrag - INFO -  == LLM cache == saving default: b3d0819e856eab77a22d773ec39ac24b
+2026-01-05 07:12:12,801 - lightrag - INFO -  == LLM cache == saving default: 24fc6c66f9de2b1f850e6812a8f32fa3
+2026-01-05 07:12:12,803 - lightrag - INFO - Chunk 55 of 117 extracted 10 Ent + 7 Rel
+2026-01-05 07:12:17,604 - lightrag - INFO -  == LLM cache == saving default: a6e00e55431935fdeae64181336f3a76
+2026-01-05 07:12:17,605 - lightrag - INFO - Chunk 56 of 117 extracted 5 Ent + 6 Rel
+2026-01-05 07:12:18,151 - lightrag - INFO -  == LLM cache == saving default: 88ea757a0ca4f988598600f99c5c058a
+2026-01-05 07:12:20,318 - lightrag - INFO -  == LLM cache == saving default: 70e6bc28c934d4f49a0125d5f93ba3f5
+2026-01-05 07:12:22,035 - lightrag - INFO -  == LLM cache == saving default: ee6f166a21cc82e7a5986d125505ceda
+2026-01-05 07:12:23,341 - lightrag - INFO -  == LLM cache == saving default: 3d570a01bbe1db5a3111cdae0f2c4804
+2026-01-05 07:12:29,491 - lightrag - INFO -  == LLM cache == saving default: b4ff3608d47bb374c3d5968e7a47d01f
+2026-01-05 07:12:29,493 - lightrag - INFO - Chunk 57 of 117 extracted 11 Ent + 10 Rel
+2026-01-05 07:12:30,260 - lightrag - INFO -  == LLM cache == saving default: ca6cbde29db16ea04e0bfbb124ba2eb1
+2026-01-05 07:12:30,262 - lightrag - INFO - Chunk 58 of 117 extracted 15 Ent + 13 Rel
+2026-01-05 07:12:30,415 - lightrag - INFO -  == LLM cache == saving default: 870d53748001d2bdb2471991c1865e85
+2026-01-05 07:12:30,417 - lightrag - INFO - Chunk 59 of 117 extracted 15 Ent + 9 Rel
+2026-01-05 07:12:32,159 - lightrag - INFO -  == LLM cache == saving default: b597dec95033cfa7c63d4b886431f095
+2026-01-05 07:12:34,052 - lightrag - INFO -  == LLM cache == saving default: 29b39f8452ae2c9ba5e224e83fb6e123
+2026-01-05 07:12:34,054 - lightrag - INFO - Chunk 60 of 117 extracted 13 Ent + 12 Rel
+2026-01-05 07:12:38,089 - lightrag - INFO -  == LLM cache == saving default: 7830841f1cbaf6ab31c47fabf9efb72b
+2026-01-05 07:12:38,091 - lightrag - INFO - Chunk 61 of 117 extracted 7 Ent + 5 Rel
+2026-01-05 07:12:38,964 - lightrag - INFO -  == LLM cache == saving default: 1f268acbe5936d61c9cbad628eaaee48
+2026-01-05 07:12:40,970 - lightrag - INFO -  == LLM cache == saving default: 00608cb95863428ba523cf9f724555c5
+2026-01-05 07:12:41,446 - lightrag - INFO -  == LLM cache == saving default: 78e0dd256526909d00334be2a1ef8a7c
+2026-01-05 07:12:43,390 - lightrag - INFO -  == LLM cache == saving default: eac46b971372dc66b29c1c9def0e9411
+2026-01-05 07:12:47,887 - lightrag - INFO -  == LLM cache == saving default: e832d9aeedb2166934185c8ba265895a
+2026-01-05 07:12:47,889 - lightrag - INFO - Chunk 62 of 117 extracted 10 Ent + 9 Rel
+2026-01-05 07:12:49,231 - lightrag - INFO -  == LLM cache == saving default: ec9c7dc14086a56defe99460a6323a70
+2026-01-05 07:12:49,234 - lightrag - INFO - Chunk 63 of 117 extracted 17 Ent + 14 Rel
+2026-01-05 07:12:52,867 - lightrag - INFO -  == LLM cache == saving default: 1ad9519b224015d7f22d996a7feebbf5
+2026-01-05 07:12:52,869 - lightrag - INFO - Chunk 64 of 117 extracted 15 Ent + 15 Rel
+2026-01-05 07:12:54,206 - lightrag - INFO -  == LLM cache == saving default: 4ba434dc0803aee450280bb514e3862e
+2026-01-05 07:12:54,442 - lightrag - INFO -  == LLM cache == saving default: ab329f68d8e8b1c8ed671b1a6b3197fb
+2026-01-05 07:12:54,934 - lightrag - INFO -  == LLM cache == saving default: 97b06617b4a3b86c70595c2bca937e53
+2026-01-05 07:12:54,938 - lightrag - INFO - Chunk 65 of 117 extracted 28 Ent + 18 Rel
+2026-01-05 07:12:57,159 - lightrag - INFO -  == LLM cache == saving default: 2947113dd256eee3b337b2744dd428e1
+2026-01-05 07:13:00,211 - lightrag - INFO -  == LLM cache == saving default: 55cdbe37c29098dff8f0386e522ad851
+2026-01-05 07:13:00,212 - lightrag - INFO - Chunk 66 of 117 extracted 9 Ent + 4 Rel
+2026-01-05 07:13:02,471 - lightrag - INFO -  == LLM cache == saving default: 45dbadcf3350e9c03beb0d8c30847a07
+2026-01-05 07:13:02,472 - lightrag - INFO - Chunk 67 of 117 extracted 6 Ent + 6 Rel
+2026-01-05 07:13:02,474 - lightrag - INFO -  == LLM cache == saving default: 0523478b27ea242f226b47541ca335df
+2026-01-05 07:13:03,934 - lightrag - INFO -  == LLM cache == saving default: 6e4f1cc804f30541c29dd3df8c314533
+2026-01-05 07:13:03,936 - lightrag - INFO - Chunk 68 of 117 extracted 15 Ent + 13 Rel
+2026-01-05 07:13:07,220 - lightrag - INFO -  == LLM cache == saving default: 6b447f4b081b445c9bff3cdf372407f4
+2026-01-05 07:13:09,298 - lightrag - INFO -  == LLM cache == saving default: 35700e3c3fdad3ed51e7c7a36d8c07d6
+2026-01-05 07:13:09,968 - lightrag - INFO -  == LLM cache == saving default: 60dacebae11b13412f56d56b68bdb65f
+2026-01-05 07:13:12,878 - lightrag - INFO -  == LLM cache == saving default: a1193b1daf55da96a0881744a3a28c1f
+2026-01-05 07:13:12,880 - lightrag - INFO - Chunk 69 of 117 extracted 12 Ent + 12 Rel
+2026-01-05 07:13:15,746 - lightrag - INFO -  == LLM cache == saving default: 6cbcf01d6eae2a5b1562c2cba64ac259
+2026-01-05 07:13:15,750 - lightrag - INFO - Chunk 70 of 117 extracted 7 Ent + 6 Rel
+2026-01-05 07:13:17,049 - lightrag - INFO -  == LLM cache == saving default: 146b79709f81ba3d40141428f9e46053
+2026-01-05 07:13:17,050 - lightrag - INFO - Chunk 71 of 117 extracted 14 Ent + 9 Rel
+2026-01-05 07:13:18,622 - lightrag - INFO -  == LLM cache == saving default: 6d5f5c3b1739b25fd399665fbfff534a
+2026-01-05 07:13:20,401 - lightrag - INFO -  == LLM cache == saving default: 807583f499c872576342309e268585c7
+2026-01-05 07:13:20,402 - lightrag - INFO - Chunk 72 of 117 extracted 13 Ent + 13 Rel
+2026-01-05 07:13:22,253 - lightrag - INFO -  == LLM cache == saving default: b238da4a4155ab63d3837f7fd11c3cfc
+2026-01-05 07:13:24,469 - lightrag - INFO -  == LLM cache == saving default: a28fb5dcd35ba1340e2192b43ce5c75a
+2026-01-05 07:13:27,926 - lightrag - INFO -  == LLM cache == saving default: dd9453cf39641ad90f15447637cbbc4e
+2026-01-05 07:13:27,928 - lightrag - INFO - Chunk 73 of 117 extracted 8 Ent + 8 Rel
+2026-01-05 07:13:28,127 - lightrag - INFO -  == LLM cache == saving default: fb3f8a48c4713dcff90bddf75ccc0dda
+2026-01-05 07:13:31,754 - lightrag - INFO -  == LLM cache == saving default: 8e8531001eeb6f7b64adf0ad13751339
+2026-01-05 07:13:32,330 - lightrag - INFO -  == LLM cache == saving default: e12a0ef683425804f429ef17000a94d1
+2026-01-05 07:13:32,332 - lightrag - INFO - Chunk 74 of 117 extracted 12 Ent + 10 Rel
+2026-01-05 07:13:36,739 - lightrag - INFO -  == LLM cache == saving default: e6dee1551207554b35c14b1960b78f2c
+2026-01-05 07:13:36,741 - lightrag - INFO - Chunk 75 of 117 extracted 11 Ent + 7 Rel
+2026-01-05 07:13:37,185 - lightrag - INFO -  == LLM cache == saving default: d9b3e52d481fa53a84a80e1cb8c9ecec
+2026-01-05 07:13:37,187 - lightrag - INFO - Chunk 76 of 117 extracted 20 Ent + 9 Rel
+2026-01-05 07:13:37,781 - lightrag - INFO -  == LLM cache == saving default: ad6c48789f7fed1e716d87d5ad4cee1e
+2026-01-05 07:13:40,848 - lightrag - INFO -  == LLM cache == saving default: 828b0592e6878c4caed2d53a9e56038f
+2026-01-05 07:13:40,849 - lightrag - INFO - Chunk 77 of 117 extracted 11 Ent + 10 Rel
+2026-01-05 07:13:42,919 - lightrag - INFO -  == LLM cache == saving default: 3453ecebc7778ca5580d2c60d252fbd4
+2026-01-05 07:13:42,920 - lightrag - INFO - Chunk 78 of 117 extracted 7 Ent + 6 Rel
+2026-01-05 07:13:44,095 - lightrag - INFO -  == LLM cache == saving default: 4009d9cba2e469d8107b40cb00925f3f
+2026-01-05 07:13:44,500 - lightrag - INFO -  == LLM cache == saving default: 22efd57a41e40d9ea5d3b40b4aeb7a84
+2026-01-05 07:13:45,552 - lightrag - INFO -  == LLM cache == saving default: a3d28e3f9121ac2c5fbe76e8e2a9c37a
+2026-01-05 07:13:47,974 - lightrag - INFO -  == LLM cache == saving default: 8ba85971bd2af1ae0eec7e8db06a11cb
+2026-01-05 07:13:52,998 - lightrag - INFO -  == LLM cache == saving default: 42ce3d3a4921044cd52515e2ca0354b8
+2026-01-05 07:13:52,999 - lightrag - INFO - Chunk 79 of 117 extracted 10 Ent + 10 Rel
+2026-01-05 07:13:53,389 - lightrag - INFO -  == LLM cache == saving default: edc0440cdc9c9a3493c363f411724a41
+2026-01-05 07:13:53,390 - lightrag - INFO - Chunk 80 of 117 extracted 11 Ent + 12 Rel
+2026-01-05 07:13:54,384 - lightrag - INFO -  == LLM cache == saving default: 03490a232c264cba1cd4910eced827b8
+2026-01-05 07:13:54,385 - lightrag - INFO - Chunk 81 of 117 extracted 10 Ent + 12 Rel
+2026-01-05 07:13:55,334 - lightrag - INFO -  == LLM cache == saving default: b488e4012092f9a43de4b3e268c5e59e
+2026-01-05 07:13:56,752 - lightrag - INFO -  == LLM cache == saving default: 9f7907a90d6051caf62364eb986759e3
+2026-01-05 07:13:56,753 - lightrag - INFO - Chunk 82 of 117 extracted 12 Ent + 9 Rel
+2026-01-05 07:13:59,025 - lightrag - INFO -  == LLM cache == saving default: 3e85e6dada80cc689d405c9b5e0c5474
+2026-01-05 07:14:02,597 - lightrag - INFO -  == LLM cache == saving default: be649d62306167b64bdabe94f34497ee
+2026-01-05 07:14:03,439 - lightrag - INFO -  == LLM cache == saving default: dd99c26dfc344b9d3d6b350beb795646
+2026-01-05 07:14:04,710 - lightrag - INFO -  == LLM cache == saving default: d56add3d9712f6222cd269ce882e4881
+2026-01-05 07:14:04,711 - lightrag - INFO - Chunk 83 of 117 extracted 9 Ent + 6 Rel
+2026-01-05 07:14:07,520 - lightrag - INFO -  == LLM cache == saving default: f78261145afc8546f3de81c3159de1a5
+2026-01-05 07:14:07,521 - lightrag - INFO - Chunk 84 of 117 extracted 5 Ent + 3 Rel
+2026-01-05 07:14:08,205 - lightrag - INFO -  == LLM cache == saving default: ee5be7a974a945c98a19a53c98665bb6
+2026-01-05 07:14:08,206 - lightrag - INFO - Chunk 85 of 117 extracted 12 Ent + 7 Rel
+2026-01-05 07:14:13,776 - lightrag - INFO -  == LLM cache == saving default: f05e2866735486d573592658ab280284
+2026-01-05 07:14:13,778 - lightrag - INFO - Chunk 86 of 117 extracted 14 Ent + 10 Rel
+2026-01-05 07:14:14,583 - lightrag - INFO -  == LLM cache == saving default: c0a771bc331dc91e1c370d69b10a9356
+2026-01-05 07:14:14,890 - lightrag - INFO -  == LLM cache == saving default: 120454ac214a32b524662e443672184d
+2026-01-05 07:14:17,420 - lightrag - INFO -  == LLM cache == saving default: 77992bbfd2e5631c03ad871a5f5b6425
+2026-01-05 07:14:18,392 - lightrag - INFO -  == LLM cache == saving default: 7ed528710d88f2c1548e8c528cc2285e
+2026-01-05 07:14:21,106 - lightrag - INFO -  == LLM cache == saving default: 666bfd9c04fbe849fbf67d167b75c5d7
+2026-01-05 07:14:21,108 - lightrag - INFO - Chunk 87 of 117 extracted 15 Ent + 9 Rel
+2026-01-05 07:14:24,567 - lightrag - INFO -  == LLM cache == saving default: 45f41f386004b67660061f7d5bf559d0
+2026-01-05 07:14:26,346 - lightrag - INFO -  == LLM cache == saving default: 6e7f0b7ba7b8b65d4bb9824cf7833b8d
+2026-01-05 07:14:26,348 - lightrag - INFO - Chunk 88 of 117 extracted 17 Ent + 12 Rel
+2026-01-05 07:14:27,053 - lightrag - INFO -  == LLM cache == saving default: 7d453924a78a4c82a97314435db9c1e9
+2026-01-05 07:14:27,054 - lightrag - INFO - Chunk 89 of 117 extracted 10 Ent + 9 Rel
+2026-01-05 07:14:28,603 - lightrag - INFO -  == LLM cache == saving default: 915078baaf117bf42fc2be4ecc7f35d5
+2026-01-05 07:14:28,605 - lightrag - INFO - Chunk 90 of 117 extracted 16 Ent + 8 Rel
+2026-01-05 07:14:30,419 - lightrag - INFO -  == LLM cache == saving default: c8e26d5b5bd6d67a0b16b21a7c28507b
+2026-01-05 07:14:30,462 - lightrag - INFO -  == LLM cache == saving default: 90b1e6baba49fd3fcfadd1cd5ae7f3c0
+2026-01-05 07:14:30,463 - lightrag - INFO - Chunk 91 of 117 extracted 10 Ent + 5 Rel
+2026-01-05 07:14:31,243 - lightrag - INFO -  == LLM cache == saving default: 76b490a1250590580b331d110aee8110
+2026-01-05 07:14:39,078 - lightrag - INFO -  == LLM cache == saving default: 6a20fa44c081040fbddf026c48833110
+2026-01-05 07:14:40,996 - lightrag - INFO -  == LLM cache == saving default: cc62b84d1454ac3ba99bb6e5f4111c4f
+2026-01-05 07:14:40,997 - lightrag - INFO - Chunk 92 of 117 extracted 9 Ent + 8 Rel
+2026-01-05 07:14:41,680 - lightrag - INFO -  == LLM cache == saving default: 18428515370682096fda295347b33d21
+2026-01-05 07:14:42,250 - lightrag - INFO -  == LLM cache == saving default: 8ca596e148a4d38b7c99d485c83c0808
+2026-01-05 07:14:42,251 - lightrag - INFO - Chunk 93 of 117 extracted 10 Ent + 7 Rel
+2026-01-05 07:14:51,968 - lightrag - INFO -  == LLM cache == saving default: f2cb97d2bdd2251c1ab3ee32692147f7
+2026-01-05 07:14:53,466 - lightrag - INFO -  == LLM cache == saving default: 58a66fafb6c9573852b87a132b729fbb
+2026-01-05 07:14:53,555 - lightrag - INFO -  == LLM cache == saving default: 8f97f8ae65be6a56bc46cb2fb0e929db
+2026-01-05 07:14:53,557 - lightrag - INFO - Chunk 94 of 117 extracted 10 Ent + 11 Rel
+2026-01-05 07:15:07,496 - lightrag - INFO -  == LLM cache == saving default: 19abfc1123812c7d22171986dde45654
+2026-01-05 07:15:07,498 - lightrag - INFO - Chunk 95 of 117 extracted 10 Ent + 7 Rel
+2026-01-05 07:15:08,260 - lightrag - INFO -  == LLM cache == saving default: 661e146ba3eee9267539b1d2ba05dc22
+2026-01-05 07:15:08,262 - lightrag - INFO - Chunk 96 of 117 extracted 17 Ent + 7 Rel
+2026-01-05 07:15:08,801 - lightrag - INFO -  == LLM cache == saving default: d364282aa2b9dd87ec4d0fffaf834204
+2026-01-05 07:15:12,344 - lightrag - INFO -  == LLM cache == saving default: 237617b62692cade532a1f1a60dc3e88
+2026-01-05 07:15:12,346 - lightrag - INFO - Chunk 97 of 117 extracted 18 Ent + 12 Rel
+2026-01-05 07:15:12,873 - lightrag - INFO -  == LLM cache == saving default: 452cacf1cd3825a5ac60d8bafd5c4e71
+2026-01-05 07:15:13,322 - lightrag - INFO -  == LLM cache == saving default: 5cf0db1468876f8b4602a152b60cc5d0
+2026-01-05 07:15:19,167 - lightrag - INFO -  == LLM cache == saving default: c466b6b8eb0373de68c99a64f7bcd903
+2026-01-05 07:15:19,169 - lightrag - INFO - Chunk 98 of 117 extracted 11 Ent + 10 Rel
+2026-01-05 07:15:21,050 - lightrag - INFO -  == LLM cache == saving default: 6f2870a6c2feee1ade84ed070a501769
+2026-01-05 07:15:21,051 - lightrag - INFO - Chunk 99 of 117 extracted 10 Ent + 10 Rel
+2026-01-05 07:15:21,923 - lightrag - INFO -  == LLM cache == saving default: 2d5322fb7e94d39a917c7e02958b6a22
+2026-01-05 07:15:21,924 - lightrag - INFO - Chunk 100 of 117 extracted 11 Ent + 9 Rel
+2026-01-05 07:15:25,436 - lightrag - INFO -  == LLM cache == saving default: 17117b814a82fe85edf60c5ef7285d28
+2026-01-05 07:15:25,736 - lightrag - INFO -  == LLM cache == saving default: b8b585b1a44d474a547e0fca556fb444
+2026-01-05 07:15:30,273 - lightrag - INFO -  == LLM cache == saving default: 793c3df90bb2665ece7dba4513c4ddfa
+2026-01-05 07:15:32,436 - lightrag - INFO -  == LLM cache == saving default: 4cef4624ad10762e257387fba4ee7775
+2026-01-05 07:15:40,479 - lightrag - INFO -  == LLM cache == saving default: b74e257fa8d4ccfba7193dff21e83dee
+2026-01-05 07:15:40,481 - lightrag - INFO - Chunk 101 of 117 extracted 17 Ent + 17 Rel
+2026-01-05 07:15:40,483 - lightrag - INFO -  == LLM cache == saving default: b7bf5b284610d744677436c8337337c7
+2026-01-05 07:15:40,485 - lightrag - INFO - Chunk 102 of 117 extracted 15 Ent + 8 Rel
+2026-01-05 07:15:42,334 - lightrag - INFO -  == LLM cache == saving default: 47a6456e1f1c2a000806e8bffffa2cac
+2026-01-05 07:15:42,335 - lightrag - INFO - Chunk 103 of 117 extracted 14 Ent + 13 Rel
+2026-01-05 07:15:47,536 - lightrag - INFO -  == LLM cache == saving default: aeb26125fb3a19b0c9ca05c8a11e61b7
+2026-01-05 07:15:47,538 - lightrag - INFO - Chunk 104 of 117 extracted 16 Ent + 9 Rel
+2026-01-05 07:15:53,593 - lightrag - INFO -  == LLM cache == saving default: 0051c920f7a80cd526c61b3de0104eba
+2026-01-05 07:15:54,853 - lightrag - INFO -  == LLM cache == saving default: 1782c256d52693ed73e224b167bddfd3
+2026-01-05 07:15:55,668 - lightrag - INFO -  == LLM cache == saving default: 6fff5e4cfd9fef143bdb4192574f713c
+2026-01-05 07:15:57,502 - lightrag - INFO -  == LLM cache == saving default: 0b4b6d817a610adedaf889a859f6a14d
+2026-01-05 07:16:05,468 - lightrag - INFO -  == LLM cache == saving default: f69aaf8865f1430af06843ccd8e9e415
+2026-01-05 07:16:05,468 - lightrag - INFO - Chunk 105 of 117 extracted 3 Ent + 2 Rel
+2026-01-05 07:16:05,836 - lightrag - INFO -  == LLM cache == saving default: a0879a9cda5b6d6de8c573805aed2ad0
+2026-01-05 07:16:05,838 - lightrag - INFO - Chunk 106 of 117 extracted 10 Ent + 9 Rel
+2026-01-05 07:16:06,381 - lightrag - INFO -  == LLM cache == saving default: dfb95634d8164f4e566ec6753706c0f1
+2026-01-05 07:16:06,382 - lightrag - INFO - Chunk 107 of 117 extracted 11 Ent + 10 Rel
+2026-01-05 07:16:09,719 - lightrag - INFO -  == LLM cache == saving default: 681bed28d5b79f0e1a8bf01ff362a4e8
+2026-01-05 07:16:09,721 - lightrag - INFO - Chunk 108 of 117 extracted 12 Ent + 7 Rel
+2026-01-05 07:16:15,340 - lightrag - INFO -  == LLM cache == saving default: eafca145b47f3f49782bf506384b3a5d
+2026-01-05 07:16:17,342 - lightrag - INFO -  == LLM cache == saving default: 97e3efc10e0a6d2643456d51b41a3994
+2026-01-05 07:16:18,009 - lightrag - INFO -  == LLM cache == saving default: 4f3897d71dadbc7a1cd8c5c3bd4e3919
+2026-01-05 07:16:24,562 - lightrag - INFO -  == LLM cache == saving default: b90774d16d9af68cfb7ed0068aee9375
+2026-01-05 07:16:29,978 - lightrag - INFO -  == LLM cache == saving default: d82724261ee600df6722480a1551e723
+2026-01-05 07:16:29,979 - lightrag - INFO - Chunk 109 of 117 extracted 8 Ent + 7 Rel
+2026-01-05 07:16:30,533 - lightrag - INFO -  == LLM cache == saving default: 097a68ab2ec378e77e15db43d997a6ca
+2026-01-05 07:16:30,534 - lightrag - INFO - Chunk 110 of 117 extracted 8 Ent + 9 Rel
+2026-01-05 07:16:32,187 - lightrag - INFO -  == LLM cache == saving default: bcf004daaaf182ff7e794cb377931a30
+2026-01-05 07:16:32,188 - lightrag - INFO - Chunk 111 of 117 extracted 11 Ent + 10 Rel
+2026-01-05 07:16:41,733 - lightrag - INFO -  == LLM cache == saving default: 1caa72f27b19509e13a999cd4bfebb8e
+2026-01-05 07:16:41,775 - lightrag - INFO -  == LLM cache == saving default: b58d3c77c9293dca516e4c3525b40e2e
+2026-01-05 07:16:41,776 - lightrag - INFO - Chunk 112 of 117 extracted 11 Ent + 9 Rel
+2026-01-05 07:16:41,804 - lightrag - INFO -  == LLM cache == saving default: 5645a31ac578748c173c0d6ed832d225
+2026-01-05 07:16:41,824 - lightrag - INFO -  == LLM cache == saving default: beee0f4ca6482782c55671fb926a4607
+2026-01-05 07:16:48,283 - lightrag - INFO -  == LLM cache == saving default: 355f93e92d3e3b88a07065f407b2be50
+2026-01-05 07:16:52,471 - lightrag - INFO -  == LLM cache == saving default: 30b367790567f20b21a665723bb600c2
+2026-01-05 07:16:52,472 - lightrag - INFO - Chunk 113 of 117 extracted 9 Ent + 9 Rel
+2026-01-05 07:16:53,772 - lightrag - INFO -  == LLM cache == saving default: 4134568359f53e24499dd7f166517cf7
+2026-01-05 07:16:53,773 - lightrag - INFO - Chunk 114 of 117 extracted 10 Ent + 12 Rel
+2026-01-05 07:16:55,510 - lightrag - INFO -  == LLM cache == saving default: db9cd316d079196c0b2a6358eb9dbe1a
+2026-01-05 07:16:55,512 - lightrag - INFO - Chunk 115 of 117 extracted 15 Ent + 14 Rel
+2026-01-05 07:16:56,039 - lightrag - INFO -  == LLM cache == saving default: 1c6e1ea28c48488fb1c804aa078b1b5f
+2026-01-05 07:16:56,040 - lightrag - INFO - Chunk 116 of 117 extracted 9 Ent + 7 Rel
+2026-01-05 07:16:56,055 - lightrag - INFO -  == LLM cache == saving default: 37381433e4c7955aed595b5e84af7115
+2026-01-05 07:17:00,613 - lightrag - INFO -  == LLM cache == saving default: 502bcfa1bc1ff9cb176823fea5c3a854
+2026-01-05 07:17:00,614 - lightrag - INFO - Chunk 117 of 117 extracted 5 Ent + 4 Rel
+2026-01-05 07:17:00,620 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-01-05 07:17:00,621 - lightrag - INFO - LLM merge N: Nothing X App | 34+0
+2026-01-05 07:17:04,247 - lightrag - INFO -  == LLM cache == saving default: 99f10290a9490dea4d25a7d8f9da4c54
+2026-01-05 07:17:04,248 - lightrag - INFO - Merge N: iOS | 2+0
+2026-01-05 07:17:04,249 - lightrag - INFO - LLM merge N: Ear (open) | 7+0
+2026-01-05 07:17:07,853 - lightrag - INFO -  == LLM cache == saving default: d468d58a6263574c08c1e5c50cc073f5
+2026-01-05 07:17:07,854 - lightrag - INFO - LLM merge N: Android | 6+0
+2026-01-05 07:17:11,594 - lightrag - INFO -  == LLM cache == saving default: 50a302add93662db8aa05174aec216fb
+2026-01-05 07:17:11,594 - lightrag - INFO - LLM merge N: Nothing Ear | 11+0
+2026-01-05 07:17:16,295 - lightrag - INFO -  == LLM cache == saving default: 0a1eb59034bec8de85bfbdaedb5e278b
+2026-01-05 07:17:16,296 - lightrag - INFO - Merge N: Nothing Support Team | 3+0
+2026-01-05 07:17:16,296 - lightrag - INFO - LLM merge N: Customer Support | 21+0
+2026-01-05 07:17:19,538 - lightrag - INFO -  == LLM cache == saving default: db652ef5f29794a00fdcb23b20a6b6a9
+2026-01-05 07:17:19,539 - lightrag - INFO - LLM merge N: SIM Card | 15+0
+2026-01-05 07:17:31,183 - lightrag - INFO -  == LLM cache == saving default: 9c7d2006842c341a7345af0eaa76d0d2
+2026-01-05 07:17:31,184 - lightrag - INFO - Merge N: Browser | 4+0
+2026-01-05 07:17:31,184 - lightrag - INFO - LLM merge N: Google Play Store | 17+0
+2026-01-05 07:17:37,016 - lightrag - INFO -  == LLM cache == saving default: b24d3c05e9e97254a5b4708c6330ed5f
+2026-01-05 07:17:37,016 - lightrag - INFO - LLM merge N: Settings | 17+0
+2026-01-05 07:17:45,052 - lightrag - INFO -  == LLM cache == saving default: 73276fc9174e5f66dbf1926cea2b45bb
+2026-01-05 07:17:45,053 - lightrag - INFO - LLM merge N: Nothing X app | 12+0
+2026-01-05 07:17:54,501 - lightrag - INFO -  == LLM cache == saving default: 6e5ddee4c974612ca6174569c689431b
+2026-01-05 07:17:54,502 - lightrag - INFO - Merge N: Network Connection | 2+0
+2026-01-05 07:17:54,502 - lightrag - INFO - LLM merge N: WiFi | 9+0
+2026-01-05 07:18:00,959 - lightrag - INFO -  == LLM cache == saving default: 76da89f39b27164c0dea33d9687a6d2f
+2026-01-05 07:18:00,959 - lightrag - INFO - Merge N: Developer Options | 3+0
+2026-01-05 07:18:00,959 - lightrag - INFO - LLM merge N: CMF Buds Pro 2 | 7+0
+2026-01-05 07:18:15,666 - lightrag - INFO -  == LLM cache == saving default: b49d81cb17b4714b3f7ea7f9987370f0
+2026-01-05 07:18:15,667 - lightrag - INFO - Merge N: Nothing Ear (1) | 2+0
+2026-01-05 07:18:15,668 - lightrag - INFO - LLM merge N: iOS App Store | 7+0
+2026-01-05 07:18:22,478 - lightrag - INFO -  == LLM cache == saving default: ebce76d5d1236399389d7dbbe38679e6
+2026-01-05 07:18:22,478 - lightrag - INFO - LLM merge N: Battery Life | 9+0
+2026-01-05 07:18:28,770 - lightrag - INFO -  == LLM cache == saving default: cceab400065504bae1f852ef3f9b7788
+2026-01-05 07:18:28,770 - lightrag - INFO - Merge N: Nothing Customer Service | 5+0
+2026-01-05 07:18:28,771 - lightrag - INFO - LLM merge N: Nothing OS | 12+0
+2026-01-05 07:18:32,551 - lightrag - INFO -  == LLM cache == saving default: 0157bdf4963cbf98ba8120c6fc0df359
+2026-01-05 07:18:32,551 - lightrag - INFO - LLM merge N: Bluetooth | 14+0
+2026-01-05 07:18:36,710 - lightrag - INFO -  == LLM cache == saving default: 967a79c1b5dce6255f940edf335f2068
+2026-01-05 07:18:36,710 - lightrag - INFO - Merge N: Ear (2) | 3+0
+2026-01-05 07:18:36,710 - lightrag - INFO - Merge N: Ear (a) | 4+0
+2026-01-05 07:18:36,710 - lightrag - INFO - LLM merge N: Watch Pro | 21+0
+2026-01-05 07:18:40,988 - lightrag - INFO -  == LLM cache == saving default: ff889faa2a73a43cff9479f46ab557c6
+2026-01-05 07:18:40,988 - lightrag - INFO - LLM merge N: CMF Watch app | 16+0
+2026-01-05 07:18:43,285 - lightrag - INFO -  == LLM cache == saving default: 0a726ad743f251c6e60425692a4d3265
+2026-01-05 07:18:43,286 - lightrag - INFO - LLM merge N: CMF Watch App | 10+0
+2026-01-05 07:18:45,799 - lightrag - INFO -  == LLM cache == saving default: 7fc88266f8b223e93371bef452ac8450
+2026-01-05 07:18:45,799 - lightrag - INFO - Merge N: Phone | 4+0
+2026-01-05 07:18:45,800 - lightrag - INFO - LLM merge N: Charging Case | 9+0
+2026-01-05 07:18:48,631 - lightrag - INFO -  == LLM cache == saving default: ce427bc844c28689cf0d75628ca939c0
+2026-01-05 07:18:48,632 - lightrag - INFO - Merge N: CMF Earbuds | 3+0
+2026-01-05 07:18:48,632 - lightrag - INFO - Merge N: Firmware Upgrade | 4+0
+2026-01-05 07:18:48,632 - lightrag - INFO - Merge N: Laptop | 2+0
+2026-01-05 07:18:48,632 - lightrag - INFO - Merge N: Gesture Control | 2+0
+2026-01-05 07:18:48,633 - lightrag - INFO - Merge N: CMF earbuds | 2+0
+2026-01-05 07:18:48,633 - lightrag - INFO - LLM merge N: Google Play | 7+0
+2026-01-05 07:18:50,527 - lightrag - INFO -  == LLM cache == saving default: 57bd40a198f91c7a4c72d7de79f2ee06
+2026-01-05 07:18:50,527 - lightrag - INFO - LLM merge N: App Store | 7+0
+2026-01-05 07:18:51,923 - lightrag - INFO -  == LLM cache == saving default: c9052e61442290e806970bad79d67da8
+2026-01-05 07:18:51,924 - lightrag - INFO - LLM merge N: Voice Assistant | 6+0
+2026-01-05 07:18:53,869 - lightrag - INFO -  == LLM cache == saving default: 3aea15a54ae2d962259a70fb9c531865
+2026-01-05 07:18:53,870 - lightrag - INFO - Merge N: LDAC | 5+0
+2026-01-05 07:18:53,870 - lightrag - INFO - Merge N: Gesture Controls | 2+0
+2026-01-05 07:18:53,870 - lightrag - INFO - Merge N: Dual Connection Feature | 2+0
+2026-01-05 07:18:53,870 - lightrag - INFO - Merge N: AAC | 4+0
+2026-01-05 07:18:53,870 - lightrag - INFO - Merge N: Active Noise Cancellation | 4+0
+2026-01-05 07:18:53,871 - lightrag - INFO - LLM merge N: Transparency Mode | 8+0
+2026-01-05 07:18:56,019 - lightrag - INFO -  == LLM cache == saving default: 34bc3fe56295987d607e95b7c5fc761c
+2026-01-05 07:18:56,019 - lightrag - INFO - Merge N: Spatial Audio Effect | 4+0
+2026-01-05 07:18:56,020 - lightrag - INFO - Merge N: Smart ANC Algorithm | 2+0
+2026-01-05 07:18:56,020 - lightrag - INFO - Merge N: Silicone Ear Tips | 2+0
+2026-01-05 07:18:56,020 - lightrag - INFO - LLM merge N: Bluetooth 5.3 | 8+0
+2026-01-05 07:18:58,536 - lightrag - INFO -  == LLM cache == saving default: 53704e694ad775ce7d3f81cb7343e557
+2026-01-05 07:18:58,536 - lightrag - INFO - Merge N: Smart Dial | 2+0
+2026-01-05 07:18:58,536 - lightrag - INFO - Merge N: Ultra Bass Technology | 4+0
+2026-01-05 07:18:58,536 - lightrag - INFO - Merge N: Adaptive Mode | 2+0
+2026-01-05 07:18:58,537 - lightrag - INFO - Merge N: Active Noise Cancellation (ANC) | 3+0
+2026-01-05 07:18:58,537 - lightrag - INFO - LLM merge N: Dual Connection | 9+0
+2026-01-05 07:19:04,313 - lightrag - INFO -  == LLM cache == saving default: 3a995edab8f1096c5baaeeb01931424f
+2026-01-05 07:19:04,313 - lightrag - INFO - Merge N: Fast Charging | 5+0
+2026-01-05 07:19:04,313 - lightrag - INFO - Merge N: Dirac Opteo | 3+0
+2026-01-05 07:19:04,314 - lightrag - INFO - LLM merge N: Google Fast Pair | 8+0
+2026-01-05 07:19:14,804 - lightrag - INFO -  == LLM cache == saving default: 610b86400d657db95c0a8471e770e039
+2026-01-05 07:19:14,804 - lightrag - INFO - LLM merge N: Microsoft Swift Pair | 7+0
+2026-01-05 07:19:29,063 - lightrag - INFO -  == LLM cache == saving default: f9131bbd7059d2eb6dc9327af8ef0ca8
+2026-01-05 07:19:29,063 - lightrag - INFO - Merge N: iOS 13 and above | 3+0
+2026-01-05 07:19:29,063 - lightrag - INFO - Merge N: Neckband Pro | 5+0
+2026-01-05 07:19:29,064 - lightrag - INFO - Merge N: Buds | 2+0
+2026-01-05 07:19:29,064 - lightrag - INFO - Merge N: Noise Cancellation | 2+0
+2026-01-05 07:19:29,064 - lightrag - INFO - Merge N: Environmental Noise Cancellation (ENC) | 4+0
+2026-01-05 07:19:29,064 - lightrag - INFO - Merge N: ANC | 3+0
+2026-01-05 07:19:29,064 - lightrag - INFO - Merge N: IP54 Rating | 2+0
+2026-01-05 07:19:29,064 - lightrag - INFO - LLM merge N: Nothing | 9+0
+2026-01-05 07:19:33,428 - lightrag - INFO -  == LLM cache == saving default: 538f10f5605dff7aebb144660b0b6ea8
+2026-01-05 07:19:33,428 - lightrag - INFO - Merge N: ANC (Active Noise Cancellation) | 4+0
+2026-01-05 07:19:33,429 - lightrag - INFO - Merge N: SBC | 3+0
+2026-01-05 07:19:33,429 - lightrag - INFO - Merge N: QR Code | 3+0
+2026-01-05 07:19:33,429 - lightrag - INFO - Merge N: ENC (Environmental Noise Cancellation) | 4+0
+2026-01-05 07:19:33,429 - lightrag - INFO - LLM merge N: Google | 8+0
+2026-01-05 07:19:35,434 - lightrag - INFO -  == LLM cache == saving default: b0b3770454b0604351fff1a8f01abfd2
+2026-01-05 07:19:35,434 - lightrag - INFO - Merge N: Nothing device | 2+0
+2026-01-05 07:19:35,434 - lightrag - INFO - Merge N: Camera | 4+0
+2026-01-05 07:19:35,434 - lightrag - INFO - Merge N: Alarm | 3+0
+2026-01-05 07:19:35,435 - lightrag - INFO - Merge N: Network & Internet | 2+0
+2026-01-05 07:19:35,435 - lightrag - INFO - LLM merge N: VoLTE | 6+0
+2026-01-05 07:19:37,310 - lightrag - INFO -  == LLM cache == saving default: 749d932d9bdb678793ab0b6156fae6fa
+2026-01-05 07:19:37,310 - lightrag - INFO - LLM merge N: Airplane Mode | 7+0
+2026-01-05 07:19:39,223 - lightrag - INFO -  == LLM cache == saving default: 445766ece185be6f274208ea1a73d11c
+2026-01-05 07:19:39,224 - lightrag - INFO - Merge N: 24-hour System | 2+0
+2026-01-05 07:19:39,224 - lightrag - INFO - Merge N: Phone 1 | 2+0
+2026-01-05 07:19:39,224 - lightrag - INFO - Merge N: Jio | 3+0
+2026-01-05 07:19:39,224 - lightrag - INFO - Merge N: Vodafone | 4+0
+2026-01-05 07:19:39,224 - lightrag - INFO - LLM merge N: Find My Device | 10+0
+2026-01-05 07:19:42,050 - lightrag - INFO -  == LLM cache == saving default: 02e370545f666798ee5880ee7bdf870e
+2026-01-05 07:19:42,050 - lightrag - INFO - LLM merge N: NFC | 6+0
+2026-01-05 07:19:43,983 - lightrag - INFO -  == LLM cache == saving default: fe1839c154307d1701b1aa5fae20e07c
+2026-01-05 07:19:43,984 - lightrag - INFO - LLM merge N: Nothing Phone | 29+0
+2026-01-05 07:19:48,432 - lightrag - INFO -  == LLM cache == saving default: 7ca99a6391b98881324204a527c04d29
+2026-01-05 07:19:48,432 - lightrag - INFO - Merge N: iPhone | 5+0
+2026-01-05 07:19:48,433 - lightrag - INFO - LLM merge N: Google Account | 18+0
+2026-01-05 07:19:51,269 - lightrag - INFO -  == LLM cache == saving default: 9eb466913d11097c9f3a18bbaae097b1
+2026-01-05 07:19:51,269 - lightrag - INFO - Merge N: Apple | 2+0
+2026-01-05 07:19:51,270 - lightrag - INFO - Merge N: WiFi Connection | 3+0
+2026-01-05 07:19:51,270 - lightrag - INFO - Merge N: Game Mode | 4+0
+2026-01-05 07:19:51,270 - lightrag - INFO - Merge N: Fast Pair | 5+0
+2026-01-05 07:19:51,270 - lightrag - INFO - Merge N: Screen Recording | 2+0
+2026-01-05 07:19:51,270 - lightrag - INFO - Merge N: Google Photos | 2+0
+2026-01-05 07:19:51,270 - lightrag - INFO - Merge N: WhatsApp | 2+0
+2026-01-05 07:19:51,271 - lightrag - INFO - LLM merge N: Find My Phone | 13+0
+2026-01-05 07:19:52,997 - lightrag - INFO -  == LLM cache == saving default: b7213945244b502937a7c08f57777d81
+2026-01-05 07:19:52,997 - lightrag - INFO - LLM merge N: Bluetooth Tethering | 8+0
+2026-01-05 07:19:55,014 - lightrag - INFO -  == LLM cache == saving default: e2ac41b4b14785fe5a4f038a80f70444
+2026-01-05 07:19:55,015 - lightrag - INFO - LLM merge N: Data Roaming | 6+0
+2026-01-05 07:19:56,820 - lightrag - INFO -  == LLM cache == saving default: 9369c93f2c9f1cf4c8b084f368850186
+2026-01-05 07:19:56,820 - lightrag - INFO - LLM merge N: USB Debugging | 15+0
+2026-01-05 07:19:58,636 - lightrag - INFO -  == LLM cache == saving default: 7ffb6c710ff93f40e7a1e791d7bb0b1c
+2026-01-05 07:19:58,637 - lightrag - INFO - Merge N: OTG Connection | 2+0
+2026-01-05 07:19:58,637 - lightrag - INFO - Merge N: Status Bar | 5+0
+2026-01-05 07:19:58,637 - lightrag - INFO - Merge N: PPS Protocol Charger | 5+0
+2026-01-05 07:19:58,637 - lightrag - INFO - LLM merge N: WiFi Direct | 7+0
+2026-01-05 07:20:00,700 - lightrag - INFO -  == LLM cache == saving default: 1de143d4fb305baf67a013cb69101e84
+2026-01-05 07:20:00,701 - lightrag - INFO - LLM merge N: USB Tethering | 7+0
+2026-01-05 07:20:02,379 - lightrag - INFO -  == LLM cache == saving default: b73d91698c1258e2cee896160b3d898d
+2026-01-05 07:20:02,379 - lightrag - INFO - LLM merge N: System Update | 9+0
+2026-01-05 07:20:04,814 - lightrag - INFO -  == LLM cache == saving default: 7154529a0fa380f5d2c56ed57c62d42e
+2026-01-05 07:20:04,814 - lightrag - INFO - Merge N: GPS Function | 2+0
+2026-01-05 07:20:04,814 - lightrag - INFO - Merge N: User Guide | 3+0
+2026-01-05 07:20:04,814 - lightrag - INFO - Merge N: Do Not Disturb Mode | 2+0
+2026-01-05 07:20:04,815 - lightrag - INFO - Merge N: Blood Oxygen Saturation | 2+0
+2026-01-05 07:20:04,815 - lightrag - INFO - Merge N: Language Selection | 2+0
+2026-01-05 07:20:04,815 - lightrag - INFO - Merge N: Music Control | 2+0
+2026-01-05 07:20:04,815 - lightrag - INFO - Merge N: Heart Rate | 2+0
+2026-01-05 07:20:04,815 - lightrag - INFO - Merge N: Stress Measurement | 2+0
+2026-01-05 07:20:04,815 - lightrag - INFO - Merge N: Weather Information | 2+0
+2026-01-05 07:20:04,816 - lightrag - INFO - Merge N: Watch Face Marketplace | 3+0
+2026-01-05 07:20:04,816 - lightrag - INFO - LLM merge N: Watch Pro 2 | 6+0
+2026-01-05 07:20:08,561 - lightrag - INFO -  == LLM cache == saving default: 0fd9fce653e8f60da47703a0bd0771e3
+2026-01-05 07:20:08,562 - lightrag - INFO - Merge N: Factory Reset | 3+0
+2026-01-05 07:20:08,562 - lightrag - INFO - Merge N: Functional Crown | 2+0
+2026-01-05 07:20:08,562 - lightrag - INFO - Merge N: GPS/GLONASS/Galileo/QZSS/Beidou | 3+0
+2026-01-05 07:20:08,563 - lightrag - INFO - Merge N: Nothing phone | 2+0
+2026-01-05 07:20:08,563 - lightrag - INFO - Merge N: Heart Rate Monitoring | 2+0
+2026-01-05 07:20:08,563 - lightrag - INFO - Merge N: Remote Camera Control | 2+0
+2026-01-05 07:20:08,563 - lightrag - INFO - Merge N: Flashlight | 2+0
+2026-01-05 07:20:08,564 - lightrag - INFO - Merge N: 5G Network | 2+0
+2026-01-05 07:20:08,564 - lightrag - INFO - Merge N: Earbuds | 4+0
+2026-01-05 07:20:08,564 - lightrag - INFO - Merge N: Adaptor | 3+0
+2026-01-05 07:20:08,565 - lightrag - INFO - Merge N: USB Cable | 2+0
+2026-01-05 07:20:08,565 - lightrag - INFO - Merge N: Service Center | 3+0
+2026-01-05 07:20:08,565 - lightrag - INFO - Merge N: USB-C Port | 2+0
+2026-01-05 07:20:08,565 - lightrag - INFO - Merge N: USB-A Port | 2+0
+2026-01-05 07:20:08,566 - lightrag - INFO - Merge N: Firmware | 5+0
+2026-01-05 07:20:08,566 - lightrag - INFO - Merge N: Settings--System Menu | 2+0
+2026-01-05 07:20:08,566 - lightrag - INFO - Merge N: Android Auto | 2+0
+2026-01-05 07:20:08,566 - lightrag - INFO - Merge N: App Locker | 3+0
+2026-01-05 07:20:08,566 - lightrag - INFO - Merge N: Battery Share | 4+0
+2026-01-05 07:20:08,567 - lightrag - INFO - LLM merge N: Glyph Interface | 19+0
+2026-01-05 07:20:11,765 - lightrag - INFO -  == LLM cache == saving default: d8ce2393969abc567bd7c7e1398350fc
+2026-01-05 07:20:11,765 - lightrag - INFO - Merge N: Network | 2+0
+2026-01-05 07:20:11,765 - lightrag - INFO - Merge N: Ear (1) | 2+0
+2026-01-05 07:20:11,766 - lightrag - INFO - Merge N: Phone (1) | 3+0
+2026-01-05 07:20:11,766 - lightrag - INFO - Merge N: Qi-certified Chargers | 2+0
+2026-01-05 07:20:11,766 - lightrag - INFO - LLM merge N: Wireless Charging | 6+0
+2026-01-05 07:20:14,984 - lightrag - INFO -  == LLM cache == saving default: b3d32eba1c7e0b713ed530f1ddd528bb
+2026-01-05 07:20:14,985 - lightrag - INFO - Merge N: Smart ANC | 2+0
+2026-01-05 07:20:14,985 - lightrag - INFO - Merge N: Bass Enhance | 2+0
+2026-01-05 07:20:14,986 - lightrag - INFO - Merge N: LHDC | 2+0
+2026-01-05 07:20:14,986 - lightrag - INFO - Merge N: Personal Sound Profile | 2+0
+2026-01-05 07:20:14,986 - lightrag - INFO - Merge N: Ear (stick) | 4+0
+2026-01-05 07:20:14,986 - lightrag - INFO - LLM merge N: Google Assistant | 6+0
+2026-01-05 07:20:17,080 - lightrag - INFO -  == LLM cache == saving default: 06d52f2e298401d1f1d3352ace880dec
+2026-01-05 07:20:17,080 - lightrag - INFO - Merge N: Hotspot Feature | 2+0
+2026-01-05 07:20:17,080 - lightrag - INFO - Merge N: App Pinning | 3+0
+2026-01-05 07:20:17,080 - lightrag - INFO - Merge N: Screen Casting | 2+0
+2026-01-05 07:20:17,081 - lightrag - INFO - Merge N: Location Services | 5+0
+2026-01-05 07:20:17,081 - lightrag - INFO - Merge N: Dark Theme | 4+0
+2026-01-05 07:20:17,081 - lightrag - INFO - Merge N: Multiple Users | 3+0
+2026-01-05 07:20:17,081 - lightrag - INFO - Merge N: Notifications | 3+0
+2026-01-05 07:20:17,081 - lightrag - INFO - Merge N: Nothing Sounds | 3+0
+2026-01-05 07:20:17,081 - lightrag - INFO - Merge N: SIM card | 2+0
+2026-01-05 07:20:17,081 - lightrag - INFO - Merge N: MMS | 5+0
+2026-01-05 07:20:17,081 - lightrag - INFO - Merge N: GPS | 3+0
+2026-01-05 07:20:17,082 - lightrag - INFO - Merge N: Nothing Device | 3+0
+2026-01-05 07:20:17,082 - lightrag - INFO - Merge N: Battery Saver | 5+0
+2026-01-05 07:20:17,082 - lightrag - INFO - Merge N: iMessage | 3+0
+2026-01-05 07:20:17,082 - lightrag - INFO - Merge N: FaceTime | 3+0
+2026-01-05 07:20:17,082 - lightrag - INFO - Merge N: Nothing Laboratory | 3+0
+2026-01-05 07:20:17,082 - lightrag - INFO - Merge N: Face Unlock | 2+0
+2026-01-05 07:20:17,082 - lightrag - INFO - Merge N: USB OTG | 3+0
+2026-01-05 07:20:17,082 - lightrag - INFO - LLM merge N: Dual SIM | 6+0
+2026-01-05 07:20:19,108 - lightrag - INFO -  == LLM cache == saving default: 86c9f554d61760685c389ce653e5d826
+2026-01-05 07:20:19,109 - lightrag - INFO - Merge N: Device Lock | 2+0
+2026-01-05 07:20:19,109 - lightrag - INFO - Merge N: SIM Tray | 3+0
+2026-01-05 07:20:19,110 - lightrag - INFO - Merge N: Photos App | 2+0
+2026-01-05 07:20:19,110 - lightrag - INFO - Merge N: Hotspot | 2+0
+2026-01-05 07:20:19,110 - lightrag - INFO - Merge N: Screen Cast | 2+0
+2026-01-05 07:20:19,110 - lightrag - INFO - Merge N: Network Carrier | 2+0
+2026-01-05 07:20:19,110 - lightrag - INFO - Merge N: Bedtime Schedule | 4+0
+2026-01-05 07:20:19,114 - lightrag - INFO - Merge N: Flip to Glyph | 3+0
+2026-01-05 07:20:19,115 - lightrag - INFO - Merge N: Battery Capacity | 4+0
+2026-01-05 07:20:19,115 - lightrag - INFO - Merge N: USB OTG (USB On The Go) | 2+0
+2026-01-05 07:20:19,115 - lightrag - INFO - Merge N: Charging Cable | 2+0
+2026-01-05 07:20:19,115 - lightrag - INFO - Merge N: eSIM | 4+0
+2026-01-05 07:20:19,115 - lightrag - INFO - Merge N: Type-C Cable | 3+0
+2026-01-05 07:20:19,116 - lightrag - INFO - Merge N: Safety Information and Warranty Card | 2+0
+2026-01-05 07:20:19,116 - lightrag - INFO - Merge N: Screen Protector | 2+0
+2026-01-05 07:20:19,116 - lightrag - INFO - Merge N: SIM Tray Ejector | 3+0
+2026-01-05 07:20:19,116 - lightrag - INFO - Merge N: Alarm Settings | 2+0
+2026-01-05 07:20:19,116 - lightrag - INFO - Merge N: Phone (2) | 2+0
+2026-01-05 07:20:19,116 - lightrag - INFO - Merge N: WiFi 6 | 2+0
+2026-01-05 07:20:19,117 - lightrag - INFO - Merge N: Nothing OS 3.1 | 2+0
+2026-01-05 07:20:19,117 - lightrag - INFO - Merge N: Essential Key | 2+0
+2026-01-05 07:20:19,117 - lightrag - INFO - Merge N: Essential Space | 2+0
+2026-01-05 07:20:19,117 - lightrag - INFO - Merge N: Dual 4G Mode | 2+0
+2026-01-05 07:20:19,117 - lightrag - INFO - Merge N: Screen Specifications | 2+0
+2026-01-05 07:20:19,118 - lightrag - INFO - Merge N: Nothing Charger | 2+0
+2026-01-05 07:20:19,118 - lightrag - INFO - Merge N: ChatGPT | 2+0
+2026-01-05 07:20:19,119 - lightrag - INFO - Merge N: Bluetooth Fast Pair | 2+0
+2026-01-05 07:20:19,119 - lightrag - INFO - Merge E: Ear (open) - Nothing X App | 5+0
+2026-01-05 07:20:19,119 - lightrag - INFO - Merge E: Nothing Ear - Nothing X App | 4+0
+2026-01-05 07:20:19,120 - lightrag - INFO - Merge E: Battery Life - CMF Buds Pro 2 | 2+0
+2026-01-05 07:20:19,120 - lightrag - INFO - Merge E: Google Play Store - Nothing X App | 5+0
+2026-01-05 07:20:19,120 - lightrag - INFO - Merge E: Nothing X App - iOS App Store | 5+0
+2026-01-05 07:20:19,121 - lightrag - INFO - LLM merge E: CMF Watch app - Watch Pro | 14+0
+2026-01-05 07:20:21,800 - lightrag - INFO -  == LLM cache == saving default: c5cef8481039d27b46959f20000e2ed9
+2026-01-05 07:20:21,800 - lightrag - INFO - Merge E: Ear (2) - Nothing X App | 3+0
+2026-01-05 07:20:21,801 - lightrag - INFO - LLM merge E: Bluetooth - Watch Pro | 8+0
+2026-01-05 07:20:26,993 - lightrag - INFO -  == LLM cache == saving default: 279b0a4826e4f4d8cb79bbdc59b17031
+2026-01-05 07:20:26,994 - lightrag - INFO - LLM merge E: CMF Watch App - Watch Pro | 7+0
+2026-01-05 07:20:29,915 - lightrag - INFO -  == LLM cache == saving default: de7823dd7af385fb5932af847ce2884f
+2026-01-05 07:20:29,915 - lightrag - INFO - Merge E: Nothing Customer Service - Nothing X App | 2+0
+2026-01-05 07:20:29,915 - lightrag - INFO - Merge E: CMF Buds Pro 2 - Nothing X App | 5+0
+2026-01-05 07:20:29,916 - lightrag - INFO - Merge E: CMF Buds Pro 2 - Charging Case | 2+0
+2026-01-05 07:20:29,916 - lightrag - INFO - Merge E: Google Play - Nothing X app | 2+0
+2026-01-05 07:20:29,917 - lightrag - INFO - Merge E: App Store - Nothing X app | 2+0
+2026-01-05 07:20:29,917 - lightrag - INFO - Merge E: CMF Buds Pro 2 - Nothing X app | 2+0
+2026-01-05 07:20:29,917 - lightrag - INFO - Merge E: CMF Buds Pro 2 - Spatial Audio Effect | 2+0
+2026-01-05 07:20:29,918 - lightrag - INFO - Merge E: Buds - Nothing X App | 3+0
+2026-01-05 07:20:29,918 - lightrag - INFO - Merge E: Google Play - Nothing X App | 5+0
+2026-01-05 07:20:29,920 - lightrag - INFO - Merge E: Neckband Pro - Transparency Mode | 2+0
+2026-01-05 07:20:29,920 - lightrag - INFO - Merge E: Neckband Pro - Nothing X App | 2+0
+2026-01-05 07:20:29,920 - lightrag - INFO - Merge E: Customer Support - Nothing device | 2+0
+2026-01-05 07:20:29,920 - lightrag - INFO - Merge E: Camera - Lock Screen | 2+0
+2026-01-05 07:20:29,920 - lightrag - INFO - Merge E: Alarm - Settings | 2+0
+2026-01-05 07:20:29,921 - lightrag - INFO - Merge E: Airplane Mode - WiFi | 2+0
+2026-01-05 07:20:29,921 - lightrag - INFO - Merge E: Jio - VoLTE | 2+0
+2026-01-05 07:20:29,921 - lightrag - INFO - Merge E: VoLTE - Vodafone | 2+0
+2026-01-05 07:20:29,921 - lightrag - INFO - Merge E: Nothing Phone - iPhone | 5+0
+2026-01-05 07:20:29,921 - lightrag - INFO - LLM merge E: Google Account - Nothing Phone | 10+0
+2026-01-05 07:20:32,570 - lightrag - INFO -  == LLM cache == saving default: ced2745460fd45c6097d9e9a7968c9d1
+2026-01-05 07:20:32,570 - lightrag - INFO - Merge E: Apple - iPhone | 2+0
+2026-01-05 07:20:32,571 - lightrag - INFO - LLM merge E: Nothing Phone - SIM Card | 7+0
+2026-01-05 07:20:35,314 - lightrag - INFO -  == LLM cache == saving default: 25810682d28a034f89608c02b3002443
+2026-01-05 07:20:35,315 - lightrag - INFO - Merge E: Nothing Phone - WiFi Connection | 3+0
+2026-01-05 07:20:35,315 - lightrag - INFO - LLM merge E: Google Play Store - Nothing Phone | 7+0
+2026-01-05 07:20:37,623 - lightrag - INFO -  == LLM cache == saving default: 082f4c7545bfbba941dc13665fa36b74
+2026-01-05 07:20:37,623 - lightrag - INFO - Merge E: Settings - iPhone | 2+0
+2026-01-05 07:20:37,624 - lightrag - INFO - Merge E: Nothing Ear - Nothing Phone | 5+0
+2026-01-05 07:20:37,624 - lightrag - INFO - Merge E: Game Mode - Nothing Phone | 4+0
+2026-01-05 07:20:37,624 - lightrag - INFO - Merge E: Fast Pair - Nothing Phone | 2+0
+2026-01-05 07:20:37,624 - lightrag - INFO - Merge E: Nothing Phone - Settings | 4+0
+2026-01-05 07:20:37,624 - lightrag - INFO - Merge E: Nothing Phone - Screen Recording | 2+0
+2026-01-05 07:20:37,624 - lightrag - INFO - Merge E: Find My Phone - Nothing Phone | 4+0
+2026-01-05 07:20:37,624 - lightrag - INFO - Merge E: Bluetooth Tethering - Nothing Phone | 4+0
+2026-01-05 07:20:37,625 - lightrag - INFO - Merge E: Data Roaming - Nothing Phone | 2+0
+2026-01-05 07:20:37,625 - lightrag - INFO - Merge E: Nothing Phone - USB Debugging | 3+0
+2026-01-05 07:20:37,625 - lightrag - INFO - LLM merge E: Nothing Phone - WiFi Direct | 6+0
+2026-01-05 07:20:40,722 - lightrag - INFO -  == LLM cache == saving default: 7d991777a1e54504207e99fa9b396350
+2026-01-05 07:20:40,723 - lightrag - INFO - Merge E: Nothing Phone - USB Tethering | 5+0
+2026-01-05 07:20:40,723 - lightrag - INFO - Merge E: Blood Oxygen Saturation - Watch Pro | 2+0
+2026-01-05 07:20:40,723 - lightrag - INFO - Merge E: Language Selection - Watch Pro | 2+0
+2026-01-05 07:20:40,724 - lightrag - INFO - Merge E: Music Control - Watch Pro | 2+0
+2026-01-05 07:20:40,724 - lightrag - INFO - Merge E: Heart Rate - Watch Pro | 2+0
+2026-01-05 07:20:40,724 - lightrag - INFO - Merge E: Stress Measurement - Watch Pro | 2+0
+2026-01-05 07:20:40,724 - lightrag - INFO - Merge E: CMF Watch app - Watch Face Marketplace | 2+0
+2026-01-05 07:20:40,724 - lightrag - INFO - Merge E: CMF Watch app - Watch Pro 2 | 2+0
+2026-01-05 07:20:40,725 - lightrag - INFO - Merge E: Functional Crown - World Clock | 2+0
+2026-01-05 07:20:40,725 - lightrag - INFO - Merge E: Quick Gestures - Watch Pro 2 | 2+0
+2026-01-05 07:20:40,725 - lightrag - INFO - Merge E: CMF Watch App - Watch Pro 2 | 3+0
+2026-01-05 07:20:40,726 - lightrag - INFO - Merge E: Battery Life - Watch Pro | 2+0
+2026-01-05 07:20:40,732 - lightrag - INFO - Merge E: Flashlight - Watch Pro | 2+0
+2026-01-05 07:20:40,732 - lightrag - INFO - Merge E: Settings - Watch Pro | 4+0
+2026-01-05 07:20:40,733 - lightrag - INFO - Merge E: GPS/GLONASS/Galileo/QZSS/Beidou - Watch Pro | 2+0
+2026-01-05 07:20:40,733 - lightrag - INFO - Merge E: Charging Case - Earbuds | 3+0
+2026-01-05 07:20:40,735 - lightrag - INFO - Merge E: Customer Support - Watch Pro | 2+0
+2026-01-05 07:20:40,735 - lightrag - INFO - Merge E: Firmware Upgrade - Watch Pro | 3+0
+2026-01-05 07:20:40,735 - lightrag - INFO - Merge E: Firmware - Watch Pro | 2+0
+2026-01-05 07:20:40,735 - lightrag - INFO - Merge E: Settings--System Menu - Watch Pro | 2+0
+2026-01-05 07:20:40,736 - lightrag - INFO - Merge E: Nothing - Nothing Phone | 2+0
+2026-01-05 07:20:40,737 - lightrag - INFO - Merge E: Nothing X app - Phone (1) | 3+0
+2026-01-05 07:20:40,737 - lightrag - INFO - Merge E: Ear (2) - Qi-certified Chargers | 2+0
+2026-01-05 07:20:40,737 - lightrag - INFO - Merge E: Dual Connection - Ear (2) | 2+0
+2026-01-05 07:20:40,738 - lightrag - INFO - Merge E: Ear (a) - Nothing X App | 3+0
+2026-01-05 07:20:40,738 - lightrag - INFO - Merge E: Ear (a) - Transparency Mode | 2+0
+2026-01-05 07:20:40,738 - lightrag - INFO - Merge E: Nothing X App - QR Code | 2+0
+2026-01-05 07:20:40,738 - lightrag - INFO - Merge E: Ear (a) - Voice Assistant | 2+0
+2026-01-05 07:20:40,738 - lightrag - INFO - Merge E: Charging Case - Ear (a) | 2+0
+2026-01-05 07:20:40,739 - lightrag - INFO - Merge E: App Store - Nothing X App | 3+0
+2026-01-05 07:20:40,740 - lightrag - INFO - Merge E: Dual Connection - Nothing Ear | 2+0
+2026-01-05 07:20:40,740 - lightrag - INFO - Merge E: Bluetooth 5.3 - Nothing Ear | 2+0
+2026-01-05 07:20:40,741 - lightrag - INFO - Merge E: Glyph Interface - Google Assistant | 2+0
+2026-01-05 07:20:40,741 - lightrag - INFO - Merge E: Battery Share - Phone (1) | 2+0
+2026-01-05 07:20:40,741 - lightrag - INFO - Merge E: Google - Google Account | 2+0
+2026-01-05 07:20:40,741 - lightrag - INFO - Merge E: Find My Phone - Google Account | 5+0
+2026-01-05 07:20:40,741 - lightrag - INFO - Merge E: Dark Theme - Glyph Interface | 2+0
+2026-01-05 07:20:40,742 - lightrag - INFO - Merge E: Developer Options - USB Debugging | 3+0
+2026-01-05 07:20:40,742 - lightrag - INFO - Merge E: Glyph Interface - Nothing Sounds | 3+0
+2026-01-05 07:20:40,742 - lightrag - INFO - Merge E: Multiple Users - Settings | 2+0
+2026-01-05 07:20:40,742 - lightrag - INFO - Merge E: Customer Support - Nothing Device | 2+0
+2026-01-05 07:20:40,742 - lightrag - INFO - Merge E: Find My Device - Google Account | 4+0
+2026-01-05 07:20:40,743 - lightrag - INFO - Merge E: Google - Nothing Phone | 3+0
+2026-01-05 07:20:40,743 - lightrag - INFO - Merge E: iMessage - iPhone | 3+0
+2026-01-05 07:20:40,743 - lightrag - INFO - Merge E: FaceTime - iPhone | 3+0
+2026-01-05 07:20:40,743 - lightrag - INFO - Merge E: Android - Nothing Phone | 2+0
+2026-01-05 07:20:40,743 - lightrag - INFO - Merge E: Find My Device - Nothing Phone | 2+0
+2026-01-05 07:20:40,743 - lightrag - INFO - Merge E: Find My Device - Google | 4+0
+2026-01-05 07:20:40,743 - lightrag - INFO - Merge E: Nothing Laboratory - Nothing Phone | 2+0
+2026-01-05 07:20:40,744 - lightrag - INFO - Merge E: NFC - Nothing Phone | 3+0
+2026-01-05 07:20:40,744 - lightrag - INFO - Merge E: Glyph Interface - Nothing Phone | 5+0
+2026-01-05 07:20:40,744 - lightrag - INFO - Merge E: Nothing OS - Nothing Phone | 3+0
+2026-01-05 07:20:40,744 - lightrag - INFO - Merge E: Nothing Phone - Wireless Charging | 2+0
+2026-01-05 07:20:40,744 - lightrag - INFO - Merge E: Face Unlock - Nothing Phone | 2+0
+2026-01-05 07:20:40,744 - lightrag - INFO - Merge E: Nothing Phone - USB OTG | 2+0
+2026-01-05 07:20:40,744 - lightrag - INFO - Merge E: Dual SIM - Nothing Phone | 3+0
+2026-01-05 07:20:40,744 - lightrag - INFO - Merge E: Nothing Phone - System Update | 3+0
+2026-01-05 07:20:40,745 - lightrag - INFO - Merge E: Google Assistant - Nothing Phone | 4+0
+2026-01-05 07:20:40,745 - lightrag - INFO - Merge E: Nothing Phone - SIM Tray | 3+0
+2026-01-05 07:20:40,746 - lightrag - INFO - Merge E: Find My Phone - Location Services | 4+0
+2026-01-05 07:20:40,746 - lightrag - INFO - Merge E: Nothing Phone - WiFi | 2+0
+2026-01-05 07:20:40,746 - lightrag - INFO - Merge E: Battery Saver - Nothing Phone | 2+0
+2026-01-05 07:20:40,746 - lightrag - INFO - Merge E: Nothing OS - Phone | 2+0
+2026-01-05 07:20:40,746 - lightrag - INFO - Merge E: Google Account - Phone | 2+0
+2026-01-05 07:20:40,746 - lightrag - INFO - Merge E: Find My Phone - Google | 2+0
+2026-01-05 07:20:40,747 - lightrag - INFO - Merge E: Network Carrier - VoLTE | 2+0
+2026-01-05 07:20:40,747 - lightrag - INFO - Merge E: Bedtime Schedule - Glyph Interface | 2+0
+2026-01-05 07:20:40,747 - lightrag - INFO - Merge E: Flip to Glyph - Glyph Interface | 2+0
+2026-01-05 07:20:40,747 - lightrag - INFO - Merge E: Glyph Interface - Nothing | 2+0
+2026-01-05 07:20:40,748 - lightrag - INFO - Merge E: Data Roaming - SIM Card | 2+0
+2026-01-05 07:20:40,748 - lightrag - INFO - Merge E: Battery Saver - Phone (1) | 2+0
+2026-01-05 07:20:40,749 - lightrag - INFO - Merge E: NFC - Phone (2) | 2+0
+2026-01-05 07:20:40,749 - lightrag - INFO - Merge E: Bluetooth Tethering - Phone (2) | 2+0
+2026-01-05 07:20:40,749 - lightrag - INFO - Merge E: Dual SIM - Phone (2) | 2+0
+2026-01-05 07:20:40,750 - lightrag - INFO - Merge E: Nothing Phone - WiFi 6 | 2+0
+2026-01-05 07:20:40,751 - lightrag - INFO - Merge E: Nothing Phone - Safety Information | 2+0
+2026-01-05 07:20:40,751 - lightrag - INFO - Merge E: Battery Capacity - Nothing Phone | 2+0
+2026-01-05 07:20:40,751 - lightrag - INFO - Merge E: Nothing Phone - PPS Protocol Charger | 2+0
+2026-01-05 07:20:40,752 - lightrag - INFO - Merge E: Nothing - Nothing X App | 2+0
+2026-01-05 07:20:40,754 - lightrag - INFO - Merge E: Ear (stick) - Nothing Service Centre | 2+0
+2026-01-05 07:20:40,754 - lightrag - INFO - Updating 539 entities  1/1: unknown_source
+2026-01-05 07:20:48,571 - lightrag - INFO - Updating 760 relations 1/1: unknown_source
+2026-01-05 07:20:54,521 - lightrag - INFO - Writing graph with 573 nodes, 760 edges
+2026-01-05 07:20:54,571 - lightrag - INFO - In memory DB persist to disk
+2026-01-05 07:20:54,571 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-01-05 07:20:54,572 - lightrag - INFO - Document processing pipeline completed
+2026-01-05 07:20:55,531 - lightrag - INFO -  == LLM cache == saving global: 9aff26dcbf4b158cbc3a1e56bcfda1b3
+2026-01-05 07:20:55,531 - lightrag - INFO - Process 3142885 building query context...
+2026-01-05 07:20:55,531 - lightrag - INFO - Query edges: Wireless charging, Device compatibility, top_k: 60, cosine: 0.2
+2026-01-05 07:20:55,633 - lightrag - INFO - Global query uses 46 entites, 60 relations, 3 chunks
+2026-01-05 07:20:59,047 - lightrag - INFO - Storage Finalization completed!

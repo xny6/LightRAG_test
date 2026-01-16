@@ -1,0 +1,411 @@
+2026-01-02 02:01:19,225 - lightrag - INFO - Created new empty graph
+2026-01-02 02:01:19,233 - lightrag - INFO - Process 1566712 KV load full_docs with 0 records
+2026-01-02 02:01:19,233 - lightrag - INFO - Process 1566712 KV load text_chunks with 0 records
+2026-01-02 02:01:19,233 - lightrag - INFO - Process 1566712 KV load llm_response_cache with 0 records
+2026-01-02 02:01:19,234 - lightrag - INFO - Process 1566712 doc status load doc_status with 0 records
+2026-01-02 02:01:19,234 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:01:19,234 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:01:23,958 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:01:23,959 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:01:23,959 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:01:23,959 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:01:23,993 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:01:24,015 - lightrag - ERROR - limit_async: Error in decorated function: unsupported operand type(s) for ** or pow(): 'str' and 'dict'
+2026-01-02 02:01:24,016 - lightrag - ERROR - limit_async: Error in decorated function: unsupported operand type(s) for ** or pow(): 'str' and 'dict'
+2026-01-02 02:01:24,016 - lightrag - ERROR - limit_async: Error in decorated function: unsupported operand type(s) for ** or pow(): 'str' and 'dict'
+2026-01-02 02:01:24,016 - lightrag - ERROR - limit_async: Error in decorated function: unsupported operand type(s) for ** or pow(): 'str' and 'dict'
+2026-01-02 02:01:24,017 - lightrag - ERROR - Failed to extract entities and relationships: unsupported operand type(s) for ** or pow(): 'str' and 'dict'
+2026-01-02 02:01:24,018 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 97, in llm_model_func
+    base_url='https://api.siliconflow.cn/v1/'
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'dict'
+
+2026-01-02 02:01:24,018 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:01:24,019 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:01:24,020 - lightrag - ERROR - limit_async: Error in decorated function: unsupported operand type(s) for ** or pow(): 'str' and 'dict'
+2026-01-02 02:01:46,335 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:04:38,779 - lightrag - INFO - Created new empty graph
+2026-01-02 02:04:38,783 - lightrag - INFO - Process 1567965 KV load full_docs with 0 records
+2026-01-02 02:04:38,783 - lightrag - INFO - Process 1567965 KV load text_chunks with 0 records
+2026-01-02 02:04:38,783 - lightrag - INFO - Process 1567965 KV load llm_response_cache with 0 records
+2026-01-02 02:04:38,783 - lightrag - INFO - Process 1567965 doc status load doc_status with 0 records
+2026-01-02 02:04:38,784 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:04:38,784 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:04:38,859 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:04:38,860 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:04:38,861 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:04:38,861 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:04:38,871 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:04:38,887 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:04:38,888 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:04:38,888 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:04:38,888 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:04:38,889 - lightrag - ERROR - Failed to extract entities and relationships: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:04:38,891 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 91, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+TypeError: openai_complete_if_cache() got multiple values for argument 'model'
+
+2026-01-02 02:04:38,891 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:04:38,893 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:04:38,894 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:04:48,614 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:07:58,696 - lightrag - INFO - Created new empty graph
+2026-01-02 02:07:58,699 - lightrag - INFO - Process 1569109 KV load full_docs with 0 records
+2026-01-02 02:07:58,699 - lightrag - INFO - Process 1569109 KV load text_chunks with 0 records
+2026-01-02 02:07:58,699 - lightrag - INFO - Process 1569109 KV load llm_response_cache with 0 records
+2026-01-02 02:07:58,699 - lightrag - INFO - Process 1569109 doc status load doc_status with 0 records
+2026-01-02 02:07:58,700 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:07:58,700 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:07:58,772 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:07:58,773 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:07:58,773 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:07:58,773 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:07:58,783 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:07:58,799 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:07:58,800 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:07:58,800 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:07:58,800 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:07:58,801 - lightrag - ERROR - Failed to extract entities and relationships: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:07:58,802 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 92, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+TypeError: openai_complete_if_cache() got multiple values for argument 'model'
+
+2026-01-02 02:07:58,802 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:07:58,805 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:07:58,806 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:08:29,035 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:09:02,486 - lightrag - INFO - Created new empty graph
+2026-01-02 02:09:02,489 - lightrag - INFO - Process 1569659 KV load full_docs with 0 records
+2026-01-02 02:09:02,489 - lightrag - INFO - Process 1569659 KV load text_chunks with 0 records
+2026-01-02 02:09:02,490 - lightrag - INFO - Process 1569659 KV load llm_response_cache with 0 records
+2026-01-02 02:09:02,490 - lightrag - INFO - Process 1569659 doc status load doc_status with 0 records
+2026-01-02 02:09:02,490 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:09:02,490 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:09:02,556 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:09:02,557 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:09:02,558 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:09:02,558 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:09:02,568 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:09:02,584 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:09:02,585 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:09:02,585 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:09:02,585 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:09:02,586 - lightrag - ERROR - Failed to extract entities and relationships: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:09:02,587 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1201, in _process_entity_relation_graph
+    raise e
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1187, in _process_entity_relation_graph
+    chunk_results = await extract_entities(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 854, in extract_entities
+    raise task.exception()
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 830, in _process_with_semaphore
+    return await _process_single_content(chunk)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/operate.py", line 755, in _process_single_content
+    final_result = await use_llm_func_with_cache(
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 1582, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 585, in wait_func
+    return await future
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/utils.py", line 369, in worker
+    result = await func(*args, **kwargs)
+  File "/home/NingyuanXiao/LightRAG_test/./examples/lightrag_openai_compatible_demo.py", line 92, in llm_model_func
+    return await openai_complete_if_cache(
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 153, in iter
+    result = await action(retry_state)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/tenacity/asyncio/__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+TypeError: openai_complete_if_cache() got multiple values for argument 'model'
+
+2026-01-02 02:09:02,587 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:09:02,589 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:09:02,590 - lightrag - ERROR - limit_async: Error in decorated function: openai_complete_if_cache() got multiple values for argument 'model'
+2026-01-02 02:09:08,264 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:19:46,032 - lightrag - INFO - Created new empty graph
+2026-01-02 02:19:46,036 - lightrag - INFO - Process 1573050 KV load full_docs with 0 records
+2026-01-02 02:19:46,036 - lightrag - INFO - Process 1573050 KV load text_chunks with 0 records
+2026-01-02 02:19:46,036 - lightrag - INFO - Process 1573050 KV load llm_response_cache with 0 records
+2026-01-02 02:19:46,036 - lightrag - INFO - Process 1573050 doc status load doc_status with 0 records
+2026-01-02 02:19:46,037 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:19:46,037 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:19:50,173 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:19:50,173 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:19:50,174 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:19:50,174 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:19:50,196 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:19:51,051 - lightrag - ERROR - Traceback (most recent call last):
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/lightrag.py", line 1003, in process_document
+    await asyncio.gather(*tasks)
+  File "/home/NingyuanXiao/LightRAG_test/lightrag/kg/nano_vector_db_impl.py", line 116, in upsert
+    results = client.upsert(datas=list_data)
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/nano_vectordb/dbs.py", line 116, in upsert
+    self.__storage["matrix"] = np.vstack([self.__storage["matrix"], new_matrix])
+  File "/home/NingyuanXiao/anaconda3/envs/lightrag/lib/python3.10/site-packages/numpy/core/shape_base.py", line 289, in vstack
+    return _nx.concatenate(arrs, 0, dtype=dtype, casting=casting)
+ValueError: all the input array dimensions except for the concatenation axis must match exactly, but along dimension 1, the array at index 0 has size 1024 and the array at index 1 has size 768
+
+2026-01-02 02:19:51,051 - lightrag - ERROR - Failed to extrat document 1/1: unknown_source
+2026-01-02 02:19:51,053 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:19:51,135 - lightrag - ERROR - Error in _get_vector_context: shapes (0,1024) and (768,) not aligned: 1024 (dim 1) != 768 (dim 0)
+2026-01-02 02:20:01,019 - lightrag - INFO -  == LLM cache == saving default: 7f1fa9b2c3f3dafbb7c3d28ba94a1170
+2026-01-02 02:20:03,166 - lightrag - INFO -  == LLM cache == saving local: 3eba15cddc40b8e5f2d5b974042add93
+2026-01-02 02:20:03,166 - lightrag - INFO - Process 1573050 building query context...
+2026-01-02 02:20:03,166 - lightrag - INFO - Query nodes: Main characters, Setting, Conflict, Symbolism, Plot points, top_k: 60, cosine: 0.2
+2026-01-02 02:20:29,984 - lightrag - INFO - Creating a new event loop in main thread.
+2026-01-02 02:20:54,179 - lightrag - INFO - Created new empty graph
+2026-01-02 02:20:54,183 - lightrag - INFO - Process 1574087 KV load full_docs with 0 records
+2026-01-02 02:20:54,183 - lightrag - INFO - Process 1574087 KV load text_chunks with 0 records
+2026-01-02 02:20:54,183 - lightrag - INFO - Process 1574087 KV load llm_response_cache with 2 records
+2026-01-02 02:20:54,183 - lightrag - INFO - Process 1574087 doc status load doc_status with 0 records
+2026-01-02 02:20:54,184 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:20:54,184 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:20:54,249 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:20:54,250 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:20:54,250 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:20:54,251 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:20:54,261 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:21:10,199 - lightrag - INFO -  == LLM cache == saving default: a34b2d1c7fc4ed2403c0d56b9d4c637b
+2026-01-02 02:21:13,641 - lightrag - INFO -  == LLM cache == saving default: 3e429cf8a94ff53501e74fbac2e8af0b
+2026-01-02 02:21:21,251 - lightrag - INFO -  == LLM cache == saving default: 7927bfea7ed03d86acc9f0b7d4846bcd
+2026-01-02 02:21:21,253 - lightrag - INFO - Chunk 1 of 12 extracted 8 Ent + 5 Rel
+2026-01-02 02:21:38,098 - lightrag - INFO -  == LLM cache == saving default: cc4a189d39d911c69c8293c863b80fab
+2026-01-02 02:21:38,099 - lightrag - INFO - Chunk 2 of 12 extracted 7 Ent + 7 Rel
+2026-01-02 02:21:57,627 - lightrag - INFO -  == LLM cache == saving default: c267a2374706ca2b6728aaf467ccdcfd
+2026-01-02 02:21:58,007 - lightrag - INFO -  == LLM cache == saving default: daf0669ad35bec53ad311e7d3d9263f5
+2026-01-02 02:21:58,009 - lightrag - INFO - Chunk 3 of 12 extracted 9 Ent + 11 Rel
+2026-01-02 02:21:59,793 - lightrag - INFO -  == LLM cache == saving default: 6708c4757ea594bcb277756e462383af
+2026-01-02 02:22:24,447 - lightrag - INFO -  == LLM cache == saving default: e101f2be37ed046a4ff00ba07bf2c1db
+2026-01-02 02:22:24,448 - lightrag - INFO - Chunk 4 of 12 extracted 10 Ent + 10 Rel
+2026-01-02 02:22:27,790 - lightrag - INFO -  == LLM cache == saving default: d4e7fa8d281588b33c10ec3610672987
+2026-01-02 02:22:28,696 - lightrag - INFO -  == LLM cache == saving default: 0e4add8063e72dc6fd75a30c60023cde
+2026-01-02 02:22:29,335 - lightrag - INFO -  == LLM cache == saving default: 77bb046db29462b16c32a59286592479
+2026-01-02 02:22:29,337 - lightrag - INFO - Chunk 5 of 12 extracted 7 Ent + 8 Rel
+2026-01-02 02:22:37,146 - lightrag - INFO -  == LLM cache == saving default: 1aa836c867306c337acaa488cbe2fcfc
+2026-01-02 02:22:47,840 - lightrag - INFO -  == LLM cache == saving default: 3d58134007955209c9d3b64a24d41e0d
+2026-01-02 02:22:47,842 - lightrag - INFO - Chunk 6 of 12 extracted 12 Ent + 6 Rel
+2026-01-02 02:22:50,982 - lightrag - INFO -  == LLM cache == saving default: 04046e784c01c6affd3d2e990767ba4d
+2026-01-02 02:22:54,652 - lightrag - INFO -  == LLM cache == saving default: 516a6557efed13ae6f27aea557e9d492
+2026-01-02 02:22:54,653 - lightrag - INFO - Chunk 7 of 12 extracted 5 Ent + 4 Rel
+2026-01-02 02:23:15,198 - lightrag - INFO -  == LLM cache == saving default: 75f14962be635a9f9faace2b510a67a7
+2026-01-02 02:23:16,245 - lightrag - INFO -  == LLM cache == saving default: 3ae9ce68cd7d9f58362304e4755dee2f
+2026-01-02 02:23:16,249 - lightrag - INFO - Chunk 8 of 12 extracted 26 Ent + 22 Rel
+2026-01-02 02:23:16,295 - lightrag - INFO -  == LLM cache == saving default: 7a950b99326231eb402963e32b3152d6
+2026-01-02 02:23:18,998 - lightrag - INFO -  == LLM cache == saving default: 7ac9e67d1e4a6b17d32ed1be430fe339
+2026-01-02 02:23:21,175 - lightrag - INFO -  == LLM cache == saving default: b5715cb790ee4f76e77956a99a3cb65c
+2026-01-02 02:23:21,177 - lightrag - INFO - Chunk 9 of 12 extracted 7 Ent + 7 Rel
+2026-01-02 02:23:24,348 - lightrag - INFO -  == LLM cache == saving default: 05d34581cbdd9eb799984dbe2785c707
+2026-01-02 02:23:24,349 - lightrag - INFO - Chunk 10 of 12 extracted 2 Ent + 1 Rel
+2026-01-02 02:23:29,465 - lightrag - INFO -  == LLM cache == saving default: ff3a010fbc081d38143e0abb85663b52
+2026-01-02 02:23:29,466 - lightrag - INFO - Chunk 11 of 12 extracted 4 Ent + 4 Rel
+2026-01-02 02:23:59,010 - lightrag - INFO -  == LLM cache == saving default: c073aed0ac9a2c21d173788c16729e7d
+2026-01-02 02:23:59,011 - lightrag - INFO - Chunk 12 of 12 extracted 9 Ent + 7 Rel
+2026-01-02 02:23:59,012 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-01-02 02:23:59,013 - lightrag - INFO - Merge N: Fred | 2+0
+2026-01-02 02:23:59,013 - lightrag - INFO - LLM merge N: Scrooge | 10+0
+2026-01-02 02:24:12,984 - lightrag - INFO -  == LLM cache == saving default: 6a60cdf9b2a140cdfa8f49c3fcbca785
+2026-01-02 02:24:12,984 - lightrag - INFO - Merge N: Marley | 4+0
+2026-01-02 02:24:12,984 - lightrag - INFO - Merge N: World Athletics Championship | 2+0
+2026-01-02 02:24:12,984 - lightrag - INFO - Merge N: Tokyo | 2+0
+2026-01-02 02:24:12,984 - lightrag - INFO - Merge N: Christmas | 5+0
+2026-01-02 02:24:12,985 - lightrag - INFO - Merge N: Ghost | 5+0
+2026-01-02 02:24:12,985 - lightrag - INFO - Merge N: Christmas Eve | 2+0
+2026-01-02 02:24:12,985 - lightrag - INFO - LLM merge N: World | 8+0
+2026-01-02 02:24:22,398 - lightrag - INFO -  == LLM cache == saving default: 4c5326086d82dea4bc3bb2d774f80559
+2026-01-02 02:24:22,399 - lightrag - INFO - Merge N: 100m Sprint Record | 3+0
+2026-01-02 02:24:22,399 - lightrag - INFO - Merge N: Bell | 2+0
+2026-01-02 02:24:22,400 - lightrag - INFO - Merge N: Jacob Marley | 2+0
+2026-01-02 02:24:22,400 - lightrag - INFO - Merge N: Marley's Ghost | 3+0
+2026-01-02 02:24:22,401 - lightrag - INFO - Merge E: Marley - Scrooge | 4+0
+2026-01-02 02:24:22,401 - lightrag - INFO - Merge E: Ghost - Scrooge | 2+0
+2026-01-02 02:24:22,401 - lightrag - INFO - LLM merge E: Christmas - Scrooge | 6+0
+2026-01-02 02:24:29,725 - lightrag - INFO -  == LLM cache == saving default: cc636cf8bacd16e230538077383d9952
+2026-01-02 02:24:29,725 - lightrag - INFO - Merge E: Christmas Eve - Scrooge | 2+0
+2026-01-02 02:24:29,725 - lightrag - INFO - Merge E: Scrooge - World | 4+0
+2026-01-02 02:24:29,726 - lightrag - INFO - Merge E: Marley's Ghost - Scrooge | 2+0
+2026-01-02 02:24:29,726 - lightrag - INFO - Merge E: Jacob Marley - Scrooge | 2+0
+2026-01-02 02:24:29,726 - lightrag - INFO - Updating 69 entities  1/1: unknown_source
+2026-01-02 02:24:30,316 - lightrag - INFO - Updating 77 relations 1/1: unknown_source
+2026-01-02 02:24:30,788 - lightrag - INFO - Writing graph with 69 nodes, 77 edges
+2026-01-02 02:24:30,817 - lightrag - INFO - In memory DB persist to disk
+2026-01-02 02:24:30,817 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-01-02 02:24:30,817 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:24:30,887 - lightrag - INFO - Vector query: 3 chunks, top_k: 60
+2026-01-02 02:24:49,168 - lightrag - INFO - Process 1574087 building query context...
+2026-01-02 02:24:49,168 - lightrag - INFO - Query nodes: Main characters, Setting, Conflict, Symbolism, Plot points, top_k: 60, cosine: 0.2
+2026-01-02 02:24:49,282 - lightrag - INFO - Local query uses 60 entites, 73 relations, 3 chunks
+2026-01-02 02:25:08,514 - lightrag - INFO -  == LLM cache == saving global: 20f25304745f8c690c60c67fa5ed9e87
+2026-01-02 02:25:08,514 - lightrag - INFO - Process 1574087 building query context...
+2026-01-02 02:25:08,514 - lightrag - INFO - Query edges: Top themes, Story analysis, Narrative structure, top_k: 60, cosine: 0.2
+2026-01-02 02:25:08,625 - lightrag - INFO - Global query uses 46 entites, 60 relations, 3 chunks
+2026-01-02 02:25:35,309 - lightrag - INFO -  == LLM cache == saving hybrid: 8755e9fbac7e447eb32646483edace57
+2026-01-02 02:25:35,309 - lightrag - INFO - Process 1574087 building query context...
+2026-01-02 02:25:35,309 - lightrag - INFO - Query nodes: Plot development, Character arc, Symbolism, Setting, Conflict, top_k: 60, cosine: 0.2
+2026-01-02 02:25:35,430 - lightrag - INFO - Local query uses 60 entites, 77 relations, 3 chunks
+2026-01-02 02:25:35,430 - lightrag - INFO - Query edges: Top themes, Story analysis, Narrative elements, top_k: 60, cosine: 0.2
+2026-01-02 02:25:35,503 - lightrag - INFO - Global query uses 47 entites, 60 relations, 3 chunks
+2026-01-02 02:26:41,367 - lightrag - INFO - Storage Finalization completed!
+2026-01-02 02:57:45,181 - lightrag - INFO - Created new empty graph
+2026-01-02 02:57:45,185 - lightrag - INFO - Process 1592451 KV load full_docs with 0 records
+2026-01-02 02:57:45,185 - lightrag - INFO - Process 1592451 KV load text_chunks with 0 records
+2026-01-02 02:57:45,188 - lightrag - INFO - Process 1592451 KV load llm_response_cache with 30 records
+2026-01-02 02:57:45,188 - lightrag - INFO - Process 1592451 doc status load doc_status with 0 records
+2026-01-02 02:57:45,188 - lightrag - INFO - limit_async: 16 new workers initialized
+2026-01-02 02:57:45,188 - lightrag - INFO - Storage Initialization completed!
+2026-01-02 02:57:45,249 - lightrag - INFO - Stored 1 new unique documents
+2026-01-02 02:57:45,249 - lightrag - INFO - Processing 1 document(s)
+2026-01-02 02:57:45,249 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-01-02 02:57:45,249 - lightrag - INFO - Processing d-id: doc-440f42d9062d4150dd572163cd18c2a9
+2026-01-02 02:57:45,268 - lightrag - INFO - Chunk 1 of 12 extracted 26 Ent + 22 Rel
+2026-01-02 02:57:45,269 - lightrag - INFO - Chunk 2 of 12 extracted 8 Ent + 5 Rel
+2026-01-02 02:57:45,269 - lightrag - INFO - Chunk 3 of 12 extracted 7 Ent + 7 Rel
+2026-01-02 02:57:45,270 - lightrag - INFO - Chunk 4 of 12 extracted 9 Ent + 11 Rel
+2026-01-02 02:57:45,272 - lightrag - INFO - Chunk 5 of 12 extracted 10 Ent + 10 Rel
+2026-01-02 02:57:45,273 - lightrag - INFO - Chunk 6 of 12 extracted 7 Ent + 8 Rel
+2026-01-02 02:57:45,273 - lightrag - INFO - Chunk 7 of 12 extracted 12 Ent + 6 Rel
+2026-01-02 02:57:45,274 - lightrag - INFO - Chunk 8 of 12 extracted 5 Ent + 4 Rel
+2026-01-02 02:57:45,275 - lightrag - INFO - Chunk 9 of 12 extracted 7 Ent + 7 Rel
+2026-01-02 02:57:45,276 - lightrag - INFO - Chunk 10 of 12 extracted 9 Ent + 7 Rel
+2026-01-02 02:57:45,277 - lightrag - INFO - Chunk 11 of 12 extracted 4 Ent + 4 Rel
+2026-01-02 02:57:45,277 - lightrag - INFO - Chunk 12 of 12 extracted 2 Ent + 1 Rel
+2026-01-02 02:57:45,594 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-01-02 02:57:45,595 - lightrag - INFO - Merge N: Fred | 2+0
+2026-01-02 02:57:45,595 - lightrag - INFO - LLM merge N: Scrooge | 10+0
+2026-01-02 02:57:45,596 - lightrag - INFO - Merge N: Marley | 4+0
+2026-01-02 02:57:45,596 - lightrag - INFO - Merge N: World Athletics Championship | 2+0
+2026-01-02 02:57:45,596 - lightrag - INFO - Merge N: Tokyo | 2+0
+2026-01-02 02:57:45,596 - lightrag - INFO - Merge N: Christmas | 5+0
+2026-01-02 02:57:45,596 - lightrag - INFO - Merge N: Ghost | 5+0
+2026-01-02 02:57:45,596 - lightrag - INFO - Merge N: Christmas Eve | 2+0
+2026-01-02 02:57:45,596 - lightrag - INFO - LLM merge N: World | 8+0
+2026-01-02 02:57:45,599 - lightrag - INFO - Merge N: 100m Sprint Record | 3+0
+2026-01-02 02:57:45,599 - lightrag - INFO - Merge N: Bell | 2+0
+2026-01-02 02:57:45,599 - lightrag - INFO - Merge N: Jacob Marley | 2+0
+2026-01-02 02:57:45,599 - lightrag - INFO - Merge N: Marley's Ghost | 3+0
+2026-01-02 02:57:45,599 - lightrag - INFO - Merge E: Marley - Scrooge | 4+0
+2026-01-02 02:57:45,599 - lightrag - INFO - Merge E: Ghost - Scrooge | 2+0
+2026-01-02 02:57:45,600 - lightrag - INFO - LLM merge E: Christmas - Scrooge | 6+0
+2026-01-02 02:57:45,600 - lightrag - INFO - Merge E: Christmas Eve - Scrooge | 2+0
+2026-01-02 02:57:45,600 - lightrag - INFO - Merge E: Scrooge - World | 4+0
+2026-01-02 02:57:45,600 - lightrag - INFO - Merge E: Marley's Ghost - Scrooge | 2+0
+2026-01-02 02:57:45,600 - lightrag - INFO - Merge E: Jacob Marley - Scrooge | 2+0
+2026-01-02 02:57:45,601 - lightrag - INFO - Updating 69 entities  1/1: unknown_source
+2026-01-02 02:57:46,101 - lightrag - INFO - Updating 77 relations 1/1: unknown_source
+2026-01-02 02:57:46,603 - lightrag - INFO - Writing graph with 69 nodes, 77 edges
+2026-01-02 02:57:46,622 - lightrag - INFO - In memory DB persist to disk
+2026-01-02 02:57:46,622 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-01-02 02:57:46,622 - lightrag - INFO - Document processing pipeline completed
+2026-01-02 02:57:46,685 - lightrag - INFO - Vector query: 3 chunks, top_k: 60
+2026-01-02 02:57:46,688 - lightrag - INFO - limit_async: 4 new workers initialized
+2026-01-02 02:58:08,002 - lightrag - INFO - Process 1592451 building query context...
+2026-01-02 02:58:08,003 - lightrag - INFO - Query nodes: Main characters, Setting, Conflict, Symbolism, Plot points, top_k: 60, cosine: 0.2
+2026-01-02 02:58:08,116 - lightrag - INFO - Local query uses 60 entites, 73 relations, 3 chunks
+2026-01-02 02:58:29,584 - lightrag - INFO - Process 1592451 building query context...
+2026-01-02 02:58:29,585 - lightrag - INFO - Query edges: Top themes, Story analysis, Narrative structure, top_k: 60, cosine: 0.2
+2026-01-02 02:58:29,665 - lightrag - INFO - Global query uses 46 entites, 60 relations, 3 chunks
+2026-01-02 02:58:53,570 - lightrag - INFO - Process 1592451 building query context...
+2026-01-02 02:58:53,571 - lightrag - INFO - Query nodes: Plot development, Character arc, Symbolism, Setting, Conflict, top_k: 60, cosine: 0.2
+2026-01-02 02:58:53,676 - lightrag - INFO - Local query uses 60 entites, 77 relations, 3 chunks
+2026-01-02 02:58:53,677 - lightrag - INFO - Query edges: Top themes, Story analysis, Narrative elements, top_k: 60, cosine: 0.2
+2026-01-02 02:58:53,738 - lightrag - INFO - Global query uses 47 entites, 60 relations, 3 chunks
+2026-01-02 02:59:07,629 - lightrag - INFO - Storage Finalization completed!
